@@ -130,9 +130,7 @@ On September elections it was the first time when voters could come and vote for
 
 The exact process of storing was designed to provide an ability for commission members to just replace the package contents during the night, which many commissions did.
 
-**How to detect:** first, by turnout protocols. Any abnormal amount of voters on the first and the second day is the trace of the fraud activity, as in fact most of the voters came on the last day (19.09), then on the first day (17.09) and only then on the second (18.09). Meanwhile 19.09 was the only date promoted in vote advertisements.
-
-Second, by result: when entire safe package contents of just one day gets replaced, it reduces amount of protest votes while preserving proportion between other candidates. And at same time increases the amount votes of just one candidate. 
+**How to detect:** by turnout protocols and lowered number of votes for all candidates, except one. Any abnormal amount of voters on the first and the second day is the trace of the fraud activity, as in fact most of the voters came on the last day (19.09), then on the first day (17.09) and only then on the second (18.09). Meanwhile, 19.09 was the only date promoted in vote advertisements. When entire safe package contents of just one day gets replaced with votes for just one candidate, it reduces the amount of votes against that candidate, but preserves proportion between other candidates. 
 
 ### 3. Handwritten results and fraud during count procedure.
 
@@ -144,7 +142,7 @@ Possible to see on result bars charts: handwritten protocols are usually the one
 
 Same as the previous fraud type, except that LEC may announce the proper result (sometimes even without any fraud), however, arbitrary result gets entered to the higher-level TEC protocol and electronic.
 
-In most cases it's not possible to differ this method from the previous one. However, in case of TEC override turnout protocols usually get overridden too and look more real (without abnormalities).
+It's not possible to differ this method from the previous one without looking into violation reports.
 
 ### 5. [Carousel voting](https://en.wikipedia.org/wiki/Carousel_voting)
 
@@ -158,7 +156,7 @@ When such "carousel" members vote one by one, there's no way to trace them in th
 
 </details>
 
-## Legislative Assembly of Saint Petersburg собрание Санкт-Петербурга
+## Legislative Assembly of Saint Petersburg
 
 [Legislative Assembly](https://ru.wikipedia.org/wiki/Законодательное_собрание_Санкт-Петербурга) has a [lot of powers](https://ru.wikipedia.org/wiki/Законодательное_собрание_Санкт-Петербурга#Полномочия): from adopting city laws and controlling the budget up to assigning [Magistrates' court](https://en.wikipedia.org/wiki/Magistrates%27_court_(Russia)) and [Statutory Court](https://ru.wikipedia.org/wiki/Уставный_суд_Санкт-Петербурга).
 
