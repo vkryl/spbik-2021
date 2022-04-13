@@ -1,0 +1,96 @@
+{
+  "id": 22196,
+  "data_id": 4784014171843,
+  "name": {
+    "last": "Панкратова",
+    "first": "Юлия",
+    "middle": "Валерьевна"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 3,
+    "year": 1980
+  },
+  "district": "Приморский район",
+  "age": 41,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Панкратов",
+    "first": "Валерий"
+  },
+  "role_id": 1,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1833
+    },
+    "uik": 1833,
+    "district": "Приморский район",
+    "tik": 58,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 2314
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 22093
+      }
+    },
+    "spouse": {
+      "2314": {
+        "strong_evidence": "strong_role",
+        "age_difference": -11,
+        "name": {
+          "last": "Панкратов",
+          "first": "Антон",
+          "middle": "Александрович"
+        },
+        "distance": 13350,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 7
+          },
+          "tik": 7,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "22093": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -16,
+        "name": {
+          "last": "Панкратова",
+          "first": "Полина",
+          "middle": "Алексеевна"
+        },
+        "distance": 1157,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1822
+          },
+          "uik": 1822,
+          "district": "Приморский район",
+          "tik": 58,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

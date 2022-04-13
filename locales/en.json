@@ -1,0 +1,1018 @@
+{
+  "locale": "en",
+  "switch_language": {
+    "ru": "🇷🇺 Переключиться на русский"
+  },
+  "language_switched": "🌐 Language switched to English.",
+  "is_latin": "1",
+  "watermark": "t.me/spbik_bot",
+
+  "url": {
+    "info": {
+      "federal": "http://en.wikipedia.org/wiki/8th_State_Duma",
+      "city": "https://ru.wikipedia.org/wiki/Законодательное_собрание_Санкт-Петербурга#Полномочия",
+      "parties": {
+        "federal": "https://en.wikipedia.org/wiki/2021_Russian_legislative_election#Electoral_system"
+      }
+    },
+    "district": {
+      "Центральный": "https://en.wikipedia.org/wiki/Tsentralny_District,_Saint_Petersburg",
+      "Кронштадтский": "https://en.wikipedia.org/wiki/Kronstadt",
+      "Курортный": "https://en.wikipedia.org/wiki/Kurortny_District",
+      "Петродворцовый": "https://en.wikipedia.org/wiki/Petrodvortsovy_District",
+      "Петроградский": "https://en.wikipedia.org/wiki/Petrogradsky_District",
+      "Адмиралтейский": "https://en.wikipedia.org/wiki/Admiralteysky_District",
+      "Василеостровский": "https://en.wikipedia.org/wiki/Vasileostrovsky_District",
+      "Колпинский": "https://en.wikipedia.org/wiki/Kolpinsky_District",
+      "Пушкинский": "https://en.wikipedia.org/wiki/Pushkinsky_District,_Saint_Petersburg",
+      "Московский": "https://en.wikipedia.org/wiki/Moskovsky_District,_Saint_Petersburg",
+      "Красногвардейский": "https://en.wikipedia.org/wiki/Krasnogvardeysky_District,_Saint_Petersburg",
+      "Фрунзенский": "https://en.wikipedia.org/wiki/Frunzensky_District,_Saint_Petersburg",
+      "Красносельский": "https://en.wikipedia.org/wiki/Krasnoselsky_District,_Saint_Petersburg",
+      "Калининский": "https://en.wikipedia.org/wiki/Kalininsky_District,_Saint_Petersburg",
+      "Кировский": "https://en.wikipedia.org/wiki/Kirovsky_District,_Saint_Petersburg",
+      "Выборгский": "https://en.wikipedia.org/wiki/Vyborgsky_District,_Saint_Petersburg",
+      "Невский": "https://en.wikipedia.org/wiki/Nevsky_District",
+      "Приморский": "https://en.wikipedia.org/wiki/Primorsky_District,_Saint_Petersburg"
+    }
+  },
+
+  "district": "{{name_latin}} district",
+  "abroad": "Votes abroad",
+
+  "welcome": {
+    "message": "Hello, <b>{{user_name}}</b>.\n\nIn <b>Russia, Saint Petersburg</b> from 17th to 19th September 2021 several \"elections\" have been held:\n\n• To <b><a href=\"{{{city_info_url}}}\">7th Legislative Assembly of Saint Petersburg</a></b>\n• To <b><a href=\"{{{federal_info_url}}}\">8th State Duma</a></b>\n• To municipalities of {{{municipality_list}}}\n\nI am a bot that processed:\n\n• {{{protocol_count}}}\n• {{{turnout_protocol_count}}}\n• {{{district_count}}}\n• {{{tik_count}}}\n• {{{uik_count}}}\n• {{{member_count}}}\n• {{{violations_count}}}\n\nAnd made it convenient to investigate them.\n\nCombined with <a href=\"https://www.kartanarusheniy.org/2021-09-19\">election violation map</a> and reports from independent commission members, you may learn how exactly criminals assign illegitimate deputies in Russia using the election fraud.\n\nTell me the number of specific election commission or electoral district, and I will send you the detailed report about it.\n\nSubscribe to our channel with news an charts: https://t.me/spbik_en",
+    "find_uik": "Find commission on official website",
+    "protocols": {
+      "one": "<b>{{{counter}}}</b> result protocol",
+      "other": "<b>{{{counter}}}</b> result protocols"
+    },
+    "turnout_protocols": {
+      "one": "<b>{{{counter}}}</b> turnout protocol",
+      "other": "<b>{{{counter}}}</b> turnout protocols"
+    },
+    "uiks": {
+      "one": "<b>{{{counter}}}</b> local commission (where people vote)",
+      "other": "<b>{{{counter}}}</b> local commissions (where people vote)"
+    },
+    "exceeded_voters_uiks": {
+      "one": "In <b>{{{counter}}}</b>",
+      "other": "In <b>{{{counter}}}</b>"
+    },
+    "exceeded_voters": {
+      "one": "there's an exceeding total of <b>{{{counter}}}</b> vote when comparing different election types held by the same commission",
+      "other": "there's an exceeding total of <b>{{{counter}}}</b> votes when comparing different election types held by the same commission"
+    },
+    "violation_reports": {
+      "one": "<b>{{{counter}}}</b> report on the <a href=\"{{{url}}}\">election violations map</a>",
+      "other": "<b>{{{counter}}}</b> reports on the <a href=\"{{{url}}}\">election violations map</a>"
+    },
+    "stolen_by_exceeding_uiks": {
+      "one": "In <b>{{{counter}}}</b>",
+      "other": "In <b>{{{counter}}}</b>"
+    },
+    "stolen_by_exceeding": {
+      "one": "exceeding could be affecting the actual winner in <b>{{{counter}}}</b> protocol",
+      "other": "exceeding could be affecting the actual winner in <b>{{{counter}}}</b> protocols"
+    },
+    "space_by_exceeding_uiks": {
+      "one": "In <b>{{{counter}}}</b>",
+      "other": "In <b>{{{counter}}}</b>"
+    },
+    "space_by_exceeding": {
+      "one": "exceeding affects the parties member proportion in <b>{{{counter}}}</b> protocol",
+      "other": "exceeding affects the parties member proportion in <b>{{{counter}}}</b> protocols"
+    },
+    "tiks": {
+      "one": "<b>{{{counter}}}</b> territorial commission (where data from local commissions is processed into larger chunk)",
+      "other": "<b>{{{counter}}}</b> territorial commissions (where data from local commissions is processed into larger chunk)"
+    },
+    "members": {
+      "one": "<b>{{{counter}}}</b> commission member",
+      "other": "<b>{{{counter}}}</b> commission members"
+    },
+    "districts": {
+      "one": "<b>{{{counter}}}</b> city district",
+      "other": "<b>{{{counter}}}</b> city districts"
+    },
+    "deputies_federal": {
+      "one": "<b>{{{counter}}}</b> deputy",
+      "other": "<b>{{{counter}}}</b> deputies"
+    },
+    "deputies_city": {
+      "one": "<b>{{{counter}}}</b> deputy",
+      "other": "<b>{{{counter}}}</b> deputies"
+    },
+    "parties_federal": {
+      "one": "among <b>{{{counter}}}</b> party",
+      "other": "among <b>{{{counter}}}</b> parties"
+    },
+    "parties_city": {
+      "one": "one of <b>{{{counter}}}</b> party",
+      "other": "one of <b>{{{counter}}}</b> parties"
+    },
+    "municipality": "<b><a href=\"{{{info_url}}}\">{{{municipality_latin}}} Municipal District</a></b>",
+    "municipality_separator": " and ",
+    "municipalities": {
+      "one": "Members of <b>{{{counter}}}</b> municipality assembly",
+      "other": "Members of <b>{{{counter}}}</b> municipality assemblies"
+    },
+    "deputies_municipality": {
+      "one": "<b>{{{counter}}}</b> deputy of <b><a href=\"{{{info_url}}}\">{{{municipality_latin}}} municipal district</a></b>",
+      "other": "<b>{{{counter}}}</b> deputies of <b><a href=\"{{{info_url}}}\">{{{municipality_latin}}} municipal district</a></b>"
+    }
+  },
+
+  "select": {
+    "notFound": "No commissions or electoral districts with <b>#{{id}}</b> have been found.",
+    "header": {
+      "one": "Found <b>{{{counter}}}</b> result <b>#{{id}}</b>:",
+      "other": "Found <b>{{{counter}}}</b> results by <b>#{{id}}</b>:"
+    },
+    "commission_header": {
+      "one": "Found <b>{{{counter}}}</b> commission with <b>#{{id}}</b>:",
+      "other": "Found <b>{{{counter}}}</b> commissions with <b>#{{id}}</b>:"
+    },
+    "footer": "Which one did you mean?",
+    "commission_footer": "Which one did you mean?",
+    "uik": {
+      "alias": "LEC #{{id}}",
+      "text": "Local commission <b>#{{id}}</b> ({{district}})"
+    },
+    "tik": {
+      "alias": "TEC #{{id}}",
+      "text": "Territorial commission <b>#{{id}}</b> ({{district}})"
+    },
+    "gik": {
+      "alias": "Full review of {{{id_latin}}}",
+      "text": "Saint Petersburg election commission"
+    },
+    "result": {
+      "federal": {
+        "alias": "Duma. District #{{id}}",
+        "text": "<b><a href=\"{{{federal_info_url}}}\">State Duma</a></b>. Electoral district <b>#{{id}}</b>"
+      },
+      "city": {
+        "alias":"Legislative Assembly. District #{{id}}",
+        "text": "<b><a href=\"{{{city_info_url}}}\">Legislative Assembly</a></b>. Electoral district <b>#{{id}}</b>"
+      },
+      "municipality": {
+        "alias": "{{municipality_latin}}. District #{{id}}",
+        "text": "<b><a href=\"{{{municipality_info_url}}}\">{{municipality_latin}} Municipality</a></b>. Electoral district <b>#{{id}}</b>"
+      }
+    },
+    "list": {
+      "federal": "State Duma elections",
+      "city": "Legislative Assembly elections",
+      "municipality": "{{{municipality_latin}}} municipality elections",
+      "district": "Territorial commissions by district"
+    }
+  },
+
+  "visual": {
+    "dynamic": {
+      "uik": "Result growth by ballot box",
+      "tik": "Result growth by TEC"
+    },
+    "turnout_parties": {
+      "uik": "Ballot papers per LEC",
+      "tik": "Ballot papers per TEC"
+    },
+    "turnout_candidates": {
+      "uik": "Ballot papers per LEC",
+      "tik": "Ballot papers per TEC"
+    },
+    "toggle": {
+      "turnout": "% of voters",
+      "turnout_count": "amount"
+    },
+    "all_parties": "All parties",
+    "all_candidates": "All candidates",
+    "turnout_for": "{{{name}}}"
+  },
+  "registered_voters": {
+    "one": "<b>{{{counter}}}</b> registered",
+    "other": "<b>{{{counter}}}</b> registered"
+  },
+  "votes": {
+    "one": "<b>{{{counter}}}</b> vote",
+    "other": "<b>{{{counter}}}</b> votes"
+  },
+  "people": {
+    "one": "<b>{{{counter}}}</b> person",
+    "other": "<b>{{{counter}}}</b> people"
+  },
+  "people_per_minute": {
+    "one": "<b>{{{counter}}}</b> person per minute",
+    "other": "<b>{{{counter}}}</b> people per minute"
+  },
+  "people_per_hour": {
+    "one": "<b>{{{counter}}}</b> person per hour",
+    "other": "<b>{{{counter}}}</b> people per hour"
+  },
+  "analysis": {
+    "initially_registered_count": {
+      "one": "<b>{{{counter}}}</b> voter registered when election started",
+      "other": "<b>{{{counter}}}</b> voters registered when election started"
+    },
+    "registered_count": {
+      "one": "<b>{{{counter}}}</b> voters registered when election ended",
+      "other": "<b>{{{counter}}}</b> voters registered when election ended"
+    },
+    "attached_count": {
+      "one": "<b>{{{counter}}}</b> person attached",
+      "other": "<b>{{{counter}}}</b> people attached"
+    },
+    "detached_count": {
+      "one": "<b>{{{counter}}}</b> person detached",
+      "other": "<b>{{{counter}}}</b> people detached"
+    },
+    "added_count": {
+      "one": "<b>{{{counter}}}</b> voter registered during the election",
+      "other": "<b>{{{counter}}}</b> voters registered during the election"
+    },
+    "removed_count": {
+      "one": "<b>{{{counter}}}</b> voter un-registered during the election",
+      "other": "<b>{{{counter}}}</b> voters un-registered during the election"
+    },
+    "exceeded_papers_count": {
+      "one": "<b>{{{counter}}}</b> more than technically possible",
+      "other": "<b>{{{counter}}}</b> more than technically possible"
+    },
+    "exceeded_papers_formula": {
+      "format": "Formula: <code>{{formula}}</code>",
+      "federal": {
+        "attached_count": "SD attached",
+        "voters_count": {
+          "party": "SD party",
+          "person": "SD person"
+        },
+        "registered_count": {
+          "party": "SD party registered",
+          "person": "SD person registered"
+        }
+      },
+      "city": {
+        "voters_count": {
+          "party": "Legislative Assembly party",
+          "person": "Legislative Assembly person"
+        },
+        "registered_count": {
+          "party": "Legislative Assembly party registered",
+          "person": "Legislative Assembly person registered"
+        }
+      },
+      "municipality": {
+        "voters_count": {
+          "person": "Municipality"
+        },
+        "registered_count": {
+          "person": "Municipality registered"
+        }
+      }
+    },
+    "valid_count": {
+      "one": "<b>{{{counter}}}</b> valid ballot paper (<b>{{percentage}}%%%%</b>)",
+      "other": "<b>{{{counter}}}</b> valid ballot papers (<b>{{percentage}}%%%%</b>)"
+    },
+    "invalid_count": {
+      "one": "<b>{{{counter}}}</b> invalid (<b>{{percentage}}%%%%</b>)",
+      "other": "<b>{{{counter}}}</b> invalid (<b>{{percentage}}%%%%</b>)"
+    },
+    "taken_home_count": {
+      "one": "<b>{{{counter}}}</b> taken home (<b>{{percentage}}%%%%</b>)",
+      "other": "<b>{{{counter}}}</b> taken home (<b>{{percentage}}%%%%</b>)"
+    },
+    "lost_count": {
+      "one": "<b>{{{counter}}}</b> lost (<b>{{percentage}}%%%%</b>)",
+      "other": "<b>{{{counter}}}</b> lost (<b>{{percentage}}%%%%</b>)"
+    },
+    "ignored_count": {
+      "one": "<b>{{{counter}}}</b> ignored (<b>{{percentage}}%%%%</b>)",
+      "other": "<b>{{{counter}}}</b> ignored (<b>{{percentage}}%%%%</b>)"
+    },
+    "invalid_protocol": "There cannot be lost and ignored ballot papers at the same time. By law."
+  },
+  "election": {
+    "federal": "<a href=\"{{{info_url}}}\">State Duma</a> elections",
+    "city": "<a href=\"{{{info_url}}}\">Legislative Assembly</a> elections",
+    "municipality": "<a href=\"{{{info_url}}}\">{{{municipality_latin}}} Municipality District</a> elections"
+  },
+  "electoral_district": {
+    "federal": "<a href=\"{{{info_url}}}\">State Duma</a>",
+    "city": "<a href=\"{{{info_url}}}\">Legislative Assembly</a>",
+    "municipality": "<a href=\"{{{info_url}}}\">{{{municipality_latin}}} Municipality</a>",
+    "alias": {
+      "federal": {
+        "parties": "S.D. Parties",
+        "person": "S.D. Electoral district #{{{id}}}"
+      },
+      "city": {
+        "parties": "L.A. Parties",
+        "person": "L.A. Electoral district #{{{id}}}"
+      },
+      "municipality": {
+        "person": "{{{municipality_latin}}} Municipality. Electoral district #{{{id}}}"
+      }
+    },
+    "single": {
+      "one": "Electoral district <code>#{{{id}}}</code>",
+      "range": "Electoral districts <code>№{{{from}}}–№{{{to}}}</code>",
+      "few": "Electoral districts {{{ids}}}"
+    },
+    "multiple": {
+      "one": "Multi-mandate electoral district <code>#{{{id}}}</code>",
+      "range": "Multi-mandate electoral districts <code>№{{{from}}}–№{{{to}}}</code>",
+      "few": "Multi-mandate electoral districts {{{ids}}}"
+    },
+    "parties": "<a href=\"{{{info_url}}}\">Parties</a>",
+    "description": {
+      "parties": {
+        "one": "<b>{{{counter}}}</b> party",
+        "other": "<b>{{{counter}}}</b> parties"
+      },
+      "candidates": {
+        "one": "<b>{{{counter}}}</b> candidate",
+        "other": "<b>{{{counter}}}</b> candidates"
+      }
+    }
+  },
+  "award": {
+    "uik": "among members in subordinate local commissions",
+    "tik": "among members in subordinate territorial commissions",
+    "badgesOfHonor1": {
+      "description": {
+        "female": "Awarded with <a href=\"{{{url}}}\"><b>1st level badge of honor</b></a> «For active work in the elections» by SPBEC",
+        "male": "Awarded with <a href=\"{{{url}}}\"><b>1st level badge of honor</b></a> «For active work in the elections» by SPBEC",
+        "commission": "<a href=\"{{{url}}}\"><b>1st level badge of honor</b></a> «For active work in the elections» SPBEC's award",
+        "commission_plural": {
+          "one": "{{{counter}}} <a href=\"{{{url}}}\"><b>1st level badge of honor</b></a> award «For active work in the elections» by SPBEC",
+          "other": "{{{counter}}} <a href=\"{{{url}}}\"><b>1st level badge of honor</b></a> awards «For active work in the elections» by SPBEC"
+        }
+      }
+    },
+    "badgesOfHonor2": {
+      "description": {
+        "female": "Awarded with <a href=\"{{{url}}}\"><b>2nd level badge of honor</b></a> «For active work in the elections» by SPBEC",
+        "male": "Awarded with <a href=\"{{{url}}}\"><b>2nd level badge of honor</b></a> «For active work in the elections» by SPBEC",
+        "commission": "<a href=\"{{{url}}}\"><b>2nd level badge of honor</b></a> «For active work in the elections» SPBEC's award",
+        "commission_plural": {
+          "one": "{{{counter}}} <a href=\"{{{url}}}\"><b>2nd level badge of honor</b></a> award «For active work in the elections» by SPBEC",
+          "other": "{{{counter}}} <a href=\"{{{url}}}\"><b>2nd level badge of honor</b></a> awards «For active work in the elections» by SPBEC"
+        }
+      }
+    },
+    "diplomas": {
+      "description": {
+        "female": "Awarded with <a href=\"{{{url}}}\"><b>certificate of honor</b></a> by SPBEC",
+        "male": "Awarded with <a href=\"{{{url}}}\"><b>certificate of honor</b></a> by SPBEC",
+        "commission": "<a href=\"{{{url}}}\"><b>Certificate of honor</b></a> SPBEC's award",
+        "commission_plural": {
+          "one": "{{{counter}}} <a href=\"{{{url}}}\"><b>certificate of honor</b></a> award by SPBEC",
+          "other": "{{{counter}}} <a href=\"{{{url}}}\"><b>certificate of honor</b></a> awards by SPBEC"
+        }
+      }
+    },
+    "thanks": {
+      "description": {
+        "female": "Awarded with <a href=\"{{{url}}}\"><b>official gratefulness</b></a> by SPBEC",
+        "male": "Awarded with <a href=\"{{{url}}}\"><b>official gratefulness</b></a> by SPBEC",
+        "commission": "<a href=\"{{{url}}}\"><b>Official gratefulness</b></a> SPBEC's award",
+        "commission_plural": {
+          "one": "{{{counter}}} <a href=\"{{{url}}}\"><b>official gratefulness</b></a> award by SPBEC",
+          "other": "{{{counter}}} <a href=\"{{{url}}}\"><b>official gratefulness</b></a> awards by SPBEC"
+        }
+      }
+    }
+  },
+  "hints": {
+    "violation": {
+      "has_reports": "Other violation reports",
+      "chains": "Detained commission members, observers",
+
+      "carousel_or_stuffing": "Carousel voting and ballot stuffing",
+      "registered_voters": "Registered voters list violations, illegal issuance of ballot papers",
+      "observer_rights_failure": "Violation of commission members, observers, mass media rights",
+      "count_procedure_failure": "Violation during result calculation, result distortion",
+      "pressure_on_voters": "Forced or organized voting",
+      "on_home": "Violations during voting on home",
+
+      "override": "Commission didn't count the actual votes in ballot papers",
+      "issuance": "Illegal issuance of ballot papers",
+      "carousel": "Carousel members",
+      "drawings": "Marks in voters list book",
+      "exceeding": "Exceeded number of ballot papers",
+      "swap": "Results was swapped between two entries",
+      "replacement": "Ballot papers were replaced during the night",
+      "stealing": "Exceeded paper count smaller than difference between two first places",
+      "stuffing": "Stuffing",
+      "lights_off": "Electricity disabled in the commission",
+      "no_video": "Commission members blocked the photo/video-recordings",
+      "pressure": "Mental pressure on observers",
+      "court": "Court case has been submitted",
+      "runaway": "Commission members ran away without counting the result",
+      "invalid": "Protocol does not meet the law requirements"
+    },
+    "abroad": {
+      "consulate": {
+        "Германия": "Commission in Russian consulate in Germany",
+        "Болгария": "Commission in Russian consulate in Bulgaria"
+      },
+      "embassy": {
+        "Германия": "Commission in Russian embassy in Germany",
+        "Болгария": "Commission in Russian embassy in Bulgaria"
+      }
+    },
+    "smart": "Candidate supported by Smart Vote strategy",
+    "unknown_commission": "No detailed information about this commission",
+    "award": {
+      "badgesOfHonor1": "1st level badge of honor «For active work in the elections» from SPBEC",
+      "badgesOfHonor2": "2nd level badge of honor «For active work in the elections» from SPBEC",
+      "diplomas": "Certificate of honor from SPBEC",
+      "thanks": "Official gratefulness from SPBEC",
+      "parent": "SPBEC awards in the superior commission"
+    }
+  },
+  "members": {
+    "chairman": "Chairperson",
+    "vice": "Vice-chairperson",
+    "vice_chairman": "Vice-chairperson",
+    "secretary": "Secretary",
+    "other": {
+      "one": "<b>{{{counter}}}</b> commission voting member:",
+      "other": "<b>{{{counter}}}</b> commission voting members:"
+    },
+    "counter": {
+      "one": "<b>{{{counter}}}</b> commission member",
+      "other": "<b>{{{counter}}}</b> commission members"
+    },
+    "birthdate": {
+      "male": "<b>Born</b>: <code>{{day}}.{{month}}.{{year}}</code>",
+      "female": "<b>Born</b>: <code>{{day}}.{{month}}.{{year}}</code>"
+    },
+    "assigned_by": {
+      "male": "<b>Assigned by</b>: {{prefix}}<i>{{assigned_by}}</i>",
+      "female": "<b>Assigned by</b>: {{prefix}}<i>{{assigned_by}}</i>"
+    },
+    "duplicate": "The same person found in {{{duplicates}}}",
+    "member": "<b>{{role}}</b>: {{name_prefix}}{{name}}",
+    "position": "<b>{{position}}.</b> {{name}}",
+    "report": {
+      "header": {
+        "uik": "<b>Members of the local election commission #{{uik_id}}</b>",
+        "tik": "<b>Members of the territorial election commission #{{tik_id}}</b>",
+        "gik": {
+          "СПбИК": "<b>Members of the Saint Petersburg election commission</b>"
+        }
+      },
+      "disclaimer": "ℹ️ <i>Only publicly available official data is used. Having person in this list does not mean that they actually worked on the specific election, for precise data you need to find people who observed on these elections.</i>",
+      "date": "📅 <i>Data fetched in {{{date}}}</i>",
+      "relatives_disclaimer": {
+        "format": "⚠️ <i>Displayed relative suggestions are just <b>guesses</b> based on analysis of first name, last name, namesake, and age difference combination {{{members_count}}} {{{commissions_count}}} that can be used for further independent crime investigations. Less frequent the combination is, the less possible that the guess is wrong.</i>",
+        "members": {
+          "one": "of <b>{{{counter}}}</b> member",
+          "other": "of <b>{{{counter}}}</b> members"
+        },
+        "commissions": {
+          "one": "in <b>{{{counter}}}</b> city commission",
+          "other": "in <b>{{{counter}}}</b> city commissions"
+        }
+      }
+    },
+    "more": {
+      "uik": "Members of LEC №{{id}} {{warning}}",
+      "tik": "Members of TEC №{{id}} {{warning}}",
+      "gik": "Members of {{id_latin}} {{warning}}"
+    },
+    "short": {
+      "chairman": "{{{venue}}} chariperson",
+      "vice_chairman": "{{{venue}}} vice chair",
+      "secretary": "{{{venue}}} secretary",
+      "other": "{{{venue}}} voting member",
+
+      "same_commission": {
+        "chairman": "chairperson",
+        "vice_chairman": "vice chair",
+        "secretary": "secretary",
+        "other": "voting member"
+      }
+    },
+    "relationship": {
+      "child": {
+        "female": "daughter",
+        "male": "son"
+      },
+      "father": "father"
+    },
+    "strong_evidence": {
+      "same_commission": "this commission",
+      "same_building": "same building",
+      "works_in_parent_commission": "superior commission",
+      "works_in_child_commission": "subordinate commission",
+      "works_in_parent_district_commission": "superior commission of the same district",
+      "works_in_child_district_commission": "subordinate commission of the same district",
+      "same_parent_commission": "same superior commission",
+      "same_electoral_district": "same electoral district",
+      "similar_role": "similar role",
+      "same_district": "same city district",
+      "works_in_close_commission": "nearby commission"
+    },
+    "relatives": {
+      "children": {
+        "female": {
+          "one": {
+            "female": "Potential daughter",
+            "male": "Potential son"
+          },
+          "few": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> potential daughter",
+              "other": "<b>{{{counter}}}</b> potential daughters"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> potential son",
+              "other": "<b>{{{counter}}}</b> potential sons"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> potential child",
+              "other": "<b>{{{counter}}}</b> potential children"
+            }
+          },
+          "many": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> younger lady with the same last name",
+              "other": "<b>{{{counter}}}</b> younger ladies with the same last name"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> younger gentleman with the same last name",
+              "other": "<b>{{{counter}}}</b> younger gentlemen with the same last name"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> younger person with the same last name",
+              "other": "<b>{{{counter}}}</b> younger people with the same last name"
+            }
+          }
+        },
+        "male": {
+          "one": {
+            "female": "Potential daughter",
+            "male": "Potential son"
+          },
+          "few": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> potential daughter",
+              "other": "<b>{{{counter}}}</b> potential daughters"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> potential son",
+              "other": "<b>{{{counter}}}</b> potential sons"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> potential child",
+              "other": "<b>{{{counter}}}</b> potential children"
+            }
+          },
+          "many": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> younger lady with the same last name",
+              "other": "<b>{{{counter}}}</b> younger ladies with the same last name"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> younger gentleman with the same last name",
+              "other": "<b>{{{counter}}}</b> younger gentlemen with the same last name"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> younger person with the same last name",
+              "other": "<b>{{{counter}}}</b> younger people with the same last name"
+            }
+          }
+        }
+      },
+      "spouse": {
+        "female": {
+          "one": {
+            "female": "Potential wife",
+            "male": "Potential husband"
+          },
+          "few": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> last-namesake",
+              "other": "<b>{{{counter}}}</b> last-namesakes"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> last-namesake",
+              "other": "<b>{{{counter}}}</b> last-namesakes"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> last-namesake",
+              "other": "<b>{{{counter}}}</b> last-namesakes"
+            }
+          },
+          "many": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> last-namesake",
+              "other": "<b>{{{counter}}}</b> last-namesakes"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> last-namesake",
+              "other": "<b>{{{counter}}}</b> last-namesakes"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> last-namesake",
+              "other": "<b>{{{counter}}}</b> last-namesakes"
+            }
+          }
+        },
+        "male": {
+          "one": {
+            "female": "Potential wife",
+            "male": "Potential husband"
+          },
+          "few": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> last-namesake",
+              "other": "<b>{{{counter}}}</b> last-namesakes"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> last-namesake",
+              "other": "<b>{{{counter}}}</b> last-namesakes"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> last-namesake",
+              "other": "<b>{{{counter}}}</b> last-namesakes"
+            }
+          },
+          "many": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> last-namesake",
+              "other": "<b>{{{counter}}}</b> last-namesakes"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> last-namesake",
+              "other": "<b>{{{counter}}}</b> last-namesakes"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> last-namesake",
+              "other": "<b>{{{counter}}}</b> last-namesakes"
+            }
+          }
+        }
+      },
+      "siblings": {
+        "female": {
+          "one": {
+            "female": "Potential sister",
+            "male": "Potential brother"
+          },
+          "few": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> potential sister",
+              "other": "<b>{{{counter}}}</b> potential sisters"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> potential brother",
+              "other": "<b>{{{counter}}}</b> potential brothers"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> potential sibling",
+              "other": "<b>{{{counter}}}</b> potential siblings"
+            }
+          },
+          "many": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> lady with the same patronymic and last name",
+              "other": "<b>{{{counter}}}</b> ladies with the same patronymic and last name"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> gentleman with the same patronymic and last name",
+              "other": "<b>{{{counter}}}</b> gentlemen with the same patronymic and last name"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> person with the same patronymic and last name",
+              "other": "<b>{{{counter}}}</b> people with the same patronymic and last name"
+            }
+          }
+        },
+        "male": {
+          "one": {
+            "female": "Potential sister",
+            "male": "Potential brother"
+          },
+          "few": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> potential sister",
+              "other": "<b>{{{counter}}}</b> potential sisters"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> potential brother",
+              "other": "<b>{{{counter}}}</b> potential brothers"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> potential sibling",
+              "other": "<b>{{{counter}}}</b> potential siblings"
+            }
+          },
+          "many": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> lady with the same patronymic and last name",
+              "other": "<b>{{{counter}}}</b> ladies with the same patronymic and last name"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> gentleman with the same patronymic and last name",
+              "other": "<b>{{{counter}}}</b> gentlemen with the same patronymic and last name"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> person with the same patronymic and last name",
+              "other": "<b>{{{counter}}}</b> people with the same patronymic and last name"
+            }
+          }
+        }
+      },
+      "parents": {
+        "female": {
+          "one": {
+            "female": "Potential mother",
+            "male": "Potential father"
+          },
+          "few": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> potential mother",
+              "other": "<b>{{{counter}}}</b> potential mothers"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> potential father",
+              "other": "<b>{{{counter}}}</b> potential fathers"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> potential parent",
+              "other": "<b>{{{counter}}}</b> potential parents"
+            }
+          },
+          "many": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> older lady with the same last name",
+              "other": "<b>{{{counter}}}</b> older ladies with the same last name"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> potential father",
+              "other": "<b>{{{counter}}}</b> potential fathers"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> potential parent",
+              "other": "<b>{{{counter}}}</b> potential parents"
+            }
+          }
+        },
+        "male": {
+          "one": {
+            "female": "Potential mother",
+            "male": "Potential father"
+          },
+          "few": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> potential mother",
+              "other": "<b>{{{counter}}}</b> potential mothers"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> potential father",
+              "other": "<b>{{{counter}}}</b> potential fathers"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> potential parent",
+              "other": "<b>{{{counter}}}</b> potential parents"
+            }
+          },
+          "many": {
+            "female": {
+              "one": "<b>{{{counter}}}</b> older ladies with the same last name",
+              "other": "<b>{{{counter}}}</b> older ladies with the same last name"
+            },
+            "male": {
+              "one": "<b>{{{counter}}}</b> potential father",
+              "other": "<b>{{{counter}}}</b> potential fathers"
+            },
+            "mixed": {
+              "one": "<b>{{{counter}}}</b> potential parent",
+              "other": "<b>{{{counter}}}</b> potential parents"
+            }
+          }
+        }
+      }
+    }
+  },
+  "km_short": "<b>{{kilometers}}</b> km",
+  "m_short": {
+    "one": "<b>{{{counter}}}</b> meter",
+    "other": "<b>{{{counter}}}</b> meters"
+  },
+  "age": {
+    "one": "<b>{{{counter}}}</b> year",
+    "other": "<b>{{{counter}}}</b> years"
+  },
+  "commission": {
+    "uik": "LEC",
+    "tik": "TEC",
+    "xUiks": {
+      "one": "<b>{{{counter}}}</b> local commission",
+      "other": "<b>{{{counter}}}</b> local commissions"
+    },
+
+    "short": {
+      "uik": "LEC #{{{id}}}",
+      "tik": "TEC #{{{id}}}",
+      "gik": "{{{id_latin}}}",
+      "cik": "CEC"
+    },
+    "long": {
+      "uik": "Local election commission <b>#{{id}}</b>",
+      "tik": "Territorial election commission <b>#{{id}}</b>",
+      "gik": {
+        "СПбИК": "Saint Petersburg election commission"
+      },
+      "cik": "State election commission"
+    },
+
+    "empty": "No protocols found!",
+
+    "parent": "Superior commission",
+
+    "notFound": {
+      "uik": "<b>LEC #{{id}}</b> not found.",
+      "tik": "<b>TEC #{{id}}</b> not found."
+    },
+    "report": {
+      "header": {
+        "uik": "<b>Local election commission #{{id}}</b>",
+        "tik": "<b>Territorial election commission #{{id}}</b>",
+        "gik": {
+          "СПбИК": "<b>Saint Petersburg election commission</b>"
+        }
+      },
+      "other": {
+        "one": "Also here",
+        "few": {
+          "one": "<b>{{{counter}}}</b> other commission here",
+          "other": "<b>{{{counter}}}</b> other commissions here"
+        }
+      }
+    }
+  },
+  "protocol": {
+    "report": {
+      "turnout": "<b>Turnout</b>",
+      "turnout_final": "<b>End of election</b>",
+      "result": {
+        "header": "<b>Result</b>"
+      },
+      "votes": {
+        "average": {
+          "one": "{{{counter}}} vote ({{percentage}}%%%%) average per LEC",
+          "other": "{{{counter}}} votes ({{percentage}}%%%%) average per LEC"
+        },
+        "same_uik": {
+          "min": "Min: {{{votes_count}}} ({{percentage}}%) — {{{commission_id}}}",
+          "max": "Max: {{{votes_count}}} ({{percentage}}%) — {{{commission_id}}}",
+          "median": "Median: {{{votes_count}}} ({{percentage}}%) — {{{commission_id}}}"
+        },
+        "different_uik": {
+          "min": "Min: {{{votes_count}}} — {{{votes_commission_id}}}, {{percentage}}% — {{{percentage_commission_id}}}",
+          "max": "Max: {{{votes_count}}} — {{{votes_commission_id}}}, {{percentage}}% — {{{percentage_commission_id}}}",
+          "median": "Median: {{{votes_count}}} — {{{votes_commission_id}}}, {{percentage}}% — {{{percentage_commission_id}}}"
+        }
+      }
+    }
+  },
+  "disclaimer": {
+    "protocols": {
+      "one": "Summary for {{{counter}}} protocol",
+      "other": "Summary for {{{counter}}} protocols"
+    },
+    "gik": {
+      "one": "Summary for {{{counter}}} city protocol",
+      "other": "Summary for {{{counter}}} city protocols"
+    },
+    "district": {
+      "one": "Summary for {{{counter}}} district protocol",
+      "other": "Summary for {{{counter}}} district protocols"
+    },
+    "tik": {
+      "one": "Summary for {{{counter}}} TEC #{{{scope_id}}} protocol",
+      "other": "Summary for {{{counter}}} TEC #{{{scope_id}}} protocols"
+    },
+    "uik": {
+      "one": "{{{counter}}} LEC #{{{scope_id}}} protocol",
+      "other": "{{{counter}}} LEC #{{{scope_id}}} protocol"
+    }
+  },
+  "districts": {
+    "one": "{{{counter}}} district, where the election was held",
+    "other": "{{{counter}}} districts, where the election was held"
+  },
+  "result": {
+    "against_winner": "Total against winner",
+    "commission": {
+      "medium": {
+        "uik": "Local electoral commission #{{{id}}}",
+        "tik": "Territorial electoral commission #{{{id}}}",
+        "gik": "Final result of {{{id_latin}}}"
+      },
+      "short": {
+        "uik": "LEC #{{{id}}}",
+        "tik": "TEC #{{{id}}}",
+        "gik": "Final result"
+      }
+    },
+    "federal": {
+      "person": "State Duma. Electoral district #{{id}}",
+      "parties": "State Duma. Parties"
+    },
+    "city": {
+      "person": "Legislative Assembly. Electoral district #{{id}}",
+      "parties": "Legislative Assembly. Parties"
+    },
+    "municipality": {
+      "person": "{{municipality_latin}} Municipality. Electoral district #{{id}}"
+    },
+    "exceeding": "Exceeded maximum possible number of ballot papers",
+    "lost": "Lost",
+    "abstained": "Abstained",
+    "invalid": "Invalid",
+    "taken_home": "Taken home",
+    "notFound": "Result not found."
+  },
+  "turnout": "Turnout",
+  "polling": {
+    "district": {
+      "one": "Voting district",
+      "few": "Voting districts"
+    }
+  },
+
+  "party_name": {
+    "Единая Россия": "United Russia",
+    "КПРФ": "CPRF",
+    "Справедливая Россия": "A Just Russia",
+    "Новые Люди": "New People",
+    "Яблоко": "Yabloko",
+    "ЛДПР": "LDPR",
+    "Партия Роста": "Party of Growth",
+    "Партия Свободы и Справедливости": "Party of Freedom and Justice",
+    "Партия Пенсионеров": "Party of Pensioners",
+    "Гражданская Платформа": "Civic Platform",
+    "Зелёные": "The Greens",
+    "Зеленая Альтернатива": "Green Alternative",
+    "Коммунисты России": "Communists of Russia",
+    "Родина": "Rodina"
+  },
+  "party_url": {
+
+  },
+  "also_here": {
+    "uik": "Other LEC here",
+    "tik": "Other TEC here"
+  },
+  "chart": {
+    "turnout": {
+      "tik": "% of registered voters (one column — one TEC)",
+      "uik": "% of registered voters (one column — one commission)"
+    },
+    "turnout_big": {
+      "tik": "% of registered voters (one bar — one TEC)",
+      "uik": "% of registered voters (one bar — one commission)"
+    },
+    "turnout_count": {
+      "tik": "ballot papers (one column — one TEC)",
+      "uik": "ballot papers (one column — one commission)"
+    },
+    "turnout_count_big": {
+      "tik": "ballot papers (one bar — one TEC)",
+      "uik": "ballot papers (one bar — one commission)"
+    },
+    "votes_dynamics": {
+      "tik": "total votes sum (one column — plus one TEC)",
+      "uik": "total votes sum (one column — plus one commission)"
+    },
+    "votes_dynamics_big": {
+      "tik": "total votes sum (one pixel — plus one TEC)",
+      "uik": "total votes sum (one pixel — plus one commission)"
+    },
+    "votes_count": {
+      "one": "{{{counter}}} vote",
+      "other": "{{{counter}}} votes"
+    },
+    "paper_count": {
+      "one": "{{{counter}}} ballot paper",
+      "other": "{{{counter}}} ballot papers"
+    }
+  },
+  "toast": {
+    "error": "⚠️ Error occurred.",
+    "chart_updated": "✅ Chart has been updated.",
+    "already_selected": "ℹ️ This option is already selected."
+  },
+  "command": {
+    "start": "Main menu",
+    "districts": "List of districts and TEC"
+  },
+  "administration": "Administration of the {{district}}"
+}

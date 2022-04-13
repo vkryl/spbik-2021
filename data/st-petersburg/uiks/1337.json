@@ -1,0 +1,110 @@
+{
+  "name": "Участковая избирательная комиссия №1337",
+  "id": 1337,
+  "type": "uik",
+  "data_id": 4784010286038,
+  "has_koib": false,
+  "district": "Московский район",
+  "electoral_districts": {
+    "federal": 218,
+    "city": 21
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "218": 12,
+        "total_count": 12,
+        "winner_count": 1
+      },
+      "city": {
+        "21": 7,
+        "total_count": 7,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 10,
+        "members_with_guesses": 4,
+        "strong_count": {
+          "same_electoral_district": 2
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №1337": 4
+        }
+      }
+    }
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 759,
+      "party_abstained_count": 1798,
+      "party_registered_count": 2557,
+      "person_voters_count": 759,
+      "person_abstained_count": 1798,
+      "person_registered_count": 2557,
+      "max_attached_count": 45
+    },
+    "city": {
+      "party_voters_count": 759,
+      "party_abstained_count": 1798,
+      "party_registered_count": 2557,
+      "person_voters_count": 759,
+      "person_abstained_count": 1798,
+      "person_registered_count": 2557
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 48,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 827,
+  "members": {
+    "chairman_id": 18914,
+    "vice_chairman_id": 18915,
+    "secretary_id": 18916,
+    "other_ids": [
+      18917,
+      18918,
+      18919,
+      18920,
+      18921
+    ],
+    "assigned_by_stats": {
+      "10": 2,
+      "15": 1,
+      "25": 1,
+      "28": 1
+    },
+    "gender_stats": {
+      "male": 5,
+      "female": 3
+    },
+    "age_stats": {
+      "30": 1,
+      "32": 1,
+      "33": 1,
+      "35": 2,
+      "37": 2,
+      "52": 1
+    },
+    "source_date": 1633481978344
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

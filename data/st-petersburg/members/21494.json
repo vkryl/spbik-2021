@@ -1,0 +1,123 @@
+{
+  "id": 21494,
+  "data_id": 27820001313138,
+  "name": {
+    "last": "Костина",
+    "first": "Марина",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 12,
+    "month": 2,
+    "year": 1983
+  },
+  "district": "Приморский район",
+  "age": 38,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Костин",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 57
+    },
+    "tik": 57,
+    "district": "Приморский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "works_in_child_district_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_in_child_district_commission": {
+        "count": 1,
+        "ids": 3444
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 35
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "2745"
+      }
+    },
+    "spouse": {
+      "3444": {
+        "strong_evidence": "works_in_child_district_commission",
+        "age_difference": 0,
+        "name": {
+          "last": "Костин",
+          "first": "Сергей",
+          "middle": "Анатольевич"
+        },
+        "distance": 3636,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1810
+          },
+          "uik": 1810,
+          "district": "Приморский район",
+          "tik": 9,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "35": {
+        "age_difference": 2,
+        "name": {
+          "last": "Костин",
+          "first": "Станислав",
+          "middle": "Александрович"
+        },
+        "distance": 7505,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1
+          },
+          "uik": 1,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "2745": {
+        "strong_evidence": "strong_role",
+        "age_difference": 38,
+        "name": {
+          "last": "Костина",
+          "first": "Валентина",
+          "middle": "Югановна"
+        },
+        "distance": 16238,
+        "district": "Кировский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 803
+          },
+          "uik": 803,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

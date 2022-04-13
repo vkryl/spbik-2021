@@ -1,0 +1,151 @@
+{
+  "name": "Участковая избирательная комиссия №133",
+  "id": 133,
+  "type": "uik",
+  "data_id": 4784002285427,
+  "has_koib": true,
+  "district": "Василеостровский район",
+  "electoral_districts": {
+    "federal": 216,
+    "city": 4
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "216": 13,
+        "total_count": 13,
+        "winner_count": 1
+      },
+      "city": {
+        "4": 6,
+        "total_count": 6,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 20,
+        "members_with_guesses": 4,
+        "strong_count": {
+          "strong_role": 3,
+          "same_electoral_district": 2,
+          "same_commission": 2
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №133": 4
+        }
+      }
+    },
+    "violation_reports_count": 10
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 1017,
+      "party_abstained_count": 1001,
+      "party_registered_count": 2018,
+      "person_voters_count": 1017,
+      "person_abstained_count": 1001,
+      "person_registered_count": 2018,
+      "max_attached_count": 47
+    },
+    "city": {
+      "party_voters_count": 1017,
+      "party_abstained_count": 1001,
+      "party_registered_count": 2018,
+      "person_voters_count": 1017,
+      "person_abstained_count": 1001,
+      "person_registered_count": 2018
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 32,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 590,
+  "members": {
+    "chairman_id": 13004,
+    "vice_chairman_id": 13005,
+    "secretary_id": 13006,
+    "other_ids": [
+      13007,
+      13008,
+      13009,
+      13010,
+      13011,
+      13012,
+      13013,
+      13014,
+      13015
+    ],
+    "assigned_by_stats": {
+      "6": 1,
+      "10": 1,
+      "13": 3,
+      "21": 1,
+      "22": 1,
+      "28": 1,
+      "40": 1
+    },
+    "gender_stats": {
+      "male": 3,
+      "female": 9
+    },
+    "age_stats": {
+      "20": 1,
+      "27": 1,
+      "32": 2,
+      "36": 1,
+      "39": 1,
+      "41": 1,
+      "43": 2,
+      "55": 1,
+      "58": 1,
+      "65": 1
+    },
+    "source_date": 1633480755110
+  },
+  "awards": {
+    "thanks": 1
+  },
+  "election_ids": [
+    1,
+    2
+  ],
+  "violation_reports": {
+    "ids": [
+      63450,
+      63771,
+      64024,
+      64025,
+      64028,
+      64459,
+      64605,
+      64886,
+      65554,
+      65889
+    ],
+    "during": [
+      "carousel_or_stuffing",
+      "observer_rights_failure",
+      "registered_voters",
+      "other"
+    ],
+    "finale": [
+      "count_procedure_failure",
+      "other"
+    ]
+  }
+}

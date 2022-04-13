@@ -1,0 +1,95 @@
+{
+  "id": 454,
+  "data_id": 4784002383088,
+  "name": {
+    "last": "Аринушкин",
+    "first": "Павел",
+    "middle": "Андреевич"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 10,
+    "year": 1985
+  },
+  "district": "Василеостровский район",
+  "age": 35,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Аринушкин",
+    "first": "Андрей"
+  },
+  "role_id": 3,
+  "assigned_by_id": 20,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 2
+    },
+    "tik": 2,
+    "district": "Василеостровский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "works_in_child_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_in_child_commission": {
+        "count": 1,
+        "ids": 573
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 9322
+      }
+    },
+    "siblings": {
+      "9322": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 3,
+        "name": {
+          "last": "Аринушкин",
+          "first": "Александр",
+          "middle": "Андреевич"
+        },
+        "distance": 11848,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 24
+          },
+          "tik": 24,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "573": {
+        "strong_evidence": "works_in_child_commission",
+        "age_difference": 21,
+        "name": {
+          "last": "Аринушкина",
+          "first": "Наталия",
+          "middle": "Владимировна"
+        },
+        "distance": 3750,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 167
+          },
+          "uik": 167,
+          "district": "Василеостровский район",
+          "tik": 2,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

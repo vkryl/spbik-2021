@@ -1,0 +1,94 @@
+{
+  "id": 20219,
+  "data_id": 4784011351743,
+  "name": {
+    "last": "Соколова",
+    "first": "Евгения",
+    "middle": "Геннадьевна"
+  },
+  "birthdate": {
+    "day": 18,
+    "month": 7,
+    "year": 1981
+  },
+  "district": "Невский район",
+  "age": 40,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Соколов",
+    "first": "Геннадий"
+  },
+  "role_id": 1,
+  "assigned_by_id": 59,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1477
+    },
+    "uik": 1477,
+    "district": "Невский район",
+    "tik": 52,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 12149
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 13147
+      }
+    },
+    "spouse": {
+      "12149": {
+        "strong_evidence": "strong_role",
+        "age_difference": 2,
+        "name": {
+          "last": "Соколов",
+          "first": "Владимир",
+          "middle": "Александрович"
+        },
+        "distance": 4460,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 30
+          },
+          "tik": 30,
+          "district": "Центральный район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "13147": {
+        "age_difference": 15,
+        "name": {
+          "last": "Соколова",
+          "first": "Наталья",
+          "middle": "Геннадьевна"
+        },
+        "distance": 12681,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 144
+          },
+          "uik": 144,
+          "district": "Василеостровский район",
+          "tik": 32,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

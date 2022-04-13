@@ -1,0 +1,95 @@
+{
+  "id": 16428,
+  "data_id": 27820001300314,
+  "name": {
+    "last": "Городилова",
+    "first": "Юлия",
+    "middle": "Сергеевна"
+  },
+  "birthdate": {
+    "day": 15,
+    "month": 7,
+    "year": 1985
+  },
+  "district": "Кировский район",
+  "age": 36,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Городилов",
+    "first": "Сергей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 42
+    },
+    "tik": 42,
+    "district": "Кировский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "works_in_child_district_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_in_child_district_commission": {
+        "count": 1,
+        "ids": 2357
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "23055"
+      }
+    },
+    "spouse": {
+      "2357": {
+        "strong_evidence": "works_in_child_district_commission",
+        "age_difference": -8,
+        "name": {
+          "last": "Городилов",
+          "first": "Тимофей",
+          "middle": "Евгеньевич"
+        },
+        "distance": 4189,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 635
+          },
+          "uik": 635,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      },
+      "23055": {
+        "strong_evidence": "strong_role",
+        "age_difference": 4,
+        "name": {
+          "last": "Городилов",
+          "first": "Павел",
+          "middle": "Валентинович"
+        },
+        "distance": 6688,
+        "district": "Фрунзенский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2088
+          },
+          "uik": 2088,
+          "district": "Фрунзенский район",
+          "tik": 61,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

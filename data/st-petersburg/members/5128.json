@@ -1,0 +1,69 @@
+{
+  "id": 5128,
+  "data_id": 4784009257552,
+  "name": {
+    "last": "Хрущев",
+    "first": "Александр",
+    "middle": "Дмитриевич"
+  },
+  "birthdate": {
+    "day": 22,
+    "month": 6,
+    "year": 1975
+  },
+  "district": "Курортный район",
+  "age": 46,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Хрущев",
+    "first": "Дмитрий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1258
+    },
+    "uik": 1258,
+    "district": "Курортный район",
+    "tik": 13,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 5067
+      }
+    },
+    "mother": {
+      "5067": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 22,
+        "name": {
+          "last": "Хрущева",
+          "first": "Наталья",
+          "middle": "Ивановна"
+        },
+        "distance": 9897,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1252
+          },
+          "uik": 1252,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

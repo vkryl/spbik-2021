@@ -1,0 +1,172 @@
+{
+  "id": 1430,
+  "data_id": 4784011269875,
+  "name": {
+    "last": "Абрамов",
+    "first": "Сергей",
+    "middle": "Сергеевич"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 6,
+    "year": 1978
+  },
+  "district": "Невский район",
+  "age": 43,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Абрамов",
+    "first": "Сергей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 21,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1512
+    },
+    "uik": 1512,
+    "district": "Невский район",
+    "tik": 5,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 5,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 1,
+        "works_in_parent_district_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 5269
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 19713
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          6949,
+          15091
+        ]
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 20708
+      }
+    },
+    "father": {
+      "6949": {
+        "age_difference": 17,
+        "name": {
+          "last": "Абрамов",
+          "first": "Сергей",
+          "middle": "Владимирович"
+        },
+        "distance": 11113,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1296
+          },
+          "uik": 1296,
+          "district": "Московский район",
+          "tik": 19,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "15091": {
+        "age_difference": 2,
+        "name": {
+          "last": "Абрамов",
+          "first": "Денис",
+          "middle": "Сергеевич"
+        },
+        "distance": 11348,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 415
+          },
+          "uik": 415,
+          "district": "Калининский район",
+          "tik": 38,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "20708": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -22,
+        "name": {
+          "last": "Абрамов",
+          "first": "Егор",
+          "middle": "Сергеевич"
+        },
+        "distance": 12060,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1607
+          },
+          "uik": 1607,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "5269": {
+        "strong_evidence": "strong_role",
+        "age_difference": -9,
+        "name": {
+          "last": "Абрамова",
+          "first": "Екатерина",
+          "middle": "Александровна"
+        },
+        "distance": 10521,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 14
+          },
+          "tik": 14,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      },
+      "19713": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": -10,
+        "name": {
+          "last": "Абрамова",
+          "first": "Диана",
+          "middle": "Викторовна"
+        },
+        "distance": 5857,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 51
+          },
+          "tik": 51,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

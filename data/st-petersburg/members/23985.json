@@ -1,0 +1,94 @@
+{
+  "id": 23985,
+  "data_id": 4784017123281,
+  "name": {
+    "last": "Романова",
+    "first": "Екатерина",
+    "middle": "Алексеевна"
+  },
+  "birthdate": {
+    "day": 10,
+    "month": 4,
+    "year": 1994
+  },
+  "district": "Центральный район",
+  "age": 27,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Романов",
+    "first": "Алексей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 113,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2223
+    },
+    "uik": 2223,
+    "district": "Центральный район",
+    "tik": 64,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 14785
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 9299
+      }
+    },
+    "spouse": {
+      "14785": {
+        "strong_evidence": "strong_role",
+        "age_difference": 9,
+        "name": {
+          "last": "Романов",
+          "first": "Кирилл",
+          "middle": "Александрович"
+        },
+        "distance": 4001,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 37
+          },
+          "tik": 37,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "9299": {
+        "age_difference": 13,
+        "name": {
+          "last": "Романова",
+          "first": "Ольга",
+          "middle": "Алексеевна"
+        },
+        "distance": 6918,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2079
+          },
+          "uik": 2079,
+          "district": "Фрунзенский район",
+          "tik": 23,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": 19245,
+  "data_id": 4784011341869,
+  "name": {
+    "last": "Майорова",
+    "first": "Антонина",
+    "middle": "Николаевна"
+  },
+  "birthdate": {
+    "day": 9,
+    "month": 1,
+    "year": 1959
+  },
+  "district": "Невский район",
+  "age": 62,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Майоров",
+    "first": "Николай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 15,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1498
+    },
+    "uik": 1498,
+    "district": "Невский район",
+    "tik": 49,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_building": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 1761
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": 19287
+      }
+    },
+    "children": {
+      "1761": {
+        "strong_evidence": "strong_role",
+        "age_difference": -21,
+        "name": {
+          "last": "Майорова",
+          "first": "Дарья",
+          "middle": "Александровна"
+        },
+        "distance": 19466,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 6
+          },
+          "tik": 6,
+          "district": "Красносельский район",
+          "gik": "СПбИК"
+        }
+      },
+      "19287": {
+        "strong_evidence": "same_building",
+        "age_difference": -21,
+        "name": {
+          "last": "Майорова",
+          "first": "Ирина",
+          "middle": "Сергеевна"
+        },
+        "distance": 0,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1501
+          },
+          "uik": 1501,
+          "district": "Невский район",
+          "tik": 49,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

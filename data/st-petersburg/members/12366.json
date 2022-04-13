@@ -1,0 +1,91 @@
+{
+  "id": 12366,
+  "data_id": 4784030171397,
+  "name": {
+    "last": "Абрамов",
+    "first": "Никита",
+    "middle": "Васильевич"
+  },
+  "birthdate": {
+    "day": 12,
+    "month": 10,
+    "year": 1990
+  },
+  "district": "Центральный район",
+  "age": 30,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Абрамов",
+    "first": "Василий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 6,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2249
+    },
+    "uik": 2249,
+    "district": "Центральный район",
+    "tik": 30,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          5269,
+          19713
+        ]
+      }
+    },
+    "spouse": {
+      "5269": {
+        "strong_evidence": "strong_role",
+        "age_difference": 2,
+        "name": {
+          "last": "Абрамова",
+          "first": "Екатерина",
+          "middle": "Александровна"
+        },
+        "distance": 5847,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 14
+          },
+          "tik": 14,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      },
+      "19713": {
+        "strong_evidence": "strong_role",
+        "age_difference": 2,
+        "name": {
+          "last": "Абрамова",
+          "first": "Диана",
+          "middle": "Викторовна"
+        },
+        "distance": 7903,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 51
+          },
+          "tik": 51,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": 21212,
+  "data_id": 27820001311609,
+  "name": {
+    "last": "Сальникова",
+    "first": "Ольга",
+    "middle": "Олеговна"
+  },
+  "birthdate": {
+    "day": 17,
+    "month": 1,
+    "year": 1979
+  },
+  "district": "Приморский район",
+  "age": 42,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Сальников",
+    "first": "Олег"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 56
+    },
+    "tik": 56,
+    "district": "Приморский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 5,
+      "strong_guesses": {
+        "strong_role": 4
+      },
+      "siblings_with_strong_role": {
+        "count": 4,
+        "ids": [
+          "7901",
+          "8056",
+          "8981",
+          "16219"
+        ]
+      }
+    },
+    "children": {
+      "8056": {
+        "strong_evidence": "strong_role",
+        "age_difference": -18,
+        "name": {
+          "last": "Сальникова",
+          "first": "Яна",
+          "middle": "Алексеевна"
+        },
+        "distance": 31764,
+        "district": "Колпинский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 847
+          },
+          "uik": 847,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "8981": {
+        "strong_evidence": "strong_role",
+        "age_difference": 20,
+        "name": {
+          "last": "Сальникова",
+          "first": "Наталья",
+          "middle": "Александровна"
+        },
+        "distance": 5672,
+        "district": "Выборгский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": [
+            {
+              "type": "uik",
+              "id": 375
+            },
+            {
+              "type": "uik",
+              "id": 379
+            }
+          ],
+          "uik": [
+            375,
+            379
+          ],
+          "district": "Выборгский район",
+          "tik": [
+            22,
+            36
+          ],
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "7901": {
+        "strong_evidence": "strong_role",
+        "age_difference": -12,
+        "name": {
+          "last": "Сальников",
+          "first": "Вадим",
+          "middle": "Александрович"
+        },
+        "distance": 34310,
+        "district": "Колпинский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 834
+          },
+          "uik": 834,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      },
+      "16219": {
+        "strong_evidence": "strong_role",
+        "age_difference": -2,
+        "name": {
+          "last": "Сальников",
+          "first": "Евгений",
+          "middle": "Валерьевич"
+        },
+        "distance": 13139,
+        "district": "Кировский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 595
+          },
+          "uik": 595,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

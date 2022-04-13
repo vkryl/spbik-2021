@@ -1,0 +1,94 @@
+{
+  "id": 12989,
+  "data_id": 27820001300517,
+  "name": {
+    "last": "Серегин",
+    "first": "Дмитрий",
+    "middle": "Анатольевич"
+  },
+  "birthdate": {
+    "day": 6,
+    "month": 2,
+    "year": 1990
+  },
+  "district": "Василеостровский район",
+  "age": 31,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Серегин",
+    "first": "Анатолий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 32
+    },
+    "tik": 32,
+    "district": "Василеостровский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "5908",
+          "16118"
+        ]
+      }
+    },
+    "spouse": {
+      "5908": {
+        "strong_evidence": "strong_role",
+        "age_difference": 4,
+        "name": {
+          "last": "Серегина",
+          "first": "Марина",
+          "middle": "Юсуповна"
+        },
+        "distance": 4923,
+        "district": "Центральный район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2185
+          },
+          "uik": 2185,
+          "district": "Центральный район",
+          "tik": 16,
+          "gik": "СПбИК"
+        }
+      },
+      "16118": {
+        "strong_evidence": "strong_role",
+        "age_difference": 9,
+        "name": {
+          "last": "Серегина",
+          "first": "Екатерина",
+          "middle": "Александровна"
+        },
+        "distance": 4290,
+        "district": "Кировский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 586
+          },
+          "uik": 586,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

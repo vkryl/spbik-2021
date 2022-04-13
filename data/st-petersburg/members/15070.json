@@ -1,0 +1,336 @@
+{
+  "id": 15070,
+  "data_id": 27820001306587,
+  "name": {
+    "last": "Петухов",
+    "first": "Александр",
+    "middle": "Михайлович"
+  },
+  "birthdate": {
+    "day": 14,
+    "month": 3,
+    "year": 1996
+  },
+  "district": "Калининский район",
+  "age": 25,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Петухов",
+    "first": "Михаил"
+  },
+  "role_id": 4,
+  "assigned_by_id": 17,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 38
+    },
+    "tik": 38,
+    "district": "Калининский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 12,
+      "strong_guess_count": 12,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "works_in_child_district_commission": 2,
+        "strong_role": 9
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 19720
+      },
+      "siblings_in_child_district_commission": {
+        "count": 2,
+        "ids": [
+          3837,
+          3844
+        ]
+      },
+      "siblings_with_strong_role": {
+        "count": 9,
+        "ids": [
+          "7167",
+          "8164",
+          "11163",
+          "13652",
+          "16178",
+          "17031",
+          "17309",
+          "22316",
+          "24102"
+        ]
+      }
+    },
+    "father": {
+      "19720": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 40,
+        "name": {
+          "last": "Петухов",
+          "first": "Михаил",
+          "middle": "Иванович"
+        },
+        "distance": 9799,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 51
+          },
+          "tik": 51,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "3837": {
+        "strong_evidence": "works_in_child_district_commission",
+        "age_difference": 17,
+        "name": {
+          "last": "Петухов",
+          "first": "Андрей",
+          "middle": "Михайлович"
+        },
+        "distance": 10557,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 474
+          },
+          "uik": 474,
+          "district": "Калининский район",
+          "tik": 11,
+          "gik": "СПбИК"
+        }
+      },
+      "3844": {
+        "strong_evidence": "works_in_child_district_commission",
+        "age_difference": 13,
+        "name": {
+          "last": "Петухов",
+          "first": "Александр",
+          "middle": "Михайлович"
+        },
+        "distance": 10557,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 474
+          },
+          "uik": 474,
+          "district": "Калининский район",
+          "tik": 11,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "16178": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Петухова",
+          "first": "Мария",
+          "middle": "Борисовна"
+        },
+        "distance": 9587,
+        "district": "Кировский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 591
+          },
+          "uik": 591,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      },
+      "17031": {
+        "strong_evidence": "strong_role",
+        "age_difference": 13,
+        "name": {
+          "last": "Петухова",
+          "first": "Марина",
+          "middle": "Николаевна"
+        },
+        "distance": 3456,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 921
+          },
+          "uik": 921,
+          "district": "Красногвардейский район",
+          "tik": 44,
+          "gik": "СПбИК"
+        }
+      },
+      "22316": {
+        "strong_evidence": "strong_role",
+        "age_difference": 14,
+        "name": {
+          "last": "Петухова",
+          "first": "Елена",
+          "middle": "Васильевна"
+        },
+        "distance": 7656,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1844
+          },
+          "uik": 1844,
+          "district": "Приморский район",
+          "tik": 58,
+          "gik": "СПбИК"
+        }
+      },
+      "24102": {
+        "strong_evidence": "strong_role",
+        "age_difference": 13,
+        "name": {
+          "last": "Петухова",
+          "first": "Наталья",
+          "middle": "Сергеевна"
+        },
+        "distance": 3081,
+        "district": "Центральный район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2270
+          },
+          "uik": 2270,
+          "district": "Центральный район",
+          "tik": 64,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "7167": {
+        "strong_evidence": "strong_role",
+        "age_difference": 41,
+        "name": {
+          "last": "Петухова",
+          "first": "Анна",
+          "middle": "Андреевна"
+        },
+        "distance": 12852,
+        "district": "Московский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1321
+          },
+          "uik": 1321,
+          "district": "Московский район",
+          "tik": 19,
+          "gik": "СПбИК"
+        }
+      },
+      "8164": {
+        "strong_evidence": "strong_role",
+        "age_difference": 21,
+        "name": {
+          "last": "Петухова",
+          "first": "Елена",
+          "middle": "Владимировна"
+        },
+        "distance": 26784,
+        "district": "Колпинский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 856
+          },
+          "uik": 856,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      },
+      "11163": {
+        "strong_evidence": "strong_role",
+        "age_difference": 21,
+        "name": {
+          "last": "Петухова",
+          "first": "Наталия",
+          "middle": "Валерьевна"
+        },
+        "distance": 11085,
+        "district": "Московский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1386
+          },
+          "uik": 1386,
+          "district": "Московский район",
+          "tik": 27,
+          "gik": "СПбИК"
+        }
+      },
+      "13652": {
+        "strong_evidence": "strong_role",
+        "age_difference": 25,
+        "name": {
+          "last": "Петухова",
+          "first": "Марина",
+          "middle": "Юрьевна"
+        },
+        "distance": 5376,
+        "district": "Василеостровский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 128
+          },
+          "uik": 128,
+          "district": "Василеостровский район",
+          "tik": 33,
+          "gik": "СПбИК"
+        }
+      },
+      "17309": {
+        "strong_evidence": "strong_role",
+        "age_difference": 35,
+        "name": {
+          "last": "Петухова",
+          "first": "Татьяна",
+          "middle": "Германовна"
+        },
+        "distance": 4055,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 944
+          },
+          "uik": 944,
+          "district": "Красногвардейский район",
+          "tik": 44,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

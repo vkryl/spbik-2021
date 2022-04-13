@@ -1,0 +1,121 @@
+{
+  "id": 3846,
+  "data_id": 4784004439825,
+  "name": {
+    "last": "Степанов",
+    "first": "Владимир",
+    "middle": "Константинович"
+  },
+  "birthdate": {
+    "day": 29,
+    "month": 5,
+    "year": 2003
+  },
+  "district": "Калининский район",
+  "age": 18,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Степанов",
+    "first": "Константин"
+  },
+  "role_id": 4,
+  "assigned_by_id": 12,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 474
+    },
+    "uik": 474,
+    "district": "Калининский район",
+    "tik": 11,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1,
+        "works_in_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 3944
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 9330
+      },
+      "siblings_in_parent_commission": {
+        "count": 1,
+        "ids": 3773
+      }
+    },
+    "father": {
+      "3773": {
+        "strong_evidence": "works_in_parent_commission",
+        "age_difference": 22,
+        "name": {
+          "last": "Степанов",
+          "first": "Константин",
+          "middle": "Геннадьевич"
+        },
+        "distance": 10557,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 11
+          },
+          "tik": 11,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "3944": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 11,
+        "name": {
+          "last": "Степанова",
+          "first": "Любовь",
+          "middle": "Сергеевна"
+        },
+        "distance": 1430,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 484
+          },
+          "uik": 484,
+          "district": "Калининский район",
+          "tik": 11,
+          "gik": "СПбИК"
+        }
+      },
+      "9330": {
+        "strong_evidence": "strong_role",
+        "age_difference": 14,
+        "name": {
+          "last": "Степанова",
+          "first": "Александра",
+          "middle": "Евгеньевна"
+        },
+        "distance": 19157,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 24
+          },
+          "tik": 24,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

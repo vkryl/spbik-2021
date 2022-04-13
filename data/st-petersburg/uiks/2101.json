@@ -1,0 +1,55 @@
+{
+  "name": "УИК №2101",
+  "id": 2101,
+  "type": "uik",
+  "data_id": 478406182927,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Фрунзенский район",
+  "electoral_districts": {
+    "city": 21,
+    "federal": 217
+  },
+  "stats": {
+    "parties_count": {
+      "city": 8
+    },
+    "candidates_count": {
+      "city": {
+        "21": 7,
+        "total_count": 7,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 2,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 1,
+    "ballot_count": 2
+  },
+  "analysis": {
+    "city": {
+      "party_voters_count": 69,
+      "party_abstained_count": 23,
+      "party_registered_count": 92,
+      "person_voters_count": 12,
+      "person_abstained_count": 80,
+      "person_registered_count": 92,
+      "only_party_voters_count": 57
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 61,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    2,
+    1
+  ],
+  "awards": {
+    "thanks": 1
+  }
+}

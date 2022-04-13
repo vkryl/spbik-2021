@@ -1,0 +1,117 @@
+{
+  "id": 4341,
+  "data_id": 4784014283311,
+  "name": {
+    "last": "Волков",
+    "first": "Валерий",
+    "middle": "Робертович"
+  },
+  "birthdate": {
+    "day": 8,
+    "month": 4,
+    "year": 1961
+  },
+  "district": "Приморский район",
+  "age": 60,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Волков",
+    "first": "Роберт"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1742
+    },
+    "uik": 1742,
+    "district": "Приморский район",
+    "tik": 12,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "works_in_parent_district_commission": 2,
+        "same_parent_commission": 1
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 2,
+        "ids": [
+          3248,
+          21969
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 4473
+      }
+    },
+    "spouse": {
+      "3248": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": -13,
+        "name": {
+          "last": "Волкова",
+          "first": "Ольга",
+          "middle": "Александровна"
+        },
+        "distance": 2674,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 9
+          },
+          "tik": 9,
+          "district": "Приморский район",
+          "gik": "СПбИК"
+        }
+      },
+      "4473": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -6,
+        "name": {
+          "last": "Волкова",
+          "first": "Евгения",
+          "middle": "Анатольевна"
+        },
+        "distance": 1440,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1753
+          },
+          "uik": 1753,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      },
+      "21969": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": -8,
+        "name": {
+          "last": "Волкова",
+          "first": "Инесса",
+          "middle": "Евгеньевна"
+        },
+        "distance": 2674,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 58
+          },
+          "tik": 58,
+          "district": "Приморский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

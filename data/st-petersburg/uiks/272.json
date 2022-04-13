@@ -1,0 +1,193 @@
+{
+  "name": "Участковая избирательная комиссия №272",
+  "id": 272,
+  "type": "uik",
+  "data_id": 4784018245710,
+  "has_koib": false,
+  "district": "Выборгский район",
+  "electoral_districts": {
+    "federal": 213,
+    "city": 11
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "213": 11,
+        "total_count": 11,
+        "winner_count": 1
+      },
+      "city": {
+        "11": 7,
+        "total_count": 7,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 30,
+        "members_with_guesses": 6,
+        "strong_count": {
+          "same_building": 1,
+          "strong_role": 8,
+          "same_parent_commission": 9,
+          "works_in_parent_district_commission": 2,
+          "same_electoral_district": 1
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №272": 6
+        }
+      }
+    },
+    "violation_reports_count": 6
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 882,
+      "party_abstained_count": 1143,
+      "party_registered_count": 2025,
+      "person_voters_count": 874,
+      "person_abstained_count": 1151,
+      "person_registered_count": 2025,
+      "max_attached_count": 35,
+      "only_party_voters_count": 8,
+      "no_city_count": 11,
+      "no_other_count": 11,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 874,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.party",
+          "value": 863,
+          "isNegative": true
+        }
+      ],
+      "no_city_count_max": 19,
+      "only_city_registered_count": 1
+    },
+    "city": {
+      "party_voters_count": 863,
+      "party_abstained_count": 1163,
+      "party_registered_count": 2026,
+      "person_voters_count": 864,
+      "person_abstained_count": 1162,
+      "person_registered_count": 2026,
+      "only_person_voters_count": 1,
+      "no_federal_registered_count": 1,
+      "no_other_registered_count": 1,
+      "no_other_registered_count_formula": [
+        {
+          "key": "city.registered_count.person",
+          "value": 2026,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "federal.registered_count.person",
+          "value": 2025,
+          "isNegative": true
+        }
+      ],
+      "only_federal_count": 10,
+      "only_federal_count_max": 19
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 35,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 639,
+  "members": {
+    "chairman_id": 14261,
+    "vice_chairman_id": 14262,
+    "secretary_id": 14263,
+    "other_ids": [
+      14264,
+      14265,
+      14266,
+      14267,
+      14268,
+      14269,
+      14270,
+      14271,
+      14272
+    ],
+    "assigned_by_stats": {
+      "5": 1,
+      "8": 1,
+      "10": 1,
+      "11": 1,
+      "13": 2,
+      "20": 1,
+      "29": 1,
+      "91": 1
+    },
+    "gender_stats": {
+      "female": 9,
+      "male": 3
+    },
+    "age_stats": {
+      "18": 1,
+      "26": 1,
+      "41": 1,
+      "42": 1,
+      "47": 1,
+      "49": 1,
+      "60": 2,
+      "66": 1,
+      "67": 1,
+      "69": 1,
+      "73": 1
+    },
+    "source_date": 1633480817768
+  },
+  "election_ids": [
+    1,
+    2
+  ],
+  "violation_reports": {
+    "ids": [
+      61392,
+      62413,
+      63774,
+      64786,
+      64918,
+      65888
+    ],
+    "during": [
+      "observer_rights_failure",
+      "on_home",
+      "registered_voters"
+    ],
+    "complaints": {
+      "submitted": true,
+      "special_opinion": true,
+      "received_official_response": true
+    },
+    "finale": [
+      "other",
+      "count_procedure_failure",
+      "result_protocol_failure",
+      "parent_commission"
+    ],
+    "threats": {
+      "death": true
+    }
+  }
+}

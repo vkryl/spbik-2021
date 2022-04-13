@@ -1,0 +1,95 @@
+{
+  "id": 12244,
+  "data_id": 4784030198224,
+  "name": {
+    "last": "Колосова",
+    "first": "Александра",
+    "middle": "Игоревна"
+  },
+  "birthdate": {
+    "day": 29,
+    "month": 5,
+    "year": 1995
+  },
+  "district": "Центральный район",
+  "age": 26,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Колосов",
+    "first": "Игорь"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2239
+    },
+    "uik": 2239,
+    "district": "Центральный район",
+    "tik": 30,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 12245
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 3002
+      }
+    },
+    "siblings": {
+      "3002": {
+        "age_difference": 26,
+        "name": {
+          "last": "Колосова",
+          "first": "Анна",
+          "middle": "Игоревна"
+        },
+        "distance": null,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1681
+          },
+          "uik": 1681,
+          "district": "Петродворцовый район",
+          "tik": 8,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "12245": {
+        "strong_evidence": "same_commission",
+        "age_difference": 21,
+        "name": {
+          "last": "Колосова",
+          "first": "Альфия",
+          "middle": "Нурулловна"
+        },
+        "distance": 0,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2239
+          },
+          "uik": 2239,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": 16800,
+  "data_id": 27820001300063,
+  "name": {
+    "last": "Швец",
+    "first": "Татьяна",
+    "middle": "Витальевна"
+  },
+  "birthdate": {
+    "day": 11,
+    "month": 11,
+    "year": 1972
+  },
+  "district": "Колпинский район",
+  "age": 48,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Швец",
+    "first": "Виталий"
+  },
+  "role_id": 2,
+  "assigned_by_id": 36,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 43
+    },
+    "tik": 43,
+    "district": "Колпинский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 2492
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "3296"
+      }
+    },
+    "children": {
+      "3296": {
+        "strong_evidence": "strong_role",
+        "age_difference": -24,
+        "name": {
+          "last": "Швец",
+          "first": "Николь",
+          "middle": "Дмитриевна"
+        },
+        "distance": 31837,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1796
+          },
+          "uik": 1796,
+          "district": "Приморский район",
+          "tik": 9,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "2492": {
+        "age_difference": -13,
+        "name": {
+          "last": "Швец",
+          "first": "Петр",
+          "middle": "Витальевич"
+        },
+        "distance": 23610,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 644
+          },
+          "uik": 644,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

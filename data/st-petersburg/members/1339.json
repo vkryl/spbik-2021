@@ -1,0 +1,121 @@
+{
+  "id": 1339,
+  "data_id": 4784007520149,
+  "name": {
+    "last": "Белова",
+    "first": "Ирина",
+    "middle": "Сергеевна"
+  },
+  "birthdate": {
+    "day": 23,
+    "month": 3,
+    "year": 1976
+  },
+  "district": "Красногвардейский район",
+  "age": 45,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Белов",
+    "first": "Сергей"
+  },
+  "role_id": 2,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 966
+    },
+    "uik": 966,
+    "district": "Красногвардейский район",
+    "tik": 4,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 1053
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 9288
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 17453
+      }
+    },
+    "mother": {
+      "1053": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 21,
+        "name": {
+          "last": "Белова",
+          "first": "Раиса",
+          "middle": "Яковлевна"
+        },
+        "distance": 5311,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 903
+          },
+          "uik": 903,
+          "district": "Красногвардейский район",
+          "tik": 4,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "9288": {
+        "age_difference": -11,
+        "name": {
+          "last": "Белова",
+          "first": "Ирина",
+          "middle": "Сергеевна"
+        },
+        "distance": 17426,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2078
+          },
+          "uik": 2078,
+          "district": "Фрунзенский район",
+          "tik": 23,
+          "gik": "СПбИК"
+        }
+      },
+      "17453": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 10,
+        "name": {
+          "last": "Белова",
+          "first": "Татьяна",
+          "middle": "Сергеевна"
+        },
+        "distance": 10174,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 955
+          },
+          "uik": 955,
+          "district": "Красногвардейский район",
+          "tik": 44,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

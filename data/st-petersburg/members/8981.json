@@ -1,0 +1,109 @@
+{
+  "id": 8981,
+  "data_id": 4784024391554,
+  "name": {
+    "last": "Сальникова",
+    "first": "Наталья",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 9,
+    "month": 3,
+    "year": 1958
+  },
+  "district": "Выборгский район",
+  "age": 63,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Сальников",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": [
+      {
+        "type": "uik",
+        "id": 375
+      },
+      {
+        "type": "uik",
+        "id": 379
+      }
+    ],
+    "uik": [
+      375,
+      379
+    ],
+    "district": "Выборгский район",
+    "tik": [
+      22,
+      36
+    ],
+    "gik": "СПбИК"
+  },
+  "other_data_ids": [
+    4784024126061
+  ],
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 21212
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 7901
+      }
+    },
+    "children": {
+      "21212": {
+        "strong_evidence": "strong_role",
+        "age_difference": -20,
+        "name": {
+          "last": "Сальникова",
+          "first": "Ольга",
+          "middle": "Олеговна"
+        },
+        "distance": 5672,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 56
+          },
+          "tik": 56,
+          "district": "Приморский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "7901": {
+        "age_difference": -33,
+        "name": {
+          "last": "Сальников",
+          "first": "Вадим",
+          "middle": "Александрович"
+        },
+        "distance": 36454,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 834
+          },
+          "uik": 834,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

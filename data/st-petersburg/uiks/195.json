@@ -1,0 +1,50 @@
+{
+  "name": "УИК №195",
+  "id": 195,
+  "type": "uik",
+  "data_id": 478403291485,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Василеостровский район",
+  "electoral_districts": {
+    "federal": 216
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14
+    },
+    "candidates_count": {
+      "federal": {
+        "216": 13,
+        "total_count": 13,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 2,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 1,
+    "ballot_count": 1
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 17,
+      "party_abstained_count": 4,
+      "party_registered_count": 21,
+      "person_voters_count": 1,
+      "person_registered_count": 1,
+      "only_party_voters_count": 16,
+      "only_party_registered_count": 20
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 32,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1
+  ]
+}

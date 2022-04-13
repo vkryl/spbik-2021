@@ -1,0 +1,94 @@
+{
+  "id": 21308,
+  "data_id": 4784028208673,
+  "name": {
+    "last": "Озерова",
+    "first": "Наталья",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 12,
+    "month": 5,
+    "year": 1987
+  },
+  "district": "Приморский район",
+  "age": 34,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Озеров",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 15,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1934
+    },
+    "uik": 1934,
+    "district": "Приморский район",
+    "tik": 56,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 21309
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 15702
+      }
+    },
+    "siblings": {
+      "15702": {
+        "age_difference": 5,
+        "name": {
+          "last": "Озерова",
+          "first": "Наталья",
+          "middle": "Александровна"
+        },
+        "distance": 9024,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 40
+          },
+          "tik": 40,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "21309": {
+        "strong_evidence": "same_commission",
+        "age_difference": 32,
+        "name": {
+          "last": "Озерова",
+          "first": "Наталья",
+          "middle": "Михайловна"
+        },
+        "distance": 0,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1934
+          },
+          "uik": 1934,
+          "district": "Приморский район",
+          "tik": 56,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

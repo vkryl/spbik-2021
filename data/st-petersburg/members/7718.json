@@ -1,0 +1,124 @@
+{
+  "id": 7718,
+  "data_id": 4784015125608,
+  "name": {
+    "last": "Гусев",
+    "first": "Михаил",
+    "middle": "Валерьевич"
+  },
+  "birthdate": {
+    "day": 11,
+    "month": 3,
+    "year": 1980
+  },
+  "district": "Пушкинский район",
+  "age": 41,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Гусев",
+    "first": "Валерий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 8,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1989
+    },
+    "uik": 1989,
+    "district": "Пушкинский район",
+    "tik": 20,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 7675
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 19085
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 2341
+      }
+    },
+    "spouse": {
+      "7675": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 14,
+        "name": {
+          "last": "Гусева",
+          "first": "Елена",
+          "middle": "Леоновна"
+        },
+        "distance": 594,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1985
+          },
+          "uik": 1985,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "2341": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -9,
+        "name": {
+          "last": "Гусева",
+          "first": "Алиса",
+          "middle": "Валерьевна"
+        },
+        "distance": 22725,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 634
+          },
+          "uik": 634,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "19085": {
+        "strong_evidence": "strong_role",
+        "age_difference": 16,
+        "name": {
+          "last": "Гусева",
+          "first": "Мария",
+          "middle": "Николаевна"
+        },
+        "distance": 21935,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 49
+          },
+          "tik": 49,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

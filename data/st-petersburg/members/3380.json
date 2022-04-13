@@ -1,0 +1,93 @@
+{
+  "id": 3380,
+  "data_id": 4784023299676,
+  "name": {
+    "last": "Сорокина",
+    "first": "Диана",
+    "middle": "Дмитриевна"
+  },
+  "birthdate": {
+    "day": 18,
+    "month": 4,
+    "year": 1996
+  },
+  "district": "Приморский район",
+  "age": 25,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Сорокин",
+    "first": "Дмитрий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1804
+    },
+    "uik": 1804,
+    "district": "Приморский район",
+    "tik": 9,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          11776,
+          21036
+        ]
+      }
+    },
+    "spouse": {
+      "21036": {
+        "strong_evidence": "strong_role",
+        "age_difference": 9,
+        "name": {
+          "last": "Сорокин",
+          "first": "Сергей",
+          "middle": "Андреевич"
+        },
+        "distance": 26026,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 55
+          },
+          "tik": 55,
+          "district": "Петродворцовый район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "11776": {
+        "strong_evidence": "strong_role",
+        "age_difference": 19,
+        "name": {
+          "last": "Сорокина",
+          "first": "Анна",
+          "middle": "Борисовна"
+        },
+        "distance": 15415,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 29
+          },
+          "tik": 29,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

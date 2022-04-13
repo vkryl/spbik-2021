@@ -1,0 +1,125 @@
+{
+  "id": 9360,
+  "data_id": 4784022142537,
+  "name": {
+    "last": "Антонова",
+    "first": "Марина",
+    "middle": "Игоревна"
+  },
+  "birthdate": {
+    "day": 28,
+    "month": 9,
+    "year": 1988
+  },
+  "district": "Невский район",
+  "age": 32,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Антонов",
+    "first": "Игорь"
+  },
+  "role_id": 1,
+  "assigned_by_id": 6,
+  "awards": [
+    "thanks"
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1547
+    },
+    "uik": 1547,
+    "district": "Невский район",
+    "tik": 24,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 18
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 9363
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 9436
+      }
+    },
+    "mother": {
+      "9436": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 32,
+        "name": {
+          "last": "Антонова",
+          "first": "Надежда",
+          "middle": "Анатольевна"
+        },
+        "distance": 965,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1553
+          },
+          "uik": 1553,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "18": {
+        "strong_evidence": "strong_role",
+        "age_difference": -13,
+        "name": {
+          "last": "Антонов",
+          "first": "Михаил",
+          "middle": "Евгеньевич"
+        },
+        "distance": 6801,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 1
+          },
+          "tik": 1,
+          "district": "Адмиралтейский район",
+          "gik": "СПбИК"
+        }
+      },
+      "9363": {
+        "strong_evidence": "same_commission",
+        "age_difference": 3,
+        "name": {
+          "last": "Антонов",
+          "first": "Константин",
+          "middle": "Дмитриевич"
+        },
+        "distance": 0,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1547
+          },
+          "uik": 1547,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

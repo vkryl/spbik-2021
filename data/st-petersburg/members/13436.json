@@ -1,0 +1,97 @@
+{
+  "id": 13436,
+  "data_id": 4784002283596,
+  "name": {
+    "last": "Кушнирова",
+    "first": "Ольга",
+    "middle": "Григорьевна"
+  },
+  "birthdate": {
+    "day": 21,
+    "month": 9,
+    "year": 1992
+  },
+  "district": "Василеостровский район",
+  "age": 28,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Кушниров",
+    "first": "Григорий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 110
+    },
+    "uik": 110,
+    "district": "Василеостровский район",
+    "tik": 33,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 13432
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 13535
+      }
+    },
+    "spouse": {
+      "13432": {
+        "strong_evidence": "same_commission",
+        "age_difference": 1,
+        "name": {
+          "last": "Кушниров",
+          "first": "Александр",
+          "middle": "Андреевич"
+        },
+        "distance": 0,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 110
+          },
+          "uik": 110,
+          "district": "Василеостровский район",
+          "tik": 33,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "13535": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 29,
+        "name": {
+          "last": "Кушнирова",
+          "first": "Алла",
+          "middle": "Александровна"
+        },
+        "distance": 1915,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 118
+          },
+          "uik": 118,
+          "district": "Василеостровский район",
+          "tik": 33,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

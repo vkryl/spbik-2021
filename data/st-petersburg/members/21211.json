@@ -1,0 +1,69 @@
+{
+  "id": 21211,
+  "data_id": 27820001311373,
+  "name": {
+    "last": "Метельский",
+    "first": "Станислав",
+    "middle": "Феликсович"
+  },
+  "birthdate": {
+    "day": 29,
+    "month": 7,
+    "year": 1982
+  },
+  "district": "Приморский район",
+  "age": 39,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Метельский",
+    "first": "Феликс"
+  },
+  "role_id": 4,
+  "assigned_by_id": 6,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 56
+    },
+    "tik": 56,
+    "district": "Приморский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "6900"
+      }
+    },
+    "spouse": {
+      "6900": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Метельская",
+          "first": "Екатерина",
+          "middle": "Евгеньевна"
+        },
+        "distance": 12842,
+        "district": "Московский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1290
+          },
+          "uik": 1290,
+          "district": "Московский район",
+          "tik": 19,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 7296,
+  "data_id": 4784015253698,
+  "name": {
+    "last": "Зубова",
+    "first": "Евгения",
+    "middle": "Валерьевна"
+  },
+  "birthdate": {
+    "day": 28,
+    "month": 10,
+    "year": 1980
+  },
+  "district": "Пушкинский район",
+  "age": 40,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Зубов",
+    "first": "Валерий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 15,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1955
+    },
+    "uik": 1955,
+    "district": "Пушкинский район",
+    "tik": 20,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 7526
+      }
+    },
+    "mother": {
+      "7526": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 40,
+        "name": {
+          "last": "Зубова",
+          "first": "Римма",
+          "middle": "Алексеевна"
+        },
+        "distance": 3246,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1973
+          },
+          "uik": 1973,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

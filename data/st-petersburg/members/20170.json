@@ -1,0 +1,117 @@
+{
+  "id": 20170,
+  "data_id": 4784011341613,
+  "name": {
+    "last": "Козлов",
+    "first": "Сергей",
+    "middle": "Андреевич"
+  },
+  "birthdate": {
+    "day": 7,
+    "month": 9,
+    "year": 1981
+  },
+  "district": "Невский район",
+  "age": 40,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Козлов",
+    "first": "Андрей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1473
+    },
+    "uik": 1473,
+    "district": "Невский район",
+    "tik": 52,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 9885
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          15292,
+          15293
+        ]
+      }
+    },
+    "mother": {
+      "9885": {
+        "strong_evidence": "strong_role",
+        "age_difference": 23,
+        "name": {
+          "last": "Козлова",
+          "first": "Ольга",
+          "middle": "Петровна"
+        },
+        "distance": 6687,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 25
+          },
+          "tik": 25,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "15292": {
+        "age_difference": -2,
+        "name": {
+          "last": "Козлов",
+          "first": "Константин",
+          "middle": "Андреевич"
+        },
+        "distance": 13430,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 433
+          },
+          "uik": 433,
+          "district": "Калининский район",
+          "tik": 38,
+          "gik": "СПбИК"
+        }
+      },
+      "15293": {
+        "age_difference": -7,
+        "name": {
+          "last": "Козлова",
+          "first": "Мария",
+          "middle": "Андреевна"
+        },
+        "distance": 13430,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 433
+          },
+          "uik": 433,
+          "district": "Калининский район",
+          "tik": 38,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

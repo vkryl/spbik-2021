@@ -1,0 +1,482 @@
+{
+  "commission_name": "УИК №2321",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по единому округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 2321
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 0
+  },
+  "data_id": 0,
+  "ballot_data_id": 478403889389,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 5,
+      "position": 2,
+      "percentage": 42.25352112676056,
+      "valid_percentage": 42.857142857142854,
+      "registered_percentage": 23.62204724409449
+    },
+    "turnout": {
+      "count": 71,
+      "percentage": 55.90551181102362,
+      "walk_by_count": 0,
+      "walk_by_percentage": 0,
+      "on_home_count": 71,
+      "on_home_percentage": 55.90551181102362,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 70,
+      "valid_percentage": 55.118110236220474,
+      "invalid_count": 1,
+      "invalid_percentage": 0.7874015748031495,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 30,
+      "winning_percentage": 42.25352112676056,
+      "effective_count": 70,
+      "losing_count": 40,
+      "losing_percentage": 56.33802816901409,
+      "other_count": 1,
+      "other_percentage": 1.4084507042253522,
+      "by_place": {
+        "#1": {
+          "count": 30,
+          "percentage": 42.25352112676056
+        },
+        "#2": {
+          "count": 17,
+          "percentage": 23.943661971830984
+        },
+        "#5.333333333333333": {
+          "count": 9,
+          "percentage": 12.676056338028168
+        },
+        "#3": {
+          "count": 8,
+          "percentage": 11.267605633802818
+        },
+        "#4": {
+          "count": 4,
+          "percentage": 5.633802816901409
+        },
+        "#6": {
+          "count": 2,
+          "percentage": 2.8169014084507045
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "exceeded_papers_provide_extra_places": 0,
+      "multiple_winners": 0,
+      "checksum_valid": 1
+    },
+    "papers": {
+      "received_count": 1000,
+      "destroyed_count": 929,
+      "stationary_box_count": 0,
+      "portable_box_count": 71,
+      "valid_count": 70,
+      "invalid_count": 1,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    },
+    "voters": {
+      "registered_count": 127,
+      "walk_by_count": 0,
+      "on_home_count": 71,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Всероссийская политическая партия \"ЕДИНАЯ РОССИЯ\"",
+      "position": 2,
+      "party_id": 5,
+      "official_result": {
+        "votes_count": 30,
+        "place": 1,
+        "percentage": 42.25352112676056,
+        "valid_percentage": 42.857142857142854,
+        "registered_percentage": 23.62204724409449,
+        "display_percentage": 42.25,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "1": {
+          "percentage": 55.55555555555556,
+          "valid_percentage": 56.60377358490566
+        },
+        "3": {
+          "percentage": 44.11764705882353,
+          "valid_percentage": 44.776119402985074
+        },
+        "4": {
+          "percentage": 44.11764705882353,
+          "valid_percentage": 44.776119402985074
+        },
+        "6": {
+          "percentage": 47.61904761904761,
+          "valid_percentage": 48.38709677419355
+        },
+        "7": {
+          "percentage": 44.776119402985074,
+          "valid_percentage": 45.45454545454545
+        },
+        "8": {
+          "percentage": 44.11764705882353,
+          "valid_percentage": 44.776119402985074
+        },
+        "9": {
+          "percentage": 43.47826086956522,
+          "valid_percentage": 44.11764705882353
+        }
+      }
+    },
+    {
+      "name": "Политическая партия \"КОММУНИСТИЧЕСКАЯ ПАРТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ\"",
+      "position": 6,
+      "party_id": 1,
+      "official_result": {
+        "votes_count": 17,
+        "place": 2,
+        "percentage": 23.943661971830984,
+        "valid_percentage": 24.285714285714285,
+        "registered_percentage": 13.385826771653544,
+        "display_percentage": 23.94,
+        "winner": false,
+        "lacking_votes_count": 13
+      },
+      "result_without_other_entry": {
+        "3": {
+          "percentage": 25,
+          "valid_percentage": 25.37313432835821
+        },
+        "4": {
+          "percentage": 25,
+          "valid_percentage": 25.37313432835821
+        },
+        "5": {
+          "percentage": 41.46341463414634,
+          "valid_percentage": 42.5
+        },
+        "6": {
+          "percentage": 26.984126984126984,
+          "valid_percentage": 27.419354838709676
+        },
+        "7": {
+          "percentage": 25.37313432835821,
+          "valid_percentage": 25.757575757575758
+        },
+        "8": {
+          "percentage": 25,
+          "valid_percentage": 25.37313432835821
+        },
+        "9": {
+          "percentage": 24.637681159420293,
+          "valid_percentage": 25
+        }
+      }
+    },
+    {
+      "name": "Партия СПРАВЕДЛИВАЯ РОССИЯ – ЗА ПРАВДУ",
+      "position": 5,
+      "party_id": 6,
+      "official_result": {
+        "votes_count": 8,
+        "place": 3,
+        "percentage": 11.267605633802818,
+        "valid_percentage": 11.428571428571429,
+        "registered_percentage": 6.299212598425196,
+        "display_percentage": 11.27,
+        "winner": false,
+        "lacking_votes_count": 22
+      },
+      "result_without_other_entry": {
+        "1": {
+          "percentage": 14.814814814814813,
+          "valid_percentage": 15.09433962264151
+        },
+        "3": {
+          "percentage": 11.76470588235294,
+          "valid_percentage": 11.940298507462686
+        },
+        "4": {
+          "percentage": 11.76470588235294,
+          "valid_percentage": 11.940298507462686
+        },
+        "5": {
+          "percentage": 19.51219512195122,
+          "valid_percentage": 20
+        },
+        "7": {
+          "percentage": 11.940298507462686,
+          "valid_percentage": 12.121212121212121
+        },
+        "8": {
+          "percentage": 11.76470588235294,
+          "valid_percentage": 11.940298507462686
+        },
+        "9": {
+          "percentage": 11.594202898550725,
+          "valid_percentage": 11.76470588235294
+        }
+      }
+    },
+    {
+      "name": "Политическая партия \"Российская объединенная демократическая партия \"ЯБЛОКО\"",
+      "position": 3,
+      "party_id": 7,
+      "official_result": {
+        "votes_count": 4,
+        "place": 4,
+        "percentage": 5.633802816901409,
+        "valid_percentage": 5.714285714285714,
+        "registered_percentage": 3.149606299212598,
+        "display_percentage": 5.63,
+        "winner": false,
+        "lacking_votes_count": 26
+      },
+      "result_without_other_entry": {
+        "1": {
+          "percentage": 7.4074074074074066,
+          "valid_percentage": 7.547169811320755
+        },
+        "3": {
+          "percentage": 5.88235294117647,
+          "valid_percentage": 5.970149253731343
+        },
+        "4": {
+          "percentage": 5.88235294117647,
+          "valid_percentage": 5.970149253731343
+        },
+        "5": {
+          "percentage": 9.75609756097561,
+          "valid_percentage": 10
+        },
+        "6": {
+          "percentage": 6.349206349206349,
+          "valid_percentage": 6.451612903225806
+        },
+        "8": {
+          "percentage": 5.88235294117647,
+          "valid_percentage": 5.970149253731343
+        },
+        "9": {
+          "percentage": 5.797101449275362,
+          "valid_percentage": 5.88235294117647
+        }
+      }
+    },
+    {
+      "name": "Политическая партия \"НОВЫЕ ЛЮДИ\"",
+      "position": 1,
+      "party_id": 4,
+      "official_result": {
+        "votes_count": 3,
+        "place": 5.333333333333333,
+        "percentage": 4.225352112676056,
+        "valid_percentage": 4.285714285714286,
+        "registered_percentage": 2.3622047244094486,
+        "display_percentage": 4.23,
+        "winner": false,
+        "same_place_candidate_count": 3.0000000000000027,
+        "lacking_votes_count": 27
+      },
+      "result_without_other_entry": {
+        "1": {
+          "percentage": 5.555555555555555,
+          "valid_percentage": 5.660377358490567
+        },
+        "3": {
+          "percentage": 4.411764705882353,
+          "valid_percentage": 4.477611940298507
+        },
+        "5": {
+          "percentage": 7.317073170731707,
+          "valid_percentage": 7.5
+        },
+        "6": {
+          "percentage": 4.761904761904762,
+          "valid_percentage": 4.838709677419355
+        },
+        "7": {
+          "percentage": 4.477611940298507,
+          "valid_percentage": 4.545454545454546
+        },
+        "8": {
+          "percentage": 4.411764705882353,
+          "valid_percentage": 4.477611940298507
+        },
+        "9": {
+          "percentage": 4.3478260869565215,
+          "valid_percentage": 4.411764705882353
+        }
+      }
+    },
+    {
+      "name": "Политическая партия ЛДПР – Либерально-демократическая партия России",
+      "position": 4,
+      "party_id": 3,
+      "official_result": {
+        "votes_count": 3,
+        "place": 5.333333333333333,
+        "percentage": 4.225352112676056,
+        "valid_percentage": 4.285714285714286,
+        "registered_percentage": 2.3622047244094486,
+        "display_percentage": 4.23,
+        "winner": false,
+        "same_place_candidate_count": 3.0000000000000027,
+        "lacking_votes_count": 27
+      },
+      "result_without_other_entry": {
+        "1": {
+          "percentage": 5.555555555555555,
+          "valid_percentage": 5.660377358490567
+        },
+        "4": {
+          "percentage": 4.411764705882353,
+          "valid_percentage": 4.477611940298507
+        },
+        "5": {
+          "percentage": 7.317073170731707,
+          "valid_percentage": 7.5
+        },
+        "6": {
+          "percentage": 4.761904761904762,
+          "valid_percentage": 4.838709677419355
+        },
+        "7": {
+          "percentage": 4.477611940298507,
+          "valid_percentage": 4.545454545454546
+        },
+        "8": {
+          "percentage": 4.411764705882353,
+          "valid_percentage": 4.477611940298507
+        },
+        "9": {
+          "percentage": 4.3478260869565215,
+          "valid_percentage": 4.411764705882353
+        }
+      }
+    },
+    {
+      "name": "Всероссийская политическая партия \"ПАРТИЯ РОСТА\"",
+      "position": 8,
+      "party_id": 8,
+      "official_result": {
+        "votes_count": 3,
+        "place": 5.333333333333333,
+        "percentage": 4.225352112676056,
+        "valid_percentage": 4.285714285714286,
+        "registered_percentage": 2.3622047244094486,
+        "display_percentage": 4.23,
+        "winner": false,
+        "same_place_candidate_count": 3.0000000000000027,
+        "lacking_votes_count": 27
+      },
+      "result_without_other_entry": {
+        "1": {
+          "percentage": 5.555555555555555,
+          "valid_percentage": 5.660377358490567
+        },
+        "3": {
+          "percentage": 4.411764705882353,
+          "valid_percentage": 4.477611940298507
+        },
+        "4": {
+          "percentage": 4.411764705882353,
+          "valid_percentage": 4.477611940298507
+        },
+        "5": {
+          "percentage": 7.317073170731707,
+          "valid_percentage": 7.5
+        },
+        "6": {
+          "percentage": 4.761904761904762,
+          "valid_percentage": 4.838709677419355
+        },
+        "7": {
+          "percentage": 4.477611940298507,
+          "valid_percentage": 4.545454545454546
+        },
+        "9": {
+          "percentage": 4.3478260869565215,
+          "valid_percentage": 4.411764705882353
+        }
+      }
+    },
+    {
+      "name": "Политическая партия РОССИЙСКАЯ ПАРТИЯ СВОБОДЫ И СПРАВЕДЛИВОСТИ",
+      "position": 7,
+      "party_id": 9,
+      "official_result": {
+        "votes_count": 2,
+        "place": 6,
+        "percentage": 2.8169014084507045,
+        "valid_percentage": 2.857142857142857,
+        "registered_percentage": 1.574803149606299,
+        "display_percentage": 2.82,
+        "winner": false,
+        "lacking_votes_count": 28
+      },
+      "result_without_other_entry": {
+        "1": {
+          "percentage": 3.7037037037037033,
+          "valid_percentage": 3.7735849056603774
+        },
+        "3": {
+          "percentage": 2.941176470588235,
+          "valid_percentage": 2.9850746268656714
+        },
+        "4": {
+          "percentage": 2.941176470588235,
+          "valid_percentage": 2.9850746268656714
+        },
+        "5": {
+          "percentage": 4.878048780487805,
+          "valid_percentage": 5
+        },
+        "6": {
+          "percentage": 3.1746031746031744,
+          "valid_percentage": 3.225806451612903
+        },
+        "7": {
+          "percentage": 2.9850746268656714,
+          "valid_percentage": 3.0303030303030303
+        },
+        "8": {
+          "percentage": 2.941176470588235,
+          "valid_percentage": 2.9850746268656714
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2321
+    },
+    "uik": 2321,
+    "district": "Калининский район",
+    "tik": 38,
+    "gik": "СПбИК"
+  }
+}

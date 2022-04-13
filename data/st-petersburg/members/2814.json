@@ -1,0 +1,91 @@
+{
+  "id": 2814,
+  "data_id": 4784020415619,
+  "name": {
+    "last": "Тихомиров",
+    "first": "Дмитрий",
+    "middle": "Игоревич"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 8,
+    "year": 1981
+  },
+  "district": "Кировский район",
+  "age": 40,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Тихомиров",
+    "first": "Игорь"
+  },
+  "role_id": 3,
+  "assigned_by_id": 79,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 808
+    },
+    "uik": 808,
+    "district": "Кировский район",
+    "tik": 7,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          6454,
+          20064
+        ]
+      }
+    },
+    "spouse": {
+      "6454": {
+        "strong_evidence": "strong_role",
+        "age_difference": -1,
+        "name": {
+          "last": "Тихомирова",
+          "first": "Анна",
+          "middle": "Сергеевна"
+        },
+        "distance": 14387,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 18
+          },
+          "tik": 18,
+          "district": "Петроградский район",
+          "gik": "СПбИК"
+        }
+      },
+      "20064": {
+        "strong_evidence": "strong_role",
+        "age_difference": -5,
+        "name": {
+          "last": "Тихомирова",
+          "first": "Анастасия",
+          "middle": "Сергеевна"
+        },
+        "distance": 12216,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 52
+          },
+          "tik": 52,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": 2427,
+  "data_id": 4784020465682,
+  "name": {
+    "last": "Мельник",
+    "first": "Андрей",
+    "middle": "Владимирович"
+  },
+  "birthdate": {
+    "day": 16,
+    "month": 11,
+    "year": 1982
+  },
+  "district": "Кировский район",
+  "age": 38,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Мельник",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 639
+    },
+    "uik": 639,
+    "district": "Кировский район",
+    "tik": 7,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 2426
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 12400
+      }
+    },
+    "siblings": {
+      "2426": {
+        "strong_evidence": "same_commission",
+        "age_difference": -4,
+        "name": {
+          "last": "Мельник",
+          "first": "Алексей",
+          "middle": "Владимирович"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 639
+          },
+          "uik": 639,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      },
+      "12400": {
+        "age_difference": 29,
+        "name": {
+          "last": "Мельник",
+          "first": "Галина",
+          "middle": "Владимировна"
+        },
+        "distance": 10789,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2251
+          },
+          "uik": 2251,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

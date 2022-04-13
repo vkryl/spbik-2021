@@ -1,0 +1,147 @@
+{
+  "id": 8825,
+  "data_id": 4784024258448,
+  "name": {
+    "last": "Маркова",
+    "first": "Наталья",
+    "middle": "Анатольевна"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 10,
+    "year": 1979
+  },
+  "district": "Выборгский район",
+  "age": 41,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Марков",
+    "first": "Анатолий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 362
+    },
+    "uik": 362,
+    "district": "Выборгский район",
+    "tik": 22,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1,
+        "works_in_parent_district_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 20054
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 8474
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 23200
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 5273
+      }
+    },
+    "spouse": {
+      "20054": {
+        "strong_evidence": "strong_role",
+        "age_difference": 10,
+        "name": {
+          "last": "Марков",
+          "first": "Андрей",
+          "middle": "Евгеньевич"
+        },
+        "distance": 15438,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 52
+          },
+          "tik": 52,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "8474": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -18,
+        "name": {
+          "last": "Маркова",
+          "first": "Александра",
+          "middle": "Викторовна"
+        },
+        "distance": 4037,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 333
+          },
+          "uik": 333,
+          "district": "Выборгский район",
+          "tik": 22,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "5273": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": 0,
+        "name": {
+          "last": "Марков",
+          "first": "Сергей",
+          "middle": "Анатольевич"
+        },
+        "distance": 2418,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 14
+          },
+          "tik": 14,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      },
+      "23200": {
+        "age_difference": 21,
+        "name": {
+          "last": "Маркова",
+          "first": "Ольга",
+          "middle": "Анатольевна"
+        },
+        "distance": 16758,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2100
+          },
+          "uik": 2100,
+          "district": "Фрунзенский район",
+          "tik": 61,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

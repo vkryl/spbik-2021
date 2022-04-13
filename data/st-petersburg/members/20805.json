@@ -1,0 +1,69 @@
+{
+  "id": 20805,
+  "data_id": 4784012220978,
+  "name": {
+    "last": "Шустов",
+    "first": "Даниил",
+    "middle": "Андреевич"
+  },
+  "birthdate": {
+    "day": 26,
+    "month": 11,
+    "year": 1996
+  },
+  "district": "Петроградский район",
+  "age": 24,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Шустов",
+    "first": "Андрей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 123,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1618
+    },
+    "uik": 1618,
+    "district": "Петроградский район",
+    "tik": 54,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 20817
+      }
+    },
+    "father": {
+      "20817": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 27,
+        "name": {
+          "last": "Шустов",
+          "first": "Андрей",
+          "middle": "Николаевич"
+        },
+        "distance": 319,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1619
+          },
+          "uik": 1619,
+          "district": "Петроградский район",
+          "tik": 54,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

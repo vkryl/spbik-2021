@@ -1,0 +1,118 @@
+{
+  "id": 17488,
+  "data_id": 4784007508959,
+  "name": {
+    "last": "Крылова",
+    "first": "Алиса",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 12,
+    "month": 12,
+    "year": 1990
+  },
+  "district": "Красногвардейский район",
+  "age": 30,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Крылов",
+    "first": "Александр"
+  },
+  "role_id": 3,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 958
+    },
+    "uik": 958,
+    "district": "Красногвардейский район",
+    "tik": 44,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 17468
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          8366,
+          18769
+        ]
+      }
+    },
+    "spouse": {
+      "17468": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -9,
+        "name": {
+          "last": "Крылов",
+          "first": "Максим",
+          "middle": "Викторович"
+        },
+        "distance": 1326,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 956
+          },
+          "uik": 956,
+          "district": "Красногвардейский район",
+          "tik": 44,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "8366": {
+        "age_difference": 15,
+        "name": {
+          "last": "Крылова",
+          "first": "Елена",
+          "middle": "Александровна"
+        },
+        "distance": 24388,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 873
+          },
+          "uik": 873,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      },
+      "18769": {
+        "age_difference": 13,
+        "name": {
+          "last": "Крылова",
+          "first": "Оксана",
+          "middle": "Александровна"
+        },
+        "distance": 16065,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2334
+          },
+          "uik": 2334,
+          "district": "Красносельский район",
+          "tik": 47,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

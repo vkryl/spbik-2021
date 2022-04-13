@@ -1,0 +1,138 @@
+{
+  "id": 7675,
+  "data_id": 4784015124449,
+  "name": {
+    "last": "Гусева",
+    "first": "Елена",
+    "middle": "Леоновна"
+  },
+  "birthdate": {
+    "day": 9,
+    "month": 2,
+    "year": 1966
+  },
+  "district": "Пушкинский район",
+  "age": 55,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Гусев",
+    "first": "Леон"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1985
+    },
+    "uik": 1985,
+    "district": "Пушкинский район",
+    "tik": 20,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 3,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          5270,
+          13353,
+          22956
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 7718
+      }
+    },
+    "spouse": {
+      "5270": {
+        "strong_evidence": "strong_role",
+        "age_difference": -15,
+        "name": {
+          "last": "Гусев",
+          "first": "Андрей",
+          "middle": "Владимирович"
+        },
+        "distance": 34027,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 14
+          },
+          "tik": 14,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      },
+      "7718": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -14,
+        "name": {
+          "last": "Гусев",
+          "first": "Михаил",
+          "middle": "Валерьевич"
+        },
+        "distance": 594,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1989
+          },
+          "uik": 1989,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      },
+      "13353": {
+        "strong_evidence": "strong_role",
+        "age_difference": -11,
+        "name": {
+          "last": "Гусев",
+          "first": "Сергей",
+          "middle": "Владимирович"
+        },
+        "distance": 29525,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 33
+          },
+          "tik": 33,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      },
+      "22956": {
+        "strong_evidence": "strong_role",
+        "age_difference": -13,
+        "name": {
+          "last": "Гусев",
+          "first": "Артем",
+          "middle": "Михайлович"
+        },
+        "distance": 20109,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 61
+          },
+          "tik": 61,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

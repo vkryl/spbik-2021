@@ -1,0 +1,538 @@
+{
+  "commission_name": "УИК №25",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 25
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 1
+  },
+  "data_id": 27820001915220,
+  "ballot_data_id": 4784001384373,
+  "has_koib": false,
+  "generated_date": 1632157796000,
+  "official_result": {
+    "winner": {
+      "id": 14,
+      "position": 1,
+      "percentage": 46.89542483660131,
+      "valid_percentage": 48.397976391231026,
+      "registered_percentage": 15.563991323210413
+    },
+    "turnout": {
+      "count": 649,
+      "percentage": 35.195227765726685,
+      "walk_by_count": 640,
+      "walk_by_percentage": 34.70715835140998,
+      "on_home_count": 9,
+      "on_home_percentage": 0.4880694143167028,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 593,
+      "valid_percentage": 32.15835140997831,
+      "invalid_count": 19,
+      "invalid_percentage": 1.0303687635574839,
+      "taken_home_count": 37,
+      "taken_home_percentage": 2.0065075921908893,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 287,
+      "winning_percentage": 46.89542483660131,
+      "effective_count": 593,
+      "losing_count": 306,
+      "losing_percentage": 50,
+      "other_count": 19,
+      "other_percentage": 3.104575163398693,
+      "by_place": {
+        "#1": {
+          "count": 287,
+          "percentage": 46.89542483660131
+        },
+        "#2": {
+          "count": 124,
+          "percentage": 20.26143790849673,
+          "supported_by_smart_vote": true
+        },
+        "#3": {
+          "count": 54,
+          "percentage": 8.823529411764707
+        },
+        "#4": {
+          "count": 43,
+          "percentage": 7.026143790849673
+        },
+        "#5": {
+          "count": 30,
+          "percentage": 4.901960784313726
+        },
+        "#6": {
+          "count": 28,
+          "percentage": 4.57516339869281
+        },
+        "#7": {
+          "count": 27,
+          "percentage": 4.411764705882353
+        }
+      }
+    }
+  },
+  "turnout_protocols": {
+    "17.09.2021": {
+      "15.00": {
+        "count": 161,
+        "count_delta": 161,
+        "count_delta_per_hour": 23,
+        "count_delta_per_minute": 0.38333333333333336,
+        "percentage": 8.58,
+        "percentage_delta": 8.58,
+        "percentage_delta_per_hour": 1.2257142857142858,
+        "percentage_delta_per_minute": 0.020428571428571428,
+        "registered_count": 1876,
+        "registered_count_delta": 1876,
+        "registered_count_delta_per_hour": 268,
+        "registered_count_delta_per_minute": 4.466666666666667
+      },
+      "20.00": {
+        "count": 228,
+        "count_delta": 67,
+        "count_delta_per_hour": 13.4,
+        "count_delta_per_minute": 0.22333333333333333,
+        "percentage": 12.15,
+        "percentage_delta": 3.5700000000000003,
+        "percentage_delta_per_hour": 0.7140000000000001,
+        "percentage_delta_per_minute": 0.0119,
+        "registered_count": 1877,
+        "registered_count_delta": 1,
+        "registered_count_delta_per_hour": 0.2,
+        "registered_count_delta_per_minute": 0.0033333333333333335
+      }
+    },
+    "18.09.2021": {
+      "15.00": {
+        "count": 316,
+        "count_delta": 88,
+        "count_delta_per_hour": 12.571428571428571,
+        "count_delta_per_minute": 0.20952380952380953,
+        "percentage": 16.84,
+        "percentage_delta": 4.6899999999999995,
+        "percentage_delta_per_hour": 0.6699999999999999,
+        "percentage_delta_per_minute": 0.011166666666666665,
+        "registered_count": 1876,
+        "registered_count_delta": -1,
+        "registered_count_delta_per_hour": -0.14285714285714285,
+        "registered_count_delta_per_minute": -0.002380952380952381
+      },
+      "20.00": {
+        "count": 370,
+        "count_delta": 54,
+        "count_delta_per_hour": 10.8,
+        "count_delta_per_minute": 0.18,
+        "percentage": 19.67,
+        "percentage_delta": 2.830000000000002,
+        "percentage_delta_per_hour": 0.5660000000000004,
+        "percentage_delta_per_minute": 0.009433333333333339,
+        "registered_count": 1881,
+        "registered_count_delta": 5,
+        "registered_count_delta_per_hour": 1,
+        "registered_count_delta_per_minute": 0.016666666666666666
+      }
+    },
+    "19.09.2021": {
+      "10.00": {
+        "count": 371,
+        "count_delta": 1,
+        "count_delta_per_hour": 0.5,
+        "count_delta_per_minute": 0.008333333333333333,
+        "percentage": 20.1,
+        "percentage_delta": 0.4299999999999997,
+        "percentage_delta_per_hour": 0.21499999999999986,
+        "percentage_delta_per_minute": 0.003583333333333331
+      },
+      "12.00": {
+        "count": 407,
+        "count_delta": 36,
+        "count_delta_per_hour": 18,
+        "count_delta_per_minute": 0.3,
+        "percentage": 22.06,
+        "percentage_delta": 1.9599999999999973,
+        "percentage_delta_per_hour": 0.9799999999999986,
+        "percentage_delta_per_minute": 0.01633333333333331
+      },
+      "15.00": {
+        "count": 488,
+        "count_delta": 81,
+        "count_delta_per_hour": 27,
+        "count_delta_per_minute": 0.45,
+        "percentage": 26.48,
+        "percentage_delta": 4.420000000000002,
+        "percentage_delta_per_hour": 1.4733333333333338,
+        "percentage_delta_per_minute": 0.024555555555555567
+      },
+      "18.00": {
+        "count": 579,
+        "count_delta": 91,
+        "count_delta_per_hour": 30.333333333333332,
+        "count_delta_per_minute": 0.5055555555555555,
+        "percentage": 31.42,
+        "percentage_delta": 4.940000000000001,
+        "percentage_delta_per_hour": 1.6466666666666672,
+        "percentage_delta_per_minute": 0.027444444444444452
+      },
+      "20.00": {
+        "count": 649,
+        "count_delta": 70,
+        "count_delta_per_hour": 35,
+        "count_delta_per_minute": 0.5833333333333334,
+        "percentage": 35.195227765726685,
+        "percentage_delta": 3.775227765726683,
+        "percentage_delta_per_hour": 1.8876138828633415,
+        "percentage_delta_per_minute": 0.03146023138105569,
+        "registered_count": 1844,
+        "registered_count_delta": -37,
+        "registered_count_delta_per_hour": -3.0833333333333335,
+        "registered_count_delta_per_minute": -0.05138888888888889
+      }
+    }
+  },
+  "metadata": {
+    "analysis": {
+      "negative_turnout_registered_count_protocols": 1,
+      "negative_turnout_registered_count": 37,
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "voters": {
+      "initially_registered_count": 1877,
+      "registered_count": 1844,
+      "walk_by_count": 640,
+      "on_home_count": 9,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0,
+      "removed_count": 33
+    },
+    "papers": {
+      "received_count": 1500,
+      "destroyed_count": 851,
+      "stationary_box_count": 603,
+      "portable_box_count": 9,
+      "valid_count": 593,
+      "invalid_count": 19,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 37
+    }
+  },
+  "entries": [
+    {
+      "name": "Астахова Наталия Владимировна",
+      "position": 1,
+      "candidate_id": 14,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 287,
+        "place": 1,
+        "percentage": 46.89542483660131,
+        "valid_percentage": 48.397976391231026,
+        "registered_percentage": 15.563991323210413,
+        "display_percentage": 46.9,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "15": {
+          "percentage": 58.81147540983606,
+          "valid_percentage": 61.19402985074627
+        },
+        "16": {
+          "percentage": 49.14383561643836,
+          "valid_percentage": 50.796460176991154
+        },
+        "17": {
+          "percentage": 50.43936731107206,
+          "valid_percentage": 52.18181818181819
+        },
+        "18": {
+          "percentage": 49.059829059829056,
+          "valid_percentage": 50.70671378091873
+        },
+        "19": {
+          "percentage": 49.312714776632305,
+          "valid_percentage": 50.97690941385436
+        },
+        "20": {
+          "percentage": 51.4336917562724,
+          "valid_percentage": 53.246753246753244
+        }
+      }
+    },
+    {
+      "name": "Гусаров Евгений Евгеньевич",
+      "position": 2,
+      "candidate_id": 15,
+      "supported_by_party_id": 7,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 124,
+        "place": 2,
+        "percentage": 20.26143790849673,
+        "valid_percentage": 20.9106239460371,
+        "registered_percentage": 6.724511930585683,
+        "display_percentage": 20.26,
+        "winner": false,
+        "lacking_votes_count": 163
+      },
+      "result_without_other_entry": {
+        "14": {
+          "percentage": 38.15384615384615,
+          "valid_percentage": 40.52287581699346
+        },
+        "16": {
+          "percentage": 21.232876712328768,
+          "valid_percentage": 21.946902654867255
+        },
+        "17": {
+          "percentage": 21.79261862917399,
+          "valid_percentage": 22.545454545454547
+        },
+        "18": {
+          "percentage": 21.196581196581196,
+          "valid_percentage": 21.908127208480565
+        },
+        "19": {
+          "percentage": 21.305841924398624,
+          "valid_percentage": 22.02486678507993
+        },
+        "20": {
+          "percentage": 22.22222222222222,
+          "valid_percentage": 23.00556586270872
+        }
+      }
+    },
+    {
+      "name": "Топровер Игорь Викторович",
+      "position": 7,
+      "candidate_id": 20,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 54,
+        "place": 3,
+        "percentage": 8.823529411764707,
+        "valid_percentage": 9.106239460370995,
+        "registered_percentage": 2.928416485900217,
+        "display_percentage": 8.82,
+        "winner": false,
+        "lacking_votes_count": 233
+      },
+      "result_without_other_entry": {
+        "14": {
+          "percentage": 16.615384615384617,
+          "valid_percentage": 17.647058823529413
+        },
+        "15": {
+          "percentage": 11.065573770491802,
+          "valid_percentage": 11.513859275053305
+        },
+        "16": {
+          "percentage": 9.246575342465754,
+          "valid_percentage": 9.557522123893806
+        },
+        "17": {
+          "percentage": 9.490333919156415,
+          "valid_percentage": 9.818181818181818
+        },
+        "18": {
+          "percentage": 9.230769230769232,
+          "valid_percentage": 9.540636042402827
+        },
+        "19": {
+          "percentage": 9.278350515463918,
+          "valid_percentage": 9.591474245115453
+        }
+      }
+    },
+    {
+      "name": "Лаврова Ксения Кирилловна",
+      "position": 4,
+      "candidate_id": 17,
+      "supported_by_party_id": 6,
+      "official_result": {
+        "votes_count": 43,
+        "place": 4,
+        "percentage": 7.026143790849673,
+        "valid_percentage": 7.251264755480608,
+        "registered_percentage": 2.331887201735358,
+        "display_percentage": 7.03,
+        "winner": false,
+        "lacking_votes_count": 244
+      },
+      "result_without_other_entry": {
+        "14": {
+          "percentage": 13.230769230769232,
+          "valid_percentage": 14.052287581699346
+        },
+        "15": {
+          "percentage": 8.811475409836065,
+          "valid_percentage": 9.168443496801707
+        },
+        "16": {
+          "percentage": 7.363013698630137,
+          "valid_percentage": 7.610619469026549
+        },
+        "18": {
+          "percentage": 7.350427350427351,
+          "valid_percentage": 7.597173144876325
+        },
+        "19": {
+          "percentage": 7.3883161512027495,
+          "valid_percentage": 7.63765541740675
+        },
+        "20": {
+          "percentage": 7.706093189964158,
+          "valid_percentage": 7.977736549165121
+        }
+      }
+    },
+    {
+      "name": "Савёлов Владимир Александрович",
+      "position": 6,
+      "candidate_id": 19,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 30,
+        "place": 5,
+        "percentage": 4.901960784313726,
+        "valid_percentage": 5.059021922428331,
+        "registered_percentage": 1.6268980477223427,
+        "display_percentage": 4.9,
+        "winner": false,
+        "lacking_votes_count": 257
+      },
+      "result_without_other_entry": {
+        "14": {
+          "percentage": 9.230769230769232,
+          "valid_percentage": 9.803921568627452
+        },
+        "15": {
+          "percentage": 6.147540983606557,
+          "valid_percentage": 6.396588486140725
+        },
+        "16": {
+          "percentage": 5.136986301369863,
+          "valid_percentage": 5.3097345132743365
+        },
+        "17": {
+          "percentage": 5.272407732864675,
+          "valid_percentage": 5.454545454545454
+        },
+        "18": {
+          "percentage": 5.128205128205128,
+          "valid_percentage": 5.30035335689046
+        },
+        "20": {
+          "percentage": 5.376344086021505,
+          "valid_percentage": 5.565862708719852
+        }
+      }
+    },
+    {
+      "name": "Дунюшин Александр Вячеславович",
+      "position": 3,
+      "candidate_id": 16,
+      "supported_by_party_id": 4,
+      "official_result": {
+        "votes_count": 28,
+        "place": 6,
+        "percentage": 4.57516339869281,
+        "valid_percentage": 4.721753794266442,
+        "registered_percentage": 1.5184381778741864,
+        "display_percentage": 4.58,
+        "winner": false,
+        "lacking_votes_count": 259
+      },
+      "result_without_other_entry": {
+        "14": {
+          "percentage": 8.615384615384615,
+          "valid_percentage": 9.15032679738562
+        },
+        "15": {
+          "percentage": 5.737704918032787,
+          "valid_percentage": 5.970149253731343
+        },
+        "17": {
+          "percentage": 4.92091388400703,
+          "valid_percentage": 5.090909090909091
+        },
+        "18": {
+          "percentage": 4.786324786324787,
+          "valid_percentage": 4.946996466431095
+        },
+        "19": {
+          "percentage": 4.810996563573884,
+          "valid_percentage": 4.9733570159857905
+        },
+        "20": {
+          "percentage": 5.017921146953405,
+          "valid_percentage": 5.194805194805195
+        }
+      }
+    },
+    {
+      "name": "Мозговой Илья Александрович",
+      "position": 5,
+      "candidate_id": 18,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 27,
+        "place": 7,
+        "percentage": 4.411764705882353,
+        "valid_percentage": 4.5531197301854975,
+        "registered_percentage": 1.4642082429501084,
+        "display_percentage": 4.41,
+        "winner": false,
+        "lacking_votes_count": 260
+      },
+      "result_without_other_entry": {
+        "14": {
+          "percentage": 8.307692307692308,
+          "valid_percentage": 8.823529411764707
+        },
+        "15": {
+          "percentage": 5.532786885245901,
+          "valid_percentage": 5.756929637526652
+        },
+        "16": {
+          "percentage": 4.623287671232877,
+          "valid_percentage": 4.778761061946903
+        },
+        "17": {
+          "percentage": 4.745166959578207,
+          "valid_percentage": 4.909090909090909
+        },
+        "19": {
+          "percentage": 4.639175257731959,
+          "valid_percentage": 4.7957371225577266
+        },
+        "20": {
+          "percentage": 4.838709677419355,
+          "valid_percentage": 5.009276437847866
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 25
+    },
+    "uik": 25,
+    "district": "Адмиралтейский район",
+    "tik": 1,
+    "gik": "СПбИК"
+  }
+}

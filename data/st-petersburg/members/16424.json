@@ -1,0 +1,144 @@
+{
+  "id": 16424,
+  "data_id": 27820001300332,
+  "name": {
+    "last": "Короткова",
+    "first": "Светлана",
+    "middle": "Валерьевна"
+  },
+  "birthdate": {
+    "day": 6,
+    "month": 8,
+    "year": 1981
+  },
+  "district": "Кировский район",
+  "age": 40,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Коротков",
+    "first": "Валерий"
+  },
+  "role_id": 2,
+  "assigned_by_id": 187,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 42
+    },
+    "tik": 42,
+    "district": "Кировский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 5,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 3
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 8427
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          "3874",
+          "10251",
+          "21277"
+        ]
+      }
+    },
+    "spouse": {
+      "8427": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -15,
+        "name": {
+          "last": "Коротков",
+          "first": "Иван",
+          "middle": "Андреевич"
+        },
+        "distance": 10616,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 22
+          },
+          "tik": 22,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      },
+      "10251": {
+        "strong_evidence": "strong_role",
+        "age_difference": -3,
+        "name": {
+          "last": "Коротков",
+          "first": "Антон",
+          "middle": "Владимирович"
+        },
+        "distance": 12792,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1003
+          },
+          "uik": 1003,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "3874": {
+        "strong_evidence": "strong_role",
+        "age_difference": 24,
+        "name": {
+          "last": "Короткова",
+          "first": "Ольга",
+          "middle": "Васильевна"
+        },
+        "distance": 16811,
+        "district": "Калининский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 477
+          },
+          "uik": 477,
+          "district": "Калининский район",
+          "tik": 11,
+          "gik": "СПбИК"
+        }
+      },
+      "21277": {
+        "strong_evidence": "strong_role",
+        "age_difference": 16,
+        "name": {
+          "last": "Короткова",
+          "first": "Надежда",
+          "middle": "Борисовна"
+        },
+        "distance": 14664,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1932
+          },
+          "uik": 1932,
+          "district": "Приморский район",
+          "tik": 56,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

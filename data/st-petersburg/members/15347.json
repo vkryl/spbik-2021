@@ -1,0 +1,123 @@
+{
+  "id": 15347,
+  "data_id": 4784004299180,
+  "name": {
+    "last": "Герасимов",
+    "first": "Дмитрий",
+    "middle": "Андреевич"
+  },
+  "birthdate": {
+    "day": 1,
+    "month": 7,
+    "year": 1970
+  },
+  "district": "Калининский район",
+  "age": 51,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Герасимов",
+    "first": "Андрей"
+  },
+  "role_id": 4,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 438
+    },
+    "uik": 438,
+    "district": "Калининский район",
+    "tik": 38,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "same_building": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 15082
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 24035
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": "15397"
+      }
+    },
+    "spouse": {
+      "15082": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 3,
+        "name": {
+          "last": "Герасимова",
+          "first": "Ольга",
+          "middle": "Викторовна"
+        },
+        "distance": 2484,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 414
+          },
+          "uik": 414,
+          "district": "Калининский район",
+          "tik": 38,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "24035": {
+        "age_difference": -28,
+        "name": {
+          "last": "Герасимов",
+          "first": "Егор",
+          "middle": "Андреевич"
+        },
+        "distance": 9952,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2264
+          },
+          "uik": 2264,
+          "district": "Центральный район",
+          "tik": 64,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "15397": {
+        "strong_evidence": "same_building",
+        "age_difference": -31,
+        "name": {
+          "last": "Герасимова",
+          "first": "Мария",
+          "middle": "Дмитриевна"
+        },
+        "distance": 0,
+        "district": "Калининский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 443
+          },
+          "uik": 443,
+          "district": "Калининский район",
+          "tik": 38,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

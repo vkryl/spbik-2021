@@ -1,0 +1,190 @@
+{
+  "name": "Участковая избирательная комиссия №6",
+  "id": 6,
+  "type": "uik",
+  "data_id": 4784001269015,
+  "has_koib": false,
+  "district": "Адмиралтейский район",
+  "electoral_districts": {
+    "federal": 216,
+    "city": 1
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "216": 13,
+        "total_count": 13,
+        "winner_count": 1
+      },
+      "city": {
+        "1": 7,
+        "total_count": 7,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 20,
+        "members_with_guesses": 8,
+        "strong_count": {
+          "same_parent_commission": 4,
+          "strong_role": 5,
+          "same_commission": 2,
+          "same_electoral_district": 1
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №6": 8
+        }
+      }
+    },
+    "violation_reports_count": 7
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 566,
+      "party_abstained_count": 972,
+      "party_registered_count": 1538,
+      "person_voters_count": 549,
+      "person_abstained_count": 989,
+      "person_registered_count": 1538,
+      "max_attached_count": 26,
+      "only_party_voters_count": 17,
+      "no_city_count": 7,
+      "no_other_count": 7,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 549,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.person",
+          "value": 542,
+          "isNegative": true
+        }
+      ],
+      "no_city_count_max": 24,
+      "no_city_registered_count": 43,
+      "no_other_registered_count": 43,
+      "no_other_registered_count_formula": [
+        {
+          "key": "federal.registered_count.person",
+          "value": 1538,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.registered_count.person",
+          "value": 1495,
+          "isNegative": true
+        }
+      ]
+    },
+    "city": {
+      "party_voters_count": 542,
+      "party_abstained_count": 974,
+      "party_registered_count": 1516,
+      "person_voters_count": 542,
+      "person_abstained_count": 953,
+      "person_registered_count": 1495,
+      "only_party_registered_count": 21,
+      "only_federal_count": 7,
+      "only_federal_count_max": 24,
+      "only_federal_registered_count": 22,
+      "only_federal_registered_count_max": 43
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 1,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 5,
+  "members": {
+    "chairman_id": 99,
+    "vice_chairman_id": 100,
+    "secretary_id": 101,
+    "other_ids": [
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112
+    ],
+    "assigned_by_stats": {
+      "5": 1,
+      "8": 1,
+      "10": 2,
+      "11": 1,
+      "13": 2,
+      "20": 1,
+      "21": 1,
+      "27": 1,
+      "28": 1
+    },
+    "gender_stats": {
+      "male": 3,
+      "female": 11
+    },
+    "age_stats": {
+      "31": 1,
+      "32": 1,
+      "34": 2,
+      "37": 1,
+      "38": 1,
+      "43": 1,
+      "44": 1,
+      "47": 1,
+      "49": 1,
+      "51": 1,
+      "61": 1,
+      "63": 1,
+      "70": 1
+    },
+    "source_date": 1633480312709
+  },
+  "election_ids": [
+    1,
+    2
+  ],
+  "violation_reports": {
+    "ids": [
+      62503,
+      62661,
+      62663,
+      62722,
+      63259,
+      64190,
+      64472
+    ],
+    "during": [
+      "observer_rights_failure",
+      "initial_setup_failure",
+      "commission_equipment_failure",
+      "registered_voters",
+      "other"
+    ],
+    "finale": [
+      "count_procedure_failure"
+    ]
+  }
+}

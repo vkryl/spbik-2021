@@ -1,0 +1,94 @@
+{
+  "id": 5249,
+  "data_id": 4784009231183,
+  "name": {
+    "last": "Новикова",
+    "first": "Полина",
+    "middle": "Андреевна"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 5,
+    "year": 1986
+  },
+  "district": "Курортный район",
+  "age": 35,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Новиков",
+    "first": "Андрей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1271
+    },
+    "uik": 1271,
+    "district": "Курортный район",
+    "tik": 13,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 5211
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 14482
+      }
+    },
+    "spouse": {
+      "5211": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 5,
+        "name": {
+          "last": "Новиков",
+          "first": "Дмитрий",
+          "middle": "Юрьевич"
+        },
+        "distance": 14399,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1267
+          },
+          "uik": 1267,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "14482": {
+        "age_difference": -4,
+        "name": {
+          "last": "Новикова",
+          "first": "Ольга",
+          "middle": "Андреевна"
+        },
+        "distance": 51264,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 36
+          },
+          "tik": 36,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

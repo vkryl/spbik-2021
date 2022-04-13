@@ -1,0 +1,119 @@
+{
+  "id": 13348,
+  "data_id": 27820001300778,
+  "name": {
+    "last": "Рахманов",
+    "first": "Алексей",
+    "middle": "Алексеевич"
+  },
+  "birthdate": {
+    "day": 17,
+    "month": 2,
+    "year": 1983
+  },
+  "district": "Василеостровский район",
+  "age": 38,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Рахманов",
+    "first": "Алексей"
+  },
+  "role_id": 2,
+  "assigned_by_id": 21,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 33
+    },
+    "tik": 33,
+    "district": "Василеостровский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 4,
+      "strong_guesses": {
+        "strong_role": 3
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          "5761",
+          "9570",
+          "21478"
+        ]
+      }
+    },
+    "mother": {
+      "9570": {
+        "strong_evidence": "strong_role",
+        "age_difference": 27,
+        "name": {
+          "last": "Рахманова",
+          "first": "Надежда",
+          "middle": "Владимировна"
+        },
+        "distance": 11386,
+        "district": "Невский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1563
+          },
+          "uik": 1563,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "5761": {
+        "strong_evidence": "strong_role",
+        "age_difference": 1,
+        "name": {
+          "last": "Рахманова",
+          "first": "Надежда",
+          "middle": "Валерьевна"
+        },
+        "distance": 29101,
+        "district": "Кронштадтский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1232
+          },
+          "uik": 1232,
+          "district": "Кронштадтский район",
+          "tik": 15,
+          "gik": "СПбИК"
+        }
+      },
+      "21478": {
+        "strong_evidence": "strong_role",
+        "age_difference": 13,
+        "name": {
+          "last": "Рахманова",
+          "first": "Наталья",
+          "middle": "Геннадьевна"
+        },
+        "distance": 11745,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2398
+          },
+          "uik": 2398,
+          "district": "Приморский район",
+          "tik": 56,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

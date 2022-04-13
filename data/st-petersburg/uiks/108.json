@@ -1,0 +1,126 @@
+{
+  "name": "Участковая избирательная комиссия №108",
+  "id": 108,
+  "type": "uik",
+  "data_id": 4784002285511,
+  "has_koib": true,
+  "district": "Василеостровский район",
+  "electoral_districts": {
+    "federal": 216,
+    "city": 4
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "216": 13,
+        "total_count": 13,
+        "winner_count": 1
+      },
+      "city": {
+        "4": 6,
+        "total_count": 6,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 8,
+        "members_with_guesses": 3,
+        "strong_count": {},
+        "commissions": {
+          "total_count": 1,
+          "УИК №108": 3
+        }
+      }
+    }
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 533,
+      "party_abstained_count": 1019,
+      "party_registered_count": 1552,
+      "person_voters_count": 492,
+      "person_abstained_count": 1039,
+      "person_registered_count": 1531,
+      "max_attached_count": 31,
+      "only_party_voters_count": 41,
+      "only_party_registered_count": 21,
+      "no_city_count_max": 41
+    },
+    "city": {
+      "party_voters_count": 492,
+      "party_abstained_count": 1039,
+      "party_registered_count": 1531,
+      "person_voters_count": 492,
+      "person_abstained_count": 1039,
+      "person_registered_count": 1531,
+      "only_federal_count_max": 41,
+      "only_federal_registered_count_max": 21
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 33,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 611,
+  "members": {
+    "chairman_id": 13408,
+    "vice_chairman_id": 13409,
+    "secretary_id": 13410,
+    "other_ids": [
+      13411,
+      13412,
+      13413,
+      13414,
+      13415,
+      13416,
+      13417,
+      13418,
+      13419
+    ],
+    "assigned_by_stats": {
+      "10": 1,
+      "11": 1,
+      "13": 2,
+      "17": 1,
+      "22": 1,
+      "28": 1,
+      "39": 1,
+      "40": 1
+    },
+    "gender_stats": {
+      "male": 5,
+      "female": 7
+    },
+    "age_stats": {
+      "27": 1,
+      "29": 1,
+      "34": 1,
+      "42": 1,
+      "45": 1,
+      "51": 1,
+      "53": 1,
+      "61": 1,
+      "63": 2,
+      "64": 1,
+      "65": 1
+    },
+    "source_date": 1633480769169
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

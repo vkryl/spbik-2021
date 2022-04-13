@@ -1,0 +1,117 @@
+{
+  "id": 13378,
+  "data_id": 4784002346707,
+  "name": {
+    "last": "Владимирова",
+    "first": "Екатерина",
+    "middle": "Сергеевна"
+  },
+  "birthdate": {
+    "day": 22,
+    "month": 4,
+    "year": 1995
+  },
+  "district": "Василеостровский район",
+  "age": 26,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Владимиров",
+    "first": "Сергей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 105
+    },
+    "uik": 105,
+    "district": "Василеостровский район",
+    "tik": 33,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          11768,
+          18803
+        ]
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 21549
+      }
+    },
+    "siblings": {
+      "21549": {
+        "age_difference": 26,
+        "name": {
+          "last": "Владимирова",
+          "first": "Юлия",
+          "middle": "Сергеевна"
+        },
+        "distance": 17614,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1729
+          },
+          "uik": 1729,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "11768": {
+        "strong_evidence": "strong_role",
+        "age_difference": 8,
+        "name": {
+          "last": "Владимиров",
+          "first": "Денис",
+          "middle": "Александрович"
+        },
+        "distance": 10661,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 29
+          },
+          "tik": 29,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      },
+      "18803": {
+        "strong_evidence": "strong_role",
+        "age_difference": 19,
+        "name": {
+          "last": "Владимиров",
+          "first": "Денис",
+          "middle": "Михайлович"
+        },
+        "distance": 6560,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 48
+          },
+          "tik": 48,
+          "district": "Московский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

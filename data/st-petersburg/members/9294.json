@@ -1,0 +1,143 @@
+{
+  "id": 9294,
+  "data_id": 4784016467160,
+  "name": {
+    "last": "Трофимова",
+    "first": "Анна",
+    "middle": "Владимировна"
+  },
+  "birthdate": {
+    "day": 8,
+    "month": 10,
+    "year": 1968
+  },
+  "district": "Фрунзенский район",
+  "age": 52,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Трофимов",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2078
+    },
+    "uik": 2078,
+    "district": "Фрунзенский район",
+    "tik": 23,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_building": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 1374
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": 9282
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          613,
+          11754
+        ]
+      }
+    },
+    "children": {
+      "1374": {
+        "strong_evidence": "strong_role",
+        "age_difference": -26,
+        "name": {
+          "last": "Трофимова",
+          "first": "Татьяна",
+          "middle": "Андреевна"
+        },
+        "distance": 3351,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 5
+          },
+          "tik": 5,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      },
+      "9282": {
+        "strong_evidence": "same_building",
+        "age_difference": -34,
+        "name": {
+          "last": "Трофимов",
+          "first": "Владимир",
+          "middle": "Сергеевич"
+        },
+        "distance": 0,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2077
+          },
+          "uik": 2077,
+          "district": "Фрунзенский район",
+          "tik": 23,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "613": {
+        "age_difference": 1,
+        "name": {
+          "last": "Трофимов",
+          "first": "Кирилл",
+          "middle": "Владимирович"
+        },
+        "distance": 14272,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 170
+          },
+          "uik": 170,
+          "district": "Василеостровский район",
+          "tik": 2,
+          "gik": "СПбИК"
+        }
+      },
+      "11754": {
+        "age_difference": -7,
+        "name": {
+          "last": "Трофимова",
+          "first": "Алла",
+          "middle": "Владимировна"
+        },
+        "distance": 17821,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1892
+          },
+          "uik": 1892,
+          "district": "Приморский район",
+          "tik": 28,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

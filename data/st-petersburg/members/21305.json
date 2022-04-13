@@ -1,0 +1,96 @@
+{
+  "id": 21305,
+  "data_id": 4784028279182,
+  "name": {
+    "last": "Ибрагимова",
+    "first": "Айшат",
+    "middle": "Абдулаевна"
+  },
+  "birthdate": {
+    "day": 12,
+    "month": 1,
+    "year": 1999
+  },
+  "district": "Приморский район",
+  "age": 22,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Ибрагимов",
+    "first": "Абдулай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1934
+    },
+    "uik": 1934,
+    "district": "Приморский район",
+    "tik": 56,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "works_in_parent_commission": 1,
+        "same_building": 1
+      },
+      "siblings_in_parent_commission": {
+        "count": 1,
+        "ids": 21208
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": 21318
+      }
+    },
+    "spouse": {
+      "21208": {
+        "strong_evidence": "works_in_parent_commission",
+        "age_difference": 18,
+        "name": {
+          "last": "Ибрагимов",
+          "first": "Икрам",
+          "middle": "Ибрагимович"
+        },
+        "distance": 5084,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 56
+          },
+          "tik": 56,
+          "district": "Приморский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "21318": {
+        "strong_evidence": "same_building",
+        "age_difference": 22,
+        "name": {
+          "last": "Ибрагимова",
+          "first": "Светлана",
+          "middle": "Гаджикурбановна"
+        },
+        "distance": 0,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1935
+          },
+          "uik": 1935,
+          "district": "Приморский район",
+          "tik": 56,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

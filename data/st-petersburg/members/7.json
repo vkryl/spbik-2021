@@ -1,0 +1,93 @@
+{
+  "id": 7,
+  "data_id": 2782000462131,
+  "name": {
+    "last": "Березин",
+    "first": "Алексей",
+    "middle": "Викторович"
+  },
+  "birthdate": {
+    "day": 15,
+    "month": 5,
+    "year": 1976
+  },
+  "age": 45,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Березин",
+    "first": "Виктор"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "gik",
+      "id": "СПбИК"
+    },
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "works_in_child_commission": 1,
+        "works_in_descendant_commission": 1
+      },
+      "siblings_in_child_commission": {
+        "count": 1,
+        "ids": 23435
+      },
+      "siblings_in_descendant_commission": {
+        "count": 1,
+        "ids": "20070"
+      }
+    },
+    "father": {
+      "23435": {
+        "strong_evidence": "works_in_child_commission",
+        "age_difference": 25,
+        "name": {
+          "last": "Березин",
+          "first": "Виктор",
+          "middle": "Наумович"
+        },
+        "distance": null,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 63
+          },
+          "tik": 63,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "20070": {
+        "strong_evidence": "works_in_descendant_commission",
+        "age_difference": -19,
+        "name": {
+          "last": "Березина",
+          "first": "Александра",
+          "middle": "Алексеевна"
+        },
+        "distance": null,
+        "district": "Невский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1466
+          },
+          "uik": 1466,
+          "district": "Невский район",
+          "tik": 52,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

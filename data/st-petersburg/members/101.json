@@ -1,0 +1,185 @@
+{
+  "id": 101,
+  "data_id": 4784001392879,
+  "name": {
+    "last": "Белов",
+    "first": "Александр",
+    "middle": "Владимирович"
+  },
+  "birthdate": {
+    "day": 20,
+    "month": 5,
+    "year": 1984
+  },
+  "district": "Адмиралтейский район",
+  "age": 37,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Белов",
+    "first": "Владимир"
+  },
+  "role_id": 3,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 6
+    },
+    "uik": 6,
+    "district": "Адмиралтейский район",
+    "tik": 1,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 6,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 105
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 6448
+      },
+      "unknown": {
+        "count": 4,
+        "ids": [
+          2840,
+          5208,
+          11126,
+          22527
+        ]
+      }
+    },
+    "spouse": {
+      "105": {
+        "strong_evidence": "same_commission",
+        "age_difference": 7,
+        "name": {
+          "last": "Белова",
+          "first": "Наталья",
+          "middle": "Валерьевна"
+        },
+        "distance": 0,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 6
+          },
+          "uik": 6,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      },
+      "6448": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Белова",
+          "first": "Юлия",
+          "middle": "Викторовна"
+        },
+        "distance": 5087,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 18
+          },
+          "tik": 18,
+          "district": "Петроградский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "2840": {
+        "age_difference": 25,
+        "name": {
+          "last": "Белова",
+          "first": "Наталия",
+          "middle": "Владимировна"
+        },
+        "distance": 9291,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 810
+          },
+          "uik": 810,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      },
+      "5208": {
+        "age_difference": 28,
+        "name": {
+          "last": "Белова",
+          "first": "Людмила",
+          "middle": "Владимировна"
+        },
+        "distance": 46596,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1267
+          },
+          "uik": 1267,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      },
+      "11126": {
+        "age_difference": 9,
+        "name": {
+          "last": "Белова",
+          "first": "Татьяна",
+          "middle": "Владимировна"
+        },
+        "distance": 6398,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1383
+          },
+          "uik": 1383,
+          "district": "Московский район",
+          "tik": 27,
+          "gik": "СПбИК"
+        }
+      },
+      "22527": {
+        "age_difference": 1,
+        "name": {
+          "last": "Белова",
+          "first": "Ольга",
+          "middle": "Владимировна"
+        },
+        "distance": 23538,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2009
+          },
+          "uik": 2009,
+          "district": "Пушкинский район",
+          "tik": 59,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": 1103,
+  "data_id": 4784007293766,
+  "name": {
+    "last": "Карпова",
+    "first": "Анастасия",
+    "middle": "Алексеевна"
+  },
+  "birthdate": {
+    "day": 21,
+    "month": 2,
+    "year": 1999
+  },
+  "district": "Красногвардейский район",
+  "age": 22,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Карпов",
+    "first": "Алексей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 55,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 907
+    },
+    "uik": 907,
+    "district": "Красногвардейский район",
+    "tik": 4,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "works_in_parent_district_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 11772
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 17504
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 2106
+      }
+    },
+    "siblings": {
+      "2106": {
+        "age_difference": 42,
+        "name": {
+          "last": "Карпова",
+          "first": "Наталия",
+          "middle": "Алексеевна"
+        },
+        "distance": 20245,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1147
+          },
+          "uik": 1147,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "11772": {
+        "strong_evidence": "strong_role",
+        "age_difference": 18,
+        "name": {
+          "last": "Карпов",
+          "first": "Вячеслав",
+          "middle": "Владимирович"
+        },
+        "distance": 11861,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 29
+          },
+          "tik": 29,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      },
+      "17504": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": 10,
+        "name": {
+          "last": "Карпов",
+          "first": "Александр",
+          "middle": "Владимирович"
+        },
+        "distance": 1463,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 45
+          },
+          "tik": 45,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

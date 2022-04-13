@@ -1,0 +1,71 @@
+{
+  "name": "УИК №2271",
+  "id": 2271,
+  "type": "uik",
+  "data_id": 478406486716,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Центральный район",
+  "electoral_districts": {
+    "federal": 211,
+    "city": 2
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "211": 11,
+        "total_count": 11,
+        "winner_count": 1
+      },
+      "city": {
+        "2": 9,
+        "total_count": 9,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 2,
+    "ballot_count": 2
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 139,
+      "party_abstained_count": 8,
+      "party_registered_count": 147,
+      "person_voters_count": 5,
+      "person_abstained_count": 142,
+      "person_registered_count": 147,
+      "only_party_voters_count": 134,
+      "no_city_count_max": 134,
+      "only_city_count_max": 97
+    },
+    "city": {
+      "party_voters_count": 102,
+      "party_abstained_count": 45,
+      "party_registered_count": 147,
+      "person_voters_count": 5,
+      "person_abstained_count": 142,
+      "person_registered_count": 147,
+      "only_party_voters_count": 97,
+      "no_federal_count_max": 97,
+      "only_federal_count_max": 134
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 64,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

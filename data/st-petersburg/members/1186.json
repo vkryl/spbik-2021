@@ -1,0 +1,120 @@
+{
+  "id": 1186,
+  "data_id": 4784007154151,
+  "name": {
+    "last": "Ильина",
+    "first": "Марина",
+    "middle": "Петровна"
+  },
+  "birthdate": {
+    "day": 28,
+    "month": 10,
+    "year": 1962
+  },
+  "district": "Красногвардейский район",
+  "age": 58,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Ильин",
+    "first": "Петр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 914
+    },
+    "uik": 914,
+    "district": "Красногвардейский район",
+    "tik": 4,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 1116
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 15066
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 1712
+      }
+    },
+    "siblings": {
+      "1712": {
+        "age_difference": -29,
+        "name": {
+          "last": "Ильина",
+          "first": "Ирина",
+          "middle": "Петровна"
+        },
+        "distance": 5731,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1532
+          },
+          "uik": 1532,
+          "district": "Невский район",
+          "tik": 5,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "1116": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -33,
+        "name": {
+          "last": "Ильина",
+          "first": "Любовь",
+          "middle": "Александровна"
+        },
+        "distance": 513,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 908
+          },
+          "uik": 908,
+          "district": "Красногвардейский район",
+          "tik": 4,
+          "gik": "СПбИК"
+        }
+      },
+      "15066": {
+        "strong_evidence": "strong_role",
+        "age_difference": -20,
+        "name": {
+          "last": "Ильина",
+          "first": "Ольга",
+          "middle": "Алексеевна"
+        },
+        "distance": 4403,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 38
+          },
+          "tik": 38,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

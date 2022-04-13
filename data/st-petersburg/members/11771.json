@@ -1,0 +1,94 @@
+{
+  "id": 11771,
+  "data_id": 4784029446212,
+  "name": {
+    "last": "Зеленский",
+    "first": "Роман",
+    "middle": "Валерьевич"
+  },
+  "birthdate": {
+    "day": 3,
+    "month": 5,
+    "year": 1975
+  },
+  "district": "Фрунзенский район",
+  "age": 46,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Зеленский",
+    "first": "Валерий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 29
+    },
+    "tik": 29,
+    "district": "Фрунзенский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "6506",
+          "8169"
+        ]
+      }
+    },
+    "spouse": {
+      "6506": {
+        "strong_evidence": "strong_role",
+        "age_difference": 1,
+        "name": {
+          "last": "Зеленская",
+          "first": "Ольга",
+          "middle": "Витальевна"
+        },
+        "distance": 11628,
+        "district": "Петроградский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1631
+          },
+          "uik": 1631,
+          "district": "Петроградский район",
+          "tik": 18,
+          "gik": "СПбИК"
+        }
+      },
+      "8169": {
+        "strong_evidence": "strong_role",
+        "age_difference": 5,
+        "name": {
+          "last": "Зеленская",
+          "first": "Татьяна",
+          "middle": "Николаевна"
+        },
+        "distance": 17022,
+        "district": "Колпинский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 857
+          },
+          "uik": 857,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": 4014,
+  "data_id": 4784004299454,
+  "name": {
+    "last": "Буров",
+    "first": "Александр",
+    "middle": "Валерьевич"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 3,
+    "year": 1985
+  },
+  "district": "Калининский район",
+  "age": 36,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Буров",
+    "first": "Валерий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 490
+    },
+    "uik": 490,
+    "district": "Калининский район",
+    "tik": 11,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 4015
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 4130
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 23557
+      }
+    },
+    "siblings": {
+      "23557": {
+        "age_difference": 16,
+        "name": {
+          "last": "Бурова",
+          "first": "Клара",
+          "middle": "Валерьевна"
+        },
+        "distance": 24076,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2159
+          },
+          "uik": 2159,
+          "district": "Фрунзенский район",
+          "tik": 63,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "4015": {
+        "strong_evidence": "same_commission",
+        "age_difference": 2,
+        "name": {
+          "last": "Бурова",
+          "first": "Анна",
+          "middle": "Николаевна"
+        },
+        "distance": 0,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 490
+          },
+          "uik": 490,
+          "district": "Калининский район",
+          "tik": 11,
+          "gik": "СПбИК"
+        }
+      },
+      "4130": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -2,
+        "name": {
+          "last": "Бурова",
+          "first": "Марина",
+          "middle": "Николаевна"
+        },
+        "distance": 986,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 501
+          },
+          "uik": 501,
+          "district": "Калининский район",
+          "tik": 11,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

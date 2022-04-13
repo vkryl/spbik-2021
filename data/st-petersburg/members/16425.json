@@ -1,0 +1,96 @@
+{
+  "id": 16425,
+  "data_id": 27820001300350,
+  "name": {
+    "last": "Лапшина",
+    "first": "Елена",
+    "middle": "Николаевна"
+  },
+  "birthdate": {
+    "day": 3,
+    "month": 7,
+    "year": 1972
+  },
+  "district": "Кировский район",
+  "age": 49,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Лапшин",
+    "first": "Николай"
+  },
+  "role_id": 3,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 42
+    },
+    "tik": 42,
+    "district": "Кировский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "10836",
+          "21620"
+        ]
+      }
+    },
+    "spouse": {
+      "10836": {
+        "strong_evidence": "strong_role",
+        "age_difference": 7,
+        "name": {
+          "last": "Лапшин",
+          "first": "Андрей",
+          "middle": "Владимирович"
+        },
+        "distance": 22573,
+        "district": "Красносельский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1207
+          },
+          "uik": 1207,
+          "district": "Красносельский район",
+          "tik": 26,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "21620": {
+        "strong_evidence": "strong_role",
+        "age_difference": 16,
+        "name": {
+          "last": "Лапшина",
+          "first": "Ирина",
+          "middle": "Ехиелевна"
+        },
+        "distance": 13461,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1897
+          },
+          "uik": 1897,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

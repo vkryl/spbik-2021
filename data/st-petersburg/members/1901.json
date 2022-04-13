@@ -1,0 +1,95 @@
+{
+  "id": 1901,
+  "data_id": 4784008601264,
+  "name": {
+    "last": "Ильина",
+    "first": "Евгения",
+    "middle": "Валерьевна"
+  },
+  "birthdate": {
+    "day": 6,
+    "month": 1,
+    "year": 1997
+  },
+  "district": "Красносельский район",
+  "age": 24,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Ильин",
+    "first": "Валерий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1068
+    },
+    "uik": 1068,
+    "district": "Красносельский район",
+    "tik": 6,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 1895
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 2123
+      }
+    },
+    "mother": {
+      "1895": {
+        "strong_evidence": "same_commission",
+        "age_difference": 25,
+        "name": {
+          "last": "Ильина",
+          "first": "Наталия",
+          "middle": "Николаевна"
+        },
+        "distance": 0,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1068
+          },
+          "uik": 1068,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      },
+      "2123": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 22,
+        "name": {
+          "last": "Ильина",
+          "first": "Ольга",
+          "middle": "Викторовна"
+        },
+        "distance": 3035,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1149
+          },
+          "uik": 1149,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

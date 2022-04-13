@@ -1,0 +1,272 @@
+{
+  "commission_name": "УИК №1665",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 1665
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 3
+  },
+  "data_id": 0,
+  "ballot_data_id": 4784012323102,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 120,
+      "position": 4,
+      "percentage": 80,
+      "valid_percentage": 80,
+      "registered_percentage": 3.1746031746031744
+    },
+    "turnout": {
+      "count": 5,
+      "percentage": 3.968253968253968,
+      "walk_by_count": 4,
+      "walk_by_percentage": 3.1746031746031744,
+      "on_home_count": 1,
+      "on_home_percentage": 0.7936507936507936,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 5,
+      "valid_percentage": 3.968253968253968,
+      "invalid_count": 0,
+      "invalid_percentage": 0,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 4,
+      "winning_percentage": 80,
+      "effective_count": 5,
+      "losing_count": 1,
+      "losing_percentage": 20,
+      "other_count": 0,
+      "other_percentage": 0,
+      "by_place": {
+        "#1": {
+          "count": 4,
+          "percentage": 80
+        },
+        "#2": {
+          "count": 1,
+          "percentage": 20,
+          "supported_by_smart_vote": true
+        },
+        "#3": {
+          "count": 0,
+          "percentage": 0
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "papers": {
+      "received_count": 300,
+      "destroyed_count": 295,
+      "stationary_box_count": 4,
+      "portable_box_count": 1,
+      "valid_count": 5,
+      "invalid_count": 0,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    },
+    "voters": {
+      "registered_count": 126,
+      "walk_by_count": 4,
+      "on_home_count": 1,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Лыбанева Марина Вячеславовна",
+      "position": 4,
+      "candidate_id": 120,
+      "supported_by_people": true,
+      "official_result": {
+        "votes_count": 4,
+        "place": 1,
+        "percentage": 80,
+        "valid_percentage": 80,
+        "registered_percentage": 3.1746031746031744,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "117": {
+          "percentage": 100,
+          "valid_percentage": 100
+        },
+        "118": {
+          "percentage": 80,
+          "valid_percentage": 80
+        },
+        "119": {
+          "percentage": 80,
+          "valid_percentage": 80
+        },
+        "121": {
+          "percentage": 80,
+          "valid_percentage": 80
+        }
+      }
+    },
+    {
+      "name": "Королев Игорь Александрович",
+      "position": 1,
+      "candidate_id": 117,
+      "supported_by_party_id": 6,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 1,
+        "place": 2,
+        "percentage": 20,
+        "valid_percentage": 20,
+        "registered_percentage": 0.7936507936507936,
+        "winner": false,
+        "lacking_votes_count": 3
+      },
+      "result_without_other_entry": {
+        "118": {
+          "percentage": 20,
+          "valid_percentage": 20
+        },
+        "119": {
+          "percentage": 20,
+          "valid_percentage": 20
+        },
+        "120": {
+          "percentage": 100,
+          "valid_percentage": 100
+        },
+        "121": {
+          "percentage": 20,
+          "valid_percentage": 20
+        }
+      }
+    },
+    {
+      "name": "Крикуненко Оксана Васильевна",
+      "position": 2,
+      "candidate_id": 118,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 0,
+        "place": 3,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 4
+      },
+      "result_without_other_entry": {
+        "117": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "119": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "120": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "121": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    },
+    {
+      "name": "Луговской Роман Андреевич",
+      "position": 3,
+      "candidate_id": 119,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 0,
+        "place": 3,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 4
+      },
+      "result_without_other_entry": {
+        "117": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "118": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "120": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "121": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    },
+    {
+      "name": "Стрелков Станислав Викторович",
+      "position": 5,
+      "candidate_id": 121,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 0,
+        "place": 3,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 4
+      },
+      "result_without_other_entry": {
+        "117": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "118": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "119": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "120": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1665
+    },
+    "uik": 1665,
+    "district": "Петроградский район",
+    "tik": 18,
+    "gik": "СПбИК"
+  }
+}

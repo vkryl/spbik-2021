@@ -1,0 +1,96 @@
+{
+  "id": 23436,
+  "data_id": 27820001308602,
+  "name": {
+    "last": "Герасименко",
+    "first": "Елена",
+    "middle": "Ивановна"
+  },
+  "birthdate": {
+    "day": 23,
+    "month": 11,
+    "year": 1979
+  },
+  "district": "Фрунзенский район",
+  "age": 41,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Герасименко",
+    "first": "Иван"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 63
+    },
+    "tik": 63,
+    "district": "Фрунзенский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "9868",
+          "13448"
+        ]
+      }
+    },
+    "spouse": {
+      "13448": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Герасименко",
+          "first": "Антон",
+          "middle": "Юрьевич"
+        },
+        "distance": 10367,
+        "district": "Василеостровский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 111
+          },
+          "uik": 111,
+          "district": "Василеостровский район",
+          "tik": 33,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "9868": {
+        "strong_evidence": "strong_role",
+        "age_difference": 17,
+        "name": {
+          "last": "Герасименко",
+          "first": "Галина",
+          "middle": "Анатольевна"
+        },
+        "distance": 2770,
+        "district": "Невский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2367
+          },
+          "uik": 2367,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

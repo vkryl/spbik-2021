@@ -1,0 +1,96 @@
+{
+  "id": 16222,
+  "data_id": 478404180583,
+  "name": {
+    "last": "Барсукова",
+    "first": "Ирина",
+    "middle": "Сергеевна"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 10,
+    "year": 1957
+  },
+  "district": "Кировский район",
+  "age": 63,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Барсуков",
+    "first": "Сергей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 595
+    },
+    "uik": 595,
+    "district": "Кировский район",
+    "tik": 41,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 19715
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 18346
+      }
+    },
+    "children": {
+      "19715": {
+        "strong_evidence": "strong_role",
+        "age_difference": -35,
+        "name": {
+          "last": "Барсукова",
+          "first": "Варвара",
+          "middle": "Антоновна"
+        },
+        "distance": 10369,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 51
+          },
+          "tik": 51,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "18346": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -32,
+        "name": {
+          "last": "Барсуков",
+          "first": "Сергей",
+          "middle": "Сергеевич"
+        },
+        "distance": 4401,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1110
+          },
+          "uik": 1110,
+          "district": "Красносельский район",
+          "tik": 47,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

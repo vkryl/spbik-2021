@@ -1,0 +1,94 @@
+{
+  "id": 17800,
+  "data_id": 478404681824,
+  "name": {
+    "last": "Кушнир",
+    "first": "Ирина",
+    "middle": "Васильевна"
+  },
+  "birthdate": {
+    "day": 30,
+    "month": 4,
+    "year": 1976
+  },
+  "district": "Красносельский район",
+  "age": 45,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Кушнир",
+    "first": "Василий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 17,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 46
+    },
+    "tik": 46,
+    "district": "Красносельский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "5782",
+          "15759"
+        ]
+      }
+    },
+    "mother": {
+      "5782": {
+        "strong_evidence": "strong_role",
+        "age_difference": 16,
+        "name": {
+          "last": "Кушнир",
+          "first": "Наталья",
+          "middle": "Владимировна"
+        },
+        "distance": 31085,
+        "district": "Кронштадтский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1234
+          },
+          "uik": 1234,
+          "district": "Кронштадтский район",
+          "tik": 15,
+          "gik": "СПбИК"
+        }
+      },
+      "15759": {
+        "strong_evidence": "strong_role",
+        "age_difference": 17,
+        "name": {
+          "last": "Кушнир",
+          "first": "Лариса",
+          "middle": "Михайловна"
+        },
+        "distance": 24423,
+        "district": "Калининский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 448
+          },
+          "uik": 448,
+          "district": "Калининский район",
+          "tik": 40,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

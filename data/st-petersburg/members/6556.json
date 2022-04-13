@@ -1,0 +1,96 @@
+{
+  "id": 6556,
+  "data_id": 4784012288848,
+  "name": {
+    "last": "Федосеева",
+    "first": "Наталья",
+    "middle": "Николаевна"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 6,
+    "year": 1982
+  },
+  "district": "Петроградский район",
+  "age": 39,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Федосеев",
+    "first": "Николай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 124,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1635
+    },
+    "uik": 1635,
+    "district": "Петроградский район",
+    "tik": 18,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 23755
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 6478
+      }
+    },
+    "spouse": {
+      "23755": {
+        "strong_evidence": "strong_role",
+        "age_difference": 16,
+        "name": {
+          "last": "Федосеев",
+          "first": "Андрей",
+          "middle": "Евгеньевич"
+        },
+        "distance": 5872,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 64
+          },
+          "tik": 64,
+          "district": "Центральный район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "6478": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 21,
+        "name": {
+          "last": "Федосеева",
+          "first": "Елена",
+          "middle": "Александровна"
+        },
+        "distance": 1030,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1628
+          },
+          "uik": 1628,
+          "district": "Петроградский район",
+          "tik": 18,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

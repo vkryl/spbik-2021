@@ -1,0 +1,120 @@
+{
+  "id": 2007,
+  "data_id": 4784008143593,
+  "name": {
+    "last": "Комарова",
+    "first": "Татьяна",
+    "middle": "Павловна"
+  },
+  "birthdate": {
+    "day": 9,
+    "month": 2,
+    "year": 1955
+  },
+  "district": "Красносельский район",
+  "age": 66,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Комаров",
+    "first": "Павел"
+  },
+  "role_id": 4,
+  "assigned_by_id": 64,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1077
+    },
+    "uik": 1077,
+    "district": "Красносельский район",
+    "tik": 6,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 19087
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          2148,
+          2177
+        ]
+      }
+    },
+    "spouse": {
+      "19087": {
+        "strong_evidence": "strong_role",
+        "age_difference": -8,
+        "name": {
+          "last": "Комаров",
+          "first": "Владимир",
+          "middle": "Александрович"
+        },
+        "distance": 13294,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 49
+          },
+          "tik": 49,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "2148": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -17,
+        "name": {
+          "last": "Комаров",
+          "first": "Павел",
+          "middle": "Юрьевич"
+        },
+        "distance": 3642,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1151
+          },
+          "uik": 1151,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      },
+      "2177": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -42,
+        "name": {
+          "last": "Комаров",
+          "first": "Михаил",
+          "middle": "Сергеевич"
+        },
+        "distance": 3642,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1153
+          },
+          "uik": 1153,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

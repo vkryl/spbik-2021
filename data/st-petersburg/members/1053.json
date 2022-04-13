@@ -1,0 +1,94 @@
+{
+  "id": 1053,
+  "data_id": 4784007293099,
+  "name": {
+    "last": "Белова",
+    "first": "Раиса",
+    "middle": "Яковлевна"
+  },
+  "birthdate": {
+    "day": 28,
+    "month": 5,
+    "year": 1954
+  },
+  "district": "Красногвардейский район",
+  "age": 67,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Белов",
+    "first": "Яковль"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 903
+    },
+    "uik": 903,
+    "district": "Красногвардейский район",
+    "tik": 4,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 1339
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 6448
+      }
+    },
+    "children": {
+      "1339": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -21,
+        "name": {
+          "last": "Белова",
+          "first": "Ирина",
+          "middle": "Сергеевна"
+        },
+        "distance": 5311,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 966
+          },
+          "uik": 966,
+          "district": "Красногвардейский район",
+          "tik": 4,
+          "gik": "СПбИК"
+        }
+      },
+      "6448": {
+        "strong_evidence": "strong_role",
+        "age_difference": -29,
+        "name": {
+          "last": "Белова",
+          "first": "Юлия",
+          "middle": "Викторовна"
+        },
+        "distance": 6188,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 18
+          },
+          "tik": 18,
+          "district": "Петроградский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

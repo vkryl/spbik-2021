@@ -1,0 +1,161 @@
+{
+  "name": "Участковая избирательная комиссия №459",
+  "id": 459,
+  "type": "uik",
+  "data_id": 4784004301018,
+  "has_koib": false,
+  "district": "Калининский район",
+  "electoral_districts": {
+    "federal": 214,
+    "city": 14
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "214": 10,
+        "total_count": 10,
+        "winner_count": 1
+      },
+      "city": {
+        "14": 8,
+        "total_count": 8,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 34,
+        "members_with_guesses": 9,
+        "strong_count": {
+          "works_in_child_commission": 1,
+          "works_in_child_district_commission": 1,
+          "strong_role": 15,
+          "same_parent_commission": 2,
+          "same_electoral_district": 1,
+          "same_commission": 2
+        },
+        "commissions": {
+          "total_count": 2,
+          "ТИК №11": 1,
+          "УИК №459": 9
+        }
+      }
+    }
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 810,
+      "party_abstained_count": 1632,
+      "party_registered_count": 2442,
+      "person_voters_count": 789,
+      "person_abstained_count": 1653,
+      "person_registered_count": 2442,
+      "max_attached_count": 18,
+      "only_party_voters_count": 21,
+      "no_city_count": 1,
+      "no_other_count": 1,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 789,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.person",
+          "value": 788,
+          "isNegative": true
+        }
+      ],
+      "no_city_count_max": 22,
+      "only_city_registered_count": 19
+    },
+    "city": {
+      "party_voters_count": 788,
+      "party_abstained_count": 1673,
+      "party_registered_count": 2461,
+      "person_voters_count": 788,
+      "person_abstained_count": 1673,
+      "person_registered_count": 2461,
+      "no_federal_registered_count": 19,
+      "no_other_registered_count": 19,
+      "no_other_registered_count_formula": [
+        {
+          "key": "city.registered_count.person",
+          "value": 2461,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "federal.registered_count.person",
+          "value": 2442,
+          "isNegative": true
+        }
+      ],
+      "only_federal_count": 1,
+      "only_federal_count_max": 22
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 40,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 696,
+  "members": {
+    "chairman_id": null,
+    "vice_chairman_id": 15866,
+    "secretary_id": 15867,
+    "other_ids": [
+      3776,
+      15868,
+      15869,
+      15870,
+      15871,
+      15872,
+      15873,
+      15874,
+      15875,
+      15876
+    ],
+    "assigned_by_stats": {
+      "0": 1,
+      "10": 3,
+      "13": 3,
+      "18": 1,
+      "31": 1,
+      "93": 1
+    },
+    "gender_stats": {
+      "male": 5,
+      "female": 7
+    },
+    "age_stats": {
+      "23": 2,
+      "26": 1,
+      "27": 2,
+      "32": 1,
+      "33": 1,
+      "34": 1,
+      "35": 1,
+      "62": 1,
+      "75": 2
+    },
+    "source_date": 1633480885657
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

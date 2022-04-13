@@ -1,0 +1,94 @@
+{
+  "id": 13352,
+  "data_id": 27820001300529,
+  "name": {
+    "last": "Голов",
+    "first": "Дмитрий",
+    "middle": "Валерьевич"
+  },
+  "birthdate": {
+    "day": 14,
+    "month": 1,
+    "year": 1981
+  },
+  "district": "Василеостровский район",
+  "age": 40,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Голов",
+    "first": "Валерий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 6,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 33
+    },
+    "tik": 33,
+    "district": "Василеостровский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "21680",
+          "22007"
+        ]
+      }
+    },
+    "mother": {
+      "21680": {
+        "strong_evidence": "strong_role",
+        "age_difference": 24,
+        "name": {
+          "last": "Голова",
+          "first": "Елена",
+          "middle": "Михайловна"
+        },
+        "distance": 9973,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1902
+          },
+          "uik": 1902,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      },
+      "22007": {
+        "strong_evidence": "strong_role",
+        "age_difference": 19,
+        "name": {
+          "last": "Голова",
+          "first": "Валентина",
+          "middle": "Аркадьевна"
+        },
+        "distance": 8836,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1814
+          },
+          "uik": 1814,
+          "district": "Приморский район",
+          "tik": 58,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

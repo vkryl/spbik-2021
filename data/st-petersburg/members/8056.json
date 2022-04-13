@@ -1,0 +1,96 @@
+{
+  "id": 8056,
+  "data_id": 4784006451073,
+  "name": {
+    "last": "Сальникова",
+    "first": "Яна",
+    "middle": "Алексеевна"
+  },
+  "birthdate": {
+    "day": 17,
+    "month": 3,
+    "year": 1997
+  },
+  "district": "Колпинский район",
+  "age": 24,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Сальников",
+    "first": "Алексей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 847
+    },
+    "uik": 847,
+    "district": "Колпинский район",
+    "tik": 21,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 7901
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 21212
+      }
+    },
+    "spouse": {
+      "7901": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 5,
+        "name": {
+          "last": "Сальников",
+          "first": "Вадим",
+          "middle": "Александрович"
+        },
+        "distance": 2718,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 834
+          },
+          "uik": 834,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "21212": {
+        "strong_evidence": "strong_role",
+        "age_difference": 18,
+        "name": {
+          "last": "Сальникова",
+          "first": "Ольга",
+          "middle": "Олеговна"
+        },
+        "distance": 31764,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 56
+          },
+          "tik": 56,
+          "district": "Приморский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": 23566,
+  "data_id": 4784029147229,
+  "name": {
+    "last": "Калинин",
+    "first": "Кирилл",
+    "middle": "Анатольевич"
+  },
+  "birthdate": {
+    "day": 4,
+    "month": 2,
+    "year": 1971
+  },
+  "district": "Фрунзенский район",
+  "age": 50,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Калинин",
+    "first": "Анатолий"
+  },
+  "role_id": 2,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2160
+    },
+    "uik": 2160,
+    "district": "Фрунзенский район",
+    "tik": 63,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 23565
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 23649
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 3070
+      }
+    },
+    "spouse": {
+      "23565": {
+        "strong_evidence": "same_commission",
+        "age_difference": 0,
+        "name": {
+          "last": "Калинина",
+          "first": "Юлия",
+          "middle": "Геннадьевна"
+        },
+        "distance": 0,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2160
+          },
+          "uik": 2160,
+          "district": "Фрунзенский район",
+          "tik": 63,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "3070": {
+        "age_difference": 1,
+        "name": {
+          "last": "Калинина",
+          "first": "Елена",
+          "middle": "Анатольевна"
+        },
+        "distance": 28059,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1687
+          },
+          "uik": 1687,
+          "district": "Петродворцовый район",
+          "tik": 8,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "23649": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -26,
+        "name": {
+          "last": "Калинин",
+          "first": "Егор",
+          "middle": "Кириллович"
+        },
+        "distance": 615,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2167
+          },
+          "uik": 2167,
+          "district": "Фрунзенский район",
+          "tik": 63,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

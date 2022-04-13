@@ -1,0 +1,121 @@
+{
+  "id": 1015,
+  "data_id": 4784007521708,
+  "name": {
+    "last": "Боровская",
+    "first": "Алиса",
+    "middle": "Владимировна"
+  },
+  "birthdate": {
+    "day": 29,
+    "month": 7,
+    "year": 1993
+  },
+  "district": "Красногвардейский район",
+  "age": 28,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Боровский",
+    "first": "Владимир"
+  },
+  "role_id": 3,
+  "awards": [
+    "thanks"
+  ],
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 4
+    },
+    "tik": 4,
+    "district": "Красногвардейский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 4,
+      "strong_guesses": {
+        "strong_role": 3
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          "1543",
+          "2494",
+          "7009"
+        ]
+      }
+    },
+    "mother": {
+      "1543": {
+        "strong_evidence": "strong_role",
+        "age_difference": 34,
+        "name": {
+          "last": "Боровская",
+          "first": "Татьяна",
+          "middle": "Борисовна"
+        },
+        "distance": 4438,
+        "district": "Невский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1520
+          },
+          "uik": 1520,
+          "district": "Невский район",
+          "tik": 5,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "2494": {
+        "strong_evidence": "strong_role",
+        "age_difference": -3,
+        "name": {
+          "last": "Боровский",
+          "first": "Олег",
+          "middle": "Игоревич"
+        },
+        "distance": 15334,
+        "district": "Кировский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 644
+          },
+          "uik": 644,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      },
+      "7009": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Боровский",
+          "first": "Георгий",
+          "middle": "Александрович"
+        },
+        "distance": 12038,
+        "district": "Московский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1303
+          },
+          "uik": 1303,
+          "district": "Московский район",
+          "tik": 19,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

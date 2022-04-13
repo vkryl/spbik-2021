@@ -1,0 +1,333 @@
+{
+  "commission_name": "УИК №2322",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 2322
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 6
+  },
+  "data_id": 0,
+  "ballot_data_id": 478403889390,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 166,
+      "position": 4,
+      "percentage": 90.21739130434783,
+      "valid_percentage": 90.21739130434783,
+      "registered_percentage": 73.45132743362832
+    },
+    "turnout": {
+      "count": 92,
+      "percentage": 81.41592920353983,
+      "walk_by_count": 21,
+      "walk_by_percentage": 18.58407079646018,
+      "on_home_count": 71,
+      "on_home_percentage": 62.83185840707964,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 92,
+      "valid_percentage": 81.41592920353983,
+      "invalid_count": 0,
+      "invalid_percentage": 0,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 83,
+      "winning_percentage": 90.21739130434783,
+      "effective_count": 92,
+      "losing_count": 9,
+      "losing_percentage": 9.782608695652174,
+      "other_count": 0,
+      "other_percentage": 0,
+      "by_place": {
+        "#1": {
+          "count": 83,
+          "percentage": 90.21739130434783
+        },
+        "#2": {
+          "count": 4,
+          "percentage": 4.3478260869565215,
+          "supported_by_smart_vote": true
+        },
+        "#4": {
+          "count": 3,
+          "percentage": 3.260869565217391
+        },
+        "#3": {
+          "count": 2,
+          "percentage": 2.1739130434782608
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "papers": {
+      "received_count": 1000,
+      "destroyed_count": 908,
+      "stationary_box_count": 21,
+      "portable_box_count": 71,
+      "valid_count": 92,
+      "invalid_count": 0,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    },
+    "voters": {
+      "registered_count": 113,
+      "walk_by_count": 21,
+      "on_home_count": 71,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Васильев Дмитрий Владимирович",
+      "position": 4,
+      "candidate_id": 166,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 83,
+        "place": 1,
+        "percentage": 90.21739130434783,
+        "valid_percentage": 90.21739130434783,
+        "registered_percentage": 73.45132743362832,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "163": {
+          "percentage": 91.20879120879121,
+          "valid_percentage": 91.20879120879121
+        },
+        "164": {
+          "percentage": 94.31818181818183,
+          "valid_percentage": 94.31818181818183
+        },
+        "165": {
+          "percentage": 91.20879120879121,
+          "valid_percentage": 91.20879120879121
+        },
+        "167": {
+          "percentage": 91.20879120879121,
+          "valid_percentage": 91.20879120879121
+        },
+        "168": {
+          "percentage": 92.22222222222223,
+          "valid_percentage": 92.22222222222223
+        }
+      }
+    },
+    {
+      "name": "Амосов Михаил Иванович",
+      "position": 2,
+      "candidate_id": 164,
+      "supported_by_party_id": 6,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 4,
+        "place": 2,
+        "percentage": 4.3478260869565215,
+        "valid_percentage": 4.3478260869565215,
+        "registered_percentage": 3.5398230088495577,
+        "winner": false,
+        "lacking_votes_count": 79
+      },
+      "result_without_other_entry": {
+        "163": {
+          "percentage": 4.395604395604396,
+          "valid_percentage": 4.395604395604396
+        },
+        "165": {
+          "percentage": 4.395604395604396,
+          "valid_percentage": 4.395604395604396
+        },
+        "166": {
+          "percentage": 44.44444444444444,
+          "valid_percentage": 44.44444444444444
+        },
+        "167": {
+          "percentage": 4.395604395604396,
+          "valid_percentage": 4.395604395604396
+        },
+        "168": {
+          "percentage": 4.444444444444445,
+          "valid_percentage": 4.444444444444445
+        }
+      }
+    },
+    {
+      "name": "Тихонов Михаил Юрьевич",
+      "position": 6,
+      "candidate_id": 168,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 2,
+        "place": 3,
+        "percentage": 2.1739130434782608,
+        "valid_percentage": 2.1739130434782608,
+        "registered_percentage": 1.7699115044247788,
+        "winner": false,
+        "lacking_votes_count": 81
+      },
+      "result_without_other_entry": {
+        "163": {
+          "percentage": 2.197802197802198,
+          "valid_percentage": 2.197802197802198
+        },
+        "164": {
+          "percentage": 2.272727272727273,
+          "valid_percentage": 2.272727272727273
+        },
+        "165": {
+          "percentage": 2.197802197802198,
+          "valid_percentage": 2.197802197802198
+        },
+        "166": {
+          "percentage": 22.22222222222222,
+          "valid_percentage": 22.22222222222222
+        },
+        "167": {
+          "percentage": 2.197802197802198,
+          "valid_percentage": 2.197802197802198
+        }
+      }
+    },
+    {
+      "name": "Абрамов Алексей Анатольевич",
+      "position": 1,
+      "candidate_id": 163,
+      "supported_by_people": true,
+      "official_result": {
+        "votes_count": 1,
+        "place": 4,
+        "percentage": 1.0869565217391304,
+        "valid_percentage": 1.0869565217391304,
+        "registered_percentage": 0.8849557522123894,
+        "winner": false,
+        "lacking_votes_count": 82
+      },
+      "result_without_other_entry": {
+        "164": {
+          "percentage": 1.1363636363636365,
+          "valid_percentage": 1.1363636363636365
+        },
+        "165": {
+          "percentage": 1.098901098901099,
+          "valid_percentage": 1.098901098901099
+        },
+        "166": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "167": {
+          "percentage": 1.098901098901099,
+          "valid_percentage": 1.098901098901099
+        },
+        "168": {
+          "percentage": 1.1111111111111112,
+          "valid_percentage": 1.1111111111111112
+        }
+      }
+    },
+    {
+      "name": "Афиногенов Арсений Антонович",
+      "position": 3,
+      "candidate_id": 165,
+      "supported_by_party_id": 7,
+      "official_result": {
+        "votes_count": 1,
+        "place": 4,
+        "percentage": 1.0869565217391304,
+        "valid_percentage": 1.0869565217391304,
+        "registered_percentage": 0.8849557522123894,
+        "winner": false,
+        "lacking_votes_count": 82
+      },
+      "result_without_other_entry": {
+        "163": {
+          "percentage": 1.098901098901099,
+          "valid_percentage": 1.098901098901099
+        },
+        "164": {
+          "percentage": 1.1363636363636365,
+          "valid_percentage": 1.1363636363636365
+        },
+        "166": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "167": {
+          "percentage": 1.098901098901099,
+          "valid_percentage": 1.098901098901099
+        },
+        "168": {
+          "percentage": 1.1111111111111112,
+          "valid_percentage": 1.1111111111111112
+        }
+      }
+    },
+    {
+      "name": "Коровин Игорь Владимирович",
+      "position": 5,
+      "candidate_id": 167,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 1,
+        "place": 4,
+        "percentage": 1.0869565217391304,
+        "valid_percentage": 1.0869565217391304,
+        "registered_percentage": 0.8849557522123894,
+        "winner": false,
+        "lacking_votes_count": 82
+      },
+      "result_without_other_entry": {
+        "163": {
+          "percentage": 1.098901098901099,
+          "valid_percentage": 1.098901098901099
+        },
+        "164": {
+          "percentage": 1.1363636363636365,
+          "valid_percentage": 1.1363636363636365
+        },
+        "165": {
+          "percentage": 1.098901098901099,
+          "valid_percentage": 1.098901098901099
+        },
+        "166": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "168": {
+          "percentage": 1.1111111111111112,
+          "valid_percentage": 1.1111111111111112
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2322
+    },
+    "uik": 2322,
+    "district": "Калининский район",
+    "tik": 38,
+    "gik": "СПбИК"
+  }
+}

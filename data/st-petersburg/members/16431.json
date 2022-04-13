@@ -1,0 +1,119 @@
+{
+  "id": 16431,
+  "data_id": 27820001302768,
+  "name": {
+    "last": "Кудинов",
+    "first": "Сергей",
+    "middle": "Александрович"
+  },
+  "birthdate": {
+    "day": 31,
+    "month": 8,
+    "year": 1987
+  },
+  "district": "Кировский район",
+  "age": 34,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Кудинов",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 17,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 42
+    },
+    "tik": 42,
+    "district": "Кировский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 4,
+      "strong_guesses": {
+        "strong_role": 3
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          "10150",
+          "11663",
+          "19409"
+        ]
+      }
+    },
+    "mother": {
+      "19409": {
+        "strong_evidence": "strong_role",
+        "age_difference": 24,
+        "name": {
+          "last": "Кудинова",
+          "first": "Валентина",
+          "middle": "Ивановна"
+        },
+        "distance": 12019,
+        "district": "Невский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1444
+          },
+          "uik": 1444,
+          "district": "Невский район",
+          "tik": 50,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "10150": {
+        "strong_evidence": "strong_role",
+        "age_difference": 13,
+        "name": {
+          "last": "Кудинова",
+          "first": "Ирина",
+          "middle": "Владимировна"
+        },
+        "distance": 12918,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 994
+          },
+          "uik": 994,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      },
+      "11663": {
+        "strong_evidence": "strong_role",
+        "age_difference": -12,
+        "name": {
+          "last": "Кудинова",
+          "first": "Анна",
+          "middle": "Андреевна"
+        },
+        "distance": 12817,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1884
+          },
+          "uik": 1884,
+          "district": "Приморский район",
+          "tik": 28,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

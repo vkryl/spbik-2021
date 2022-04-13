@@ -1,0 +1,117 @@
+{
+  "id": 15580,
+  "data_id": 4784019129809,
+  "name": {
+    "last": "Романенко",
+    "first": "Роман",
+    "middle": "Николаевич"
+  },
+  "birthdate": {
+    "day": 31,
+    "month": 10,
+    "year": 1975
+  },
+  "district": "Калининский район",
+  "age": 45,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Романенко",
+    "first": "Николай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 8,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 544
+    },
+    "uik": 544,
+    "district": "Калининский район",
+    "tik": 39,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 20407
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          10731,
+          11029
+        ]
+      }
+    },
+    "spouse": {
+      "20407": {
+        "strong_evidence": "strong_role",
+        "age_difference": -15,
+        "name": {
+          "last": "Романенко",
+          "first": "Надежда",
+          "middle": "Андреевна"
+        },
+        "distance": 12203,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 53
+          },
+          "tik": 53,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "10731": {
+        "age_difference": 7,
+        "name": {
+          "last": "Романенко",
+          "first": "Наталья",
+          "middle": "Николаевна"
+        },
+        "distance": 33206,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1198
+          },
+          "uik": 1198,
+          "district": "Красносельский район",
+          "tik": 26,
+          "gik": "СПбИК"
+        }
+      },
+      "11029": {
+        "age_difference": 31,
+        "name": {
+          "last": "Романенко",
+          "first": "Вера",
+          "middle": "Николаевна"
+        },
+        "distance": 15237,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1373
+          },
+          "uik": 1373,
+          "district": "Московский район",
+          "tik": 27,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

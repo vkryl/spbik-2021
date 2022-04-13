@@ -1,0 +1,121 @@
+{
+  "id": 18088,
+  "data_id": 4784026167705,
+  "name": {
+    "last": "Степанова",
+    "first": "Татьяна",
+    "middle": "Федоровна"
+  },
+  "birthdate": {
+    "day": 7,
+    "month": 12,
+    "year": 1968
+  },
+  "district": "Красносельский район",
+  "age": 52,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Степанов",
+    "first": "Федор"
+  },
+  "role_id": 3,
+  "assigned_by_id": 68,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1170
+    },
+    "uik": 1170,
+    "district": "Красносельский район",
+    "tik": 46,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_electoral_district": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          3773,
+          9330
+        ]
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 16485
+      }
+    },
+    "spouse": {
+      "3773": {
+        "strong_evidence": "strong_role",
+        "age_difference": -11,
+        "name": {
+          "last": "Степанов",
+          "first": "Константин",
+          "middle": "Геннадьевич"
+        },
+        "distance": 17908,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 11
+          },
+          "tik": 11,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "9330": {
+        "strong_evidence": "strong_role",
+        "age_difference": -20,
+        "name": {
+          "last": "Степанова",
+          "first": "Александра",
+          "middle": "Евгеньевна"
+        },
+        "distance": 16989,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 24
+          },
+          "tik": 24,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "16485": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 3,
+        "name": {
+          "last": "Степанова",
+          "first": "Елена",
+          "middle": "Федоровна"
+        },
+        "distance": 3601,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 761
+          },
+          "uik": 761,
+          "district": "Кировский район",
+          "tik": 42,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

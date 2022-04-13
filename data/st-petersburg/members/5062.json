@@ -1,0 +1,122 @@
+{
+  "id": 5062,
+  "data_id": 4784009118997,
+  "name": {
+    "last": "Антонова",
+    "first": "Ольга",
+    "middle": "Васильевна"
+  },
+  "birthdate": {
+    "day": 1,
+    "month": 11,
+    "year": 1979
+  },
+  "district": "Курортный район",
+  "age": 41,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Антонов",
+    "first": "Василий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1252
+    },
+    "uik": 1252,
+    "district": "Курортный район",
+    "tik": 13,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 18
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 5219
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 19308
+      }
+    },
+    "children": {
+      "18": {
+        "strong_evidence": "strong_role",
+        "age_difference": -22,
+        "name": {
+          "last": "Антонов",
+          "first": "Михаил",
+          "middle": "Евгеньевич"
+        },
+        "distance": 27613,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 1
+          },
+          "tik": 1,
+          "district": "Адмиралтейский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "19308": {
+        "age_difference": 34,
+        "name": {
+          "last": "Антонова",
+          "first": "Лариса",
+          "middle": "Васильевна"
+        },
+        "distance": 35073,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1503
+          },
+          "uik": 1503,
+          "district": "Невский район",
+          "tik": 49,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "5219": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 20,
+        "name": {
+          "last": "Антонова",
+          "first": "Нина",
+          "middle": "Валентиновна"
+        },
+        "distance": 19561,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1268
+          },
+          "uik": 1268,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "УИК №896",
+  "id": 896,
+  "type": "uik",
+  "data_id": 4784006453779,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Колпинский район",
+  "electoral_districts": {
+    "federal": 217,
+    "city": 25
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "217": 12,
+        "total_count": 12,
+        "winner_count": 1
+      },
+      "city": {
+        "25": 6,
+        "total_count": 6,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 6,
+    "ballot_count": 2
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 3998,
+      "party_registered_count": 3998,
+      "person_voters_count": 400,
+      "person_registered_count": 400,
+      "only_party_voters_count": 3598,
+      "only_party_registered_count": 3598,
+      "no_city_count": 193,
+      "no_other_count": 193,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 400,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.person",
+          "value": 207,
+          "isNegative": true
+        }
+      ],
+      "no_city_count_max": 3791,
+      "no_city_registered_count": 193,
+      "no_other_registered_count": 193,
+      "no_other_registered_count_formula": [
+        {
+          "key": "federal.registered_count.person",
+          "value": 400,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.registered_count.person",
+          "value": 207,
+          "isNegative": true
+        }
+      ],
+      "only_city_count_max": 1790,
+      "only_city_registered_count_max": 1790
+    },
+    "city": {
+      "party_voters_count": 2190,
+      "party_registered_count": 2190,
+      "person_voters_count": 207,
+      "person_registered_count": 207,
+      "only_party_voters_count": 1983,
+      "only_party_registered_count": 1983,
+      "no_federal_count_max": 1790,
+      "only_federal_count_max": 3791,
+      "only_federal_registered_count_max": 3791
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 21,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1,
+    2
+  ],
+  "awards": {
+    "diplomas": 1,
+    "thanks": 1
+  }
+}

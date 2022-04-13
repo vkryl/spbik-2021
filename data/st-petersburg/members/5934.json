@@ -1,0 +1,93 @@
+{
+  "id": 5934,
+  "data_id": 4784017271540,
+  "name": {
+    "last": "Дьякова",
+    "first": "Екатерина",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 15,
+    "month": 1,
+    "year": 1989
+  },
+  "district": "Центральный район",
+  "age": 32,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Дьяков",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2187
+    },
+    "uik": 2187,
+    "district": "Центральный район",
+    "tik": 16,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          457,
+          20055
+        ]
+      }
+    },
+    "spouse": {
+      "20055": {
+        "strong_evidence": "strong_role",
+        "age_difference": 9,
+        "name": {
+          "last": "Дьяков",
+          "first": "Алексей",
+          "middle": "Васильевич"
+        },
+        "distance": 9132,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 52
+          },
+          "tik": 52,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "457": {
+        "strong_evidence": "strong_role",
+        "age_difference": 22,
+        "name": {
+          "last": "Дьякова",
+          "first": "Ирина",
+          "middle": "Леонидовна"
+        },
+        "distance": 4653,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 2
+          },
+          "tik": 2,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

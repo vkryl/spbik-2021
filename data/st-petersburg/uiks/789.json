@@ -1,0 +1,153 @@
+{
+  "name": "Участковая избирательная комиссия №789",
+  "id": 789,
+  "type": "uik",
+  "data_id": 4784020245709,
+  "has_koib": false,
+  "district": "Кировский район",
+  "electoral_districts": {
+    "city": 17,
+    "federal": 212
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "city": {
+        "17": 7,
+        "total_count": 7,
+        "winner_count": 1
+      },
+      "federal": {
+        "212": 14,
+        "total_count": 14,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "violation_reports_count": 2
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 758,
+      "party_abstained_count": 1298,
+      "party_registered_count": 2056,
+      "person_voters_count": 703,
+      "person_abstained_count": 1290,
+      "person_registered_count": 1993,
+      "max_attached_count": 70,
+      "only_party_voters_count": 55,
+      "only_party_registered_count": 63,
+      "no_city_count": 10,
+      "no_other_count": 10,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 703,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.person",
+          "value": 693,
+          "isNegative": true
+        }
+      ],
+      "no_city_count_max": 65,
+      "only_city_registered_count_max": 19
+    },
+    "city": {
+      "party_voters_count": 693,
+      "party_abstained_count": 1319,
+      "party_registered_count": 2012,
+      "person_voters_count": 693,
+      "person_abstained_count": 1319,
+      "person_registered_count": 2012,
+      "no_federal_registered_count": 19,
+      "no_other_registered_count": 19,
+      "no_other_registered_count_formula": [
+        {
+          "key": "city.registered_count.person",
+          "value": 2012,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "federal.registered_count.person",
+          "value": 1993,
+          "isNegative": true
+        }
+      ],
+      "only_federal_count": 10,
+      "only_federal_count_max": 65,
+      "only_federal_registered_count_max": 44
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 7,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 94,
+  "awards": {
+    "thanks": 1
+  },
+  "members": {
+    "chairman_id": 2533,
+    "vice_chairman_id": 2534,
+    "secretary_id": 2535,
+    "other_ids": [
+      2536,
+      2537,
+      2538,
+      2539,
+      2540,
+      2541,
+      2542,
+      2543,
+      2544
+    ],
+    "assigned_by_stats": {
+      "10": 7,
+      "13": 1,
+      "45": 1
+    },
+    "gender_stats": {
+      "female": 10,
+      "male": 2
+    },
+    "age_stats": {
+      "28": 1,
+      "31": 1,
+      "32": 1,
+      "34": 2,
+      "40": 2,
+      "42": 2,
+      "57": 2,
+      "58": 1
+    },
+    "source_date": 1633480390491
+  },
+  "election_ids": [
+    1,
+    2
+  ],
+  "violation_reports": {
+    "ids": [
+      64262,
+      64729
+    ],
+    "during": [
+      "carousel_or_stuffing",
+      "other"
+    ]
+  }
+}

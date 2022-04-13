@@ -1,0 +1,69 @@
+{
+  "id": 12985,
+  "data_id": 27820001301837,
+  "name": {
+    "last": "Кривонос",
+    "first": "Василий",
+    "middle": "Владимирович"
+  },
+  "birthdate": {
+    "day": 3,
+    "month": 2,
+    "year": 1988
+  },
+  "district": "Василеостровский район",
+  "age": 33,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Кривонос",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 18,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 32
+    },
+    "tik": 32,
+    "district": "Василеостровский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "15757"
+      }
+    },
+    "mother": {
+      "15757": {
+        "strong_evidence": "strong_role",
+        "age_difference": 31,
+        "name": {
+          "last": "Кривонос",
+          "first": "Ирина",
+          "middle": "Александровна"
+        },
+        "distance": 12888,
+        "district": "Калининский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 448
+          },
+          "uik": 448,
+          "district": "Калининский район",
+          "tik": 40,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

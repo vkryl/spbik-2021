@@ -1,0 +1,94 @@
+{
+  "id": 2307,
+  "data_id": 4784020245952,
+  "name": {
+    "last": "Шишкин",
+    "first": "Виктор",
+    "middle": "Викторович"
+  },
+  "birthdate": {
+    "day": 19,
+    "month": 9,
+    "year": 1985
+  },
+  "district": "Кировский район",
+  "age": 35,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Шишкин",
+    "first": "Виктор"
+  },
+  "role_id": 1,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 7
+    },
+    "tik": 7,
+    "district": "Кировский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "12311",
+          "17980"
+        ]
+      }
+    },
+    "mother": {
+      "12311": {
+        "strong_evidence": "strong_role",
+        "age_difference": 18,
+        "name": {
+          "last": "Шишкина",
+          "first": "Вероника",
+          "middle": "Юрьевна"
+        },
+        "distance": 7760,
+        "district": "Центральный район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2244
+          },
+          "uik": 2244,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      },
+      "17980": {
+        "strong_evidence": "strong_role",
+        "age_difference": 21,
+        "name": {
+          "last": "Шишкина",
+          "first": "Татьяна",
+          "middle": "Олеговна"
+        },
+        "distance": 9662,
+        "district": "Красносельский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1099
+          },
+          "uik": 1099,
+          "district": "Красносельский район",
+          "tik": 46,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

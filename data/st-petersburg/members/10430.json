@@ -1,0 +1,143 @@
+{
+  "id": 10430,
+  "data_id": 4784025266555,
+  "name": {
+    "last": "Степанов",
+    "first": "Артем",
+    "middle": "Викторович"
+  },
+  "birthdate": {
+    "day": 27,
+    "month": 9,
+    "year": 1992
+  },
+  "district": "Красногвардейский район",
+  "age": 28,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Степанов",
+    "first": "Виктор"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1017
+    },
+    "uik": 1017,
+    "district": "Красногвардейский район",
+    "tik": 25,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 9330
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 9898
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          1385,
+          15454
+        ]
+      }
+    },
+    "spouse": {
+      "9330": {
+        "strong_evidence": "strong_role",
+        "age_difference": 3,
+        "name": {
+          "last": "Степанова",
+          "first": "Александра",
+          "middle": "Евгеньевна"
+        },
+        "distance": 7816,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 24
+          },
+          "tik": 24,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      },
+      "9898": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -2,
+        "name": {
+          "last": "Степанова",
+          "first": "Ксения",
+          "middle": "Александровна"
+        },
+        "distance": 2246,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 973
+          },
+          "uik": 973,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "1385": {
+        "age_difference": 8,
+        "name": {
+          "last": "Степанов",
+          "first": "Олег",
+          "middle": "Викторович"
+        },
+        "distance": 2191,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1509
+          },
+          "uik": 1509,
+          "district": "Невский район",
+          "tik": 5,
+          "gik": "СПбИК"
+        }
+      },
+      "15454": {
+        "age_difference": 15,
+        "name": {
+          "last": "Степанова",
+          "first": "Ольга",
+          "middle": "Викторовна"
+        },
+        "distance": 6968,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 534
+          },
+          "uik": 534,
+          "district": "Калининский район",
+          "tik": 39,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

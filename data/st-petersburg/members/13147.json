@@ -1,0 +1,122 @@
+{
+  "id": 13147,
+  "data_id": 4784002283731,
+  "name": {
+    "last": "Соколова",
+    "first": "Наталья",
+    "middle": "Геннадьевна"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 4,
+    "year": 1966
+  },
+  "district": "Василеостровский район",
+  "age": 55,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Соколов",
+    "first": "Геннадий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 21,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 144
+    },
+    "uik": 144,
+    "district": "Василеостровский район",
+    "tik": 32,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 12149
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 13188
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 20219
+      }
+    },
+    "spouse": {
+      "12149": {
+        "strong_evidence": "strong_role",
+        "age_difference": -12,
+        "name": {
+          "last": "Соколов",
+          "first": "Владимир",
+          "middle": "Александрович"
+        },
+        "distance": 8253,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 30
+          },
+          "tik": 30,
+          "district": "Центральный район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "13188": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -17,
+        "name": {
+          "last": "Соколова",
+          "first": "Кристина",
+          "middle": "Андреевна"
+        },
+        "distance": 962,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 148
+          },
+          "uik": 148,
+          "district": "Василеостровский район",
+          "tik": 32,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "20219": {
+        "age_difference": -15,
+        "name": {
+          "last": "Соколова",
+          "first": "Евгения",
+          "middle": "Геннадьевна"
+        },
+        "distance": 12681,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1477
+          },
+          "uik": 1477,
+          "district": "Невский район",
+          "tik": 52,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

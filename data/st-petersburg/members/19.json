@@ -1,0 +1,68 @@
+{
+  "id": 19,
+  "data_id": 4784001326180,
+  "name": {
+    "last": "Болдин",
+    "first": "Виктор",
+    "middle": "Андреевич"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 7,
+    "year": 1989
+  },
+  "district": "Адмиралтейский район",
+  "age": 32,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Болдин",
+    "first": "Андрей"
+  },
+  "role_id": 4,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 1
+    },
+    "tik": 1,
+    "district": "Адмиралтейский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "23260"
+      }
+    },
+    "mother": {
+      "23260": {
+        "strong_evidence": "strong_role",
+        "age_difference": 24,
+        "name": {
+          "last": "Болдина",
+          "first": "Маргарита",
+          "middle": "Викторовна"
+        },
+        "distance": 9226,
+        "district": "Фрунзенский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2137
+          },
+          "uik": 2137,
+          "district": "Фрунзенский район",
+          "tik": 62,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

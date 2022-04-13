@@ -1,0 +1,93 @@
+{
+  "id": 131,
+  "data_id": 4784001395127,
+  "name": {
+    "last": "Быков",
+    "first": "Николай",
+    "middle": "Викторович"
+  },
+  "birthdate": {
+    "day": 1,
+    "month": 4,
+    "year": 1970
+  },
+  "district": "Адмиралтейский район",
+  "age": 51,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Быков",
+    "first": "Виктор"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 8
+    },
+    "uik": 8,
+    "district": "Адмиралтейский район",
+    "tik": 1,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 132
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 8652
+      }
+    },
+    "siblings": {
+      "132": {
+        "strong_evidence": "same_commission",
+        "age_difference": -6,
+        "name": {
+          "last": "Быкова",
+          "first": "Наталия",
+          "middle": "Викторовна"
+        },
+        "distance": 0,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 8
+          },
+          "uik": 8,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      },
+      "8652": {
+        "age_difference": 4,
+        "name": {
+          "last": "Быкова",
+          "first": "Елена",
+          "middle": "Викторовна"
+        },
+        "distance": 10890,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 348
+          },
+          "uik": 348,
+          "district": "Выборгский район",
+          "tik": 22,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

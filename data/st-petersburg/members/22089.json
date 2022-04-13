@@ -1,0 +1,94 @@
+{
+  "id": 22089,
+  "data_id": 4784023268047,
+  "name": {
+    "last": "Евсеева",
+    "first": "Наталия",
+    "middle": "Геннадьевна"
+  },
+  "birthdate": {
+    "day": 22,
+    "month": 9,
+    "year": 1988
+  },
+  "district": "Приморский район",
+  "age": 32,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Евсеев",
+    "first": "Геннадий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1822
+    },
+    "uik": 1822,
+    "district": "Приморский район",
+    "tik": 58,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 21027
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 18858
+      }
+    },
+    "spouse": {
+      "21027": {
+        "strong_evidence": "strong_role",
+        "age_difference": 17,
+        "name": {
+          "last": "Евсеев",
+          "first": "Вадим",
+          "middle": "Иванович"
+        },
+        "distance": 24477,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 55
+          },
+          "tik": 55,
+          "district": "Петродворцовый район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "18858": {
+        "age_difference": 23,
+        "name": {
+          "last": "Евсеева",
+          "first": "Алиса",
+          "middle": "Геннадьевна"
+        },
+        "distance": 18845,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1330
+          },
+          "uik": 1330,
+          "district": "Московский район",
+          "tik": 48,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Участковая избирательная комиссия №1983",
+  "id": 1983,
+  "type": "uik",
+  "data_id": 4784015254915,
+  "has_koib": false,
+  "district": "Пушкинский район",
+  "electoral_districts": {
+    "federal": 218,
+    "city": 24
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "218": 12,
+        "total_count": 12,
+        "winner_count": 1
+      },
+      "city": {
+        "24": 7,
+        "total_count": 7,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 4,
+        "members_with_guesses": 1,
+        "strong_count": {
+          "same_parent_commission": 1
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №1983": 1
+        }
+      }
+    }
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 122,
+      "party_registered_count": 122,
+      "person_voters_count": 122,
+      "person_registered_count": 122
+    },
+    "city": {
+      "party_voters_count": 122,
+      "party_registered_count": 122,
+      "person_voters_count": 122,
+      "person_registered_count": 122
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 20,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 364,
+  "members": {
+    "chairman_id": 7647,
+    "vice_chairman_id": 7648,
+    "secretary_id": 7649,
+    "other_ids": [
+      7650,
+      7651,
+      7652,
+      7653,
+      7654,
+      7655
+    ],
+    "assigned_by_stats": {
+      "10": 1,
+      "13": 3,
+      "129": 1,
+      "130": 1
+    },
+    "gender_stats": {
+      "male": 2,
+      "female": 7
+    },
+    "age_stats": {
+      "33": 1,
+      "35": 1,
+      "39": 1,
+      "42": 1,
+      "50": 1,
+      "55": 1,
+      "57": 1,
+      "60": 1,
+      "68": 1
+    },
+    "source_date": 1633480573419
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

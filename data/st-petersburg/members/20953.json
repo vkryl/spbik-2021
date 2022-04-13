@@ -1,0 +1,121 @@
+{
+  "id": 20953,
+  "data_id": 4784012220726,
+  "name": {
+    "last": "Соловьева",
+    "first": "Татьяна",
+    "middle": "Валерьевна"
+  },
+  "birthdate": {
+    "day": 11,
+    "month": 1,
+    "year": 1975
+  },
+  "district": "Петроградский район",
+  "age": 46,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Соловьев",
+    "first": "Валерий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1647
+    },
+    "uik": 1647,
+    "district": "Петроградский район",
+    "tik": 54,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 20999
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 2334
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 6735
+      }
+    },
+    "children": {
+      "20999": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -16,
+        "name": {
+          "last": "Соловьева",
+          "first": "Анастасия",
+          "middle": "Николаевна"
+        },
+        "distance": 768,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1651
+          },
+          "uik": 1651,
+          "district": "Петроградский район",
+          "tik": 54,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "2334": {
+        "age_difference": -6,
+        "name": {
+          "last": "Соловьева",
+          "first": "Татьяна",
+          "middle": "Валерьевна"
+        },
+        "distance": 11434,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 633
+          },
+          "uik": 633,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      },
+      "6735": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -14,
+        "name": {
+          "last": "Соловьева",
+          "first": "Виктория",
+          "middle": "Валерьевна"
+        },
+        "distance": 1256,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1660
+          },
+          "uik": 1660,
+          "district": "Петроградский район",
+          "tik": 18,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

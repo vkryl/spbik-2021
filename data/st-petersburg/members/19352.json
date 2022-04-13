@@ -1,0 +1,91 @@
+{
+  "id": 19352,
+  "data_id": 4784011159764,
+  "name": {
+    "last": "Владимирова",
+    "first": "Светлана",
+    "middle": "Владимировна"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 10,
+    "year": 1952
+  },
+  "district": "Невский район",
+  "age": 68,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Владимиров",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 59,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1506
+    },
+    "uik": 1506,
+    "district": "Невский район",
+    "tik": 49,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          11768,
+          18803
+        ]
+      }
+    },
+    "children": {
+      "11768": {
+        "strong_evidence": "strong_role",
+        "age_difference": -33,
+        "name": {
+          "last": "Владимиров",
+          "first": "Денис",
+          "middle": "Александрович"
+        },
+        "distance": 8331,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 29
+          },
+          "tik": 29,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      },
+      "18803": {
+        "strong_evidence": "strong_role",
+        "age_difference": -22,
+        "name": {
+          "last": "Владимиров",
+          "first": "Денис",
+          "middle": "Михайлович"
+        },
+        "distance": 10813,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 48
+          },
+          "tik": 48,
+          "district": "Московский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

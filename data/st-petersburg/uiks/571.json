@@ -1,0 +1,187 @@
+{
+  "name": "Участковая избирательная комиссия №571",
+  "id": 571,
+  "type": "uik",
+  "data_id": 478403779989,
+  "has_koib": false,
+  "district": "Калининский район",
+  "electoral_districts": {
+    "federal": 213,
+    "city": 14
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "213": 11,
+        "total_count": 11,
+        "winner_count": 1
+      },
+      "city": {
+        "14": 8,
+        "total_count": 8,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 25,
+        "members_with_guesses": 7,
+        "strong_count": {
+          "same_commission": 2,
+          "works_in_parent_district_commission": 2,
+          "strong_role": 8,
+          "works_in_parent_commission": 2,
+          "same_building": 1
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №571": 7
+        }
+      }
+    },
+    "violation_reports_count": 3
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 631,
+      "party_abstained_count": 882,
+      "party_registered_count": 1513,
+      "person_voters_count": 593,
+      "person_abstained_count": 920,
+      "person_registered_count": 1513,
+      "max_attached_count": 103,
+      "only_party_voters_count": 38,
+      "no_city_count": 90,
+      "no_other_count": 90,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 593,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.party",
+          "value": 503,
+          "isNegative": true
+        }
+      ],
+      "no_city_count_max": 128,
+      "no_city_registered_count": 123,
+      "no_other_registered_count": 123,
+      "no_other_registered_count_formula": [
+        {
+          "key": "federal.registered_count.person",
+          "value": 1513,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.registered_count.person",
+          "value": 1390,
+          "isNegative": true
+        }
+      ]
+    },
+    "city": {
+      "party_voters_count": 503,
+      "party_abstained_count": 887,
+      "party_registered_count": 1390,
+      "person_voters_count": 581,
+      "person_abstained_count": 809,
+      "person_registered_count": 1390,
+      "only_person_voters_count": 78,
+      "only_federal_count": 12,
+      "only_federal_count_max": 128,
+      "only_federal_registered_count": 123
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 37,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 664,
+  "members": {
+    "chairman_id": 15051,
+    "vice_chairman_id": 15052,
+    "secretary_id": 15053,
+    "other_ids": [
+      15054,
+      15055,
+      15056,
+      15057,
+      15058,
+      15059,
+      15060,
+      15061,
+      15062
+    ],
+    "assigned_by_stats": {
+      "5": 1,
+      "10": 1,
+      "13": 3,
+      "17": 1,
+      "28": 1,
+      "93": 1,
+      "94": 1
+    },
+    "gender_stats": {
+      "female": 9,
+      "male": 3
+    },
+    "age_stats": {
+      "23": 1,
+      "27": 1,
+      "29": 1,
+      "31": 1,
+      "36": 1,
+      "41": 1,
+      "42": 1,
+      "45": 1,
+      "58": 1,
+      "61": 1,
+      "63": 1,
+      "64": 1
+    },
+    "source_date": 1633480854960
+  },
+  "election_ids": [
+    1,
+    2
+  ],
+  "violation_reports": {
+    "ids": [
+      64118,
+      65170,
+      65869
+    ],
+    "during": [
+      "observer_rights_failure"
+    ],
+    "finale": [
+      "other",
+      "count_procedure_failure",
+      "result_override",
+      "result_protocol_failure"
+    ],
+    "before": [
+      "administrative_resource_misuse"
+    ],
+    "complaints": {
+      "submitted": true,
+      "special_opinion": true
+    }
+  }
+}

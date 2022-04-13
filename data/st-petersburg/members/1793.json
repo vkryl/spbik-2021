@@ -1,0 +1,95 @@
+{
+  "id": 1793,
+  "data_id": 4784008422020,
+  "name": {
+    "last": "Лебедев",
+    "first": "Алексей",
+    "middle": "Аркадьевич"
+  },
+  "birthdate": {
+    "day": 29,
+    "month": 4,
+    "year": 1971
+  },
+  "district": "Красносельский район",
+  "age": 50,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Лебедев",
+    "first": "Аркадий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1059
+    },
+    "uik": 1059,
+    "district": "Красносельский район",
+    "tik": 6,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 1794
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 2277
+      }
+    },
+    "spouse": {
+      "1794": {
+        "strong_evidence": "same_commission",
+        "age_difference": 6,
+        "name": {
+          "last": "Лебедева",
+          "first": "Татьяна",
+          "middle": "Борисовна"
+        },
+        "distance": 0,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1059
+          },
+          "uik": 1059,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      },
+      "2277": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 1,
+        "name": {
+          "last": "Лебедева",
+          "first": "Марина",
+          "middle": "Леонидовна"
+        },
+        "distance": 2770,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1161
+          },
+          "uik": 1161,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

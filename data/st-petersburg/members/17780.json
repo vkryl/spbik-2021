@@ -1,0 +1,95 @@
+{
+  "id": 17780,
+  "data_id": 478404580082,
+  "name": {
+    "last": "Дудина",
+    "first": "Анастасия",
+    "middle": "Анатольевна"
+  },
+  "birthdate": {
+    "day": 8,
+    "month": 4,
+    "year": 1991
+  },
+  "district": "Красногвардейский район",
+  "age": 30,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Дудин",
+    "first": "Анатолий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1046
+    },
+    "uik": 1046,
+    "district": "Красногвардейский район",
+    "tik": 45,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "works_in_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 15974
+      },
+      "siblings_in_parent_commission": {
+        "count": 1,
+        "ids": 17500
+      }
+    },
+    "spouse": {
+      "15974": {
+        "strong_evidence": "strong_role",
+        "age_difference": 7,
+        "name": {
+          "last": "Дудин",
+          "first": "Николай",
+          "middle": "Игнатьевич"
+        },
+        "distance": 16750,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 41
+          },
+          "tik": 41,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "17500": {
+        "strong_evidence": "works_in_parent_commission",
+        "age_difference": 25,
+        "name": {
+          "last": "Дудина",
+          "first": "Марина",
+          "middle": "Борисовна"
+        },
+        "distance": 6446,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 45
+          },
+          "tik": 45,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

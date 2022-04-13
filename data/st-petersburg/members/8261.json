@@ -1,0 +1,146 @@
+{
+  "id": 8261,
+  "data_id": 4784006418290,
+  "name": {
+    "last": "Николаева",
+    "first": "Валерия",
+    "middle": "Денисовна"
+  },
+  "birthdate": {
+    "day": 16,
+    "month": 6,
+    "year": 1998
+  },
+  "district": "Колпинский район",
+  "age": 23,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Николаев",
+    "first": "Денис"
+  },
+  "role_id": 4,
+  "assigned_by_id": 132,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 864
+    },
+    "uik": 864,
+    "district": "Колпинский район",
+    "tik": 21,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_parent_commission": 2,
+        "same_building": 1,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          7995,
+          8308
+        ]
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": 8249
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 22959
+      }
+    },
+    "spouse": {
+      "7995": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 19,
+        "name": {
+          "last": "Николаев",
+          "first": "Захар",
+          "middle": "Сергеевич"
+        },
+        "distance": 2055,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 842
+          },
+          "uik": 842,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "8249": {
+        "strong_evidence": "same_building",
+        "age_difference": 31,
+        "name": {
+          "last": "Николаева",
+          "first": "Елена",
+          "middle": "Алексеевна"
+        },
+        "distance": 0,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 863
+          },
+          "uik": 863,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      },
+      "8308": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 20,
+        "name": {
+          "last": "Николаева",
+          "first": "Татьяна",
+          "middle": "Сергеевна"
+        },
+        "distance": 843,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 868
+          },
+          "uik": 868,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      },
+      "22959": {
+        "strong_evidence": "strong_role",
+        "age_difference": 20,
+        "name": {
+          "last": "Николаева",
+          "first": "Наталья",
+          "middle": "Владимировна"
+        },
+        "distance": 17162,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 61
+          },
+          "tik": 61,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

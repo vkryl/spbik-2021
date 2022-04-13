@@ -1,0 +1,91 @@
+{
+  "id": 11531,
+  "data_id": 4784028279374,
+  "name": {
+    "last": "Панова",
+    "first": "Ольга",
+    "middle": "Дмитриевна"
+  },
+  "birthdate": {
+    "day": 17,
+    "month": 9,
+    "year": 1963
+  },
+  "district": "Приморский район",
+  "age": 57,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Панов",
+    "first": "Дмитрий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 15,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1873
+    },
+    "uik": 1873,
+    "district": "Приморский район",
+    "tik": 28,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          1770,
+          10956
+        ]
+      }
+    },
+    "spouse": {
+      "1770": {
+        "strong_evidence": "strong_role",
+        "age_difference": 1,
+        "name": {
+          "last": "Панов",
+          "first": "Николай",
+          "middle": "Николаевич"
+        },
+        "distance": 18691,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 6
+          },
+          "tik": 6,
+          "district": "Красносельский район",
+          "gik": "СПбИК"
+        }
+      },
+      "10956": {
+        "strong_evidence": "strong_role",
+        "age_difference": -2,
+        "name": {
+          "last": "Панов",
+          "first": "Станислав",
+          "middle": "Вадимович"
+        },
+        "distance": 13115,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 27
+          },
+          "tik": 27,
+          "district": "Московский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

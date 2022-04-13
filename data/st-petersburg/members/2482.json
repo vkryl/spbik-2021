@@ -1,0 +1,148 @@
+{
+  "id": 2482,
+  "data_id": 4784020244206,
+  "name": {
+    "last": "Константинова",
+    "first": "Виктория",
+    "middle": "Алексеевна"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 5,
+    "year": 1998
+  },
+  "district": "Кировский район",
+  "age": 23,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Константинов",
+    "first": "Алексей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 48,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 643
+    },
+    "uik": 643,
+    "district": "Кировский район",
+    "tik": 7,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1,
+        "same_commission": 1
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 3612
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 2714
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 2917
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 2481
+      }
+    },
+    "father": {
+      "3612": {
+        "age_difference": 35,
+        "name": {
+          "last": "Константинов",
+          "first": "Алексей",
+          "middle": "Игоревич"
+        },
+        "distance": 22398,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 232
+          },
+          "uik": 232,
+          "district": "Выборгский район",
+          "tik": 10,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "2481": {
+        "strong_evidence": "same_commission",
+        "age_difference": 0,
+        "name": {
+          "last": "Константинов",
+          "first": "Илья",
+          "middle": "Алексеевич"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 643
+          },
+          "uik": 643,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "2714": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 16,
+        "name": {
+          "last": "Константинова",
+          "first": "Марина",
+          "middle": "Михайловна"
+        },
+        "distance": 1162,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 801
+          },
+          "uik": 801,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      },
+      "2917": {
+        "strong_evidence": "strong_role",
+        "age_difference": 21,
+        "name": {
+          "last": "Константинова",
+          "first": "Татьяна",
+          "middle": "Валерьевна"
+        },
+        "distance": 18229,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 8
+          },
+          "tik": 8,
+          "district": "Петродворцовый район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

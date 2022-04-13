@@ -1,0 +1,96 @@
+{
+  "id": 11876,
+  "data_id": 4784029413235,
+  "name": {
+    "last": "Акаемова",
+    "first": "Марина",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 10,
+    "month": 3,
+    "year": 1976
+  },
+  "district": "Фрунзенский район",
+  "age": 45,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Акаемов",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 146,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2112
+    },
+    "uik": 2112,
+    "district": "Фрунзенский район",
+    "tik": 29,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "works_in_parent_district_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 23209
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 23246
+      }
+    },
+    "spouse": {
+      "23209": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": 0,
+        "name": {
+          "last": "Акаемов",
+          "first": "Дмитрий",
+          "middle": "Олегович"
+        },
+        "distance": 2391,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 62
+          },
+          "tik": 62,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "23246": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 20,
+        "name": {
+          "last": "Акаемова",
+          "first": "Елена",
+          "middle": "Александровна"
+        },
+        "distance": 2253,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2136
+          },
+          "uik": 2136,
+          "district": "Фрунзенский район",
+          "tik": 62,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

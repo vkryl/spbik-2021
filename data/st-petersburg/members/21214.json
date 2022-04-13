@@ -1,0 +1,94 @@
+{
+  "id": 21214,
+  "data_id": 27820001307757,
+  "name": {
+    "last": "Сурикова",
+    "first": "Марина",
+    "middle": "Борисовна"
+  },
+  "birthdate": {
+    "day": 7,
+    "month": 10,
+    "year": 1969
+  },
+  "district": "Приморский район",
+  "age": 51,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Суриков",
+    "first": "Борис"
+  },
+  "role_id": 4,
+  "assigned_by_id": 18,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 56
+    },
+    "tik": 56,
+    "district": "Приморский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "1868",
+          "6890"
+        ]
+      }
+    },
+    "children": {
+      "1868": {
+        "strong_evidence": "strong_role",
+        "age_difference": -29,
+        "name": {
+          "last": "Суриков",
+          "first": "Павел",
+          "middle": "Дмитриевич"
+        },
+        "distance": 15139,
+        "district": "Красносельский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1065
+          },
+          "uik": 1065,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      },
+      "6890": {
+        "strong_evidence": "strong_role",
+        "age_difference": -21,
+        "name": {
+          "last": "Сурикова",
+          "first": "Виктория",
+          "middle": "Викторовна"
+        },
+        "distance": 12842,
+        "district": "Московский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1288
+          },
+          "uik": 1288,
+          "district": "Московский район",
+          "tik": 19,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

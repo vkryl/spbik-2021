@@ -1,0 +1,97 @@
+{
+  "id": 16643,
+  "data_id": 4784020127556,
+  "name": {
+    "last": "Некрасова",
+    "first": "Елена",
+    "middle": "Валерьевна"
+  },
+  "birthdate": {
+    "day": 26,
+    "month": 2,
+    "year": 1982
+  },
+  "district": "Кировский район",
+  "age": 39,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Некрасов",
+    "first": "Валерий"
+  },
+  "role_id": 1,
+  "assigned_by_id": 2,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 774
+    },
+    "uik": 774,
+    "district": "Кировский район",
+    "tik": 42,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_building": 1,
+        "same_commission": 1
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": 16637
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 16651
+      }
+    },
+    "spouse": {
+      "16637": {
+        "strong_evidence": "same_building",
+        "age_difference": -5,
+        "name": {
+          "last": "Некрасов",
+          "first": "Александр",
+          "middle": "Михайлович"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 773
+          },
+          "uik": 773,
+          "district": "Кировский район",
+          "tik": 42,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "16651": {
+        "strong_evidence": "same_commission",
+        "age_difference": 25,
+        "name": {
+          "last": "Некрасова",
+          "first": "Галина",
+          "middle": "Владимировна"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 774
+          },
+          "uik": 774,
+          "district": "Кировский район",
+          "tik": 42,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

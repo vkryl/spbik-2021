@@ -1,0 +1,94 @@
+{
+  "id": 20408,
+  "data_id": 27820001312143,
+  "name": {
+    "last": "Севастьянов",
+    "first": "Сергей",
+    "middle": "Николаевич"
+  },
+  "birthdate": {
+    "day": 30,
+    "month": 4,
+    "year": 1961
+  },
+  "district": "Невский район",
+  "age": 60,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Севастьянов",
+    "first": "Николай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 53
+    },
+    "tik": 53,
+    "district": "Невский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "5558",
+          "12822"
+        ]
+      }
+    },
+    "spouse": {
+      "5558": {
+        "strong_evidence": "strong_role",
+        "age_difference": -16,
+        "name": {
+          "last": "Севастьянова",
+          "first": "Наталья",
+          "middle": "Юрьевна"
+        },
+        "distance": 23145,
+        "district": "Выборгский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 312
+          },
+          "uik": 312,
+          "district": "Выборгский район",
+          "tik": 14,
+          "gik": "СПбИК"
+        }
+      },
+      "12822": {
+        "strong_evidence": "strong_role",
+        "age_difference": -1,
+        "name": {
+          "last": "Севастьянова",
+          "first": "Юлия",
+          "middle": "Борисовна"
+        },
+        "distance": 9210,
+        "district": "Адмиралтейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 51
+          },
+          "uik": 51,
+          "district": "Адмиралтейский район",
+          "tik": 31,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

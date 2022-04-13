@@ -1,0 +1,41 @@
+{
+  "name": "УИК №198",
+  "id": 198,
+  "type": "uik",
+  "data_id": 478403294865,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Василеостровский район",
+  "electoral_districts": {
+    "federal": 216
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14
+    },
+    "candidates_count": {},
+    "protocol_count": 1,
+    "empty_protocol_count": 1,
+    "turnout_protocol_count": 1,
+    "ballot_count": 1
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 28,
+      "party_abstained_count": 3,
+      "party_registered_count": 31,
+      "warnings": "missing_person_result"
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 32,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1
+  ]
+}

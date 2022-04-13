@@ -1,0 +1,143 @@
+{
+  "id": 19308,
+  "data_id": 4784011340660,
+  "name": {
+    "last": "Антонова",
+    "first": "Лариса",
+    "middle": "Васильевна"
+  },
+  "birthdate": {
+    "day": 28,
+    "month": 6,
+    "year": 1945
+  },
+  "district": "Невский район",
+  "age": 76,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Антонов",
+    "first": "Василий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 18,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1503
+    },
+    "uik": 1503,
+    "district": "Невский район",
+    "tik": 49,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          18,
+          14477
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 19153
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 5062
+      }
+    },
+    "siblings": {
+      "5062": {
+        "age_difference": -34,
+        "name": {
+          "last": "Антонова",
+          "first": "Ольга",
+          "middle": "Васильевна"
+        },
+        "distance": 35073,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1252
+          },
+          "uik": 1252,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "18": {
+        "strong_evidence": "strong_role",
+        "age_difference": -56,
+        "name": {
+          "last": "Антонов",
+          "first": "Михаил",
+          "middle": "Евгеньевич"
+        },
+        "distance": 10807,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 1
+          },
+          "tik": 1,
+          "district": "Адмиралтейский район",
+          "gik": "СПбИК"
+        }
+      },
+      "14477": {
+        "strong_evidence": "strong_role",
+        "age_difference": -34,
+        "name": {
+          "last": "Антонова",
+          "first": "Анна",
+          "middle": "Николаевна"
+        },
+        "distance": 11667,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 36
+          },
+          "tik": 36,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      },
+      "19153": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -49,
+        "name": {
+          "last": "Антонов",
+          "first": "Евгений",
+          "middle": "Дмитриевич"
+        },
+        "distance": 1475,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1492
+          },
+          "uik": 1492,
+          "district": "Невский район",
+          "tik": 49,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

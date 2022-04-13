@@ -1,0 +1,94 @@
+{
+  "id": 14777,
+  "data_id": 478403784466,
+  "name": {
+    "last": "Бураков",
+    "first": "Дмитрий",
+    "middle": "Петрович"
+  },
+  "birthdate": {
+    "day": 18,
+    "month": 1,
+    "year": 1981
+  },
+  "district": "Калининский район",
+  "age": 40,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Бураков",
+    "first": "Петр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 12,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 37
+    },
+    "tik": 37,
+    "district": "Калининский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "22433",
+          "23250"
+        ]
+      }
+    },
+    "spouse": {
+      "22433": {
+        "strong_evidence": "strong_role",
+        "age_difference": -9,
+        "name": {
+          "last": "Буракова",
+          "first": "Татьяна",
+          "middle": "Михайловна"
+        },
+        "distance": 28202,
+        "district": "Пушкинский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2002
+          },
+          "uik": 2002,
+          "district": "Пушкинский район",
+          "tik": 59,
+          "gik": "СПбИК"
+        }
+      },
+      "23250": {
+        "strong_evidence": "strong_role",
+        "age_difference": 8,
+        "name": {
+          "last": "Буракова",
+          "first": "Янина",
+          "middle": "Аркадьевна"
+        },
+        "distance": 12010,
+        "district": "Фрунзенский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2136
+          },
+          "uik": 2136,
+          "district": "Фрунзенский район",
+          "tik": 62,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

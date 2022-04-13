@@ -1,0 +1,69 @@
+{
+  "id": 12473,
+  "data_id": 4784030160658,
+  "name": {
+    "last": "Жукова",
+    "first": "Екатерина",
+    "middle": "Олеговна"
+  },
+  "birthdate": {
+    "day": 11,
+    "month": 3,
+    "year": 1996
+  },
+  "district": "Центральный район",
+  "age": 25,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Жуков",
+    "first": "Олег"
+  },
+  "role_id": 4,
+  "assigned_by_id": 8,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2257
+    },
+    "uik": 2257,
+    "district": "Центральный район",
+    "tik": 30,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 12314
+      }
+    },
+    "mother": {
+      "12314": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 30,
+        "name": {
+          "last": "Жукова",
+          "first": "Наталья",
+          "middle": "Николаевна"
+        },
+        "distance": 1425,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2245
+          },
+          "uik": 2245,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

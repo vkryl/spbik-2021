@@ -1,0 +1,127 @@
+{
+  "id": 5235,
+  "data_id": 4784009176061,
+  "name": {
+    "last": "Артемьева",
+    "first": "Екатерина",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 27,
+    "month": 4,
+    "year": 1982
+  },
+  "district": "Курортный район",
+  "age": 39,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Артемьев",
+    "first": "Александр"
+  },
+  "role_id": 3,
+  "assigned_by_id": 18,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1270
+    },
+    "uik": 1270,
+    "district": "Курортный район",
+    "tik": 13,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 3776
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          197,
+          2844
+        ]
+      }
+    },
+    "spouse": {
+      "3776": {
+        "strong_evidence": "strong_role",
+        "age_difference": -4,
+        "name": {
+          "last": "Артемьев",
+          "first": "Артур",
+          "middle": "Германович"
+        },
+        "distance": 50523,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": [
+            {
+              "type": "tik",
+              "id": 11
+            },
+            {
+              "type": "uik",
+              "id": 459
+            }
+          ],
+          "tik": [
+            11,
+            40
+          ],
+          "district": "Калининский район",
+          "gik": "СПбИК",
+          "uik": 459
+        }
+      }
+    },
+    "siblings": {
+      "197": {
+        "age_difference": 0,
+        "name": {
+          "last": "Артемьева",
+          "first": "Олеся",
+          "middle": "Александровна"
+        },
+        "distance": 50804,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 14
+          },
+          "uik": 14,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      },
+      "2844": {
+        "age_difference": -10,
+        "name": {
+          "last": "Артемьева",
+          "first": "Елизавета",
+          "middle": "Александровна"
+        },
+        "distance": 54862,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 810
+          },
+          "uik": 810,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

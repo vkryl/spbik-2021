@@ -1,0 +1,93 @@
+{
+  "id": 947,
+  "data_id": 9789005582685,
+  "name": {
+    "last": "Дроздова",
+    "first": "Анна",
+    "middle": "Дмитриевна"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 8,
+    "year": 2002
+  },
+  "district": "Кировский район",
+  "age": 19,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Дроздов",
+    "first": "Дмитрий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 46,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 627
+    },
+    "uik": 627,
+    "district": "Кировский район",
+    "tik": 3,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 941
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 8856
+      }
+    },
+    "father": {
+      "941": {
+        "strong_evidence": "same_commission",
+        "age_difference": 27,
+        "name": {
+          "last": "Дроздов",
+          "first": "Дмитрий",
+          "middle": "Александрович"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 627
+          },
+          "uik": 627,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      },
+      "8856": {
+        "age_difference": 28,
+        "name": {
+          "last": "Дроздов",
+          "first": "Дмитрий",
+          "middle": "Владимирович"
+        },
+        "distance": 19706,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 365
+          },
+          "uik": 365,
+          "district": "Выборгский район",
+          "tik": 22,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

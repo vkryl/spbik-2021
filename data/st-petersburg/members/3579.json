@@ -1,0 +1,93 @@
+{
+  "id": 3579,
+  "data_id": 4784003239068,
+  "name": {
+    "last": "Свиридов",
+    "first": "Антон",
+    "middle": "Владимирович"
+  },
+  "birthdate": {
+    "day": 19,
+    "month": 2,
+    "year": 1988
+  },
+  "district": "Выборгский район",
+  "age": 33,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Свиридов",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 2,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 229
+    },
+    "uik": 229,
+    "district": "Выборгский район",
+    "tik": 10,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 3571
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 5772
+      }
+    },
+    "siblings": {
+      "3571": {
+        "strong_evidence": "same_commission",
+        "age_difference": 26,
+        "name": {
+          "last": "Свиридова",
+          "first": "Нина",
+          "middle": "Владимировна"
+        },
+        "distance": 0,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 229
+          },
+          "uik": 229,
+          "district": "Выборгский район",
+          "tik": 10,
+          "gik": "СПбИК"
+        }
+      },
+      "5772": {
+        "age_difference": 11,
+        "name": {
+          "last": "Свиридова",
+          "first": "Елена",
+          "middle": "Владимировна"
+        },
+        "distance": 33562,
+        "district": "Кронштадтский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1233
+          },
+          "uik": 1233,
+          "district": "Кронштадтский район",
+          "tik": 15,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

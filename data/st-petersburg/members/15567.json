@@ -1,0 +1,95 @@
+{
+  "id": 15567,
+  "data_id": 4784019129609,
+  "name": {
+    "last": "Круглов",
+    "first": "Степан",
+    "middle": "Сергеевич"
+  },
+  "birthdate": {
+    "day": 15,
+    "month": 3,
+    "year": 1993
+  },
+  "district": "Калининский район",
+  "age": 28,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Круглов",
+    "first": "Сергей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 543
+    },
+    "uik": 543,
+    "district": "Калининский район",
+    "tik": 39,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 15562
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 22161
+      }
+    },
+    "father": {
+      "15562": {
+        "strong_evidence": "same_commission",
+        "age_difference": 38,
+        "name": {
+          "last": "Круглов",
+          "first": "Сергей",
+          "middle": "Алексеевич"
+        },
+        "distance": 0,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 543
+          },
+          "uik": 543,
+          "district": "Калининский район",
+          "tik": 39,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "22161": {
+        "age_difference": -2,
+        "name": {
+          "last": "Круглова",
+          "first": "Александра",
+          "middle": "Сергеевна"
+        },
+        "distance": 9631,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1829
+          },
+          "uik": 1829,
+          "district": "Приморский район",
+          "tik": 58,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

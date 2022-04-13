@@ -1,0 +1,94 @@
+{
+  "id": 6898,
+  "data_id": 4784010284285,
+  "name": {
+    "last": "Никулина",
+    "first": "Ольга",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 7,
+    "month": 1,
+    "year": 1959
+  },
+  "district": "Московский район",
+  "age": 62,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Никулин",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1289
+    },
+    "uik": 1289,
+    "district": "Московский район",
+    "tik": 19,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 22326
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 17909
+      }
+    },
+    "children": {
+      "22326": {
+        "strong_evidence": "strong_role",
+        "age_difference": -25,
+        "name": {
+          "last": "Никулин",
+          "first": "Юрий",
+          "middle": "Арсентьевич"
+        },
+        "distance": 17906,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 59
+          },
+          "tik": 59,
+          "district": "Пушкинский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "17909": {
+        "age_difference": -15,
+        "name": {
+          "last": "Никулин",
+          "first": "Андрей",
+          "middle": "Александрович"
+        },
+        "distance": 11502,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1093
+          },
+          "uik": 1093,
+          "district": "Красносельский район",
+          "tik": 46,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

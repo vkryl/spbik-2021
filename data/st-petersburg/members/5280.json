@@ -1,0 +1,95 @@
+{
+  "id": 5280,
+  "data_id": 4784018426677,
+  "name": {
+    "last": "Швецов",
+    "first": "Виктор",
+    "middle": "Александрович"
+  },
+  "birthdate": {
+    "day": 30,
+    "month": 8,
+    "year": 1984
+  },
+  "district": "Выборгский район",
+  "age": 37,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Швецов",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 18,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 14
+    },
+    "tik": 14,
+    "district": "Выборгский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 22297
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "15792"
+      }
+    },
+    "siblings": {
+      "22297": {
+        "age_difference": -13,
+        "name": {
+          "last": "Швецова",
+          "first": "Анастасия",
+          "middle": "Александровна"
+        },
+        "distance": 4441,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1842
+          },
+          "uik": 1842,
+          "district": "Приморский район",
+          "tik": 58,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "15792": {
+        "strong_evidence": "strong_role",
+        "age_difference": 19,
+        "name": {
+          "last": "Швецова",
+          "first": "Елена",
+          "middle": "Анатольевна"
+        },
+        "distance": 6578,
+        "district": "Калининский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 451
+          },
+          "uik": 451,
+          "district": "Калининский район",
+          "tik": 40,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 20000,
+  "data_id": 4784011341230,
+  "name": {
+    "last": "Кабышев",
+    "first": "Максим",
+    "middle": "Дмитриевич"
+  },
+  "birthdate": {
+    "day": 10,
+    "month": 11,
+    "year": 1992
+  },
+  "district": "Невский район",
+  "age": 28,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Кабышев",
+    "first": "Дмитрий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 25,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1442
+    },
+    "uik": 1442,
+    "district": "Невский район",
+    "tik": 51,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 20001
+      }
+    },
+    "spouse": {
+      "20001": {
+        "strong_evidence": "same_commission",
+        "age_difference": -1,
+        "name": {
+          "last": "Кабышева",
+          "first": "Мария",
+          "middle": "Ивановна"
+        },
+        "distance": 0,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1442
+          },
+          "uik": 1442,
+          "district": "Невский район",
+          "tik": 51,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

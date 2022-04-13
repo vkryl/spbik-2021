@@ -1,0 +1,119 @@
+{
+  "id": 386,
+  "data_id": 4784001386442,
+  "name": {
+    "last": "Баранов",
+    "first": "Никита",
+    "middle": "Андреевич"
+  },
+  "birthdate": {
+    "day": 29,
+    "month": 7,
+    "year": 1999
+  },
+  "district": "Адмиралтейский район",
+  "age": 22,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Баранов",
+    "first": "Андрей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 28
+    },
+    "uik": 28,
+    "district": "Адмиралтейский район",
+    "tik": 1,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 2
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 14216
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          47,
+          104
+        ]
+      }
+    },
+    "father": {
+      "14216": {
+        "age_difference": 32,
+        "name": {
+          "last": "Баранов",
+          "first": "Андрей",
+          "middle": "Игоревич"
+        },
+        "distance": 13845,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 268
+          },
+          "uik": 268,
+          "district": "Выборгский район",
+          "tik": 35,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "47": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 21,
+        "name": {
+          "last": "Баранова",
+          "first": "Маргарита",
+          "middle": "Олеговна"
+        },
+        "distance": 1280,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2
+          },
+          "uik": 2,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      },
+      "104": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 25,
+        "name": {
+          "last": "Баранова",
+          "first": "Инна",
+          "middle": "Ивановна"
+        },
+        "distance": 1591,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 6
+          },
+          "uik": 6,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

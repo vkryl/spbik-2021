@@ -1,0 +1,95 @@
+{
+  "id": 8843,
+  "data_id": 4784024391352,
+  "name": {
+    "last": "Агафонов",
+    "first": "Максим",
+    "middle": "Алексеевич"
+  },
+  "birthdate": {
+    "day": 18,
+    "month": 11,
+    "year": 1988
+  },
+  "district": "Выборгский район",
+  "age": 32,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Агафонов",
+    "first": "Алексей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 364
+    },
+    "uik": 364,
+    "district": "Выборгский район",
+    "tik": 22,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 13653
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 8963
+      }
+    },
+    "father": {
+      "13653": {
+        "age_difference": 19,
+        "name": {
+          "last": "Агафонов",
+          "first": "Алексей",
+          "middle": "Юрьевич"
+        },
+        "distance": 8946,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 128
+          },
+          "uik": 128,
+          "district": "Василеостровский район",
+          "tik": 33,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "8963": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 26,
+        "name": {
+          "last": "Агафонова",
+          "first": "Мария",
+          "middle": "Владимировна"
+        },
+        "distance": 441,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 374
+          },
+          "uik": 374,
+          "district": "Выборгский район",
+          "tik": 22,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "id": 9783,
+  "data_id": 4784022357347,
+  "name": {
+    "last": "Козлов",
+    "first": "Илья",
+    "middle": "Игоревич"
+  },
+  "birthdate": {
+    "day": 24,
+    "month": 8,
+    "year": 2000
+  },
+  "district": "Невский район",
+  "age": 21,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Козлов",
+    "first": "Игорь"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1580
+    },
+    "uik": 1580,
+    "district": "Невский район",
+    "tik": 24,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 2,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          9413,
+          9574
+        ]
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 9885
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 4761
+      }
+    },
+    "spouse": {
+      "9574": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 2,
+        "name": {
+          "last": "Козлова",
+          "first": "Ольга",
+          "middle": "Сергеевна"
+        },
+        "distance": 2711,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1564
+          },
+          "uik": 1564,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "4761": {
+        "age_difference": 10,
+        "name": {
+          "last": "Козлова",
+          "first": "Мария",
+          "middle": "Игоревна"
+        },
+        "distance": 20827,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1777
+          },
+          "uik": 1777,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "9413": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 27,
+        "name": {
+          "last": "Козлова",
+          "first": "Юлия",
+          "middle": "Сергеевна"
+        },
+        "distance": 5544,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1551
+          },
+          "uik": 1551,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      },
+      "9885": {
+        "strong_evidence": "strong_role",
+        "age_difference": 42,
+        "name": {
+          "last": "Козлова",
+          "first": "Ольга",
+          "middle": "Петровна"
+        },
+        "distance": 11615,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 25
+          },
+          "tik": 25,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

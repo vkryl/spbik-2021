@@ -1,0 +1,94 @@
+{
+  "id": 10045,
+  "data_id": 4784025267225,
+  "name": {
+    "last": "Чистяков",
+    "first": "Михаил",
+    "middle": "Леонидович"
+  },
+  "birthdate": {
+    "day": 22,
+    "month": 11,
+    "year": 1997
+  },
+  "district": "Красногвардейский район",
+  "age": 23,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Чистяков",
+    "first": "Леонид"
+  },
+  "role_id": 4,
+  "assigned_by_id": 55,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 985
+    },
+    "uik": 985,
+    "district": "Красногвардейский район",
+    "tik": 25,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 26
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 1663
+      }
+    },
+    "siblings": {
+      "1663": {
+        "age_difference": 36,
+        "name": {
+          "last": "Чистякова",
+          "first": "Марина",
+          "middle": "Леонидовна"
+        },
+        "distance": 2414,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1528
+          },
+          "uik": 1528,
+          "district": "Невский район",
+          "tik": 5,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "26": {
+        "strong_evidence": "strong_role",
+        "age_difference": 29,
+        "name": {
+          "last": "Чистякова",
+          "first": "Ольга",
+          "middle": "Борисовна"
+        },
+        "distance": 9670,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 1
+          },
+          "tik": 1,
+          "district": "Адмиралтейский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

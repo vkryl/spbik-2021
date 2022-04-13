@@ -1,0 +1,120 @@
+{
+  "id": 12515,
+  "data_id": 4784030294748,
+  "name": {
+    "last": "Данилова",
+    "first": "Екатерина",
+    "middle": "Игоревна"
+  },
+  "birthdate": {
+    "day": 18,
+    "month": 11,
+    "year": 1995
+  },
+  "district": "Центральный район",
+  "age": 25,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Данилов",
+    "first": "Игорь"
+  },
+  "role_id": 4,
+  "assigned_by_id": 113,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2260
+    },
+    "uik": 2260,
+    "district": "Центральный район",
+    "tik": 30,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 7206
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 12409
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 14053
+      }
+    },
+    "siblings": {
+      "14053": {
+        "age_difference": 13,
+        "name": {
+          "last": "Данилов",
+          "first": "Константин",
+          "middle": "Игоревич"
+        },
+        "distance": 13397,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 255
+          },
+          "uik": 255,
+          "district": "Выборгский район",
+          "tik": 35,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "7206": {
+        "strong_evidence": "strong_role",
+        "age_difference": 30,
+        "name": {
+          "last": "Данилова",
+          "first": "Любовь",
+          "middle": "Анатольевна"
+        },
+        "distance": 23143,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 20
+          },
+          "tik": 20,
+          "district": "Пушкинский район",
+          "gik": "СПбИК"
+        }
+      },
+      "12409": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 31,
+        "name": {
+          "last": "Данилова",
+          "first": "Ольга",
+          "middle": "Никандровна"
+        },
+        "distance": 997,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2252
+          },
+          "uik": 2252,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

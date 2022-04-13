@@ -1,0 +1,96 @@
+{
+  "id": 2610,
+  "data_id": 4784020243992,
+  "name": {
+    "last": "Макарова",
+    "first": "Евгения",
+    "middle": "Петровна"
+  },
+  "birthdate": {
+    "day": 1,
+    "month": 1,
+    "year": 1934
+  },
+  "district": "Кировский район",
+  "age": 87,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Макаров",
+    "first": "Петр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 794
+    },
+    "uik": 794,
+    "district": "Кировский район",
+    "tik": 7,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 12986
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 21103
+      }
+    },
+    "children": {
+      "12986": {
+        "strong_evidence": "strong_role",
+        "age_difference": -45,
+        "name": {
+          "last": "Макаров",
+          "first": "Виталий",
+          "middle": "Михайлович"
+        },
+        "distance": 10514,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 32
+          },
+          "tik": 32,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "21103": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -20,
+        "name": {
+          "last": "Макарова",
+          "first": "Любовь",
+          "middle": "Петровна"
+        },
+        "distance": 27201,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1712
+          },
+          "uik": 1712,
+          "district": "Петродворцовый район",
+          "tik": 55,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

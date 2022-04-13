@@ -1,0 +1,118 @@
+{
+  "id": 23558,
+  "data_id": 4784029409134,
+  "name": {
+    "last": "Кириллова",
+    "first": "Екатерина",
+    "middle": "Андреевна"
+  },
+  "birthdate": {
+    "day": 30,
+    "month": 4,
+    "year": 1996
+  },
+  "district": "Фрунзенский район",
+  "age": 25,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Кириллов",
+    "first": "Андрей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2159
+    },
+    "uik": 2159,
+    "district": "Фрунзенский район",
+    "tik": 63,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 23630
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          1727,
+          12816
+        ]
+      }
+    },
+    "mother": {
+      "23630": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 35,
+        "name": {
+          "last": "Кириллова",
+          "first": "Екатерина",
+          "middle": "Владимировна"
+        },
+        "distance": 615,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2165
+          },
+          "uik": 2165,
+          "district": "Фрунзенский район",
+          "tik": 63,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "1727": {
+        "age_difference": 12,
+        "name": {
+          "last": "Кириллова",
+          "first": "Анна",
+          "middle": "Андреевна"
+        },
+        "distance": 11559,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1535
+          },
+          "uik": 1535,
+          "district": "Невский район",
+          "tik": 5,
+          "gik": "СПбИК"
+        }
+      },
+      "12816": {
+        "age_difference": 23,
+        "name": {
+          "last": "Кириллова",
+          "first": "Юлия",
+          "middle": "Андреевна"
+        },
+        "distance": 10716,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 51
+          },
+          "uik": 51,
+          "district": "Адмиралтейский район",
+          "tik": 31,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": 2315,
+  "data_id": 4784020153037,
+  "name": {
+    "last": "Привалов",
+    "first": "Юрий",
+    "middle": "Алексеевич"
+  },
+  "birthdate": {
+    "day": 23,
+    "month": 7,
+    "year": 1975
+  },
+  "district": "Кировский район",
+  "age": 46,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Привалов",
+    "first": "Алексей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 7
+    },
+    "tik": 7,
+    "district": "Кировский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 5,
+      "strong_guesses": {
+        "strong_role": 4
+      },
+      "siblings_with_strong_role": {
+        "count": 4,
+        "ids": [
+          "5213",
+          "5633",
+          "8115",
+          "19314"
+        ]
+      }
+    },
+    "mother": {
+      "8115": {
+        "strong_evidence": "strong_role",
+        "age_difference": 18,
+        "name": {
+          "last": "Привалова",
+          "first": "Татьяна",
+          "middle": "Александровна"
+        },
+        "distance": 23189,
+        "district": "Колпинский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 852
+          },
+          "uik": 852,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "5213": {
+        "strong_evidence": "strong_role",
+        "age_difference": -3,
+        "name": {
+          "last": "Привалова",
+          "first": "Светлана",
+          "middle": "Владимировна"
+        },
+        "distance": 48435,
+        "district": "Курортный район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1267
+          },
+          "uik": 1267,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      },
+      "5633": {
+        "strong_evidence": "strong_role",
+        "age_difference": -12,
+        "name": {
+          "last": "Привалова",
+          "first": "Светлана",
+          "middle": "Андреевна"
+        },
+        "distance": 29329,
+        "district": "Кронштадтский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1220
+          },
+          "uik": 1220,
+          "district": "Кронштадтский район",
+          "tik": 15,
+          "gik": "СПбИК"
+        }
+      },
+      "19314": {
+        "strong_evidence": "strong_role",
+        "age_difference": -3,
+        "name": {
+          "last": "Привалова",
+          "first": "Ирина",
+          "middle": "Анатольевна"
+        },
+        "distance": 12813,
+        "district": "Невский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1503
+          },
+          "uik": 1503,
+          "district": "Невский район",
+          "tik": 49,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

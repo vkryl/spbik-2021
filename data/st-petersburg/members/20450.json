@@ -1,0 +1,119 @@
+{
+  "id": 20450,
+  "data_id": 4784022359882,
+  "name": {
+    "last": "Прокофьева",
+    "first": "Марина",
+    "middle": "Николаевна"
+  },
+  "birthdate": {
+    "day": 30,
+    "month": 5,
+    "year": 1963
+  },
+  "district": "Невский район",
+  "age": 58,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Прокофьев",
+    "first": "Николай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1588
+    },
+    "uik": 1588,
+    "district": "Невский район",
+    "tik": 53,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_parent_commission": 2
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 20441
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          20562,
+          20590
+        ]
+      }
+    },
+    "children": {
+      "20441": {
+        "strong_evidence": "same_commission",
+        "age_difference": -31,
+        "name": {
+          "last": "Прокофьева",
+          "first": "Яна",
+          "middle": "Андреевна"
+        },
+        "distance": 0,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1588
+          },
+          "uik": 1588,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      },
+      "20562": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -32,
+        "name": {
+          "last": "Прокофьева",
+          "first": "Анна",
+          "middle": "Романовна"
+        },
+        "distance": 625,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1596
+          },
+          "uik": 1596,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      },
+      "20590": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -24,
+        "name": {
+          "last": "Прокофьева",
+          "first": "Ирина",
+          "middle": "Владимировна"
+        },
+        "distance": 1464,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1598
+          },
+          "uik": 1598,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

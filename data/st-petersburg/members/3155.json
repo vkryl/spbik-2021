@@ -1,0 +1,222 @@
+{
+  "id": 3155,
+  "data_id": 4784013217924,
+  "name": {
+    "last": "Алексеева",
+    "first": "Инна",
+    "middle": "Олеговна"
+  },
+  "birthdate": {
+    "day": 1,
+    "month": 8,
+    "year": 1990
+  },
+  "district": "Петродворцовый район",
+  "age": 31,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Алексеев",
+    "first": "Олег"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1695
+    },
+    "uik": 1695,
+    "district": "Петродворцовый район",
+    "tik": 8,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 7,
+      "strong_guess_count": 4,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_electoral_district": 1,
+        "same_parent_commission": 1,
+        "same_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          6442,
+          7203
+        ]
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 16667
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 3100
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 3156
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          2479,
+          14546
+        ]
+      }
+    },
+    "father": {
+      "16667": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 21,
+        "name": {
+          "last": "Алексеев",
+          "first": "Олег",
+          "middle": "Владимирович"
+        },
+        "distance": 19586,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 776
+          },
+          "uik": 776,
+          "district": "Кировский район",
+          "tik": 42,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "6442": {
+        "strong_evidence": "strong_role",
+        "age_difference": 13,
+        "name": {
+          "last": "Алексеев",
+          "first": "Вячеслав",
+          "middle": "Евгеньевич"
+        },
+        "distance": 27591,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 18
+          },
+          "tik": 18,
+          "district": "Петроградский район",
+          "gik": "СПбИК"
+        }
+      },
+      "7203": {
+        "strong_evidence": "strong_role",
+        "age_difference": 7,
+        "name": {
+          "last": "Алексеев",
+          "first": "Дмитрий",
+          "middle": "Александрович"
+        },
+        "distance": 35215,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 20
+          },
+          "tik": 20,
+          "district": "Пушкинский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "2479": {
+        "age_difference": 2,
+        "name": {
+          "last": "Алексеев",
+          "first": "Александр",
+          "middle": "Олегович"
+        },
+        "distance": 20866,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 643
+          },
+          "uik": 643,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      },
+      "14546": {
+        "age_difference": 7,
+        "name": {
+          "last": "Алексеева",
+          "first": "Олеся",
+          "middle": "Олеговна"
+        },
+        "distance": 31761,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 383
+          },
+          "uik": 383,
+          "district": "Выборгский район",
+          "tik": 36,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "3100": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 19,
+        "name": {
+          "last": "Алексеева",
+          "first": "Ирина",
+          "middle": "Фавстовна"
+        },
+        "distance": 1748,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1690
+          },
+          "uik": 1690,
+          "district": "Петродворцовый район",
+          "tik": 8,
+          "gik": "СПбИК"
+        }
+      },
+      "3156": {
+        "strong_evidence": "same_commission",
+        "age_difference": 20,
+        "name": {
+          "last": "Алексеева",
+          "first": "Марина",
+          "middle": "Геннадьевна"
+        },
+        "distance": 0,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1695
+          },
+          "uik": 1695,
+          "district": "Петродворцовый район",
+          "tik": 8,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

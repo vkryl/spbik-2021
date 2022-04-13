@@ -1,0 +1,96 @@
+{
+  "id": 9322,
+  "data_id": 4784022364903,
+  "name": {
+    "last": "Аринушкин",
+    "first": "Александр",
+    "middle": "Андреевич"
+  },
+  "birthdate": {
+    "day": 4,
+    "month": 7,
+    "year": 1982
+  },
+  "district": "Невский район",
+  "age": 39,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Аринушкин",
+    "first": "Андрей"
+  },
+  "role_id": 2,
+  "assigned_by_id": 149,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 24
+    },
+    "tik": 24,
+    "district": "Невский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 454
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "573"
+      }
+    },
+    "siblings": {
+      "454": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -3,
+        "name": {
+          "last": "Аринушкин",
+          "first": "Павел",
+          "middle": "Андреевич"
+        },
+        "distance": 11848,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 2
+          },
+          "tik": 2,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "573": {
+        "strong_evidence": "strong_role",
+        "age_difference": 18,
+        "name": {
+          "last": "Аринушкина",
+          "first": "Наталия",
+          "middle": "Владимировна"
+        },
+        "distance": 15584,
+        "district": "Василеостровский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 167
+          },
+          "uik": 167,
+          "district": "Василеостровский район",
+          "tik": 2,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

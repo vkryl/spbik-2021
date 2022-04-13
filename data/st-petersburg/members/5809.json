@@ -1,0 +1,144 @@
+{
+  "id": 5809,
+  "data_id": 4784021130011,
+  "name": {
+    "last": "Марков",
+    "first": "Иван",
+    "middle": "Андрианович"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 8,
+    "year": 1989
+  },
+  "district": "Кронштадтский район",
+  "age": 32,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Марков",
+    "first": "Андриан"
+  },
+  "role_id": 4,
+  "assigned_by_id": 6,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1237
+    },
+    "uik": 1237,
+    "district": "Кронштадтский район",
+    "tik": 15,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2,
+        "works_in_parent_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          13999,
+          20059
+        ]
+      },
+      "siblings_in_parent_commission": {
+        "count": 1,
+        "ids": 5627
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 5673
+      }
+    },
+    "spouse": {
+      "13999": {
+        "strong_evidence": "strong_role",
+        "age_difference": 10,
+        "name": {
+          "last": "Маркова",
+          "first": "Надежда",
+          "middle": "Петровна"
+        },
+        "distance": 34346,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 35
+          },
+          "tik": 35,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "5627": {
+        "strong_evidence": "works_in_parent_commission",
+        "age_difference": 19,
+        "name": {
+          "last": "Маркова",
+          "first": "Юлия",
+          "middle": "Олеговна"
+        },
+        "distance": 3242,
+        "district": "Кронштадтский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 15
+          },
+          "tik": 15,
+          "district": "Кронштадтский район",
+          "gik": "СПбИК"
+        }
+      },
+      "5673": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 27,
+        "name": {
+          "last": "Маркова",
+          "first": "Викторина",
+          "middle": "Александровна"
+        },
+        "distance": 3786,
+        "district": "Кронштадтский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1224
+          },
+          "uik": 1224,
+          "district": "Кронштадтский район",
+          "tik": 15,
+          "gik": "СПбИК"
+        }
+      },
+      "20059": {
+        "strong_evidence": "strong_role",
+        "age_difference": 23,
+        "name": {
+          "last": "Маркова",
+          "first": "Вера",
+          "middle": "Александровна"
+        },
+        "distance": 43339,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 52
+          },
+          "tik": 52,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

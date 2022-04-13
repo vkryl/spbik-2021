@@ -1,0 +1,95 @@
+{
+  "id": 13482,
+  "data_id": 4784002182724,
+  "name": {
+    "last": "Попков",
+    "first": "Олег",
+    "middle": "Алексеевич"
+  },
+  "birthdate": {
+    "day": 23,
+    "month": 3,
+    "year": 1987
+  },
+  "district": "Василеостровский район",
+  "age": 34,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Попков",
+    "first": "Алексей"
+  },
+  "role_id": 3,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 114
+    },
+    "uik": 114,
+    "district": "Василеостровский район",
+    "tik": 33,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 13600
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 15990
+      }
+    },
+    "spouse": {
+      "13600": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 1,
+        "name": {
+          "last": "Попкова",
+          "first": "Анастасия",
+          "middle": "Александровна"
+        },
+        "distance": 883,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 123
+          },
+          "uik": 123,
+          "district": "Василеостровский район",
+          "tik": 33,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "15990": {
+        "age_difference": -7,
+        "name": {
+          "last": "Попков",
+          "first": "Кирилл",
+          "middle": "Алексеевич"
+        },
+        "distance": 4007,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 576
+          },
+          "uik": 576,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": 3100,
+  "data_id": 4784013198042,
+  "name": {
+    "last": "Алексеева",
+    "first": "Ирина",
+    "middle": "Фавстовна"
+  },
+  "birthdate": {
+    "day": 28,
+    "month": 12,
+    "year": 1970
+  },
+  "district": "Петродворцовый район",
+  "age": 50,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Алексеев",
+    "first": "Фавст"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1690
+    },
+    "uik": 1690,
+    "district": "Петродворцовый район",
+    "tik": 8,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          6442,
+          7203
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 3155
+      }
+    },
+    "children": {
+      "3155": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -19,
+        "name": {
+          "last": "Алексеева",
+          "first": "Инна",
+          "middle": "Олеговна"
+        },
+        "distance": 1748,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1695
+          },
+          "uik": 1695,
+          "district": "Петродворцовый район",
+          "tik": 8,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "6442": {
+        "strong_evidence": "strong_role",
+        "age_difference": -5,
+        "name": {
+          "last": "Алексеев",
+          "first": "Вячеслав",
+          "middle": "Евгеньевич"
+        },
+        "distance": 25849,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 18
+          },
+          "tik": 18,
+          "district": "Петроградский район",
+          "gik": "СПбИК"
+        }
+      },
+      "7203": {
+        "strong_evidence": "strong_role",
+        "age_difference": -12,
+        "name": {
+          "last": "Алексеев",
+          "first": "Дмитрий",
+          "middle": "Александрович"
+        },
+        "distance": 34217,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 20
+          },
+          "tik": 20,
+          "district": "Пушкинский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

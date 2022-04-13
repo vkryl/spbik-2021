@@ -1,0 +1,94 @@
+{
+  "id": 17801,
+  "data_id": 478404690644,
+  "name": {
+    "last": "Нестеренко",
+    "first": "Анна",
+    "middle": "Владимировна"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 7,
+    "year": 1973
+  },
+  "district": "Красносельский район",
+  "age": 48,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Нестеренко",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 46
+    },
+    "tik": 46,
+    "district": "Красносельский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "22210",
+          "22759"
+        ]
+      }
+    },
+    "spouse": {
+      "22210": {
+        "strong_evidence": "strong_role",
+        "age_difference": -11,
+        "name": {
+          "last": "Нестеренко",
+          "first": "Александр",
+          "middle": "Юрьевич"
+        },
+        "distance": 19098,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1834
+          },
+          "uik": 1834,
+          "district": "Приморский район",
+          "tik": 58,
+          "gik": "СПбИК"
+        }
+      },
+      "22759": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Нестеренко",
+          "first": "Евгений",
+          "middle": "Иванович"
+        },
+        "distance": 11976,
+        "district": "Фрунзенский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2038
+          },
+          "uik": 2038,
+          "district": "Фрунзенский район",
+          "tik": 60,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

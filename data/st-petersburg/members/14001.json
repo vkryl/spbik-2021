@@ -1,0 +1,95 @@
+{
+  "id": 14001,
+  "data_id": 27820001305783,
+  "name": {
+    "last": "Земскова",
+    "first": "Валентина",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 1,
+    "month": 6,
+    "year": 1992
+  },
+  "district": "Выборгский район",
+  "age": 29,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Земсков",
+    "first": "Александр"
+  },
+  "role_id": 3,
+  "assigned_by_id": 6,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 35
+    },
+    "tik": 35,
+    "district": "Выборгский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 1876
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "2877"
+      }
+    },
+    "siblings": {
+      "1876": {
+        "age_difference": 21,
+        "name": {
+          "last": "Земскова",
+          "first": "Ирина",
+          "middle": "Александровна"
+        },
+        "distance": 16569,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1066
+          },
+          "uik": 1066,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "2877": {
+        "strong_evidence": "strong_role",
+        "age_difference": 28,
+        "name": {
+          "last": "Земскова",
+          "first": "Татьяна",
+          "middle": "Леонидовна"
+        },
+        "distance": 16862,
+        "district": "Кировский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 812
+          },
+          "uik": 812,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

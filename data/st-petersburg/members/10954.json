@@ -1,0 +1,69 @@
+{
+  "id": 10954,
+  "data_id": 4784027339619,
+  "name": {
+    "last": "Летов",
+    "first": "Никита",
+    "middle": "Андреевич"
+  },
+  "birthdate": {
+    "day": 29,
+    "month": 7,
+    "year": 1996
+  },
+  "district": "Московский район",
+  "age": 25,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Летов",
+    "first": "Андрей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 18,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 27
+    },
+    "tik": 27,
+    "district": "Московский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "8269"
+      }
+    },
+    "mother": {
+      "8269": {
+        "strong_evidence": "strong_role",
+        "age_difference": 40,
+        "name": {
+          "last": "Летова",
+          "first": "Лидия",
+          "middle": "Павловна"
+        },
+        "distance": 22077,
+        "district": "Колпинский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 865
+          },
+          "uik": 865,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

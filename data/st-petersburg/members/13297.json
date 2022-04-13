@@ -1,0 +1,93 @@
+{
+  "id": 13297,
+  "data_id": 4784002284055,
+  "name": {
+    "last": "Виноградов",
+    "first": "Иван",
+    "middle": "Петрович"
+  },
+  "birthdate": {
+    "day": 17,
+    "month": 9,
+    "year": 1990
+  },
+  "district": "Василеостровский район",
+  "age": 30,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Виноградов",
+    "first": "Петр"
+  },
+  "role_id": 3,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 157
+    },
+    "uik": 157,
+    "district": "Василеостровский район",
+    "tik": 32,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          6169,
+          8422
+        ]
+      }
+    },
+    "spouse": {
+      "6169": {
+        "strong_evidence": "strong_role",
+        "age_difference": -8,
+        "name": {
+          "last": "Виноградова",
+          "first": "Александра",
+          "middle": "Евгеньевна"
+        },
+        "distance": 8302,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 17
+          },
+          "tik": 17,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "8422": {
+        "strong_evidence": "strong_role",
+        "age_difference": 29,
+        "name": {
+          "last": "Виноградова",
+          "first": "Ольга",
+          "middle": "Игоревна"
+        },
+        "distance": 8416,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 22
+          },
+          "tik": 22,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

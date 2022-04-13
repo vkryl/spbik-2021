@@ -1,0 +1,145 @@
+{
+  "id": 10584,
+  "data_id": 4784026419382,
+  "name": {
+    "last": "Егорова",
+    "first": "Эльвира",
+    "middle": "Вячеславовна"
+  },
+  "birthdate": {
+    "day": 8,
+    "month": 2,
+    "year": 1996
+  },
+  "district": "Красносельский район",
+  "age": 25,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Егоров",
+    "first": "Вячеслава"
+  },
+  "role_id": 3,
+  "assigned_by_id": 156,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1185
+    },
+    "uik": 1185,
+    "district": "Красносельский район",
+    "tik": 26,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          12983,
+          22705
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 10771
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 5422
+      }
+    },
+    "spouse": {
+      "12983": {
+        "strong_evidence": "strong_role",
+        "age_difference": -1,
+        "name": {
+          "last": "Егоров",
+          "first": "Ярослав",
+          "middle": "Константинович"
+        },
+        "distance": 18197,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 32
+          },
+          "tik": 32,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "5422": {
+        "age_difference": 19,
+        "name": {
+          "last": "Егорова",
+          "first": "Ольга",
+          "middle": "Вячеславовна"
+        },
+        "distance": 36500,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 301
+          },
+          "uik": 301,
+          "district": "Выборгский район",
+          "tik": 14,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "10771": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 22,
+        "name": {
+          "last": "Егорова",
+          "first": "Елена",
+          "middle": "Юрьевна"
+        },
+        "distance": 7020,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1202
+          },
+          "uik": 1202,
+          "district": "Красносельский район",
+          "tik": 26,
+          "gik": "СПбИК"
+        }
+      },
+      "22705": {
+        "strong_evidence": "strong_role",
+        "age_difference": 22,
+        "name": {
+          "last": "Егорова",
+          "first": "Татьяна",
+          "middle": "Анатольевна"
+        },
+        "distance": 16947,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 60
+          },
+          "tik": 60,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

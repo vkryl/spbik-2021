@@ -1,0 +1,192 @@
+{
+  "name": "Участковая избирательная комиссия №1942",
+  "id": 1942,
+  "type": "uik",
+  "data_id": 4784028281923,
+  "has_koib": false,
+  "district": "Приморский район",
+  "electoral_districts": {
+    "federal": 215,
+    "city": 12
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "215": 13,
+        "total_count": 13,
+        "winner_count": 1
+      },
+      "city": {
+        "12": 6,
+        "total_count": 6,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 25,
+        "members_with_guesses": 7,
+        "strong_count": {
+          "same_commission": 10,
+          "same_electoral_district": 4,
+          "same_parent_commission": 1
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №1942": 7
+        }
+      }
+    },
+    "violation_reports_count": 7
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 1045,
+      "party_abstained_count": 1866,
+      "party_registered_count": 2911,
+      "person_voters_count": 1001,
+      "person_abstained_count": 1910,
+      "person_registered_count": 2911,
+      "max_attached_count": 54,
+      "only_party_voters_count": 44,
+      "no_city_count_max": 30,
+      "no_city_registered_count": 1,
+      "no_other_registered_count": 1,
+      "no_other_registered_count_formula": [
+        {
+          "key": "federal.registered_count.person",
+          "value": 2911,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.registered_count.person",
+          "value": 2910,
+          "isNegative": true
+        }
+      ],
+      "only_city_count_max": 24
+    },
+    "city": {
+      "party_voters_count": 1015,
+      "party_abstained_count": 1895,
+      "party_registered_count": 2910,
+      "person_voters_count": 1025,
+      "person_abstained_count": 1885,
+      "person_registered_count": 2910,
+      "only_person_voters_count": 10,
+      "no_federal_count": 14,
+      "no_other_count": 14,
+      "no_other_count_formula": [
+        {
+          "key": "city.voters_count.party",
+          "value": 1015,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "federal.voters_count.person",
+          "value": 1001,
+          "isNegative": true
+        }
+      ],
+      "no_federal_count_max": 24,
+      "only_federal_count_max": 30,
+      "only_federal_registered_count": 1
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 56,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 910,
+  "voting_address_id": 911,
+  "members": {
+    "chairman_id": 21382,
+    "vice_chairman_id": 21383,
+    "secretary_id": 21384,
+    "other_ids": [
+      21385,
+      21386,
+      21387,
+      21388,
+      21389,
+      21390,
+      21391,
+      21392,
+      21393
+    ],
+    "assigned_by_stats": {
+      "5": 1,
+      "6": 1,
+      "10": 2,
+      "18": 1,
+      "20": 1,
+      "25": 1,
+      "28": 1,
+      "86": 1
+    },
+    "gender_stats": {
+      "female": 8,
+      "male": 4
+    },
+    "age_stats": {
+      "26": 1,
+      "28": 1,
+      "35": 2,
+      "38": 1,
+      "39": 1,
+      "58": 1,
+      "63": 2,
+      "64": 1,
+      "65": 1,
+      "69": 1
+    },
+    "source_date": 1633482057720
+  },
+  "election_ids": [
+    1,
+    2
+  ],
+  "violation_reports": {
+    "ids": [
+      61484,
+      61544,
+      61662,
+      61939,
+      63187,
+      64524,
+      65537
+    ],
+    "during": [
+      "commission_equipment_failure",
+      "observer_rights_failure",
+      "carousel_or_stuffing",
+      "other",
+      "registered_voters",
+      "initial_setup_failure"
+    ],
+    "before": [
+      "observer_rights_failure"
+    ],
+    "finale": [
+      "other"
+    ],
+    "complaints": {
+      "submitted": true,
+      "received_official_response": true
+    }
+  }
+}

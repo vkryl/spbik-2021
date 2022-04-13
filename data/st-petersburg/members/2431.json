@@ -1,0 +1,95 @@
+{
+  "id": 2431,
+  "data_id": 4784020275761,
+  "name": {
+    "last": "Сергеева",
+    "first": "Наталья",
+    "middle": "Геннадьевна"
+  },
+  "birthdate": {
+    "day": 6,
+    "month": 6,
+    "year": 1961
+  },
+  "district": "Кировский район",
+  "age": 60,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Сергеев",
+    "first": "Геннадий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 639
+    },
+    "uik": 639,
+    "district": "Кировский район",
+    "tik": 7,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "same_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 2732
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 2430
+      }
+    },
+    "children": {
+      "2430": {
+        "strong_evidence": "same_commission",
+        "age_difference": -18,
+        "name": {
+          "last": "Сергеев",
+          "first": "Алексей",
+          "middle": "Владимирович"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 639
+          },
+          "uik": 639,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      },
+      "2732": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -18,
+        "name": {
+          "last": "Сергеева",
+          "first": "Надежда",
+          "middle": "Владимировна"
+        },
+        "distance": 2003,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 802
+          },
+          "uik": 802,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

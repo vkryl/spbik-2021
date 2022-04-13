@@ -1,0 +1,122 @@
+{
+  "id": 23199,
+  "data_id": 4784016256700,
+  "name": {
+    "last": "Давыдов",
+    "first": "Юрий",
+    "middle": "Валерьевич"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 11,
+    "year": 1988
+  },
+  "district": "Фрунзенский район",
+  "age": 32,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Давыдов",
+    "first": "Валерий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 8,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2100
+    },
+    "uik": 2100,
+    "district": "Фрунзенский район",
+    "tik": 61,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 3465
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 22995
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 6324
+      }
+    },
+    "spouse": {
+      "3465": {
+        "strong_evidence": "strong_role",
+        "age_difference": 8,
+        "name": {
+          "last": "Давыдова",
+          "first": "Алия",
+          "middle": "Бариевна"
+        },
+        "distance": 14542,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 10
+          },
+          "tik": 10,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "6324": {
+        "age_difference": 19,
+        "name": {
+          "last": "Давыдова",
+          "first": "Надежда",
+          "middle": "Валерьевна"
+        },
+        "distance": 13012,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 524
+          },
+          "uik": 524,
+          "district": "Калининский район",
+          "tik": 17,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "22995": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 41,
+        "name": {
+          "last": "Давыдова",
+          "first": "Татьяна",
+          "middle": "Александровна"
+        },
+        "distance": 1526,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2083
+          },
+          "uik": 2083,
+          "district": "Фрунзенский район",
+          "tik": 61,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

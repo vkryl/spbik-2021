@@ -1,0 +1,119 @@
+{
+  "id": 11730,
+  "data_id": 4784028279454,
+  "name": {
+    "last": "Чернова",
+    "first": "Любовь",
+    "middle": "Леонидовна"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 11,
+    "year": 1962
+  },
+  "district": "Приморский район",
+  "age": 58,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Чернов",
+    "first": "Леонид"
+  },
+  "role_id": 3,
+  "assigned_by_id": 20,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1890
+    },
+    "uik": 1890,
+    "district": "Приморский район",
+    "tik": 28,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_electoral_district": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          9331,
+          23432
+        ]
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 21784
+      }
+    },
+    "siblings": {
+      "21784": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -6,
+        "name": {
+          "last": "Чернова",
+          "first": "Светлана",
+          "middle": "Леонидовна"
+        },
+        "distance": 2887,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1910
+          },
+          "uik": 1910,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "9331": {
+        "strong_evidence": "strong_role",
+        "age_difference": -26,
+        "name": {
+          "last": "Чернова",
+          "first": "Анна",
+          "middle": "Александровна"
+        },
+        "distance": 17320,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 24
+          },
+          "tik": 24,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      },
+      "23432": {
+        "strong_evidence": "strong_role",
+        "age_difference": -16,
+        "name": {
+          "last": "Чернов",
+          "first": "Олег",
+          "middle": "Владимирович"
+        },
+        "distance": 17484,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 63
+          },
+          "tik": 63,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "name": "Участковая избирательная комиссия №271",
+  "id": 271,
+  "type": "uik",
+  "data_id": 4784018245709,
+  "has_koib": false,
+  "district": "Выборгский район",
+  "electoral_districts": {
+    "federal": 213,
+    "city": 11
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "213": 11,
+        "total_count": 11,
+        "winner_count": 1
+      },
+      "city": {
+        "11": 7,
+        "total_count": 7,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 18,
+        "members_with_guesses": 4,
+        "strong_count": {
+          "same_building": 1,
+          "same_parent_commission": 3,
+          "strong_role": 1,
+          "same_electoral_district": 1
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №271": 4
+        }
+      }
+    }
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 833,
+      "party_abstained_count": 891,
+      "party_registered_count": 1724,
+      "person_voters_count": 833,
+      "person_abstained_count": 891,
+      "person_registered_count": 1724,
+      "max_attached_count": 25,
+      "no_city_count": 15,
+      "no_other_count": 15,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 833,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.person",
+          "value": 818,
+          "isNegative": true
+        }
+      ]
+    },
+    "city": {
+      "party_voters_count": 818,
+      "party_abstained_count": 906,
+      "party_registered_count": 1724,
+      "person_voters_count": 818,
+      "person_abstained_count": 906,
+      "person_registered_count": 1724,
+      "only_federal_count": 15
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 35,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 639,
+  "members": {
+    "chairman_id": 14249,
+    "vice_chairman_id": 14250,
+    "secretary_id": 14251,
+    "other_ids": [
+      14252,
+      14253,
+      14254,
+      14255,
+      14256,
+      14257,
+      14258,
+      14259,
+      14260
+    ],
+    "assigned_by_stats": {
+      "6": 1,
+      "10": 1,
+      "13": 2,
+      "17": 1,
+      "20": 1,
+      "30": 1,
+      "90": 1,
+      "91": 1
+    },
+    "gender_stats": {
+      "male": 4,
+      "female": 8
+    },
+    "age_stats": {
+      "25": 1,
+      "26": 1,
+      "27": 1,
+      "35": 1,
+      "44": 1,
+      "46": 1,
+      "49": 1,
+      "51": 1,
+      "52": 1,
+      "63": 2,
+      "75": 1
+    },
+    "source_date": 1633480817353
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

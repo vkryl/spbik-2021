@@ -1,0 +1,121 @@
+{
+  "id": 10464,
+  "data_id": 4784025355618,
+  "name": {
+    "last": "Ткачева",
+    "first": "Анна",
+    "middle": "Шапиевна"
+  },
+  "birthdate": {
+    "day": 17,
+    "month": 3,
+    "year": 2000
+  },
+  "district": "Красногвардейский район",
+  "age": 21,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Ткачев",
+    "first": "Шапий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1020
+    },
+    "uik": 1020,
+    "district": "Красногвардейский район",
+    "tik": 25,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          15428,
+          22318
+        ]
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 10465
+      }
+    },
+    "spouse": {
+      "15428": {
+        "strong_evidence": "strong_role",
+        "age_difference": 12,
+        "name": {
+          "last": "Ткачев",
+          "first": "Олег",
+          "middle": "Николаевич"
+        },
+        "distance": 7737,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 39
+          },
+          "tik": 39,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "10465": {
+        "strong_evidence": "same_commission",
+        "age_difference": -2,
+        "name": {
+          "last": "Ткачева",
+          "first": "Кристина",
+          "middle": "Шапиевна"
+        },
+        "distance": 0,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1020
+          },
+          "uik": 1020,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "22318": {
+        "strong_evidence": "strong_role",
+        "age_difference": 31,
+        "name": {
+          "last": "Ткачева",
+          "first": "Елена",
+          "middle": "Викторовна"
+        },
+        "distance": 24267,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 59
+          },
+          "tik": 59,
+          "district": "Пушкинский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

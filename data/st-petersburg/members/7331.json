@@ -1,0 +1,96 @@
+{
+  "id": 7331,
+  "data_id": 4784015431900,
+  "name": {
+    "last": "Журавлев",
+    "first": "Дмитрий",
+    "middle": "Федорович"
+  },
+  "birthdate": {
+    "day": 6,
+    "month": 4,
+    "year": 1987
+  },
+  "district": "Пушкинский район",
+  "age": 34,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Журавлев",
+    "first": "Федор"
+  },
+  "role_id": 3,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1958
+    },
+    "uik": 1958,
+    "district": "Пушкинский район",
+    "tik": 20,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_commission": 2
+      },
+      "siblings_in_commission": {
+        "count": 2,
+        "ids": [
+          7329,
+          7335
+        ]
+      }
+    },
+    "spouse": {
+      "7329": {
+        "strong_evidence": "same_commission",
+        "age_difference": -1,
+        "name": {
+          "last": "Журавлева",
+          "first": "Ольга",
+          "middle": "Сергеевна"
+        },
+        "distance": 0,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1958
+          },
+          "uik": 1958,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "father": {
+      "7335": {
+        "strong_evidence": "same_commission",
+        "age_difference": 26,
+        "name": {
+          "last": "Журавлев",
+          "first": "Федор",
+          "middle": "Осипович",
+          "raw": "Журавлёв Фёдор Осипович"
+        },
+        "distance": 0,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1958
+          },
+          "uik": 1958,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

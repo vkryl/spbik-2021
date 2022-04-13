@@ -1,0 +1,94 @@
+{
+  "id": 4364,
+  "data_id": 4784014282159,
+  "name": {
+    "last": "Воробьева",
+    "first": "Елена",
+    "middle": "Евгеньевна"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 12,
+    "year": 1976
+  },
+  "district": "Приморский район",
+  "age": 44,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Воробьев",
+    "first": "Евгений"
+  },
+  "role_id": 4,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1744
+    },
+    "uik": 1744,
+    "district": "Приморский район",
+    "tik": 12,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 19378
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 20656
+      }
+    },
+    "spouse": {
+      "19378": {
+        "strong_evidence": "strong_role",
+        "age_difference": -13,
+        "name": {
+          "last": "Воробьев",
+          "first": "Филипп",
+          "middle": "Олегович"
+        },
+        "distance": 19391,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 50
+          },
+          "tik": 50,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "20656": {
+        "age_difference": 17,
+        "name": {
+          "last": "Воробьева",
+          "first": "Марина",
+          "middle": "Евгеньевна",
+          "raw": "Воробьёва Марина Евгеньевна"
+        },
+        "distance": 25260,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1603
+          },
+          "uik": 1603,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

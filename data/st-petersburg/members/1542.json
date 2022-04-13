@@ -1,0 +1,91 @@
+{
+  "id": 1542,
+  "data_id": 4784011269843,
+  "name": {
+    "last": "Алексеева",
+    "first": "Татьяна",
+    "middle": "Францевна"
+  },
+  "birthdate": {
+    "day": 21,
+    "month": 1,
+    "year": 1992
+  },
+  "district": "Невский район",
+  "age": 29,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Алексеев",
+    "first": "Франц"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1520
+    },
+    "uik": 1520,
+    "district": "Невский район",
+    "tik": 5,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          6442,
+          7203
+        ]
+      }
+    },
+    "spouse": {
+      "6442": {
+        "strong_evidence": "strong_role",
+        "age_difference": 15,
+        "name": {
+          "last": "Алексеев",
+          "first": "Вячеслав",
+          "middle": "Евгеньевич"
+        },
+        "distance": 9008,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 18
+          },
+          "tik": 18,
+          "district": "Петроградский район",
+          "gik": "СПбИК"
+        }
+      },
+      "7203": {
+        "strong_evidence": "strong_role",
+        "age_difference": 8,
+        "name": {
+          "last": "Алексеев",
+          "first": "Дмитрий",
+          "middle": "Александрович"
+        },
+        "distance": 23067,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 20
+          },
+          "tik": 20,
+          "district": "Пушкинский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

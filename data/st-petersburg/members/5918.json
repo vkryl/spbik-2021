@@ -1,0 +1,145 @@
+{
+  "id": 5918,
+  "data_id": 4784017124382,
+  "name": {
+    "last": "Воронова",
+    "first": "Юлия",
+    "middle": "Николаевна"
+  },
+  "birthdate": {
+    "day": 16,
+    "month": 8,
+    "year": 1991
+  },
+  "district": "Центральный район",
+  "age": 30,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Воронов",
+    "first": "Николай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2186
+    },
+    "uik": 2186,
+    "district": "Центральный район",
+    "tik": 16,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          15870,
+          21445
+        ]
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 15973
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 5944
+      }
+    },
+    "father": {
+      "15870": {
+        "age_difference": 45,
+        "name": {
+          "last": "Воронов",
+          "first": "Николай",
+          "middle": "Вячеславович"
+        },
+        "distance": 10821,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 459
+          },
+          "uik": 459,
+          "district": "Калининский район",
+          "tik": 40,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "15973": {
+        "strong_evidence": "strong_role",
+        "age_difference": 27,
+        "name": {
+          "last": "Воронова",
+          "first": "Татьяна",
+          "middle": "Викторовна"
+        },
+        "distance": 7417,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 41
+          },
+          "tik": 41,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "5944": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 41,
+        "name": {
+          "last": "Воронов",
+          "first": "Валерий",
+          "middle": "Николаевич"
+        },
+        "distance": 992,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2188
+          },
+          "uik": 2188,
+          "district": "Центральный район",
+          "tik": 16,
+          "gik": "СПбИК"
+        }
+      },
+      "21445": {
+        "age_difference": 1,
+        "name": {
+          "last": "Воронова",
+          "first": "Юлия",
+          "middle": "Николаевна"
+        },
+        "distance": 12663,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2395
+          },
+          "uik": 2395,
+          "district": "Приморский район",
+          "tik": 56,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

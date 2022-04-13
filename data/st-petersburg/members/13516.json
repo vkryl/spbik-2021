@@ -1,0 +1,143 @@
+{
+  "id": 13516,
+  "data_id": 4784002346785,
+  "name": {
+    "last": "Тихомиров",
+    "first": "Владимир",
+    "middle": "Андреевич"
+  },
+  "birthdate": {
+    "day": 13,
+    "month": 5,
+    "year": 1984
+  },
+  "district": "Василеостровский район",
+  "age": 37,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Тихомиров",
+    "first": "Андрей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 69,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 116
+    },
+    "uik": 116,
+    "district": "Василеостровский район",
+    "tik": 33,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          6454,
+          20064
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 13648
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 14534
+      }
+    },
+    "siblings": {
+      "14534": {
+        "age_difference": -2,
+        "name": {
+          "last": "Тихомирова",
+          "first": "Анна",
+          "middle": "Андреевна"
+        },
+        "distance": 11797,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 382
+          },
+          "uik": 382,
+          "district": "Выборгский район",
+          "tik": 36,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "6454": {
+        "strong_evidence": "strong_role",
+        "age_difference": 1,
+        "name": {
+          "last": "Тихомирова",
+          "first": "Анна",
+          "middle": "Сергеевна"
+        },
+        "distance": 4157,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 18
+          },
+          "tik": 18,
+          "district": "Петроградский район",
+          "gik": "СПбИК"
+        }
+      },
+      "13648": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -3,
+        "name": {
+          "last": "Тихомирова",
+          "first": "Екатерина",
+          "middle": "Михайловна"
+        },
+        "distance": 571,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 127
+          },
+          "uik": 127,
+          "district": "Василеостровский район",
+          "tik": 33,
+          "gik": "СПбИК"
+        }
+      },
+      "20064": {
+        "strong_evidence": "strong_role",
+        "age_difference": -3,
+        "name": {
+          "last": "Тихомирова",
+          "first": "Анастасия",
+          "middle": "Сергеевна"
+        },
+        "distance": 11979,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 52
+          },
+          "tik": 52,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

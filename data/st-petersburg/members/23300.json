@@ -1,0 +1,122 @@
+{
+  "id": 23300,
+  "data_id": 478406283956,
+  "name": {
+    "last": "Чернышев",
+    "first": "Никита",
+    "middle": "Викторович"
+  },
+  "birthdate": {
+    "day": 12,
+    "month": 1,
+    "year": 1989
+  },
+  "district": "Фрунзенский район",
+  "age": 32,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Чернышев",
+    "first": "Виктор"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2140
+    },
+    "uik": 2140,
+    "district": "Фрунзенский район",
+    "tik": 62,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 23301
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 3462
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 3359
+      }
+    },
+    "spouse": {
+      "23301": {
+        "strong_evidence": "same_commission",
+        "age_difference": 0,
+        "name": {
+          "last": "Чернышева",
+          "first": "Дарья",
+          "middle": "Александровна"
+        },
+        "distance": 0,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2140
+          },
+          "uik": 2140,
+          "district": "Фрунзенский район",
+          "tik": 62,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "3359": {
+        "age_difference": 7,
+        "name": {
+          "last": "Чернышев",
+          "first": "Владимир",
+          "middle": "Викторович"
+        },
+        "distance": 18043,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1802
+          },
+          "uik": 1802,
+          "district": "Приморский район",
+          "tik": 9,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "3462": {
+        "strong_evidence": "strong_role",
+        "age_difference": 25,
+        "name": {
+          "last": "Чернышева",
+          "first": "Галина",
+          "middle": "Ивановна"
+        },
+        "distance": 16902,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 10
+          },
+          "tik": 10,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

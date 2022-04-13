@@ -1,0 +1,69 @@
+{
+  "id": 19383,
+  "data_id": 478405083986,
+  "name": {
+    "last": "Латыпов",
+    "first": "Артем",
+    "middle": "Фаритович"
+  },
+  "birthdate": {
+    "day": 3,
+    "month": 3,
+    "year": 1988
+  },
+  "district": "Невский район",
+  "age": 33,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Латыпов",
+    "first": "Фарит"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 50
+    },
+    "tik": 50,
+    "district": "Невский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "9995"
+      }
+    },
+    "spouse": {
+      "9995": {
+        "strong_evidence": "strong_role",
+        "age_difference": 6,
+        "name": {
+          "last": "Латыпова",
+          "first": "Диля",
+          "middle": "Дамировна"
+        },
+        "distance": 7891,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 981
+          },
+          "uik": 981,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

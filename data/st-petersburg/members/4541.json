@@ -1,0 +1,147 @@
+{
+  "id": 4541,
+  "data_id": 4784014167606,
+  "name": {
+    "last": "Григорьева",
+    "first": "Елена",
+    "middle": "Геннадьевна"
+  },
+  "birthdate": {
+    "day": 9,
+    "month": 11,
+    "year": 1976
+  },
+  "district": "Приморский район",
+  "age": 44,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Григорьев",
+    "first": "Геннадий"
+  },
+  "role_id": 1,
+  "assigned_by_id": 2,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1759
+    },
+    "uik": 1759,
+    "district": "Приморский район",
+    "tik": 12,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 2,
+        "same_electoral_district": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          4449,
+          4690
+        ]
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 4952
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 9648
+      }
+    },
+    "spouse": {
+      "4449": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 13,
+        "name": {
+          "last": "Григорьев",
+          "first": "Михаил",
+          "middle": "Августинович"
+        },
+        "distance": 972,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1751
+          },
+          "uik": 1751,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "4690": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -21,
+        "name": {
+          "last": "Григорьев",
+          "first": "Михаил",
+          "middle": "Дмитриевич"
+        },
+        "distance": 1480,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1771
+          },
+          "uik": 1771,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "4952": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 1,
+        "name": {
+          "last": "Григорьева",
+          "first": "Оксана",
+          "middle": "Геннадьевна"
+        },
+        "distance": 16845,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1242
+          },
+          "uik": 1242,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      },
+      "9648": {
+        "age_difference": 4,
+        "name": {
+          "last": "Григорьева",
+          "first": "Марина",
+          "middle": "Геннадьевна"
+        },
+        "distance": 19785,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1570
+          },
+          "uik": 1570,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

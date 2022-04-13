@@ -1,0 +1,143 @@
+{
+  "id": 20485,
+  "data_id": 4784022144062,
+  "name": {
+    "last": "Ефимова",
+    "first": "Елена",
+    "middle": "Леонидовна"
+  },
+  "birthdate": {
+    "day": 6,
+    "month": 8,
+    "year": 1981
+  },
+  "district": "Невский район",
+  "age": 40,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Ефимов",
+    "first": "Леонид"
+  },
+  "role_id": 3,
+  "assigned_by_id": 25,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1591
+    },
+    "uik": 1591,
+    "district": "Невский район",
+    "tik": 53,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          9883,
+          10947
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 20512
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 14878
+      }
+    },
+    "siblings": {
+      "14878": {
+        "age_difference": 11,
+        "name": {
+          "last": "Ефимова",
+          "first": "Анжелика",
+          "middle": "Леонидовна"
+        },
+        "distance": 19126,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 556
+          },
+          "uik": 556,
+          "district": "Калининский район",
+          "tik": 37,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "9883": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Ефимов",
+          "first": "Константин",
+          "middle": "Евгеньевич"
+        },
+        "distance": 14058,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 25
+          },
+          "tik": 25,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      },
+      "10947": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Ефимов",
+          "first": "Иван",
+          "middle": "Евгеньевич"
+        },
+        "distance": 11016,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 27
+          },
+          "tik": 27,
+          "district": "Московский район",
+          "gik": "СПбИК"
+        }
+      },
+      "20512": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -4,
+        "name": {
+          "last": "Ефимов",
+          "first": "Александр",
+          "middle": "Сергеевич"
+        },
+        "distance": 221,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1593
+          },
+          "uik": 1593,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

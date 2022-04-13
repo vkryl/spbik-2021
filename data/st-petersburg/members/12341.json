@@ -1,0 +1,138 @@
+{
+  "id": 12341,
+  "data_id": 4784030244573,
+  "name": {
+    "last": "Андреева",
+    "first": "Мария-Ангелина",
+    "middle": "Олеговна"
+  },
+  "birthdate": {
+    "day": 23,
+    "month": 9,
+    "year": 2000
+  },
+  "district": "Центральный район",
+  "age": 20,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Андреев",
+    "first": "Олег"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2247
+    },
+    "uik": 2247,
+    "district": "Центральный район",
+    "tik": 30,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 18801
+      },
+      "unknown": {
+        "count": 3,
+        "ids": [
+          129,
+          11984,
+          20884
+        ]
+      }
+    },
+    "spouse": {
+      "18801": {
+        "strong_evidence": "strong_role",
+        "age_difference": 13,
+        "name": {
+          "last": "Андреев",
+          "first": "Денис",
+          "middle": "Сергеевич"
+        },
+        "distance": 6400,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 48
+          },
+          "tik": 48,
+          "district": "Московский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "129": {
+        "age_difference": 36,
+        "name": {
+          "last": "Андреева",
+          "first": "Светлана",
+          "middle": "Олеговна"
+        },
+        "distance": 4332,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 8
+          },
+          "uik": 8,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      },
+      "11984": {
+        "age_difference": 28,
+        "name": {
+          "last": "Андреева",
+          "first": "Любовь",
+          "middle": "Олеговна"
+        },
+        "distance": 10269,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2121
+          },
+          "uik": 2121,
+          "district": "Фрунзенский район",
+          "tik": 29,
+          "gik": "СПбИК"
+        }
+      },
+      "20884": {
+        "age_difference": 13,
+        "name": {
+          "last": "Андреева",
+          "first": "Наталья",
+          "middle": "Олеговна"
+        },
+        "distance": 4001,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1625
+          },
+          "uik": 1625,
+          "district": "Петроградский район",
+          "tik": 54,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

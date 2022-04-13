@@ -1,0 +1,97 @@
+{
+  "id": 16192,
+  "data_id": 9789005301042,
+  "name": {
+    "last": "Политова",
+    "first": "Наталья",
+    "middle": "Михайловна"
+  },
+  "birthdate": {
+    "day": 7,
+    "month": 5,
+    "year": 1971
+  },
+  "district": "Кировский район",
+  "age": 50,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Политов",
+    "first": "Михаил"
+  },
+  "role_id": 4,
+  "assigned_by_id": 20,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 592
+    },
+    "uik": 592,
+    "district": "Кировский район",
+    "tik": 41,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "same_building": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 16218
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": 16203
+      }
+    },
+    "spouse": {
+      "16218": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 0,
+        "name": {
+          "last": "Политов",
+          "first": "Игорь",
+          "middle": "Витальевич"
+        },
+        "distance": 628,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 595
+          },
+          "uik": 595,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "16203": {
+        "strong_evidence": "same_building",
+        "age_difference": -26,
+        "name": {
+          "last": "Политова",
+          "first": "Татьяна",
+          "middle": "Игоревна"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 593
+          },
+          "uik": 593,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

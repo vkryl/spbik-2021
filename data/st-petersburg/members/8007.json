@@ -1,0 +1,169 @@
+{
+  "id": 8007,
+  "data_id": 4784006132123,
+  "name": {
+    "last": "Карпова",
+    "first": "Марина",
+    "middle": "Сергеевна"
+  },
+  "birthdate": {
+    "day": 11,
+    "month": 3,
+    "year": 1960
+  },
+  "district": "Колпинский район",
+  "age": 61,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Карпов",
+    "first": "Сергей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 843
+    },
+    "uik": 843,
+    "district": "Колпинский район",
+    "tik": 21,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 5,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_parent_commission": 2,
+        "strong_role": 2,
+        "same_electoral_district": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          8353,
+          8365
+        ]
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          11772,
+          17504
+        ]
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 12067
+      }
+    },
+    "siblings": {
+      "12067": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -32,
+        "name": {
+          "last": "Карпова",
+          "first": "Анастасия",
+          "middle": "Сергеевна"
+        },
+        "distance": 15467,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2128
+          },
+          "uik": 2128,
+          "district": "Фрунзенский район",
+          "tik": 29,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "8353": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -21,
+        "name": {
+          "last": "Карпова",
+          "first": "Екатерина",
+          "middle": "Александровна"
+        },
+        "distance": 1500,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 872
+          },
+          "uik": 872,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      },
+      "8365": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -21,
+        "name": {
+          "last": "Карпов",
+          "first": "Николай",
+          "middle": "Николаевич"
+        },
+        "distance": 1748,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 873
+          },
+          "uik": 873,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      },
+      "11772": {
+        "strong_evidence": "strong_role",
+        "age_difference": -20,
+        "name": {
+          "last": "Карпов",
+          "first": "Вячеслав",
+          "middle": "Владимирович"
+        },
+        "distance": 17060,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 29
+          },
+          "tik": 29,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      },
+      "17504": {
+        "strong_evidence": "strong_role",
+        "age_difference": -28,
+        "name": {
+          "last": "Карпов",
+          "first": "Александр",
+          "middle": "Владимирович"
+        },
+        "distance": 25714,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 45
+          },
+          "tik": 45,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

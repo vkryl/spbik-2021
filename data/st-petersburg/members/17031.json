@@ -1,0 +1,145 @@
+{
+  "id": 17031,
+  "data_id": 4784007292710,
+  "name": {
+    "last": "Петухова",
+    "first": "Марина",
+    "middle": "Николаевна"
+  },
+  "birthdate": {
+    "day": 10,
+    "month": 11,
+    "year": 1982
+  },
+  "district": "Красногвардейский район",
+  "age": 38,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Петухов",
+    "first": "Николай"
+  },
+  "role_id": 3,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 921
+    },
+    "uik": 921,
+    "district": "Красногвардейский район",
+    "tik": 44,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 15070
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 17309
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          5981,
+          7480
+        ]
+      }
+    },
+    "spouse": {
+      "15070": {
+        "strong_evidence": "strong_role",
+        "age_difference": -13,
+        "name": {
+          "last": "Петухов",
+          "first": "Александр",
+          "middle": "Михайлович"
+        },
+        "distance": 3456,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 38
+          },
+          "tik": 38,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "17309": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 22,
+        "name": {
+          "last": "Петухова",
+          "first": "Татьяна",
+          "middle": "Германовна"
+        },
+        "distance": 1702,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 944
+          },
+          "uik": 944,
+          "district": "Красногвардейский район",
+          "tik": 44,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "5981": {
+        "age_difference": -7,
+        "name": {
+          "last": "Петухов",
+          "first": "Андрей",
+          "middle": "Николаевич"
+        },
+        "distance": 4288,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2191
+          },
+          "uik": 2191,
+          "district": "Центральный район",
+          "tik": 16,
+          "gik": "СПбИК"
+        }
+      },
+      "7480": {
+        "age_difference": 0,
+        "name": {
+          "last": "Петухов",
+          "first": "Александр",
+          "middle": "Николаевич"
+        },
+        "distance": 25440,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1969
+          },
+          "uik": 1969,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

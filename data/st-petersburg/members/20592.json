@@ -1,0 +1,94 @@
+{
+  "id": 20592,
+  "data_id": 4784022360225,
+  "name": {
+    "last": "Степанова",
+    "first": "Татьяна",
+    "middle": "Анатольевна"
+  },
+  "birthdate": {
+    "day": 20,
+    "month": 6,
+    "year": 1975
+  },
+  "district": "Невский район",
+  "age": 46,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Степанов",
+    "first": "Анатолий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 20,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1598
+    },
+    "uik": 1598,
+    "district": "Невский район",
+    "tik": 53,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 3773
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 11798
+      }
+    },
+    "spouse": {
+      "3773": {
+        "strong_evidence": "strong_role",
+        "age_difference": -5,
+        "name": {
+          "last": "Степанов",
+          "first": "Константин",
+          "middle": "Геннадьевич"
+        },
+        "distance": 16051,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 11
+          },
+          "tik": 11,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "11798": {
+        "age_difference": -16,
+        "name": {
+          "last": "Степанова",
+          "first": "Анастасия",
+          "middle": "Анатольевна"
+        },
+        "distance": 7458,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2105
+          },
+          "uik": 2105,
+          "district": "Фрунзенский район",
+          "tik": 29,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

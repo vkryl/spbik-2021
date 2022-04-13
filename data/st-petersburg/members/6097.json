@@ -1,0 +1,166 @@
+{
+  "id": 6097,
+  "data_id": 4784017125018,
+  "name": {
+    "last": "Павлов",
+    "first": "Дмитрий",
+    "middle": "Олегович"
+  },
+  "birthdate": {
+    "day": 19,
+    "month": 2,
+    "year": 1993
+  },
+  "district": "Центральный район",
+  "age": 28,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Павлов",
+    "first": "Олег"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2200
+    },
+    "uik": 2200,
+    "district": "Центральный район",
+    "tik": 16,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 5,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 3
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 6041
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          15065,
+          15424,
+          17798
+        ]
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 1155
+      }
+    },
+    "siblings": {
+      "1155": {
+        "age_difference": -3,
+        "name": {
+          "last": "Павлов",
+          "first": "Максим",
+          "middle": "Олегович"
+        },
+        "distance": 5948,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 911
+          },
+          "uik": 911,
+          "district": "Красногвардейский район",
+          "tik": 4,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "17798": {
+        "strong_evidence": "strong_role",
+        "age_difference": 18,
+        "name": {
+          "last": "Павлова",
+          "first": "Наталья",
+          "middle": "Владимировна"
+        },
+        "distance": 14209,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 46
+          },
+          "tik": 46,
+          "district": "Красносельский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "6041": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 12,
+        "name": {
+          "last": "Павлова",
+          "first": "Татьяна",
+          "middle": "Васильевна"
+        },
+        "distance": 533,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2196
+          },
+          "uik": 2196,
+          "district": "Центральный район",
+          "tik": 16,
+          "gik": "СПбИК"
+        }
+      },
+      "15065": {
+        "strong_evidence": "strong_role",
+        "age_difference": 14,
+        "name": {
+          "last": "Павлова",
+          "first": "Наталия",
+          "middle": "Анатольевна"
+        },
+        "distance": 2238,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 38
+          },
+          "tik": 38,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      },
+      "15424": {
+        "strong_evidence": "strong_role",
+        "age_difference": -1,
+        "name": {
+          "last": "Павлова",
+          "first": "Аина",
+          "middle": "Анатольевна"
+        },
+        "distance": 2238,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 39
+          },
+          "tik": 39,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

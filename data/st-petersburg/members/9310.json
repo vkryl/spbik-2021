@@ -1,0 +1,168 @@
+{
+  "id": 9310,
+  "data_id": 4784016467209,
+  "name": {
+    "last": "Петрова",
+    "first": "Марина",
+    "middle": "Витальевна"
+  },
+  "birthdate": {
+    "day": 18,
+    "month": 7,
+    "year": 1995
+  },
+  "district": "Фрунзенский район",
+  "age": 26,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Петров",
+    "first": "Виталий"
+  },
+  "role_id": 2,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2080
+    },
+    "uik": 2080,
+    "district": "Фрунзенский район",
+    "tik": 23,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 5,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          12548,
+          18807
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 9064
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          8645,
+          11488
+        ]
+      }
+    },
+    "mother": {
+      "9064": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 40,
+        "name": {
+          "last": "Петрова",
+          "first": "Елена",
+          "middle": "Васильевна"
+        },
+        "distance": 1324,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2059
+          },
+          "uik": 2059,
+          "district": "Фрунзенский район",
+          "tik": 23,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "12548": {
+        "strong_evidence": "strong_role",
+        "age_difference": 14,
+        "name": {
+          "last": "Петров",
+          "first": "Сергей",
+          "middle": "Сергеевич"
+        },
+        "distance": 7585,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 31
+          },
+          "tik": 31,
+          "district": "Адмиралтейский район",
+          "gik": "СПбИК"
+        }
+      },
+      "18807": {
+        "strong_evidence": "strong_role",
+        "age_difference": 10,
+        "name": {
+          "last": "Петров",
+          "first": "Юрий",
+          "middle": "Николаевич"
+        },
+        "distance": 5133,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 48
+          },
+          "tik": 48,
+          "district": "Московский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "8645": {
+        "age_difference": 7,
+        "name": {
+          "last": "Петров",
+          "first": "Евгений",
+          "middle": "Витальевич"
+        },
+        "distance": 17062,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 347
+          },
+          "uik": 347,
+          "district": "Выборгский район",
+          "tik": 22,
+          "gik": "СПбИК"
+        }
+      },
+      "11488": {
+        "age_difference": 20,
+        "name": {
+          "last": "Петрова",
+          "first": "Снежана",
+          "middle": "Витальевна"
+        },
+        "distance": 16270,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1870
+          },
+          "uik": 1870,
+          "district": "Приморский район",
+          "tik": 28,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

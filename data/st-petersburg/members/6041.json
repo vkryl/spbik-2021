@@ -1,0 +1,144 @@
+{
+  "id": 6041,
+  "data_id": 4784017298002,
+  "name": {
+    "last": "Павлова",
+    "first": "Татьяна",
+    "middle": "Васильевна"
+  },
+  "birthdate": {
+    "day": 11,
+    "month": 10,
+    "year": 1980
+  },
+  "district": "Центральный район",
+  "age": 40,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Павлов",
+    "first": "Василий"
+  },
+  "role_id": 3,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2196
+    },
+    "uik": 2196,
+    "district": "Центральный район",
+    "tik": 16,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 6049
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 6097
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          2160,
+          20536
+        ]
+      }
+    },
+    "spouse": {
+      "6049": {
+        "strong_evidence": "same_commission",
+        "age_difference": 1,
+        "name": {
+          "last": "Павлов",
+          "first": "Михаил",
+          "middle": "Николаевич"
+        },
+        "distance": 0,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2196
+          },
+          "uik": 2196,
+          "district": "Центральный район",
+          "tik": 16,
+          "gik": "СПбИК"
+        }
+      },
+      "6097": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -12,
+        "name": {
+          "last": "Павлов",
+          "first": "Дмитрий",
+          "middle": "Олегович"
+        },
+        "distance": 533,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2200
+          },
+          "uik": 2200,
+          "district": "Центральный район",
+          "tik": 16,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "2160": {
+        "age_difference": 19,
+        "name": {
+          "last": "Павлова",
+          "first": "Татьяна",
+          "middle": "Васильевна"
+        },
+        "distance": 15641,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1152
+          },
+          "uik": 1152,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      },
+      "20536": {
+        "age_difference": 19,
+        "name": {
+          "last": "Павлова",
+          "first": "Наталия",
+          "middle": "Васильевна"
+        },
+        "distance": 13872,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1594
+          },
+          "uik": 1594,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

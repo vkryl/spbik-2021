@@ -1,0 +1,40 @@
+{
+  "name": "УИК №656",
+  "id": 656,
+  "type": "uik",
+  "data_id": 4784041100495,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Кировский район",
+  "electoral_districts": {
+    "federal": 218
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14
+    },
+    "candidates_count": {},
+    "protocol_count": 1,
+    "empty_protocol_count": 1,
+    "turnout_protocol_count": 1,
+    "ballot_count": 1
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 6,
+      "party_registered_count": 6,
+      "warnings": "missing_person_result"
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 41,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1
+  ]
+}

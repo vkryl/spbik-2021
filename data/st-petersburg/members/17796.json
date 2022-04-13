@@ -1,0 +1,96 @@
+{
+  "id": 17796,
+  "data_id": 27820001308397,
+  "name": {
+    "last": "Бобков",
+    "first": "Борис",
+    "middle": "Юрьевич"
+  },
+  "birthdate": {
+    "day": 6,
+    "month": 12,
+    "year": 1969
+  },
+  "district": "Красносельский район",
+  "age": 51,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Бобков",
+    "first": "Юрий"
+  },
+  "role_id": 1,
+  "assigned_by_id": 20,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 46
+    },
+    "tik": 46,
+    "district": "Красносельский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "8303",
+          "9716"
+        ]
+      }
+    },
+    "spouse": {
+      "8303": {
+        "strong_evidence": "strong_role",
+        "age_difference": 12,
+        "name": {
+          "last": "Бобкова",
+          "first": "Валентина",
+          "middle": "Владимировна"
+        },
+        "distance": 26005,
+        "district": "Колпинский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 868
+          },
+          "uik": 868,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "9716": {
+        "strong_evidence": "strong_role",
+        "age_difference": 17,
+        "name": {
+          "last": "Бобкова",
+          "first": "Татьяна",
+          "middle": "Семеновна"
+        },
+        "distance": 15714,
+        "district": "Невский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1575
+          },
+          "uik": 1575,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

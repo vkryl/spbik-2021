@@ -1,0 +1,124 @@
+{
+  "id": 15534,
+  "data_id": 4784019272799,
+  "name": {
+    "last": "Семенова",
+    "first": "Жанна",
+    "middle": "Геннадьевна"
+  },
+  "birthdate": {
+    "day": 22,
+    "month": 4,
+    "year": 1991
+  },
+  "district": "Калининский район",
+  "age": 30,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Семенов",
+    "first": "Геннадий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 540
+    },
+    "uik": 540,
+    "district": "Калининский район",
+    "tik": 39,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 16799
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 15571
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 8554
+      }
+    },
+    "spouse": {
+      "16799": {
+        "strong_evidence": "strong_role",
+        "age_difference": 16,
+        "name": {
+          "last": "Семенов",
+          "first": "Михаил",
+          "middle": "Викторович"
+        },
+        "distance": 28482,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 43
+          },
+          "tik": 43,
+          "district": "Колпинский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "8554": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 3,
+        "name": {
+          "last": "Семенов",
+          "first": "Михаил",
+          "middle": "Геннадьевич"
+        },
+        "distance": 2524,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 340
+          },
+          "uik": 340,
+          "district": "Выборгский район",
+          "tik": 22,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "15571": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 22,
+        "name": {
+          "last": "Семенова",
+          "first": "Татьяна",
+          "middle": "Александровна"
+        },
+        "distance": 1369,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 543
+          },
+          "uik": 543,
+          "district": "Калининский район",
+          "tik": 39,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

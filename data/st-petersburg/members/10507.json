@@ -1,0 +1,95 @@
+{
+  "id": 10507,
+  "data_id": 4784026407949,
+  "name": {
+    "last": "Асадова",
+    "first": "Камила",
+    "middle": "Анверовна"
+  },
+  "birthdate": {
+    "day": 18,
+    "month": 8,
+    "year": 1986
+  },
+  "district": "Красносельский район",
+  "age": 35,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Асадов",
+    "first": "Анвер"
+  },
+  "role_id": 4,
+  "assigned_by_id": 20,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 26
+    },
+    "tik": 26,
+    "district": "Красносельский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "13447",
+          "13605"
+        ]
+      }
+    },
+    "spouse": {
+      "13447": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Асадов",
+          "first": "Максим",
+          "middle": "Андреевич"
+        },
+        "distance": 11838,
+        "district": "Василеостровский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 111
+          },
+          "uik": 111,
+          "district": "Василеостровский район",
+          "tik": 33,
+          "gik": "СПбИК"
+        }
+      },
+      "13605": {
+        "strong_evidence": "strong_role",
+        "age_difference": -1,
+        "name": {
+          "last": "Асадов",
+          "first": "Руслан",
+          "middle": "Мазахир оглы",
+          "raw": "Асадов Руслан Мазахир Оглы"
+        },
+        "distance": 12493,
+        "district": "Василеостровский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 124
+          },
+          "uik": 124,
+          "district": "Василеостровский район",
+          "tik": 33,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

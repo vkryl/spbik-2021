@@ -1,0 +1,93 @@
+{
+  "id": 6995,
+  "data_id": 4784010415956,
+  "name": {
+    "last": "Гаврилов",
+    "first": "Дмитрий",
+    "middle": "Алексеевич"
+  },
+  "birthdate": {
+    "day": 20,
+    "month": 2,
+    "year": 1994
+  },
+  "district": "Московский район",
+  "age": 27,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Гаврилов",
+    "first": "Алексей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1301
+    },
+    "uik": 1301,
+    "district": "Московский район",
+    "tik": 19,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_electoral_district": 1
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 823
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 23391
+      }
+    },
+    "siblings": {
+      "823": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 0,
+        "name": {
+          "last": "Гаврилова",
+          "first": "Алиса",
+          "middle": "Алексеевна"
+        },
+        "distance": 4531,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 617
+          },
+          "uik": 617,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      },
+      "23391": {
+        "age_difference": 8,
+        "name": {
+          "last": "Гаврилова",
+          "first": "Татьяна",
+          "middle": "Алексеевна"
+        },
+        "distance": 5670,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2148
+          },
+          "uik": 2148,
+          "district": "Фрунзенский район",
+          "tik": 62,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

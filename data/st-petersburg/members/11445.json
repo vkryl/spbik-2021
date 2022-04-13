@@ -1,0 +1,96 @@
+{
+  "id": 11445,
+  "data_id": 478402919222,
+  "name": {
+    "last": "Горская",
+    "first": "Светлана",
+    "middle": "Павловна"
+  },
+  "birthdate": {
+    "day": 21,
+    "month": 11,
+    "year": 1965
+  },
+  "district": "Приморский район",
+  "age": 55,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Горский",
+    "first": "Павел"
+  },
+  "role_id": 4,
+  "assigned_by_id": 36,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 28
+    },
+    "tik": 28,
+    "district": "Приморский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "217",
+          "1849"
+        ]
+      }
+    },
+    "spouse": {
+      "1849": {
+        "strong_evidence": "strong_role",
+        "age_difference": -6,
+        "name": {
+          "last": "Горский",
+          "first": "Олег",
+          "middle": "Игоревич"
+        },
+        "distance": 15139,
+        "district": "Красносельский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1064
+          },
+          "uik": 1064,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "217": {
+        "strong_evidence": "strong_role",
+        "age_difference": 19,
+        "name": {
+          "last": "Горская",
+          "first": "Татьяна",
+          "middle": "Алексеевна"
+        },
+        "distance": 7769,
+        "district": "Адмиралтейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 15
+          },
+          "uik": 15,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

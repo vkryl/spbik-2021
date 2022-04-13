@@ -1,0 +1,93 @@
+{
+  "id": 23626,
+  "data_id": 4784029137584,
+  "name": {
+    "last": "Шевчук",
+    "first": "Яна",
+    "middle": "Андреевна"
+  },
+  "birthdate": {
+    "day": 14,
+    "month": 5,
+    "year": 1994
+  },
+  "district": "Фрунзенский район",
+  "age": 27,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Шевчук",
+    "first": "Андрей"
+  },
+  "role_id": 2,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2165
+    },
+    "uik": 2165,
+    "district": "Фрунзенский район",
+    "tik": 63,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 2
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          23479,
+          23600
+        ]
+      }
+    },
+    "mother": {
+      "23479": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 17,
+        "name": {
+          "last": "Шевчук",
+          "first": "Юлия",
+          "middle": "Валентиновна"
+        },
+        "distance": 1173,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2152
+          },
+          "uik": 2152,
+          "district": "Фрунзенский район",
+          "tik": 63,
+          "gik": "СПбИК"
+        }
+      },
+      "23600": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 24,
+        "name": {
+          "last": "Шевчук",
+          "first": "Ирина",
+          "middle": "Альбертовна"
+        },
+        "distance": 551,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2162
+          },
+          "uik": 2162,
+          "district": "Фрунзенский район",
+          "tik": 63,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

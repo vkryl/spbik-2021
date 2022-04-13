@@ -1,0 +1,122 @@
+{
+  "id": 12583,
+  "data_id": 4784001267927,
+  "name": {
+    "last": "Серова",
+    "first": "Валерия",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 7,
+    "month": 1,
+    "year": 1994
+  },
+  "district": "Адмиралтейский район",
+  "age": 27,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Серов",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 34
+    },
+    "uik": 34,
+    "district": "Адмиралтейский район",
+    "tik": 31,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 12598
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 22954
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 302
+      }
+    },
+    "siblings": {
+      "302": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 27,
+        "name": {
+          "last": "Серова",
+          "first": "Любовь",
+          "middle": "Александровна"
+        },
+        "distance": 1316,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 21
+          },
+          "uik": 21,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "12598": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 6,
+        "name": {
+          "last": "Серов",
+          "first": "Николай",
+          "middle": "Анатольевич"
+        },
+        "distance": 841,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 35
+          },
+          "uik": 35,
+          "district": "Адмиралтейский район",
+          "tik": 31,
+          "gik": "СПбИК"
+        }
+      },
+      "22954": {
+        "strong_evidence": "strong_role",
+        "age_difference": 10,
+        "name": {
+          "last": "Серов",
+          "first": "Роман",
+          "middle": "Сергеевич"
+        },
+        "distance": 7713,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 61
+          },
+          "tik": 61,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

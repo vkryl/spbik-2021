@@ -1,0 +1,145 @@
+{
+  "id": 20405,
+  "data_id": 27820001307501,
+  "name": {
+    "last": "Одинцов",
+    "first": "Максим",
+    "middle": "Владимирович"
+  },
+  "birthdate": {
+    "day": 20,
+    "month": 7,
+    "year": 1983
+  },
+  "district": "Невский район",
+  "age": 38,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Одинцов",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 6,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 53
+    },
+    "tik": 53,
+    "district": "Невский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 4,
+      "strong_guesses": {
+        "strong_role": 3
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 5693
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          "4123",
+          "8753",
+          "10492"
+        ]
+      }
+    },
+    "siblings": {
+      "5693": {
+        "age_difference": 5,
+        "name": {
+          "last": "Одинцова",
+          "first": "Татьяна",
+          "middle": "Владимировна"
+        },
+        "distance": 39656,
+        "district": "Кронштадтский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1226
+          },
+          "uik": 1226,
+          "district": "Кронштадтский район",
+          "tik": 15,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "10492": {
+        "strong_evidence": "strong_role",
+        "age_difference": 22,
+        "name": {
+          "last": "Одинцова",
+          "first": "Наталия",
+          "middle": "Анатольевна"
+        },
+        "distance": 7240,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1023
+          },
+          "uik": 1023,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "4123": {
+        "strong_evidence": "strong_role",
+        "age_difference": -17,
+        "name": {
+          "last": "Одинцова",
+          "first": "Мария",
+          "middle": "Вячеславовна"
+        },
+        "distance": 18083,
+        "district": "Калининский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 500
+          },
+          "uik": 500,
+          "district": "Калининский район",
+          "tik": 11,
+          "gik": "СПбИК"
+        }
+      },
+      "8753": {
+        "strong_evidence": "strong_role",
+        "age_difference": 1,
+        "name": {
+          "last": "Одинцова",
+          "first": "Оксана",
+          "middle": "Николаевна"
+        },
+        "distance": 14857,
+        "district": "Выборгский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 356
+          },
+          "uik": 356,
+          "district": "Выборгский район",
+          "tik": 22,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

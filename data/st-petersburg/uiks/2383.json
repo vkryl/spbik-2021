@@ -1,0 +1,73 @@
+{
+  "name": "УИК №2383",
+  "id": 2383,
+  "type": "uik",
+  "data_id": 478406389570,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Фрунзенский район",
+  "electoral_districts": {
+    "federal": 217,
+    "city": 22
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "217": 12,
+        "total_count": 12,
+        "winner_count": 1
+      },
+      "city": {
+        "22": 6,
+        "total_count": 6,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 2,
+    "ballot_count": 2
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 99,
+      "party_abstained_count": 1,
+      "party_registered_count": 100,
+      "person_voters_count": 49,
+      "person_registered_count": 49,
+      "only_party_voters_count": 50,
+      "only_party_registered_count": 51,
+      "no_city_count_max": 50,
+      "only_city_count_max": 50,
+      "only_city_registered_count_max": 51
+    },
+    "city": {
+      "party_voters_count": 99,
+      "party_abstained_count": 1,
+      "party_registered_count": 100,
+      "person_voters_count": 49,
+      "person_registered_count": 49,
+      "only_party_voters_count": 50,
+      "only_party_registered_count": 51,
+      "no_federal_count_max": 50,
+      "only_federal_count_max": 50,
+      "only_federal_registered_count_max": 51
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 63,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

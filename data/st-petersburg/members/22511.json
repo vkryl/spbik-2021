@@ -1,0 +1,95 @@
+{
+  "id": 22511,
+  "data_id": 4784015352039,
+  "name": {
+    "last": "Тимофеева",
+    "first": "Юлия",
+    "middle": "Игоревна"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 8,
+    "year": 1985
+  },
+  "district": "Пушкинский район",
+  "age": 36,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Тимофеев",
+    "first": "Игорь"
+  },
+  "role_id": 1,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2008
+    },
+    "uik": 2008,
+    "district": "Пушкинский район",
+    "tik": 59,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 22522
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 10154
+      }
+    },
+    "spouse": {
+      "22522": {
+        "strong_evidence": "same_commission",
+        "age_difference": 1,
+        "name": {
+          "last": "Тимофеев",
+          "first": "Алексей",
+          "middle": "Сергеевич"
+        },
+        "distance": 0,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2008
+          },
+          "uik": 2008,
+          "district": "Пушкинский район",
+          "tik": 59,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "10154": {
+        "age_difference": -4,
+        "name": {
+          "last": "Тимофеева",
+          "first": "Анна",
+          "middle": "Игоревна"
+        },
+        "distance": 25143,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 994
+          },
+          "uik": 994,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

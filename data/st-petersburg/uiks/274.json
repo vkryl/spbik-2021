@@ -1,0 +1,122 @@
+{
+  "name": "Участковая избирательная комиссия №274",
+  "id": 274,
+  "type": "uik",
+  "data_id": 4784018245712,
+  "has_koib": false,
+  "district": "Выборгский район",
+  "electoral_districts": {
+    "federal": 213,
+    "city": 11
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "213": 11,
+        "total_count": 11,
+        "winner_count": 1
+      },
+      "city": {
+        "11": 7,
+        "total_count": 7,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 2,
+        "members_with_guesses": 2,
+        "strong_count": {},
+        "commissions": {
+          "total_count": 1,
+          "УИК №274": 2
+        }
+      }
+    }
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 835,
+      "party_abstained_count": 1221,
+      "party_registered_count": 2056,
+      "person_voters_count": 819,
+      "person_abstained_count": 1222,
+      "person_registered_count": 2041,
+      "max_attached_count": 18,
+      "only_party_voters_count": 16,
+      "only_party_registered_count": 15,
+      "no_city_count_max": 16
+    },
+    "city": {
+      "party_voters_count": 819,
+      "party_abstained_count": 1222,
+      "party_registered_count": 2041,
+      "person_voters_count": 819,
+      "person_abstained_count": 1222,
+      "person_registered_count": 2041,
+      "only_federal_count_max": 16,
+      "only_federal_registered_count_max": 15
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 35,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 640,
+  "members": {
+    "chairman_id": 14285,
+    "vice_chairman_id": 14286,
+    "secretary_id": 14287,
+    "other_ids": [
+      14288,
+      14289,
+      14290,
+      14291,
+      14292,
+      14293,
+      14294,
+      14295,
+      14296
+    ],
+    "assigned_by_stats": {
+      "5": 1,
+      "13": 6,
+      "17": 1,
+      "91": 1
+    },
+    "gender_stats": {
+      "female": 11,
+      "male": 1
+    },
+    "age_stats": {
+      "26": 2,
+      "32": 1,
+      "33": 1,
+      "36": 1,
+      "42": 1,
+      "43": 1,
+      "47": 1,
+      "54": 1,
+      "55": 1,
+      "60": 1,
+      "62": 1
+    },
+    "source_date": 1633480819577
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

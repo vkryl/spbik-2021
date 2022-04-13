@@ -1,0 +1,120 @@
+{
+  "id": 14003,
+  "data_id": 27820001309722,
+  "name": {
+    "last": "Игнатов",
+    "first": "Виктор",
+    "middle": "Юрьевич"
+  },
+  "birthdate": {
+    "day": 16,
+    "month": 12,
+    "year": 1970
+  },
+  "district": "Выборгский район",
+  "age": 50,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Игнатов",
+    "first": "Юрий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 35
+    },
+    "tik": 35,
+    "district": "Выборгский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 4,
+      "strong_guesses": {
+        "works_in_child_district_commission": 1,
+        "strong_role": 2
+      },
+      "siblings_in_child_district_commission": {
+        "count": 1,
+        "ids": 8520
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "15829",
+          "21751"
+        ]
+      }
+    },
+    "spouse": {
+      "8520": {
+        "strong_evidence": "works_in_child_district_commission",
+        "age_difference": 3,
+        "name": {
+          "last": "Игнатова",
+          "first": "Светлана",
+          "middle": "Мадыховна"
+        },
+        "distance": 906,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 337
+          },
+          "uik": 337,
+          "district": "Выборгский район",
+          "tik": 22,
+          "gik": "СПбИК"
+        }
+      },
+      "15829": {
+        "strong_evidence": "strong_role",
+        "age_difference": -11,
+        "name": {
+          "last": "Игнатова",
+          "first": "Антонина",
+          "middle": "Анатольевна"
+        },
+        "distance": 7611,
+        "district": "Калининский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 455
+          },
+          "uik": 455,
+          "district": "Калининский район",
+          "tik": 40,
+          "gik": "СПбИК"
+        }
+      },
+      "21751": {
+        "strong_evidence": "strong_role",
+        "age_difference": 9,
+        "name": {
+          "last": "Игнатова",
+          "first": "Светлана",
+          "middle": "Петровна"
+        },
+        "distance": 6465,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1908
+          },
+          "uik": 1908,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

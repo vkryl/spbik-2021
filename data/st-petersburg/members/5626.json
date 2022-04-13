@@ -1,0 +1,69 @@
+{
+  "id": 5626,
+  "data_id": 4784021116974,
+  "name": {
+    "last": "Карамышев",
+    "first": "Александр",
+    "middle": "Павлович"
+  },
+  "birthdate": {
+    "day": 22,
+    "month": 10,
+    "year": 1972
+  },
+  "district": "Кронштадтский район",
+  "age": 48,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Карамышев",
+    "first": "Павел"
+  },
+  "role_id": 4,
+  "assigned_by_id": 20,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 15
+    },
+    "tik": 15,
+    "district": "Кронштадтский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "15429"
+      }
+    },
+    "spouse": {
+      "15429": {
+        "strong_evidence": "strong_role",
+        "age_difference": -7,
+        "name": {
+          "last": "Карамышева",
+          "first": "Евгения",
+          "middle": "Алексеевна"
+        },
+        "distance": 37421,
+        "district": "Калининский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 532
+          },
+          "uik": 532,
+          "district": "Калининский район",
+          "tik": 39,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

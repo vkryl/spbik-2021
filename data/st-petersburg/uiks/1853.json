@@ -1,0 +1,49 @@
+{
+  "name": "УИК №1853",
+  "id": 1853,
+  "type": "uik",
+  "data_id": 4784021211339,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Кронштадтский район",
+  "electoral_districts": {
+    "federal": 215
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14
+    },
+    "candidates_count": {
+      "federal": {
+        "215": 13,
+        "total_count": 13,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 2,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 3,
+    "ballot_count": 1
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 75,
+      "party_registered_count": 75,
+      "person_voters_count": 54,
+      "person_registered_count": 54,
+      "only_party_voters_count": 21,
+      "only_party_registered_count": 21
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 15,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1
+  ]
+}

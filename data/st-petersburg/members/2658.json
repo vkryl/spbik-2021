@@ -1,0 +1,148 @@
+{
+  "id": 2658,
+  "data_id": 4784020415369,
+  "name": {
+    "last": "Наумова",
+    "first": "Елена",
+    "middle": "Владиславовна"
+  },
+  "birthdate": {
+    "day": 31,
+    "month": 7,
+    "year": 1995
+  },
+  "district": "Кировский район",
+  "age": 26,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Наумов",
+    "first": "Владислава"
+  },
+  "role_id": 4,
+  "assigned_by_id": 79,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 797
+    },
+    "uik": 797,
+    "district": "Кировский район",
+    "tik": 7,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 4,
+      "strong_guesses": {
+        "same_commission": 1,
+        "strong_role": 1,
+        "same_parent_commission": 1,
+        "same_building": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 2657
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 5834
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 2456
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": 2673
+      }
+    },
+    "spouse": {
+      "2657": {
+        "strong_evidence": "same_commission",
+        "age_difference": 20,
+        "name": {
+          "last": "Наумов",
+          "first": "Владислав",
+          "middle": "Александрович"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 797
+          },
+          "uik": 797,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      },
+      "5834": {
+        "strong_evidence": "strong_role",
+        "age_difference": 20,
+        "name": {
+          "last": "Наумов",
+          "first": "Дмитрий",
+          "middle": "Владимирович"
+        },
+        "distance": 12011,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 16
+          },
+          "tik": 16,
+          "district": "Центральный район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "2456": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 25,
+        "name": {
+          "last": "Наумова",
+          "first": "Лариса",
+          "middle": "Александровна"
+        },
+        "distance": 651,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 641
+          },
+          "uik": 641,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      },
+      "2673": {
+        "strong_evidence": "same_building",
+        "age_difference": 25,
+        "name": {
+          "last": "Наумова",
+          "first": "Светлана",
+          "middle": "Валерьевна"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 798
+          },
+          "uik": 798,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

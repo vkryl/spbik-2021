@@ -1,0 +1,69 @@
+{
+  "id": 12991,
+  "data_id": 27820001303204,
+  "name": {
+    "last": "Тагаев",
+    "first": "Антон",
+    "middle": "Сергеевич"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 10,
+    "year": 1978
+  },
+  "district": "Василеостровский район",
+  "age": 42,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Тагаев",
+    "first": "Сергей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 32
+    },
+    "tik": 32,
+    "district": "Василеостровский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "7683"
+      }
+    },
+    "spouse": {
+      "7683": {
+        "strong_evidence": "strong_role",
+        "age_difference": 10,
+        "name": {
+          "last": "Тагаева",
+          "first": "Лилия",
+          "middle": "Исламовна"
+        },
+        "distance": 30452,
+        "district": "Пушкинский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1986
+          },
+          "uik": 1986,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

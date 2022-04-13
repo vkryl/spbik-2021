@@ -1,0 +1,117 @@
+{
+  "id": 14022,
+  "data_id": 4784018244581,
+  "name": {
+    "last": "Терентьев",
+    "first": "Игорь",
+    "middle": "Александрович"
+  },
+  "birthdate": {
+    "day": 3,
+    "month": 6,
+    "year": 1991
+  },
+  "district": "Выборгский район",
+  "age": 30,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Терентьев",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 252
+    },
+    "uik": 252,
+    "district": "Выборгский район",
+    "tik": 35,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 16810
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          5861,
+          19925
+        ]
+      }
+    },
+    "mother": {
+      "16810": {
+        "strong_evidence": "strong_role",
+        "age_difference": 20,
+        "name": {
+          "last": "Терентьева",
+          "first": "Юлия",
+          "middle": "Леонидовна"
+        },
+        "distance": 36163,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 43
+          },
+          "tik": 43,
+          "district": "Колпинский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "5861": {
+        "age_difference": 34,
+        "name": {
+          "last": "Терентьев",
+          "first": "Сергей",
+          "middle": "Александрович"
+        },
+        "distance": 11764,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2181
+          },
+          "uik": 2181,
+          "district": "Центральный район",
+          "tik": 16,
+          "gik": "СПбИК"
+        }
+      },
+      "19925": {
+        "age_difference": 1,
+        "name": {
+          "last": "Терентьева",
+          "first": "Марина",
+          "middle": "Александровна"
+        },
+        "distance": 20005,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1436
+          },
+          "uik": 1436,
+          "district": "Невский район",
+          "tik": 51,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "name": "Участковая избирательная комиссия №2325",
+  "id": 2325,
+  "type": "uik",
+  "data_id": 4784008582940,
+  "has_koib": false,
+  "district": "Красносельский район",
+  "electoral_districts": {
+    "federal": 212,
+    "city": 18
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "212": 14,
+        "total_count": 14,
+        "winner_count": 1
+      },
+      "city": {
+        "18": 7,
+        "total_count": 7,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 15,
+        "members_with_guesses": 4,
+        "strong_count": {
+          "same_parent_commission": 2,
+          "strong_role": 3,
+          "same_electoral_district": 1
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №2325": 4
+        }
+      }
+    }
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 1092,
+      "party_abstained_count": 2601,
+      "party_registered_count": 3693,
+      "person_voters_count": 1064,
+      "person_abstained_count": 2629,
+      "person_registered_count": 3693,
+      "max_attached_count": 62,
+      "only_party_voters_count": 28,
+      "no_city_count": 14,
+      "no_other_count": 14,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 1064,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.person",
+          "value": 1050,
+          "isNegative": true
+        }
+      ],
+      "no_city_count_max": 42,
+      "only_city_registered_count": 11
+    },
+    "city": {
+      "party_voters_count": 1050,
+      "party_abstained_count": 2654,
+      "party_registered_count": 3704,
+      "person_voters_count": 1050,
+      "person_abstained_count": 2654,
+      "person_registered_count": 3704,
+      "no_federal_registered_count": 11,
+      "no_other_registered_count": 11,
+      "no_other_registered_count_formula": [
+        {
+          "key": "city.registered_count.person",
+          "value": 3704,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "federal.registered_count.person",
+          "value": 3693,
+          "isNegative": true
+        }
+      ],
+      "only_federal_count": 14,
+      "only_federal_count_max": 42
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 46,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 804,
+  "members": {
+    "chairman_id": 18222,
+    "vice_chairman_id": 18223,
+    "secretary_id": 18224,
+    "other_ids": [
+      18225,
+      18226,
+      18227,
+      18228,
+      18229,
+      18230,
+      18231,
+      18232,
+      18233,
+      18234,
+      18235,
+      18236
+    ],
+    "assigned_by_stats": {
+      "5": 1,
+      "11": 1,
+      "13": 7,
+      "17": 1,
+      "64": 1,
+      "71": 1
+    },
+    "gender_stats": {
+      "female": 15
+    },
+    "age_stats": {
+      "22": 1,
+      "23": 2,
+      "26": 1,
+      "27": 1,
+      "29": 1,
+      "35": 1,
+      "36": 1,
+      "41": 2,
+      "43": 2,
+      "47": 1,
+      "48": 1,
+      "51": 1
+    },
+    "source_date": 1633481955477
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

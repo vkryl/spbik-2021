@@ -1,0 +1,171 @@
+{
+  "id": 9364,
+  "data_id": 4784022296228,
+  "name": {
+    "last": "Ефимова",
+    "first": "Екатерина",
+    "middle": "Юрьевна"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 4,
+    "year": 1985
+  },
+  "district": "Невский район",
+  "age": 36,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Ефимов",
+    "first": "Юрий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1547
+    },
+    "uik": 1547,
+    "district": "Невский район",
+    "tik": 24,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 5,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_parent_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          9883,
+          10947
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 9378
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 4553
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 22851
+      }
+    },
+    "mother": {
+      "9378": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 16,
+        "name": {
+          "last": "Ефимова",
+          "first": "Елена",
+          "middle": "Валентиновна"
+        },
+        "distance": 292,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1548
+          },
+          "uik": 1548,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "9883": {
+        "strong_evidence": "strong_role",
+        "age_difference": 4,
+        "name": {
+          "last": "Ефимов",
+          "first": "Константин",
+          "middle": "Евгеньевич"
+        },
+        "distance": 6864,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 25
+          },
+          "tik": 25,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      },
+      "10947": {
+        "strong_evidence": "strong_role",
+        "age_difference": 3,
+        "name": {
+          "last": "Ефимов",
+          "first": "Иван",
+          "middle": "Евгеньевич"
+        },
+        "distance": 6155,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 27
+          },
+          "tik": 27,
+          "district": "Московский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "4553": {
+        "age_difference": -4,
+        "name": {
+          "last": "Ефимова",
+          "first": "Кристина",
+          "middle": "Юрьевна"
+        },
+        "distance": 16661,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1760
+          },
+          "uik": 1760,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      },
+      "22851": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 18,
+        "name": {
+          "last": "Ефимов",
+          "first": "Андрей",
+          "middle": "Юрьевич"
+        },
+        "distance": 3421,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2046
+          },
+          "uik": 2046,
+          "district": "Фрунзенский район",
+          "tik": 60,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "name": "УИК №2276",
+  "id": 2276,
+  "type": "uik",
+  "data_id": 4784030296783,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Центральный район",
+  "electoral_districts": {
+    "federal": 211,
+    "city": 2
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "211": 11,
+        "total_count": 11,
+        "winner_count": 1
+      },
+      "city": {
+        "2": 9,
+        "total_count": 9,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 2,
+    "ballot_count": 2
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 155,
+      "party_registered_count": 155,
+      "person_voters_count": 34,
+      "person_registered_count": 34,
+      "only_party_voters_count": 121,
+      "only_party_registered_count": 121,
+      "no_city_count": 29,
+      "no_other_count": 29,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 34,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.person",
+          "value": 5,
+          "isNegative": true
+        }
+      ],
+      "no_city_count_max": 150,
+      "no_city_registered_count": 29,
+      "no_other_registered_count": 29,
+      "no_other_registered_count_formula": [
+        {
+          "key": "federal.registered_count.person",
+          "value": 34,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.registered_count.person",
+          "value": 5,
+          "isNegative": true
+        }
+      ],
+      "only_city_count_max": 60,
+      "only_city_registered_count_max": 60
+    },
+    "city": {
+      "party_voters_count": 94,
+      "party_registered_count": 94,
+      "person_voters_count": 5,
+      "person_registered_count": 5,
+      "only_party_voters_count": 89,
+      "only_party_registered_count": 89,
+      "no_federal_count_max": 60,
+      "only_federal_count_max": 150,
+      "only_federal_registered_count_max": 150
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 30,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

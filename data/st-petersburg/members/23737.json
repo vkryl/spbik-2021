@@ -1,0 +1,94 @@
+{
+  "id": 23737,
+  "data_id": 4784029150536,
+  "name": {
+    "last": "Галкина",
+    "first": "Елена",
+    "middle": "Владимировна"
+  },
+  "birthdate": {
+    "day": 9,
+    "month": 11,
+    "year": 1972
+  },
+  "district": "Фрунзенский район",
+  "age": 48,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Галкин",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 25,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2174
+    },
+    "uik": 2174,
+    "district": "Фрунзенский район",
+    "tik": 63,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 5623
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 23736
+      }
+    },
+    "children": {
+      "5623": {
+        "strong_evidence": "strong_role",
+        "age_difference": -20,
+        "name": {
+          "last": "Галкин",
+          "first": "Александр",
+          "middle": "Сергеевич"
+        },
+        "distance": 39854,
+        "district": "Кронштадтский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 15
+          },
+          "tik": 15,
+          "district": "Кронштадтский район",
+          "gik": "СПбИК"
+        }
+      },
+      "23736": {
+        "strong_evidence": "same_commission",
+        "age_difference": -21,
+        "name": {
+          "last": "Галкин",
+          "first": "Владимир",
+          "middle": "Борисович"
+        },
+        "distance": 0,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2174
+          },
+          "uik": 2174,
+          "district": "Фрунзенский район",
+          "tik": 63,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

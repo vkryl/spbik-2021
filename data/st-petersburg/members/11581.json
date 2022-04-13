@@ -1,0 +1,95 @@
+{
+  "id": 11581,
+  "data_id": 4784028401912,
+  "name": {
+    "last": "Тихонова",
+    "first": "Екатерина",
+    "middle": "Олеговна"
+  },
+  "birthdate": {
+    "day": 26,
+    "month": 9,
+    "year": 1989
+  },
+  "district": "Приморский район",
+  "age": 31,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Тихонов",
+    "first": "Олег"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1877
+    },
+    "uik": 1877,
+    "district": "Приморский район",
+    "tik": 28,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 11520
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 5923
+      }
+    },
+    "siblings": {
+      "5923": {
+        "age_difference": -2,
+        "name": {
+          "last": "Тихонова",
+          "first": "Анна",
+          "middle": "Олеговна"
+        },
+        "distance": 7376,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2186
+          },
+          "uik": 2186,
+          "district": "Центральный район",
+          "tik": 16,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "11520": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 26,
+        "name": {
+          "last": "Тихонова",
+          "first": "Светлана",
+          "middle": "Владиславовна"
+        },
+        "distance": 452,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1872
+          },
+          "uik": 1872,
+          "district": "Приморский район",
+          "tik": 28,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

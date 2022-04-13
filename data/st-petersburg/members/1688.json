@@ -1,0 +1,117 @@
+{
+  "id": 1688,
+  "data_id": 4784011160615,
+  "name": {
+    "last": "Павлова",
+    "first": "Нина",
+    "middle": "Ивановна"
+  },
+  "birthdate": {
+    "day": 9,
+    "month": 1,
+    "year": 1959
+  },
+  "district": "Невский район",
+  "age": 62,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Павлов",
+    "first": "Иван"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1530
+    },
+    "uik": 1530,
+    "district": "Невский район",
+    "tik": 5,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          15065,
+          15424
+        ]
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 21567
+      }
+    },
+    "siblings": {
+      "21567": {
+        "age_difference": -8,
+        "name": {
+          "last": "Павлова",
+          "first": "Ольга",
+          "middle": "Ивановна"
+        },
+        "distance": 27200,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1730
+          },
+          "uik": 1730,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "15065": {
+        "strong_evidence": "strong_role",
+        "age_difference": -19,
+        "name": {
+          "last": "Павлова",
+          "first": "Наталия",
+          "middle": "Анатольевна"
+        },
+        "distance": 6769,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 38
+          },
+          "tik": 38,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      },
+      "15424": {
+        "strong_evidence": "strong_role",
+        "age_difference": -35,
+        "name": {
+          "last": "Павлова",
+          "first": "Аина",
+          "middle": "Анатольевна"
+        },
+        "distance": 6769,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 39
+          },
+          "tik": 39,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

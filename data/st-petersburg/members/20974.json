@@ -1,0 +1,118 @@
+{
+  "id": 20974,
+  "data_id": 4784012176153,
+  "name": {
+    "last": "Павлова",
+    "first": "Елена",
+    "middle": "Вячеславовна"
+  },
+  "birthdate": {
+    "day": 11,
+    "month": 2,
+    "year": 1985
+  },
+  "district": "Петроградский район",
+  "age": 36,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Павлов",
+    "first": "Вячеслава"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1649
+    },
+    "uik": 1649,
+    "district": "Петроградский район",
+    "tik": 54,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 20892
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          7267,
+          15549
+        ]
+      }
+    },
+    "mother": {
+      "20892": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 32,
+        "name": {
+          "last": "Павлова",
+          "first": "Валентина",
+          "middle": "Семеновна"
+        },
+        "distance": 1176,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1625
+          },
+          "uik": 1625,
+          "district": "Петроградский район",
+          "tik": 54,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "7267": {
+        "age_difference": 3,
+        "name": {
+          "last": "Павлова",
+          "first": "Жанна",
+          "middle": "Вячеславовна"
+        },
+        "distance": 25443,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1953
+          },
+          "uik": 1953,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      },
+      "15549": {
+        "age_difference": -3,
+        "name": {
+          "last": "Павлова",
+          "first": "Екатерина",
+          "middle": "Вячеславовна"
+        },
+        "distance": 7515,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 542
+          },
+          "uik": 542,
+          "district": "Калининский район",
+          "tik": 39,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

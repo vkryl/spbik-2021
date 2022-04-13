@@ -1,0 +1,96 @@
+{
+  "id": 13480,
+  "data_id": 4784002174878,
+  "name": {
+    "last": "Позднякова",
+    "first": "Анастасия",
+    "middle": "Анатольевна"
+  },
+  "birthdate": {
+    "day": 3,
+    "month": 8,
+    "year": 1987
+  },
+  "district": "Василеостровский район",
+  "age": 34,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Поздняков",
+    "first": "Анатолий"
+  },
+  "role_id": 1,
+  "assigned_by_id": 39,
+  "awards": [
+    "diplomas"
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 114
+    },
+    "uik": 114,
+    "district": "Василеостровский район",
+    "tik": 33,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "works_in_parent_district_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 5835
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 12988
+      }
+    },
+    "spouse": {
+      "5835": {
+        "strong_evidence": "strong_role",
+        "age_difference": -8,
+        "name": {
+          "last": "Поздняков",
+          "first": "Артем",
+          "middle": "Александрович"
+        },
+        "distance": 5677,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 16
+          },
+          "tik": 16,
+          "district": "Центральный район",
+          "gik": "СПбИК"
+        }
+      },
+      "12988": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": 0,
+        "name": {
+          "last": "Поздняков",
+          "first": "Василий",
+          "middle": "Михайлович"
+        },
+        "distance": 576,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 32
+          },
+          "tik": 32,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

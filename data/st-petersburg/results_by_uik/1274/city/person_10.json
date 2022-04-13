@@ -1,0 +1,335 @@
+{
+  "commission_name": "УИК №1274",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 1274
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 10
+  },
+  "data_id": 0,
+  "ballot_data_id": 4784009284982,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 184,
+      "position": 5,
+      "percentage": 36.36363636363637,
+      "valid_percentage": 36.36363636363637,
+      "registered_percentage": 33.33333333333333
+    },
+    "turnout": {
+      "count": 11,
+      "percentage": 91.66666666666666,
+      "walk_by_count": 0,
+      "walk_by_percentage": 0,
+      "on_home_count": 11,
+      "on_home_percentage": 91.66666666666666,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 11,
+      "valid_percentage": 91.66666666666666,
+      "invalid_count": 0,
+      "invalid_percentage": 0,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 4,
+      "winning_percentage": 36.36363636363637,
+      "effective_count": 11,
+      "losing_count": 7,
+      "losing_percentage": 63.63636363636363,
+      "other_count": 0,
+      "other_percentage": 0,
+      "by_place": {
+        "#2.3333333333333335": {
+          "count": 6,
+          "percentage": 54.54545454545454
+        },
+        "#1": {
+          "count": 4,
+          "percentage": 36.36363636363637
+        },
+        "#3": {
+          "count": 1,
+          "percentage": 9.090909090909092
+        },
+        "#4": {
+          "count": 0,
+          "percentage": 0
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "papers": {
+      "received_count": 1000,
+      "destroyed_count": 989,
+      "stationary_box_count": 0,
+      "portable_box_count": 11,
+      "valid_count": 11,
+      "invalid_count": 0,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    },
+    "voters": {
+      "registered_count": 12,
+      "walk_by_count": 0,
+      "on_home_count": 11,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Ходосок Александр Владимирович",
+      "position": 5,
+      "candidate_id": 184,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 4,
+        "place": 1,
+        "percentage": 36.36363636363637,
+        "valid_percentage": 36.36363636363637,
+        "registered_percentage": 33.33333333333333,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "107": {
+          "percentage": 44.44444444444444,
+          "valid_percentage": 44.44444444444444
+        },
+        "116": {
+          "percentage": 44.44444444444444,
+          "valid_percentage": 44.44444444444444
+        },
+        "181": {
+          "percentage": 36.36363636363637,
+          "valid_percentage": 36.36363636363637
+        },
+        "182": {
+          "percentage": 40,
+          "valid_percentage": 40
+        },
+        "183": {
+          "percentage": 44.44444444444444,
+          "valid_percentage": 44.44444444444444
+        }
+      }
+    },
+    {
+      "name": "Горланов Алексей Владимирович",
+      "position": 1,
+      "candidate_id": 107,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 2,
+        "place": 2.3333333333333335,
+        "percentage": 18.181818181818183,
+        "valid_percentage": 18.181818181818183,
+        "registered_percentage": 16.666666666666664,
+        "winner": false,
+        "same_place_candidate_count": 2.9999999999999987,
+        "lacking_votes_count": 2
+      },
+      "result_without_other_entry": {
+        "116": {
+          "percentage": 22.22222222222222,
+          "valid_percentage": 22.22222222222222
+        },
+        "181": {
+          "percentage": 18.181818181818183,
+          "valid_percentage": 18.181818181818183
+        },
+        "182": {
+          "percentage": 20,
+          "valid_percentage": 20
+        },
+        "183": {
+          "percentage": 22.22222222222222,
+          "valid_percentage": 22.22222222222222
+        },
+        "184": {
+          "percentage": 28.57142857142857,
+          "valid_percentage": 28.57142857142857
+        }
+      }
+    },
+    {
+      "name": "Кривенченко Анатолий Николаевич",
+      "position": 4,
+      "candidate_id": 183,
+      "supported_by_party_id": 6,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 2,
+        "place": 2.3333333333333335,
+        "percentage": 18.181818181818183,
+        "valid_percentage": 18.181818181818183,
+        "registered_percentage": 16.666666666666664,
+        "winner": false,
+        "same_place_candidate_count": 2.9999999999999987,
+        "lacking_votes_count": 2
+      },
+      "result_without_other_entry": {
+        "107": {
+          "percentage": 22.22222222222222,
+          "valid_percentage": 22.22222222222222
+        },
+        "116": {
+          "percentage": 22.22222222222222,
+          "valid_percentage": 22.22222222222222
+        },
+        "181": {
+          "percentage": 18.181818181818183,
+          "valid_percentage": 18.181818181818183
+        },
+        "182": {
+          "percentage": 20,
+          "valid_percentage": 20
+        },
+        "184": {
+          "percentage": 28.57142857142857,
+          "valid_percentage": 28.57142857142857
+        }
+      }
+    },
+    {
+      "name": "Яковлева Ольга Анатольевна",
+      "position": 6,
+      "candidate_id": 116,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 2,
+        "place": 2.3333333333333335,
+        "percentage": 18.181818181818183,
+        "valid_percentage": 18.181818181818183,
+        "registered_percentage": 16.666666666666664,
+        "winner": false,
+        "same_place_candidate_count": 2.9999999999999987,
+        "lacking_votes_count": 2
+      },
+      "result_without_other_entry": {
+        "107": {
+          "percentage": 22.22222222222222,
+          "valid_percentage": 22.22222222222222
+        },
+        "181": {
+          "percentage": 18.181818181818183,
+          "valid_percentage": 18.181818181818183
+        },
+        "182": {
+          "percentage": 20,
+          "valid_percentage": 20
+        },
+        "183": {
+          "percentage": 22.22222222222222,
+          "valid_percentage": 22.22222222222222
+        },
+        "184": {
+          "percentage": 28.57142857142857,
+          "valid_percentage": 28.57142857142857
+        }
+      }
+    },
+    {
+      "name": "Дюве Любовь Николаевна",
+      "position": 3,
+      "candidate_id": 182,
+      "supported_by_party_id": 7,
+      "official_result": {
+        "votes_count": 1,
+        "place": 3,
+        "percentage": 9.090909090909092,
+        "valid_percentage": 9.090909090909092,
+        "registered_percentage": 8.333333333333332,
+        "winner": false,
+        "lacking_votes_count": 3
+      },
+      "result_without_other_entry": {
+        "107": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "116": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "181": {
+          "percentage": 9.090909090909092,
+          "valid_percentage": 9.090909090909092
+        },
+        "183": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "184": {
+          "percentage": 14.285714285714285,
+          "valid_percentage": 14.285714285714285
+        }
+      }
+    },
+    {
+      "name": "Деревянко Михаил Михайлович",
+      "position": 2,
+      "candidate_id": 181,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 0,
+        "place": 4,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 4
+      },
+      "result_without_other_entry": {
+        "107": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "116": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "182": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "183": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "184": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1274
+    },
+    "uik": 1274,
+    "district": "Курортный район",
+    "tik": 13,
+    "gik": "СПбИК"
+  }
+}

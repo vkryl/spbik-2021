@@ -1,0 +1,124 @@
+{
+  "id": 16461,
+  "data_id": 4784042123475,
+  "name": {
+    "last": "Калинина",
+    "first": "Валерия",
+    "middle": "Сергеевна"
+  },
+  "birthdate": {
+    "day": 14,
+    "month": 3,
+    "year": 1996
+  },
+  "district": "Кировский район",
+  "age": 25,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Калинин",
+    "first": "Сергей"
+  },
+  "role_id": 2,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 759
+    },
+    "uik": 759,
+    "district": "Кировский район",
+    "tik": 42,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_district": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 23213
+      },
+      "siblings_in_same_district": {
+        "count": 1,
+        "ids": 813
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 16575
+      }
+    },
+    "spouse": {
+      "23213": {
+        "strong_evidence": "strong_role",
+        "age_difference": 8,
+        "name": {
+          "last": "Калинин",
+          "first": "Олег",
+          "middle": "Витальевич"
+        },
+        "distance": 10612,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 62
+          },
+          "tik": 62,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "father": {
+      "813": {
+        "strong_evidence": "same_district",
+        "age_difference": 39,
+        "name": {
+          "last": "Калинин",
+          "first": "Сергей",
+          "middle": "Александрович"
+        },
+        "distance": 3418,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 616
+          },
+          "uik": 616,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "16575": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 18,
+        "name": {
+          "last": "Калинина",
+          "first": "Ольга",
+          "middle": "Вячеславовна"
+        },
+        "distance": 778,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 768
+          },
+          "uik": 768,
+          "district": "Кировский район",
+          "tik": 42,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

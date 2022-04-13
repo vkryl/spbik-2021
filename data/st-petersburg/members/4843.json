@@ -1,0 +1,94 @@
+{
+  "id": 4843,
+  "data_id": 4784014163110,
+  "name": {
+    "last": "Николаева",
+    "first": "Светлана",
+    "middle": "Магомедовна"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 7,
+    "year": 1962
+  },
+  "district": "Приморский район",
+  "age": 59,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Николаев",
+    "first": "Магомед"
+  },
+  "role_id": 3,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1784
+    },
+    "uik": 1784,
+    "district": "Приморский район",
+    "tik": 12,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 4466
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 15971
+      }
+    },
+    "children": {
+      "4466": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -33,
+        "name": {
+          "last": "Николаева",
+          "first": "Елена",
+          "middle": "Вадимовна"
+        },
+        "distance": 2119,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1752
+          },
+          "uik": 1752,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      },
+      "15971": {
+        "strong_evidence": "strong_role",
+        "age_difference": -26,
+        "name": {
+          "last": "Николаева",
+          "first": "Ольга",
+          "middle": "Вячеславовна"
+        },
+        "distance": 11222,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 41
+          },
+          "tik": 41,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

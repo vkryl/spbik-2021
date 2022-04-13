@@ -1,0 +1,95 @@
+{
+  "id": 4130,
+  "data_id": 4784004338922,
+  "name": {
+    "last": "Бурова",
+    "first": "Марина",
+    "middle": "Николаевна"
+  },
+  "birthdate": {
+    "day": 15,
+    "month": 6,
+    "year": 1987
+  },
+  "district": "Калининский район",
+  "age": 34,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Буров",
+    "first": "Николай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 501
+    },
+    "uik": 501,
+    "district": "Калининский район",
+    "tik": 11,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 2
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          4014,
+          4015
+        ]
+      }
+    },
+    "spouse": {
+      "4014": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 2,
+        "name": {
+          "last": "Буров",
+          "first": "Александр",
+          "middle": "Валерьевич"
+        },
+        "distance": 986,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 490
+          },
+          "uik": 490,
+          "district": "Калининский район",
+          "tik": 11,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "4015": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 4,
+        "name": {
+          "last": "Бурова",
+          "first": "Анна",
+          "middle": "Николаевна"
+        },
+        "distance": 986,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 490
+          },
+          "uik": 490,
+          "district": "Калининский район",
+          "tik": 11,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

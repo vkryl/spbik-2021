@@ -1,0 +1,69 @@
+{
+  "id": 18222,
+  "data_id": 4784008585100,
+  "name": {
+    "last": "Афанасьева",
+    "first": "Татьяна",
+    "middle": "Валерьевна"
+  },
+  "birthdate": {
+    "day": 29,
+    "month": 9,
+    "year": 1991
+  },
+  "district": "Красносельский район",
+  "age": 29,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Афанасьев",
+    "first": "Валерий"
+  },
+  "role_id": 1,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2325
+    },
+    "uik": 2325,
+    "district": "Красносельский район",
+    "tik": 46,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 18135
+      }
+    },
+    "mother": {
+      "18135": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 30,
+        "name": {
+          "last": "Афанасьева",
+          "first": "Марина",
+          "middle": "Леонидовна"
+        },
+        "distance": 2267,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1174
+          },
+          "uik": 1174,
+          "district": "Красносельский район",
+          "tik": 46,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

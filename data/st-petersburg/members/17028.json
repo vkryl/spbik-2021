@@ -1,0 +1,69 @@
+{
+  "id": 17028,
+  "data_id": 478404484935,
+  "name": {
+    "last": "Ширшов",
+    "first": "Иван",
+    "middle": "Николаевич"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 4,
+    "year": 1985
+  },
+  "district": "Красногвардейский район",
+  "age": 36,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Ширшов",
+    "first": "Николай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 18,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 44
+    },
+    "tik": 44,
+    "district": "Красногвардейский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "225"
+      }
+    },
+    "spouse": {
+      "225": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Ширшова",
+          "first": "Людмила",
+          "middle": "Викторовна"
+        },
+        "distance": 7166,
+        "district": "Адмиралтейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 15
+          },
+          "uik": 15,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

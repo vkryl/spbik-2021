@@ -1,0 +1,121 @@
+{
+  "id": 5414,
+  "data_id": 4784018292366,
+  "name": {
+    "last": "Зайцев",
+    "first": "Роман",
+    "middle": "Андреевич"
+  },
+  "birthdate": {
+    "day": 8,
+    "month": 3,
+    "year": 1997
+  },
+  "district": "Выборгский район",
+  "age": 24,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Зайцев",
+    "first": "Андрей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 300
+    },
+    "uik": 300,
+    "district": "Выборгский район",
+    "tik": 14,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 5409
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 14019
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 17153
+      }
+    },
+    "mother": {
+      "5409": {
+        "strong_evidence": "same_commission",
+        "age_difference": 20,
+        "name": {
+          "last": "Зайцева",
+          "first": "Светлана",
+          "middle": "Валерьевна"
+        },
+        "distance": 0,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 300
+          },
+          "uik": 300,
+          "district": "Выборгский район",
+          "tik": 14,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "14019": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -1,
+        "name": {
+          "last": "Зайцева",
+          "first": "Полина",
+          "middle": "Андреевна"
+        },
+        "distance": 7917,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 252
+          },
+          "uik": 252,
+          "district": "Выборгский район",
+          "tik": 35,
+          "gik": "СПбИК"
+        }
+      },
+      "17153": {
+        "age_difference": 12,
+        "name": {
+          "last": "Зайцева",
+          "first": "Ирина",
+          "middle": "Андреевна"
+        },
+        "distance": 18860,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 931
+          },
+          "uik": 931,
+          "district": "Красногвардейский район",
+          "tik": 44,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

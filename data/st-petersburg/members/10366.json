@@ -1,0 +1,96 @@
+{
+  "id": 10366,
+  "data_id": 4784025353244,
+  "name": {
+    "last": "Сафонова",
+    "first": "Ольга",
+    "middle": "Олеговна"
+  },
+  "birthdate": {
+    "day": 14,
+    "month": 4,
+    "year": 1989
+  },
+  "district": "Красногвардейский район",
+  "age": 32,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Сафонов",
+    "first": "Олег"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1012
+    },
+    "uik": 1012,
+    "district": "Красногвардейский район",
+    "tik": 25,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 10297
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 2916
+      }
+    },
+    "spouse": {
+      "10297": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 2,
+        "name": {
+          "last": "Сафонов",
+          "first": "Александр",
+          "middle": "Николаевич"
+        },
+        "distance": 740,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1006
+          },
+          "uik": 1006,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "2916": {
+        "strong_evidence": "strong_role",
+        "age_difference": 22,
+        "name": {
+          "last": "Сафонова",
+          "first": "Инесса",
+          "middle": "Ивановна"
+        },
+        "distance": 33143,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 8
+          },
+          "tik": 8,
+          "district": "Петродворцовый район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

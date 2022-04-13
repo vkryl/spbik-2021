@@ -1,0 +1,70 @@
+{
+  "id": 6511,
+  "data_id": 4784012129927,
+  "name": {
+    "last": "Терешенок",
+    "first": "Любовь",
+    "middle": "Аркадьевна",
+    "raw": "Терешёнок Любовь Аркадьевна"
+  },
+  "birthdate": {
+    "day": 14,
+    "month": 9,
+    "year": 1983
+  },
+  "district": "Петроградский район",
+  "age": 38,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Терешенок",
+    "first": "Аркадий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 123,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1631
+    },
+    "uik": 1631,
+    "district": "Петроградский район",
+    "tik": 18,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 6774
+      }
+    },
+    "mother": {
+      "6774": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 36,
+        "name": {
+          "last": "Терешенок",
+          "first": "Галина",
+          "middle": "Яковлевна"
+        },
+        "distance": 1480,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1663
+          },
+          "uik": 1663,
+          "district": "Петроградский район",
+          "tik": 18,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

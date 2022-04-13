@@ -1,0 +1,96 @@
+{
+  "id": 12161,
+  "data_id": 4784030222657,
+  "name": {
+    "last": "Щербина",
+    "first": "Наталья",
+    "middle": "Михайловна"
+  },
+  "birthdate": {
+    "day": 24,
+    "month": 6,
+    "year": 1977
+  },
+  "district": "Центральный район",
+  "age": 44,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Щербин",
+    "first": "Михаил"
+  },
+  "role_id": 4,
+  "assigned_by_id": 113,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 30
+    },
+    "tik": 30,
+    "district": "Центральный район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "557",
+          "3744"
+        ]
+      }
+    },
+    "children": {
+      "3744": {
+        "strong_evidence": "strong_role",
+        "age_difference": -19,
+        "name": {
+          "last": "Щербина",
+          "first": "Екатерина",
+          "middle": "Павловна"
+        },
+        "distance": 13791,
+        "district": "Выборгский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 242
+          },
+          "uik": 242,
+          "district": "Выборгский район",
+          "tik": 10,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "557": {
+        "strong_evidence": "strong_role",
+        "age_difference": 24,
+        "name": {
+          "last": "Щербина",
+          "first": "Галина",
+          "middle": "Евгеньевна"
+        },
+        "distance": 9054,
+        "district": "Василеостровский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 165
+          },
+          "uik": 165,
+          "district": "Василеостровский район",
+          "tik": 2,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

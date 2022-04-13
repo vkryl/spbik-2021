@@ -1,0 +1,118 @@
+{
+  "id": 17034,
+  "data_id": 4784007292757,
+  "name": {
+    "last": "Королева",
+    "first": "Людмила",
+    "middle": "Владимировна"
+  },
+  "birthdate": {
+    "day": 11,
+    "month": 6,
+    "year": 1973
+  },
+  "district": "Красногвардейский район",
+  "age": 48,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Королев",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 25,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 921
+    },
+    "uik": 921,
+    "district": "Красногвардейский район",
+    "tik": 44,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 12155
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          4919,
+          20573
+        ]
+      }
+    },
+    "spouse": {
+      "12155": {
+        "strong_evidence": "strong_role",
+        "age_difference": -10,
+        "name": {
+          "last": "Королев",
+          "first": "Константин",
+          "middle": "Михайлович"
+        },
+        "distance": 3041,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 30
+          },
+          "tik": 30,
+          "district": "Центральный район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "4919": {
+        "age_difference": 9,
+        "name": {
+          "last": "Королева",
+          "first": "Ирина",
+          "middle": "Владимировна"
+        },
+        "distance": 27293,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1239
+          },
+          "uik": 1239,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      },
+      "20573": {
+        "age_difference": -12,
+        "name": {
+          "last": "Королева",
+          "first": "Марина",
+          "middle": "Владимировна",
+          "raw": "Королёва Марина Владимировна"
+        },
+        "distance": 12873,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1597
+          },
+          "uik": 1597,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

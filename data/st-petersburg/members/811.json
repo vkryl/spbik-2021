@@ -1,0 +1,143 @@
+{
+  "id": 811,
+  "data_id": 9789005252148,
+  "name": {
+    "last": "Макарова",
+    "first": "Наталья",
+    "middle": "Анатольевна"
+  },
+  "birthdate": {
+    "day": 8,
+    "month": 5,
+    "year": 1969
+  },
+  "district": "Кировский район",
+  "age": 52,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Макаров",
+    "first": "Анатолий"
+  },
+  "role_id": 3,
+  "assigned_by_id": 49,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 616
+    },
+    "uik": 616,
+    "district": "Кировский район",
+    "tik": 3,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 12986
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 997
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          4873,
+          9190
+        ]
+      }
+    },
+    "spouse": {
+      "12986": {
+        "strong_evidence": "strong_role",
+        "age_difference": -9,
+        "name": {
+          "last": "Макаров",
+          "first": "Виталий",
+          "middle": "Михайлович"
+        },
+        "distance": 9645,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 32
+          },
+          "tik": 32,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "997": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -8,
+        "name": {
+          "last": "Макарова",
+          "first": "Наталья",
+          "middle": "Анатольевна"
+        },
+        "distance": 1295,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 631
+          },
+          "uik": 631,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      },
+      "4873": {
+        "age_difference": -5,
+        "name": {
+          "last": "Макарова",
+          "first": "Валентина",
+          "middle": "Анатольевна"
+        },
+        "distance": 16014,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1786
+          },
+          "uik": 1786,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      },
+      "9190": {
+        "age_difference": -4,
+        "name": {
+          "last": "Макарова",
+          "first": "Ирина",
+          "middle": "Анатольевна"
+        },
+        "distance": 7165,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2070
+          },
+          "uik": 2070,
+          "district": "Фрунзенский район",
+          "tik": 23,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

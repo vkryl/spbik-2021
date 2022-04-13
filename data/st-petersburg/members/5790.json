@@ -1,0 +1,91 @@
+{
+  "id": 5790,
+  "data_id": 4784021191881,
+  "name": {
+    "last": "Ефимова",
+    "first": "Валентина",
+    "middle": "Борисовна"
+  },
+  "birthdate": {
+    "day": 1,
+    "month": 7,
+    "year": 1978
+  },
+  "district": "Кронштадтский район",
+  "age": 43,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Ефимов",
+    "first": "Борис"
+  },
+  "role_id": 4,
+  "assigned_by_id": 111,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1235
+    },
+    "uik": 1235,
+    "district": "Кронштадтский район",
+    "tik": 15,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          9883,
+          10947
+        ]
+      }
+    },
+    "spouse": {
+      "9883": {
+        "strong_evidence": "strong_role",
+        "age_difference": -2,
+        "name": {
+          "last": "Ефимов",
+          "first": "Константин",
+          "middle": "Евгеньевич"
+        },
+        "distance": 39058,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 25
+          },
+          "tik": 25,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      },
+      "10947": {
+        "strong_evidence": "strong_role",
+        "age_difference": -3,
+        "name": {
+          "last": "Ефимов",
+          "first": "Иван",
+          "middle": "Евгеньевич"
+        },
+        "distance": 36016,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 27
+          },
+          "tik": 27,
+          "district": "Московский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

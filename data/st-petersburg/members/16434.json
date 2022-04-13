@@ -1,0 +1,95 @@
+{
+  "id": 16434,
+  "data_id": 27820001301184,
+  "name": {
+    "last": "Телегин",
+    "first": "Дмитрий",
+    "middle": "Алексеевич"
+  },
+  "birthdate": {
+    "day": 11,
+    "month": 10,
+    "year": 1992
+  },
+  "district": "Кировский район",
+  "age": 28,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Телегин",
+    "first": "Алексей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 42
+    },
+    "tik": 42,
+    "district": "Кировский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 3307
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "18373"
+      }
+    },
+    "siblings": {
+      "3307": {
+        "age_difference": 21,
+        "name": {
+          "last": "Телегина",
+          "first": "Наталья",
+          "middle": "Алексеевна"
+        },
+        "distance": 10480,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1797
+          },
+          "uik": 1797,
+          "district": "Приморский район",
+          "tik": 9,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "18373": {
+        "strong_evidence": "strong_role",
+        "age_difference": 17,
+        "name": {
+          "last": "Телегина",
+          "first": "Елена",
+          "middle": "Александровна"
+        },
+        "distance": 6632,
+        "district": "Красносельский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1111
+          },
+          "uik": 1111,
+          "district": "Красносельский район",
+          "tik": 47,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

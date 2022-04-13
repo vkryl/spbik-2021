@@ -1,0 +1,93 @@
+{
+  "name": "УИК №190",
+  "id": 190,
+  "type": "uik",
+  "data_id": 478403290538,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Василеостровский район",
+  "electoral_districts": {
+    "federal": 216,
+    "city": 4
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "216": 13,
+        "total_count": 13,
+        "winner_count": 1
+      },
+      "city": {
+        "4": 6,
+        "total_count": 6,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 2,
+    "ballot_count": 2
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 398,
+      "party_registered_count": 398,
+      "person_voters_count": 398,
+      "person_registered_count": 398,
+      "no_city_count": 47,
+      "no_other_count": 47,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 398,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.person",
+          "value": 351,
+          "isNegative": true
+        }
+      ],
+      "no_city_registered_count": 47,
+      "no_other_registered_count": 47,
+      "no_other_registered_count_formula": [
+        {
+          "key": "federal.registered_count.person",
+          "value": 398,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.registered_count.person",
+          "value": 351,
+          "isNegative": true
+        }
+      ]
+    },
+    "city": {
+      "party_voters_count": 351,
+      "party_registered_count": 351,
+      "person_voters_count": 351,
+      "person_registered_count": 351,
+      "only_federal_count": 47,
+      "only_federal_registered_count": 47
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 32,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

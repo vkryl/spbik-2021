@@ -1,0 +1,117 @@
+{
+  "id": 11089,
+  "data_id": 4784027138393,
+  "name": {
+    "last": "Сидорова",
+    "first": "Ирина",
+    "middle": "Валентиновна"
+  },
+  "birthdate": {
+    "day": 26,
+    "month": 7,
+    "year": 1953
+  },
+  "district": "Московский район",
+  "age": 68,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Сидоров",
+    "first": "Валентин"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1379
+    },
+    "uik": 1379,
+    "district": "Московский район",
+    "tik": 27,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 2
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 11406
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          15418,
+          17024
+        ]
+      }
+    },
+    "children": {
+      "11406": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -48,
+        "name": {
+          "last": "Сидорова",
+          "first": "Дарья",
+          "middle": "Александровна"
+        },
+        "distance": 4910,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1409
+          },
+          "uik": 1409,
+          "district": "Московский район",
+          "tik": 27,
+          "gik": "СПбИК"
+        }
+      },
+      "15418": {
+        "strong_evidence": "strong_role",
+        "age_difference": -33,
+        "name": {
+          "last": "Сидорова",
+          "first": "Вера",
+          "middle": "Александровна"
+        },
+        "distance": 11277,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 39
+          },
+          "tik": 39,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      },
+      "17024": {
+        "strong_evidence": "strong_role",
+        "age_difference": -41,
+        "name": {
+          "last": "Сидоров",
+          "first": "Антон",
+          "middle": "Максимович"
+        },
+        "distance": 12950,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 44
+          },
+          "tik": 44,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

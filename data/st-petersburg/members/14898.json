@@ -1,0 +1,94 @@
+{
+  "id": 14898,
+  "data_id": 478403790322,
+  "name": {
+    "last": "Васильева",
+    "first": "Елена",
+    "middle": "Леонидовна"
+  },
+  "birthdate": {
+    "day": 8,
+    "month": 6,
+    "year": 1984
+  },
+  "district": "Калининский район",
+  "age": 37,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Васильев",
+    "first": "Леонид"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 558
+    },
+    "uik": 558,
+    "district": "Калининский район",
+    "tik": 37,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 13351
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 585
+      }
+    },
+    "spouse": {
+      "13351": {
+        "strong_evidence": "strong_role",
+        "age_difference": 5,
+        "name": {
+          "last": "Васильев",
+          "first": "Сергей",
+          "middle": "Николаевич"
+        },
+        "distance": 11605,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 33
+          },
+          "tik": 33,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "father": {
+      "585": {
+        "age_difference": 20,
+        "name": {
+          "last": "Васильев",
+          "first": "Леонид",
+          "middle": "Анатольевич"
+        },
+        "distance": 12592,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 168
+          },
+          "uik": 168,
+          "district": "Василеостровский район",
+          "tik": 2,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

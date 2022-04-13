@@ -1,0 +1,143 @@
+{
+  "id": 12160,
+  "data_id": 4784030278741,
+  "name": {
+    "last": "Шмидт",
+    "first": "Людмила",
+    "middle": "Ивановна"
+  },
+  "birthdate": {
+    "day": 26,
+    "month": 1,
+    "year": 1953
+  },
+  "district": "Центральный район",
+  "age": 68,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Шмидт",
+    "first": "Иван"
+  },
+  "role_id": 4,
+  "assigned_by_id": 30,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 30
+    },
+    "tik": 30,
+    "district": "Центральный район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 5,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 3
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 6791
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          "856",
+          "5121",
+          "8849"
+        ]
+      }
+    },
+    "children": {
+      "856": {
+        "strong_evidence": "strong_role",
+        "age_difference": -42,
+        "name": {
+          "last": "Шмидт",
+          "first": "Алена",
+          "middle": "Игоревна",
+          "raw": "Шмидт Алёна Игоревна"
+        },
+        "distance": 10623,
+        "district": "Кировский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 619
+          },
+          "uik": 619,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      },
+      "5121": {
+        "strong_evidence": "strong_role",
+        "age_difference": -21,
+        "name": {
+          "last": "Шмидт",
+          "first": "Ольга",
+          "middle": "Рихардовна"
+        },
+        "distance": 25715,
+        "district": "Курортный район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1258
+          },
+          "uik": 1258,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      },
+      "6791": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -36,
+        "name": {
+          "last": "Шмидт",
+          "first": "Диана",
+          "middle": "Анатольевна"
+        },
+        "distance": 5710,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 19
+          },
+          "tik": 19,
+          "district": "Московский район",
+          "gik": "СПбИК"
+        }
+      },
+      "8849": {
+        "strong_evidence": "strong_role",
+        "age_difference": -33,
+        "name": {
+          "last": "Шмидт",
+          "first": "Валентина",
+          "middle": "Сергеевна"
+        },
+        "distance": 10139,
+        "district": "Выборгский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 364
+          },
+          "uik": 364,
+          "district": "Выборгский район",
+          "tik": 22,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

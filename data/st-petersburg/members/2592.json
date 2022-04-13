@@ -1,0 +1,96 @@
+{
+  "id": 2592,
+  "data_id": 4784020128956,
+  "name": {
+    "last": "Фролова",
+    "first": "Ирина",
+    "middle": "Георгиевна"
+  },
+  "birthdate": {
+    "day": 15,
+    "month": 1,
+    "year": 1963
+  },
+  "district": "Кировский район",
+  "age": 58,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Фролов",
+    "first": "Георгий"
+  },
+  "role_id": 3,
+  "assigned_by_id": 2,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 793
+    },
+    "uik": 793,
+    "district": "Кировский район",
+    "tik": 7,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 2630
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 5630
+      }
+    },
+    "spouse": {
+      "2630": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -12,
+        "name": {
+          "last": "Фролов",
+          "first": "Дмитрий",
+          "middle": "Юрьевич"
+        },
+        "distance": 754,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 795
+          },
+          "uik": 795,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "5630": {
+        "strong_evidence": "strong_role",
+        "age_difference": -32,
+        "name": {
+          "last": "Фролов",
+          "first": "Илья",
+          "middle": "Юрьевич"
+        },
+        "distance": 31724,
+        "district": "Кронштадтский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 15
+          },
+          "tik": 15,
+          "district": "Кронштадтский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

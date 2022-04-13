@@ -1,0 +1,94 @@
+{
+  "id": 12652,
+  "data_id": 478403192309,
+  "name": {
+    "last": "Демидов",
+    "first": "Максим",
+    "middle": "Евгеньевич"
+  },
+  "birthdate": {
+    "day": 22,
+    "month": 4,
+    "year": 1997
+  },
+  "district": "Адмиралтейский район",
+  "age": 24,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Демидов",
+    "first": "Евгений"
+  },
+  "role_id": 4,
+  "assigned_by_id": 31,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 39
+    },
+    "uik": 39,
+    "district": "Адмиралтейский район",
+    "tik": 31,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 6167
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 4783
+      }
+    },
+    "siblings": {
+      "4783": {
+        "age_difference": 0,
+        "name": {
+          "last": "Демидова",
+          "first": "Екатерина",
+          "middle": "Евгеньевна"
+        },
+        "distance": 10482,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1779
+          },
+          "uik": 1779,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "6167": {
+        "strong_evidence": "strong_role",
+        "age_difference": 27,
+        "name": {
+          "last": "Демидова",
+          "first": "Татьяна",
+          "middle": "Владимировна"
+        },
+        "distance": 4925,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 17
+          },
+          "tik": 17,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": 16435,
+  "data_id": 27820001302798,
+  "name": {
+    "last": "Шишкин",
+    "first": "Дмитрий",
+    "middle": "Геннадьевич"
+  },
+  "birthdate": {
+    "day": 19,
+    "month": 10,
+    "year": 1983
+  },
+  "district": "Кировский район",
+  "age": 37,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Шишкин",
+    "first": "Геннадий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 42
+    },
+    "tik": 42,
+    "district": "Кировский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "12311",
+          "17980"
+        ]
+      }
+    },
+    "mother": {
+      "12311": {
+        "strong_evidence": "strong_role",
+        "age_difference": 16,
+        "name": {
+          "last": "Шишкина",
+          "first": "Вероника",
+          "middle": "Юрьевна"
+        },
+        "distance": 7760,
+        "district": "Центральный район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2244
+          },
+          "uik": 2244,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      },
+      "17980": {
+        "strong_evidence": "strong_role",
+        "age_difference": 19,
+        "name": {
+          "last": "Шишкина",
+          "first": "Татьяна",
+          "middle": "Олеговна"
+        },
+        "distance": 9662,
+        "district": "Красносельский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1099
+          },
+          "uik": 1099,
+          "district": "Красносельский район",
+          "tik": 46,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

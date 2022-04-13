@@ -1,0 +1,97 @@
+{
+  "id": 229,
+  "data_id": 4784001226584,
+  "name": {
+    "last": "Артеменко",
+    "first": "Ирина",
+    "middle": "Александровна",
+    "raw": "Артёменко Ирина Александровна"
+  },
+  "birthdate": {
+    "day": 24,
+    "month": 10,
+    "year": 1965
+  },
+  "district": "Адмиралтейский район",
+  "age": 55,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Артеменко",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 21,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 16
+    },
+    "uik": 16,
+    "district": "Адмиралтейский район",
+    "tik": 1,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 292
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 21704
+      }
+    },
+    "spouse": {
+      "292": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 3,
+        "name": {
+          "last": "Артеменко",
+          "first": "Александр",
+          "middle": "Дмитриевич",
+          "raw": "Артёменко Александр Дмитриевич"
+        },
+        "distance": 455,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 21
+          },
+          "uik": 21,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "21704": {
+        "age_difference": 5,
+        "name": {
+          "last": "Артеменко",
+          "first": "Ольга",
+          "middle": "Александровна"
+        },
+        "distance": 11939,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1904
+          },
+          "uik": 1904,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

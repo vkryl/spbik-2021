@@ -1,0 +1,117 @@
+{
+  "id": 18850,
+  "data_id": 4784010284751,
+  "name": {
+    "last": "Сорокина",
+    "first": "Екатерина",
+    "middle": "Алексеевна"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 2,
+    "year": 1984
+  },
+  "district": "Московский район",
+  "age": 37,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Сорокин",
+    "first": "Алексей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1329
+    },
+    "uik": 1329,
+    "district": "Московский район",
+    "tik": 48,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          19721,
+          21036
+        ]
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 23388
+      }
+    },
+    "siblings": {
+      "23388": {
+        "age_difference": 0,
+        "name": {
+          "last": "Сорокина",
+          "first": "Ксения",
+          "middle": "Алексеевна"
+        },
+        "distance": 5519,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2148
+          },
+          "uik": 2148,
+          "district": "Фрунзенский район",
+          "tik": 62,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "19721": {
+        "strong_evidence": "strong_role",
+        "age_difference": 16,
+        "name": {
+          "last": "Сорокин",
+          "first": "Андрей",
+          "middle": "Юрьевич"
+        },
+        "distance": 7233,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 51
+          },
+          "tik": 51,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      },
+      "21036": {
+        "strong_evidence": "strong_role",
+        "age_difference": -3,
+        "name": {
+          "last": "Сорокин",
+          "first": "Сергей",
+          "middle": "Андреевич"
+        },
+        "distance": 24040,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 55
+          },
+          "tik": 55,
+          "district": "Петродворцовый район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

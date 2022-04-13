@@ -1,0 +1,97 @@
+{
+  "name": "УИК №2384",
+  "id": 2384,
+  "type": "uik",
+  "data_id": 478406389571,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Фрунзенский район",
+  "electoral_districts": {
+    "federal": 217,
+    "city": 22
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "217": 12,
+        "total_count": 12,
+        "winner_count": 1
+      },
+      "city": {
+        "22": 6,
+        "total_count": 6,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 2,
+    "ballot_count": 2
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 56,
+      "party_abstained_count": 65,
+      "party_registered_count": 121,
+      "person_voters_count": 56,
+      "person_abstained_count": 65,
+      "person_registered_count": 121,
+      "no_city_count": 31,
+      "no_other_count": 31,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 56,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.person",
+          "value": 25,
+          "isNegative": true
+        }
+      ],
+      "no_city_registered_count": 13,
+      "no_other_registered_count": 13,
+      "no_other_registered_count_formula": [
+        {
+          "key": "federal.registered_count.person",
+          "value": 121,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.registered_count.person",
+          "value": 108,
+          "isNegative": true
+        }
+      ]
+    },
+    "city": {
+      "party_voters_count": 25,
+      "party_abstained_count": 83,
+      "party_registered_count": 108,
+      "person_voters_count": 25,
+      "person_abstained_count": 83,
+      "person_registered_count": 108,
+      "only_federal_count": 31,
+      "only_federal_registered_count": 13
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 63,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

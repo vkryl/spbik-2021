@@ -1,0 +1,170 @@
+{
+  "id": 1693,
+  "data_id": 4784011162586,
+  "name": {
+    "last": "Кузнецов",
+    "first": "Денис",
+    "middle": "Валерьевич"
+  },
+  "birthdate": {
+    "day": 18,
+    "month": 9,
+    "year": 1977
+  },
+  "district": "Невский район",
+  "age": 43,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Кузнецов",
+    "first": "Валерий"
+  },
+  "role_id": 1,
+  "assigned_by_id": 59,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1531
+    },
+    "uik": 1531,
+    "district": "Невский район",
+    "tik": 5,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 5,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "same_commission": 2
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 1533
+      },
+      "siblings_in_commission": {
+        "count": 2,
+        "ids": [
+          1694,
+          1701
+        ]
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          8703,
+          21188
+        ]
+      }
+    },
+    "father": {
+      "1701": {
+        "strong_evidence": "same_commission",
+        "age_difference": 27,
+        "name": {
+          "last": "Кузнецов",
+          "first": "Валерий",
+          "middle": "Михайлович"
+        },
+        "distance": 0,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1531
+          },
+          "uik": 1531,
+          "district": "Невский район",
+          "tik": 5,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "1533": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -2,
+        "name": {
+          "last": "Кузнецова",
+          "first": "Мария",
+          "middle": "Александровна"
+        },
+        "distance": 972,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1519
+          },
+          "uik": 1519,
+          "district": "Невский район",
+          "tik": 5,
+          "gik": "СПбИК"
+        }
+      },
+      "1694": {
+        "strong_evidence": "same_commission",
+        "age_difference": -7,
+        "name": {
+          "last": "Кузнецова",
+          "first": "Наталья",
+          "middle": "Николаевна"
+        },
+        "distance": 0,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1531
+          },
+          "uik": 1531,
+          "district": "Невский район",
+          "tik": 5,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "8703": {
+        "age_difference": -17,
+        "name": {
+          "last": "Кузнецов",
+          "first": "Даниил",
+          "middle": "Валерьевич"
+        },
+        "distance": 11090,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 352
+          },
+          "uik": 352,
+          "district": "Выборгский район",
+          "tik": 22,
+          "gik": "СПбИК"
+        }
+      },
+      "21188": {
+        "age_difference": 1,
+        "name": {
+          "last": "Кузнецова",
+          "first": "Оксана",
+          "middle": "Валерьевна"
+        },
+        "distance": 38484,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1721
+          },
+          "uik": 1721,
+          "district": "Петродворцовый район",
+          "tik": 55,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

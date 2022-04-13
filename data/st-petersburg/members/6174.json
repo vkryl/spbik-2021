@@ -1,0 +1,95 @@
+{
+  "id": 6174,
+  "data_id": 4784019327936,
+  "name": {
+    "last": "Петренко",
+    "first": "Анатолий",
+    "middle": "Васильевич"
+  },
+  "birthdate": {
+    "day": 26,
+    "month": 3,
+    "year": 1976
+  },
+  "district": "Калининский район",
+  "age": 45,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Петренко",
+    "first": "Василий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 17
+    },
+    "tik": 17,
+    "district": "Калининский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "works_in_child_district_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_in_child_district_commission": {
+        "count": 1,
+        "ids": 3864
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "20744"
+      }
+    },
+    "spouse": {
+      "3864": {
+        "strong_evidence": "works_in_child_district_commission",
+        "age_difference": -3,
+        "name": {
+          "last": "Петренко",
+          "first": "Евгения",
+          "middle": "Анатольевна"
+        },
+        "distance": 9647,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 476
+          },
+          "uik": 476,
+          "district": "Калининский район",
+          "tik": 11,
+          "gik": "СПбИК"
+        }
+      },
+      "20744": {
+        "strong_evidence": "strong_role",
+        "age_difference": 10,
+        "name": {
+          "last": "Петренко",
+          "first": "Ольга",
+          "middle": "Евгеньевна"
+        },
+        "distance": 2993,
+        "district": "Петроградский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1613
+          },
+          "uik": 1613,
+          "district": "Петроградский район",
+          "tik": 54,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

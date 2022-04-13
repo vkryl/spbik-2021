@@ -1,0 +1,69 @@
+{
+  "id": 13709,
+  "data_id": 478403485793,
+  "name": {
+    "last": "Троянов",
+    "first": "Ярослав",
+    "middle": "Олегович"
+  },
+  "birthdate": {
+    "day": 10,
+    "month": 12,
+    "year": 1996
+  },
+  "district": "Выборгский район",
+  "age": 24,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Троянов",
+    "first": "Олег"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 34
+    },
+    "tik": 34,
+    "district": "Выборгский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "10072"
+      }
+    },
+    "mother": {
+      "10072": {
+        "strong_evidence": "strong_role",
+        "age_difference": 16,
+        "name": {
+          "last": "Троянова",
+          "first": "Наталья",
+          "middle": "Петровна"
+        },
+        "distance": 8481,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 988
+          },
+          "uik": 988,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": 18247,
+  "data_id": 27820001304700,
+  "name": {
+    "last": "Стрельцова",
+    "first": "Мария",
+    "middle": "Вячеславовна"
+  },
+  "birthdate": {
+    "day": 24,
+    "month": 8,
+    "year": 1981
+  },
+  "district": "Красносельский район",
+  "age": 40,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Стрельцов",
+    "first": "Вячеслава"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 47
+    },
+    "tik": 47,
+    "district": "Красносельский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 4,
+      "strong_guesses": {
+        "works_in_child_district_commission": 1,
+        "strong_role": 2
+      },
+      "siblings_in_child_district_commission": {
+        "count": 1,
+        "ids": 10562
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "17075",
+          "21463"
+        ]
+      }
+    },
+    "mother": {
+      "10562": {
+        "strong_evidence": "works_in_child_district_commission",
+        "age_difference": 24,
+        "name": {
+          "last": "Стрельцова",
+          "first": "Татьяна",
+          "middle": "Валентиновна"
+        },
+        "distance": 11464,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1183
+          },
+          "uik": 1183,
+          "district": "Красносельский район",
+          "tik": 26,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "17075": {
+        "strong_evidence": "strong_role",
+        "age_difference": -15,
+        "name": {
+          "last": "Стрельцов",
+          "first": "Егор",
+          "middle": "Юрьевич"
+        },
+        "distance": 17770,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 924
+          },
+          "uik": 924,
+          "district": "Красногвардейский район",
+          "tik": 44,
+          "gik": "СПбИК"
+        }
+      },
+      "21463": {
+        "strong_evidence": "strong_role",
+        "age_difference": -10,
+        "name": {
+          "last": "Стрельцов",
+          "first": "Денис",
+          "middle": "Андреевич"
+        },
+        "distance": 20781,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2396
+          },
+          "uik": 2396,
+          "district": "Приморский район",
+          "tik": 56,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

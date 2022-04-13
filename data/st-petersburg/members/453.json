@@ -1,0 +1,69 @@
+{
+  "id": 453,
+  "data_id": 4784002181569,
+  "name": {
+    "last": "Блинников",
+    "first": "Владимир",
+    "middle": "Станиславович"
+  },
+  "birthdate": {
+    "day": 30,
+    "month": 11,
+    "year": 1955
+  },
+  "district": "Василеостровский район",
+  "age": 65,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Блинников",
+    "first": "Станислава"
+  },
+  "role_id": 2,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 2
+    },
+    "tik": 2,
+    "district": "Василеостровский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "12094"
+      }
+    },
+    "spouse": {
+      "12094": {
+        "strong_evidence": "strong_role",
+        "age_difference": -18,
+        "name": {
+          "last": "Блинникова",
+          "first": "Ирина",
+          "middle": "Николаевна"
+        },
+        "distance": 12808,
+        "district": "Фрунзенский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2130
+          },
+          "uik": 2130,
+          "district": "Фрунзенский район",
+          "tik": 29,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

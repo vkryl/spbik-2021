@@ -1,0 +1,3799 @@
+{
+  "commission_name": "ТИК №41",
+  "ballot_name": "Выборы депутатов муниципального совета внутригородского муниципального образования города федерального значения Санкт-Петербурга муниципальный округ Автово шестого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "tik",
+    "id": 41
+  },
+  "electoral_district": {
+    "type": "municipality",
+    "municipality": "Автово",
+    "id": 1
+  },
+  "stats": {
+    "uik_count": 4,
+    "koib_count": 4,
+    "empty_uik_count": 0,
+    "empty_koib_count": 0,
+    "protocol_count": 4,
+    "empty_protocol_count": 0
+  },
+  "official_result": {
+    "winner": {
+      "id": [
+        284,
+        288,
+        294,
+        295,
+        297
+      ],
+      "position": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "percentage": [
+        7.574893009985735,
+        8.245363766048502,
+        8.758915834522112,
+        13.009985734664763,
+        13.651925820256777
+      ],
+      "valid_percentage": [
+        7.709059233449478,
+        8.391405342624855,
+        8.914053426248548,
+        13.240418118466899,
+        13.893728222996515
+      ],
+      "registered_percentage": [
+        6.710476431189183,
+        7.304435738657905,
+        7.759383293314799,
+        11.525338051307974,
+        12.094022494629092
+      ]
+    },
+    "turnout": {
+      "count": 2609,
+      "percentage": 32.97106028055099,
+      "walk_by_count": 2578,
+      "walk_by_percentage": 32.579299886263115,
+      "on_home_count": 31,
+      "on_home_percentage": 0.3917603942878807,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 2478,
+      "valid_percentage": 31.31555667888285,
+      "invalid_count": 122,
+      "invalid_percentage": 1.5417667130039177,
+      "lost_count": 0,
+      "lost_percentage": 0,
+      "taken_home_count": 9,
+      "taken_home_percentage": 0.11373688866422343
+    },
+    "turnout_stats": {
+      "count": {
+        "size": 4,
+        "sum": 2609,
+        "average": 652.25,
+        "min": {
+          "#602": 445
+        },
+        "max": {
+          "#604": 866
+        },
+        "median": {
+          "#603": 799
+        },
+        "counts": {
+          "445": 1,
+          "499": 1,
+          "799": 1,
+          "866": 1
+        }
+      },
+      "walk_by_count": {
+        "size": 4,
+        "sum": 2578,
+        "average": 644.5,
+        "min": {
+          "#602": 443
+        },
+        "max": {
+          "#604": 850
+        },
+        "median": {
+          "#603": 790
+        },
+        "counts": {
+          "443": 1,
+          "495": 1,
+          "790": 1,
+          "850": 1
+        }
+      },
+      "on_home_count": {
+        "size": 4,
+        "sum": 31,
+        "average": 7.75,
+        "min": {
+          "#602": 2
+        },
+        "max": {
+          "#604": 16
+        },
+        "median": {
+          "#603": 9
+        },
+        "counts": {
+          "2": 1,
+          "4": 1,
+          "9": 1,
+          "16": 1
+        }
+      },
+      "ahead_of_time_count": {
+        "size": 4,
+        "sum": 0,
+        "average": 0,
+        "min": {
+          "#602,603,604,606": 0
+        },
+        "max": {
+          "#602,603,604,606": 0
+        },
+        "median": {
+          "#604": 0
+        },
+        "counts": {
+          "0": 4
+        }
+      },
+      "valid_count": {
+        "size": 4,
+        "sum": 2478,
+        "average": 619.5,
+        "min": {
+          "#602": 428
+        },
+        "max": {
+          "#604": 830
+        },
+        "median": {
+          "#603": 749
+        },
+        "counts": {
+          "428": 1,
+          "471": 1,
+          "749": 1,
+          "830": 1
+        }
+      },
+      "invalid_count": {
+        "size": 4,
+        "sum": 122,
+        "average": 30.5,
+        "min": {
+          "#602": 17
+        },
+        "max": {
+          "#603": 41
+        },
+        "median": {
+          "#604": 36
+        },
+        "counts": {
+          "17": 1,
+          "28": 1,
+          "36": 1,
+          "41": 1
+        }
+      },
+      "lost_count": {
+        "size": 4,
+        "sum": 0,
+        "average": 0,
+        "min": {
+          "#602,603,604,606": 0
+        },
+        "max": {
+          "#602,603,604,606": 0
+        },
+        "median": {
+          "#604": 0
+        },
+        "counts": {
+          "0": 4
+        }
+      },
+      "taken_home_count": {
+        "size": 4,
+        "sum": 9,
+        "average": 2.25,
+        "min": {
+          "#602,604,606": 0
+        },
+        "max": {
+          "#603": 9
+        },
+        "median": {
+          "#606": 0
+        },
+        "counts": {
+          "0": 3,
+          "9": 1
+        }
+      }
+    },
+    "votes_stats": {
+      "winning_count": 3592,
+      "winning_percentage": 51.24108416547789,
+      "effective_count": 6888,
+      "losing_count": 3296,
+      "losing_percentage": 47.01854493580599,
+      "other_count": 122,
+      "other_percentage": 1.7403708987161197,
+      "by_place": {
+        "#1": {
+          "count": 957,
+          "percentage": 13.651925820256777
+        },
+        "#2": {
+          "count": 912,
+          "percentage": 13.009985734664763
+        },
+        "#3": {
+          "count": 614,
+          "percentage": 8.758915834522112
+        },
+        "#4": {
+          "count": 578,
+          "percentage": 8.245363766048502
+        },
+        "#10.5": {
+          "count": 574,
+          "percentage": 8.18830242510699
+        },
+        "#5": {
+          "count": 531,
+          "percentage": 7.574893009985735
+        },
+        "#6": {
+          "count": 522,
+          "percentage": 7.446504992867332
+        },
+        "#7": {
+          "count": 409,
+          "percentage": 5.834522111269615
+        },
+        "#8": {
+          "count": 373,
+          "percentage": 5.320970042796006
+        },
+        "#9": {
+          "count": 315,
+          "percentage": 4.49358059914408
+        },
+        "#11": {
+          "count": 275,
+          "percentage": 3.922967189728958
+        },
+        "#12": {
+          "count": 273,
+          "percentage": 3.894436519258203
+        },
+        "#13": {
+          "count": 228,
+          "percentage": 3.252496433666191
+        },
+        "#14": {
+          "count": 200,
+          "percentage": 2.8530670470756063
+        },
+        "#15": {
+          "count": 127,
+          "percentage": 1.81169757489301
+        }
+      }
+    }
+  },
+  "turnout_protocols_stats": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 4,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 4
+    },
+    "papers": {
+      "received_count": 6000,
+      "destroyed_count": 3391,
+      "stationary_box_count": 2594,
+      "portable_box_count": 6,
+      "valid_count": 2478,
+      "invalid_count": 122,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 9
+    },
+    "voters": {
+      "registered_count": 7913,
+      "walk_by_count": 2578,
+      "on_home_count": 31,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Давыдов Вадим Владимирович",
+      "position": 5,
+      "candidate_id": 288,
+      "supported_by_party_id": 6,
+      "official_result": {
+        "votes_count": 957,
+        "place": 1,
+        "percentage": 13.651925820256777,
+        "valid_percentage": 13.893728222996515,
+        "registered_percentage": 12.094022494629092,
+        "winner": true
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 55.35001065918889,
+          "average": 13.837502664797222,
+          "min": {
+            "#606": 13.343442001516301
+          },
+          "max": {
+            "#604": 14.23141891891892
+          },
+          "median": {
+            "#602": 13.922518159806296
+          },
+          "counts": {
+            "13.343442001516301": 1,
+            "13.852631578947369": 1,
+            "13.922518159806296": 1,
+            "14.23141891891892": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 46.702501452406395,
+          "average": 11.675625363101599,
+          "min": {
+            "#602": 8.640120210368146
+          },
+          "max": {
+            "#603": 13.181089743589745
+          },
+          "median": {
+            "#604": 12.842987804878048
+          },
+          "counts": {
+            "8.640120210368146": 1,
+            "12.038303693570452": 1,
+            "12.842987804878048": 1,
+            "13.181089743589745": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 54.34368088640008,
+          "average": 13.58592022160002,
+          "min": {
+            "#606": 13.066072754268745
+          },
+          "max": {
+            "#604": 14.018302828618967
+          },
+          "median": {
+            "#602": 13.641755634638198
+          },
+          "counts": {
+            "13.066072754268745": 1,
+            "13.61754966887417": 1,
+            "13.641755634638198": 1,
+            "14.018302828618967": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 957,
+          "average": 239.25,
+          "min": {
+            "#602": 115
+          },
+          "max": {
+            "#604": 337
+          },
+          "median": {
+            "#603": 329
+          },
+          "counts": {
+            "115": 1,
+            "176": 1,
+            "329": 1,
+            "337": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 4,
+          "lost": 0,
+          "win_rate": 100
+        },
+        "places": {
+          "#1": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "ratio_from_koib_ballot_uiks": 50,
+            "votes_count": 505,
+            "votes_weight": 52.769070010449326,
+            "valid_result_by_uik": {
+              "УИК №603": 13.852631578947369,
+              "УИК №606": 13.343442001516301
+            }
+          },
+          "#2": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "ratio_from_koib_ballot_uiks": 50,
+            "votes_count": 452,
+            "votes_weight": 47.23092998955068,
+            "valid_result_by_uik": {
+              "УИК №604": 14.23141891891892,
+              "УИК №602": 13.922518159806296
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 35.214211076280044,
+          "УИК №603": 34.37826541274817,
+          "УИК №606": 18.39080459770115,
+          "УИК №602": 12.016718913270637
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 4,
+          "lost": 0,
+          "win_rate": 100
+        },
+        "places": {
+          "#1": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "votes_count": 505,
+            "votes_weight": 52.769070010449326,
+            "valid_result_by_uik": {
+              "УИК №603": 13.852631578947369,
+              "УИК №606": 13.343442001516301
+            }
+          },
+          "#2": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "votes_count": 452,
+            "votes_weight": 47.23092998955068,
+            "valid_result_by_uik": {
+              "УИК №604": 14.23141891891892,
+              "УИК №602": 13.922518159806296
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {
+            "13.6%": {
+              "count": 2,
+              "ratio_from_all_ballot_uiks": 50,
+              "votes_count": 444,
+              "votes_weight": 46.39498432601881
+            }
+          },
+          "valid": {
+            "13.9%": {
+              "count": 2,
+              "ratio_from_all_ballot_uiks": 50,
+              "votes_count": 444,
+              "votes_weight": 46.39498432601881
+            }
+          },
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 35.214211076280044,
+          "УИК №603": 34.37826541274817,
+          "УИК №606": 18.39080459770115,
+          "УИК №602": 12.016718913270637
+        }
+      }
+    },
+    {
+      "name": "Тетерина Светлана Николаевна",
+      "position": 13,
+      "candidate_id": 295,
+      "supported_by_party_id": 6,
+      "official_result": {
+        "votes_count": 912,
+        "place": 2,
+        "percentage": 13.009985734664763,
+        "valid_percentage": 13.240418118466899,
+        "registered_percentage": 11.525338051307974,
+        "winner": true
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 53.26837160653051,
+          "average": 13.317092901632627,
+          "min": {
+            "#606": 11.675511751326763
+          },
+          "max": {
+            "#604": 14.907094594594595
+          },
+          "median": {
+            "#602": 14.769975786924938
+          },
+          "counts": {
+            "11.675511751326763": 1,
+            "11.91578947368421": 1,
+            "14.769975786924938": 1,
+            "14.907094594594595": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 44.490441230953444,
+          "average": 11.122610307738361,
+          "min": {
+            "#602": 9.166040570999249
+          },
+          "max": {
+            "#604": 13.452743902439025
+          },
+          "median": {
+            "#603": 11.338141025641026
+          },
+          "counts": {
+            "9.166040570999249": 1,
+            "10.533515731874145": 1,
+            "11.338141025641026": 1,
+            "13.452743902439025": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 52.30237342079116,
+          "average": 13.07559335519779,
+          "min": {
+            "#606": 11.432813659985152
+          },
+          "max": {
+            "#604": 14.683860232945092
+          },
+          "median": {
+            "#602": 14.472123368920522
+          },
+          "counts": {
+            "11.432813659985152": 1,
+            "11.713576158940398": 1,
+            "14.472123368920522": 1,
+            "14.683860232945092": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 912,
+          "average": 228,
+          "min": {
+            "#602": 122
+          },
+          "max": {
+            "#604": 353
+          },
+          "median": {
+            "#603": 283
+          },
+          "counts": {
+            "122": 1,
+            "154": 1,
+            "283": 1,
+            "353": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 4,
+          "lost": 0,
+          "win_rate": 100
+        },
+        "places": {
+          "#2": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "ratio_from_koib_ballot_uiks": 50,
+            "votes_count": 437,
+            "votes_weight": 47.91666666666667,
+            "valid_result_by_uik": {
+              "УИК №603": 11.91578947368421,
+              "УИК №606": 11.675511751326763
+            }
+          },
+          "#1": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "ratio_from_koib_ballot_uiks": 50,
+            "votes_count": 475,
+            "votes_weight": 52.083333333333336,
+            "valid_result_by_uik": {
+              "УИК №604": 14.907094594594595,
+              "УИК №602": 14.769975786924938
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 38.70614035087719,
+          "УИК №603": 31.030701754385966,
+          "УИК №606": 16.885964912280702,
+          "УИК №602": 13.37719298245614
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 4,
+          "lost": 0,
+          "win_rate": 100
+        },
+        "places": {
+          "#2": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "votes_count": 437,
+            "votes_weight": 47.91666666666667,
+            "valid_result_by_uik": {
+              "УИК №603": 11.91578947368421,
+              "УИК №606": 11.675511751326763
+            }
+          },
+          "#1": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "votes_count": 475,
+            "votes_weight": 52.083333333333336,
+            "valid_result_by_uik": {
+              "УИК №604": 14.907094594594595,
+              "УИК №602": 14.769975786924938
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 38.70614035087719,
+          "УИК №603": 31.030701754385966,
+          "УИК №606": 16.885964912280702,
+          "УИК №602": 13.37719298245614
+        }
+      }
+    },
+    {
+      "name": "Аракчеев Алексей Николаевич",
+      "position": 1,
+      "candidate_id": 284,
+      "supported_by_party_id": 6,
+      "official_result": {
+        "votes_count": 614,
+        "place": 3,
+        "percentage": 8.758915834522112,
+        "valid_percentage": 8.914053426248548,
+        "registered_percentage": 7.759383293314799,
+        "winner": true
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 36.002664147115354,
+          "average": 9.000666036778838,
+          "min": {
+            "#604": 8.150337837837837
+          },
+          "max": {
+            "#602": 9.685230024213075
+          },
+          "median": {
+            "#603": 9.6
+          },
+          "counts": {
+            "8.150337837837837": 1,
+            "8.567096285064443": 1,
+            "9.6": 1,
+            "9.685230024213075": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 30.229454885551938,
+          "average": 7.5573637213879845,
+          "min": {
+            "#602": 6.010518407212622
+          },
+          "max": {
+            "#603": 9.134615384615383
+          },
+          "median": {
+            "#606": 7.729138166894665
+          },
+          "counts": {
+            "6.010518407212622": 1,
+            "7.355182926829268": 1,
+            "7.729138166894665": 1,
+            "9.134615384615383": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 35.34430186626412,
+          "average": 8.83607546656603,
+          "min": {
+            "#604": 8.02828618968386
+          },
+          "max": {
+            "#602": 9.489916963226571
+          },
+          "median": {
+            "#603": 9.437086092715232
+          },
+          "counts": {
+            "8.02828618968386": 1,
+            "8.389012620638455": 1,
+            "9.437086092715232": 1,
+            "9.489916963226571": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 614,
+          "average": 153.5,
+          "min": {
+            "#602": 80
+          },
+          "max": {
+            "#603": 228
+          },
+          "median": {
+            "#604": 193
+          },
+          "counts": {
+            "80": 1,
+            "113": 1,
+            "193": 1,
+            "228": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 4,
+          "lost": 0,
+          "win_rate": 100
+        },
+        "places": {
+          "#3": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "ratio_from_koib_ballot_uiks": 50,
+            "votes_count": 308,
+            "votes_weight": 50.1628664495114,
+            "valid_result_by_uik": {
+              "УИК №602": 9.685230024213075,
+              "УИК №603": 9.6
+            }
+          },
+          "#4": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 193,
+            "votes_weight": 31.433224755700323,
+            "valid_result_by_uik": {
+              "УИК №604": 8.150337837837837
+            }
+          },
+          "#5": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 113,
+            "votes_weight": 18.403908794788272,
+            "valid_result_by_uik": {
+              "УИК №606": 8.567096285064443
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 37.13355048859935,
+          "УИК №604": 31.433224755700323,
+          "УИК №606": 18.403908794788272,
+          "УИК №602": 13.029315960912053
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 4,
+          "lost": 0,
+          "win_rate": 100
+        },
+        "places": {
+          "#3": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "votes_count": 308,
+            "votes_weight": 50.1628664495114,
+            "valid_result_by_uik": {
+              "УИК №602": 9.685230024213075,
+              "УИК №603": 9.6
+            }
+          },
+          "#4": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 193,
+            "votes_weight": 31.433224755700323,
+            "valid_result_by_uik": {
+              "УИК №604": 8.150337837837837
+            }
+          },
+          "#5": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 113,
+            "votes_weight": 18.403908794788272,
+            "valid_result_by_uik": {
+              "УИК №606": 8.567096285064443
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 37.13355048859935,
+          "УИК №604": 31.433224755700323,
+          "УИК №606": 18.403908794788272,
+          "УИК №602": 13.029315960912053
+        }
+      }
+    },
+    {
+      "name": "Шестаков Сергей Сергеевич",
+      "position": 15,
+      "candidate_id": 297,
+      "supported_by_party_id": 6,
+      "official_result": {
+        "votes_count": 578,
+        "place": 4,
+        "percentage": 8.245363766048502,
+        "valid_percentage": 8.391405342624855,
+        "registered_percentage": 7.304435738657905,
+        "winner": true
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 33.9906551019896,
+          "average": 8.4976637754974,
+          "min": {
+            "#603": 8.042105263157895
+          },
+          "max": {
+            "#606": 8.87035633055345
+          },
+          "median": {
+            "#602": 8.716707021791766
+          },
+          "counts": {
+            "8.042105263157895": 1,
+            "8.361486486486488": 1,
+            "8.716707021791766": 1,
+            "8.87035633055345": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 28.610177841664196,
+          "average": 7.152544460416049,
+          "min": {
+            "#602": 5.40946656649136
+          },
+          "max": {
+            "#606": 8.002735978112176
+          },
+          "median": {
+            "#603": 7.65224358974359
+          },
+          "counts": {
+            "5.40946656649136": 1,
+            "7.545731707317073": 1,
+            "7.65224358974359": 1,
+            "8.002735978112176": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 33.368796104111645,
+          "average": 8.342199026027911,
+          "min": {
+            "#603": 7.905629139072848
+          },
+          "max": {
+            "#606": 8.68596881959911
+          },
+          "median": {
+            "#602": 8.540925266903916
+          },
+          "counts": {
+            "7.905629139072848": 1,
+            "8.236272878535774": 1,
+            "8.540925266903916": 1,
+            "8.68596881959911": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 578,
+          "average": 144.5,
+          "min": {
+            "#602": 72
+          },
+          "max": {
+            "#604": 198
+          },
+          "median": {
+            "#603": 191
+          },
+          "counts": {
+            "72": 1,
+            "117": 1,
+            "191": 1,
+            "198": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 3,
+          "lost": 1,
+          "win_rate": 75
+        },
+        "places": {
+          "#4": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 72,
+            "votes_weight": 12.45674740484429,
+            "valid_result_by_uik": {
+              "УИК №602": 8.716707021791766
+            }
+          },
+          "#3": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "ratio_from_koib_ballot_uiks": 50,
+            "votes_count": 315,
+            "votes_weight": 54.498269896193776,
+            "valid_result_by_uik": {
+              "УИК №606": 8.87035633055345,
+              "УИК №604": 8.361486486486488
+            }
+          },
+          "#6": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 191,
+            "votes_weight": 33.04498269896194,
+            "valid_result_by_uik": {
+              "УИК №603": 8.042105263157895
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 34.2560553633218,
+          "УИК №603": 33.04498269896194,
+          "УИК №606": 20.242214532871973,
+          "УИК №602": 12.45674740484429
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 3,
+          "lost": 1,
+          "win_rate": 75
+        },
+        "places": {
+          "#4": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 72,
+            "votes_weight": 12.45674740484429,
+            "valid_result_by_uik": {
+              "УИК №602": 8.716707021791766
+            }
+          },
+          "#3": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "votes_count": 315,
+            "votes_weight": 54.498269896193776,
+            "valid_result_by_uik": {
+              "УИК №606": 8.87035633055345,
+              "УИК №604": 8.361486486486488
+            }
+          },
+          "#6": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 191,
+            "votes_weight": 33.04498269896194,
+            "valid_result_by_uik": {
+              "УИК №603": 8.042105263157895
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 34.2560553633218,
+          "УИК №603": 33.04498269896194,
+          "УИК №606": 20.242214532871973,
+          "УИК №602": 12.45674740484429
+        }
+      }
+    },
+    {
+      "name": "Соколюк Денис Сергеевич",
+      "position": 12,
+      "candidate_id": 294,
+      "supported_by_party_id": 6,
+      "official_result": {
+        "votes_count": 531,
+        "place": 5,
+        "percentage": 7.574893009985735,
+        "valid_percentage": 7.709059233449478,
+        "registered_percentage": 6.710476431189183,
+        "winner": true
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 31.701433505257445,
+          "average": 7.925358376314361,
+          "min": {
+            "#604": 6.33445945945946
+          },
+          "max": {
+            "#606": 8.718726307808947
+          },
+          "median": {
+            "#602": 8.353510895883778
+          },
+          "counts": {
+            "6.33445945945946": 1,
+            "8.294736842105262": 1,
+            "8.353510895883778": 1,
+            "8.718726307808947": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 26.659100818486657,
+          "average": 6.664775204621664,
+          "min": {
+            "#602": 5.184072126220887
+          },
+          "max": {
+            "#603": 7.892628205128204
+          },
+          "median": {
+            "#606": 7.865937072503421
+          },
+          "counts": {
+            "5.184072126220887": 1,
+            "5.716463414634147": 1,
+            "7.865937072503421": 1,
+            "7.892628205128204": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 31.11611827639288,
+          "average": 7.77902956909822,
+          "min": {
+            "#604": 6.239600665557404
+          },
+          "max": {
+            "#606": 8.537490720118782
+          },
+          "median": {
+            "#602": 8.185053380782918
+          },
+          "counts": {
+            "6.239600665557404": 1,
+            "8.153973509933774": 1,
+            "8.185053380782918": 1,
+            "8.537490720118782": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 531,
+          "average": 132.75,
+          "min": {
+            "#602": 69
+          },
+          "max": {
+            "#603": 197
+          },
+          "median": {
+            "#604": 150
+          },
+          "counts": {
+            "69": 1,
+            "115": 1,
+            "150": 1,
+            "197": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 3,
+          "lost": 1,
+          "win_rate": 75
+        },
+        "places": {
+          "#5": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "ratio_from_koib_ballot_uiks": 50,
+            "votes_count": 266,
+            "votes_weight": 50.09416195856874,
+            "valid_result_by_uik": {
+              "УИК №602": 8.353510895883778,
+              "УИК №603": 8.294736842105262
+            }
+          },
+          "#4": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 115,
+            "votes_weight": 21.657250470809792,
+            "valid_result_by_uik": {
+              "УИК №606": 8.718726307808947
+            }
+          },
+          "#6": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 150,
+            "votes_weight": 28.24858757062147,
+            "valid_result_by_uik": {
+              "УИК №604": 6.33445945945946
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 37.09981167608286,
+          "УИК №604": 28.24858757062147,
+          "УИК №606": 21.657250470809792,
+          "УИК №602": 12.994350282485875
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 3,
+          "lost": 1,
+          "win_rate": 75
+        },
+        "places": {
+          "#5": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "votes_count": 266,
+            "votes_weight": 50.09416195856874,
+            "valid_result_by_uik": {
+              "УИК №602": 8.353510895883778,
+              "УИК №603": 8.294736842105262
+            }
+          },
+          "#4": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 115,
+            "votes_weight": 21.657250470809792,
+            "valid_result_by_uik": {
+              "УИК №606": 8.718726307808947
+            }
+          },
+          "#6": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 150,
+            "votes_weight": 28.24858757062147,
+            "valid_result_by_uik": {
+              "УИК №604": 6.33445945945946
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {
+            "8.2%": {
+              "count": 2,
+              "ratio_from_all_ballot_uiks": 50,
+              "votes_count": 266,
+              "votes_weight": 50.09416195856874
+            }
+          },
+          "valid": {},
+          "registered": {
+            "7.9%": {
+              "count": 2,
+              "ratio_from_all_ballot_uiks": 50,
+              "votes_count": 312,
+              "votes_weight": 58.75706214689266
+            }
+          }
+        },
+        "weights": {
+          "УИК №603": 37.09981167608286,
+          "УИК №604": 28.24858757062147,
+          "УИК №606": 21.657250470809792,
+          "УИК №602": 12.994350282485875
+        }
+      }
+    },
+    {
+      "name": "Иванова Анна Витальевна",
+      "position": 7,
+      "candidate_id": 290,
+      "supported_by_people": true,
+      "official_result": {
+        "votes_count": 522,
+        "place": 6,
+        "percentage": 7.446504992867332,
+        "valid_percentage": 7.578397212543554,
+        "registered_percentage": 6.596739542524959,
+        "winner": false,
+        "lacking_votes_count": 9
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 29.131064704607503,
+          "average": 7.282766176151876,
+          "min": {
+            "#606": 5.913570887035633
+          },
+          "max": {
+            "#603": 8.842105263157894
+          },
+          "median": {
+            "#604": 7.474662162162163
+          },
+          "counts": {
+            "5.913570887035633": 1,
+            "6.900726392251816": 1,
+            "7.474662162162163": 1,
+            "8.842105263157894": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 24.776540051610276,
+          "average": 6.194135012902569,
+          "min": {
+            "#602": 4.2824943651389935
+          },
+          "max": {
+            "#603": 8.413461538461538
+          },
+          "median": {
+            "#604": 6.745426829268293
+          },
+          "counts": {
+            "4.2824943651389935": 1,
+            "5.33515731874145": 1,
+            "6.745426829268293": 1,
+            "8.413461538461538": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 28.60699348152186,
+          "average": 7.151748370380465,
+          "min": {
+            "#606": 5.79064587973274
+          },
+          "max": {
+            "#603": 8.69205298013245
+          },
+          "median": {
+            "#604": 7.362728785357738
+          },
+          "counts": {
+            "5.79064587973274": 1,
+            "6.761565836298933": 1,
+            "7.362728785357738": 1,
+            "8.69205298013245": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 522,
+          "average": 130.5,
+          "min": {
+            "#602": 57
+          },
+          "max": {
+            "#603": 210
+          },
+          "median": {
+            "#604": 177
+          },
+          "counts": {
+            "57": 1,
+            "78": 1,
+            "177": 1,
+            "210": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 2,
+          "lost": 2,
+          "win_rate": 50
+        },
+        "places": {
+          "#6": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 57,
+            "votes_weight": 10.919540229885058,
+            "valid_result_by_uik": {
+              "УИК №602": 6.900726392251816
+            }
+          },
+          "#5": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 177,
+            "votes_weight": 33.90804597701149,
+            "valid_result_by_uik": {
+              "УИК №604": 7.474662162162163
+            }
+          },
+          "#7": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 78,
+            "votes_weight": 14.942528735632186,
+            "valid_result_by_uik": {
+              "УИК №606": 5.913570887035633
+            }
+          },
+          "#4": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 210,
+            "votes_weight": 40.229885057471265,
+            "valid_result_by_uik": {
+              "УИК №603": 8.842105263157894
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 40.229885057471265,
+          "УИК №604": 33.90804597701149,
+          "УИК №606": 14.942528735632186,
+          "УИК №602": 10.919540229885058
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 2,
+          "lost": 2,
+          "win_rate": 50
+        },
+        "places": {
+          "#6": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 57,
+            "votes_weight": 10.919540229885058,
+            "valid_result_by_uik": {
+              "УИК №602": 6.900726392251816
+            }
+          },
+          "#5": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 177,
+            "votes_weight": 33.90804597701149,
+            "valid_result_by_uik": {
+              "УИК №604": 7.474662162162163
+            }
+          },
+          "#7": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 78,
+            "votes_weight": 14.942528735632186,
+            "valid_result_by_uik": {
+              "УИК №606": 5.913570887035633
+            }
+          },
+          "#4": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 210,
+            "votes_weight": 40.229885057471265,
+            "valid_result_by_uik": {
+              "УИК №603": 8.842105263157894
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 40.229885057471265,
+          "УИК №604": 33.90804597701149,
+          "УИК №606": 14.942528735632186,
+          "УИК №602": 10.919540229885058
+        }
+      }
+    },
+    {
+      "name": "Гончарова Екатерина Михайловна",
+      "position": 4,
+      "candidate_id": 287,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 409,
+        "place": 7,
+        "percentage": 5.834522111269615,
+        "valid_percentage": 5.937862950058072,
+        "registered_percentage": 5.168709718185265,
+        "winner": false,
+        "lacking_votes_count": 122
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 23.518979273355555,
+          "average": 5.879744818338889,
+          "min": {
+            "#602": 4.721549636803874
+          },
+          "max": {
+            "#606": 7.202426080363912
+          },
+          "median": {
+            "#603": 6.147368421052631
+          },
+          "counts": {
+            "4.721549636803874": 1,
+            "5.447635135135135": 1,
+            "6.147368421052631": 1,
+            "7.202426080363912": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 20.193593250876365,
+          "average": 5.048398312719091,
+          "min": {
+            "#602": 2.9301277235161534
+          },
+          "max": {
+            "#606": 6.49794801641587
+          },
+          "median": {
+            "#603": 5.8493589743589745
+          },
+          "counts": {
+            "2.9301277235161534": 1,
+            "4.916158536585366": 1,
+            "5.8493589743589745": 1,
+            "6.49794801641587": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 23.08814717488373,
+          "average": 5.7720367937209325,
+          "min": {
+            "#602": 4.6263345195729535
+          },
+          "max": {
+            "#606": 7.052709725315516
+          },
+          "median": {
+            "#603": 6.043046357615895
+          },
+          "counts": {
+            "4.6263345195729535": 1,
+            "5.366056572379367": 1,
+            "6.043046357615895": 1,
+            "7.052709725315516": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 409,
+          "average": 102.25,
+          "min": {
+            "#602": 39
+          },
+          "max": {
+            "#603": 146
+          },
+          "median": {
+            "#604": 129
+          },
+          "counts": {
+            "39": 1,
+            "95": 1,
+            "129": 1,
+            "146": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#7": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 146,
+            "votes_weight": 35.69682151589242,
+            "valid_result_by_uik": {
+              "УИК №603": 6.147368421052631
+            }
+          },
+          "#6": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 95,
+            "votes_weight": 23.227383863080682,
+            "valid_result_by_uik": {
+              "УИК №606": 7.202426080363912
+            }
+          },
+          "#8": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 129,
+            "votes_weight": 31.54034229828851,
+            "valid_result_by_uik": {
+              "УИК №604": 5.447635135135135
+            }
+          },
+          "#8.5": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 39,
+            "votes_weight": 9.535452322738386,
+            "valid_result_by_uik": {
+              "УИК №602": 4.721549636803874
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 35.69682151589242,
+          "УИК №604": 31.54034229828851,
+          "УИК №606": 23.227383863080682,
+          "УИК №602": 9.535452322738386
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#7": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 146,
+            "votes_weight": 35.69682151589242,
+            "valid_result_by_uik": {
+              "УИК №603": 6.147368421052631
+            }
+          },
+          "#6": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 95,
+            "votes_weight": 23.227383863080682,
+            "valid_result_by_uik": {
+              "УИК №606": 7.202426080363912
+            }
+          },
+          "#8": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 129,
+            "votes_weight": 31.54034229828851,
+            "valid_result_by_uik": {
+              "УИК №604": 5.447635135135135
+            }
+          },
+          "#8.5": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 39,
+            "votes_weight": 9.535452322738386,
+            "valid_result_by_uik": {
+              "УИК №602": 4.721549636803874
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 35.69682151589242,
+          "УИК №604": 31.54034229828851,
+          "УИК №606": 23.227383863080682,
+          "УИК №602": 9.535452322738386
+        }
+      }
+    },
+    {
+      "name": "Ашихмина Анна Сергеевна",
+      "position": 2,
+      "candidate_id": 285,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 373,
+        "place": 8,
+        "percentage": 5.320970042796006,
+        "valid_percentage": 5.415214866434378,
+        "registered_percentage": 4.713762163528371,
+        "winner": false,
+        "lacking_votes_count": 158
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 21.61506566533773,
+          "average": 5.403766416334433,
+          "min": {
+            "#606": 4.548900682335103
+          },
+          "max": {
+            "#604": 6.16554054054054
+          },
+          "median": {
+            "#602": 5.932203389830509
+          },
+          "counts": {
+            "4.548900682335103": 1,
+            "4.968421052631579": 1,
+            "5.932203389830509": 1,
+            "6.16554054054054": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 18.07699818548839,
+          "average": 4.519249546372097,
+          "min": {
+            "#602": 3.6814425244177307
+          },
+          "max": {
+            "#604": 5.564024390243903
+          },
+          "median": {
+            "#603": 4.727564102564102
+          },
+          "counts": {
+            "3.6814425244177307": 1,
+            "4.1039671682626535": 1,
+            "4.727564102564102": 1,
+            "5.564024390243903": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 21.22423439912685,
+          "average": 5.3060585997817125,
+          "min": {
+            "#606": 4.4543429844097995
+          },
+          "max": {
+            "#604": 6.0732113144758735
+          },
+          "median": {
+            "#602": 5.812574139976276
+          },
+          "counts": {
+            "4.4543429844097995": 1,
+            "4.8841059602649": 1,
+            "5.812574139976276": 1,
+            "6.0732113144758735": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 373,
+          "average": 93.25,
+          "min": {
+            "#602": 49
+          },
+          "max": {
+            "#604": 146
+          },
+          "median": {
+            "#603": 118
+          },
+          "counts": {
+            "49": 1,
+            "60": 1,
+            "118": 1,
+            "146": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#8": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 118,
+            "votes_weight": 31.63538873994638,
+            "valid_result_by_uik": {
+              "УИК №603": 4.968421052631579
+            }
+          },
+          "#7": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "ratio_from_koib_ballot_uiks": 50,
+            "votes_count": 195,
+            "votes_weight": 52.27882037533512,
+            "valid_result_by_uik": {
+              "УИК №604": 6.16554054054054,
+              "УИК №602": 5.932203389830509
+            }
+          },
+          "#9.333333333333334": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 60,
+            "votes_weight": 16.0857908847185,
+            "valid_result_by_uik": {
+              "УИК №606": 4.548900682335103
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 39.14209115281501,
+          "УИК №603": 31.63538873994638,
+          "УИК №606": 16.0857908847185,
+          "УИК №602": 13.136729222520108
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#8": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 118,
+            "votes_weight": 31.63538873994638,
+            "valid_result_by_uik": {
+              "УИК №603": 4.968421052631579
+            }
+          },
+          "#7": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "votes_count": 195,
+            "votes_weight": 52.27882037533512,
+            "valid_result_by_uik": {
+              "УИК №604": 6.16554054054054,
+              "УИК №602": 5.932203389830509
+            }
+          },
+          "#9.333333333333334": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 60,
+            "votes_weight": 16.0857908847185,
+            "valid_result_by_uik": {
+              "УИК №606": 4.548900682335103
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 39.14209115281501,
+          "УИК №603": 31.63538873994638,
+          "УИК №606": 16.0857908847185,
+          "УИК №602": 13.136729222520108
+        }
+      }
+    },
+    {
+      "name": "Пермяков Николай Викторович",
+      "position": 11,
+      "candidate_id": 293,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 315,
+        "place": 9,
+        "percentage": 4.49358059914408,
+        "valid_percentage": 4.573170731707317,
+        "registered_percentage": 3.98079110324782,
+        "winner": false,
+        "lacking_votes_count": 216
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 18.143118346858298,
+          "average": 4.5357795867145745,
+          "min": {
+            "#603": 4.2105263157894735
+          },
+          "max": {
+            "#604": 5.025337837837838
+          },
+          "median": {
+            "#606": 4.548900682335103
+          },
+          "counts": {
+            "4.2105263157894735": 1,
+            "4.358353510895883": 1,
+            "4.548900682335103": 1,
+            "5.025337837837838": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 15.350171683528345,
+          "average": 3.837542920882086,
+          "min": {
+            "#602": 2.70473328324568
+          },
+          "max": {
+            "#604": 4.535060975609756
+          },
+          "median": {
+            "#606": 4.1039671682626535
+          },
+          "counts": {
+            "2.70473328324568": 1,
+            "4.006410256410256": 1,
+            "4.1039671682626535": 1,
+            "4.535060975609756": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 17.81396166021942,
+          "average": 4.453490415054855,
+          "min": {
+            "#603": 4.13907284768212
+          },
+          "max": {
+            "#604": 4.950083194675541
+          },
+          "median": {
+            "#606": 4.4543429844097995
+          },
+          "counts": {
+            "4.13907284768212": 1,
+            "4.270462633451958": 1,
+            "4.4543429844097995": 1,
+            "4.950083194675541": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 315,
+          "average": 78.75,
+          "min": {
+            "#602": 36
+          },
+          "max": {
+            "#604": 119
+          },
+          "median": {
+            "#603": 100
+          },
+          "counts": {
+            "36": 1,
+            "60": 1,
+            "100": 1,
+            "119": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#9": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 119,
+            "votes_weight": 37.77777777777778,
+            "valid_result_by_uik": {
+              "УИК №604": 5.025337837837838
+            }
+          },
+          "#9.333333333333334": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 60,
+            "votes_weight": 19.047619047619047,
+            "valid_result_by_uik": {
+              "УИК №606": 4.548900682335103
+            }
+          },
+          "#10": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "ratio_from_koib_ballot_uiks": 50,
+            "votes_count": 136,
+            "votes_weight": 43.17460317460318,
+            "valid_result_by_uik": {
+              "УИК №602": 4.358353510895883,
+              "УИК №603": 4.2105263157894735
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 37.77777777777778,
+          "УИК №603": 31.746031746031743,
+          "УИК №606": 19.047619047619047,
+          "УИК №602": 11.428571428571429
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#9": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 119,
+            "votes_weight": 37.77777777777778,
+            "valid_result_by_uik": {
+              "УИК №604": 5.025337837837838
+            }
+          },
+          "#9.333333333333334": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 60,
+            "votes_weight": 19.047619047619047,
+            "valid_result_by_uik": {
+              "УИК №606": 4.548900682335103
+            }
+          },
+          "#10": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "votes_count": 136,
+            "votes_weight": 43.17460317460318,
+            "valid_result_by_uik": {
+              "УИК №602": 4.358353510895883,
+              "УИК №603": 4.2105263157894735
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 37.77777777777778,
+          "УИК №603": 31.746031746031743,
+          "УИК №606": 19.047619047619047,
+          "УИК №602": 11.428571428571429
+        }
+      }
+    },
+    {
+      "name": "Палевич Андрей Анатольевич",
+      "position": 10,
+      "candidate_id": 43,
+      "supported_by_people": true,
+      "official_result": {
+        "votes_count": 287,
+        "place": 10.5,
+        "percentage": 4.094151212553495,
+        "valid_percentage": 4.166666666666666,
+        "registered_percentage": 3.6269430051813467,
+        "winner": false,
+        "same_place_candidate_count": 2,
+        "lacking_votes_count": 244
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 17.197441784288337,
+          "average": 4.299360446072084,
+          "min": {
+            "#604": 3.800675675675676
+          },
+          "max": {
+            "#602": 4.721549636803874
+          },
+          "median": {
+            "#606": 4.548900682335103
+          },
+          "counts": {
+            "3.800675675675676": 1,
+            "4.126315789473685": 1,
+            "4.548900682335103": 1,
+            "4.721549636803874": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 14.390254991841346,
+          "average": 3.5975637479603364,
+          "min": {
+            "#602": 2.9301277235161534
+          },
+          "max": {
+            "#606": 4.1039671682626535
+          },
+          "median": {
+            "#603": 3.926282051282051
+          },
+          "counts": {
+            "2.9301277235161534": 1,
+            "3.429878048780488": 1,
+            "3.926282051282051": 1,
+            "4.1039671682626535": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 16.880729294045672,
+          "average": 4.220182323511418,
+          "min": {
+            "#604": 3.743760399334443
+          },
+          "max": {
+            "#602": 4.6263345195729535
+          },
+          "median": {
+            "#606": 4.4543429844097995
+          },
+          "counts": {
+            "3.743760399334443": 1,
+            "4.056291390728477": 1,
+            "4.4543429844097995": 1,
+            "4.6263345195729535": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 287,
+          "average": 71.75,
+          "min": {
+            "#602": 39
+          },
+          "max": {
+            "#603": 98
+          },
+          "median": {
+            "#604": 90
+          },
+          "counts": {
+            "39": 1,
+            "60": 1,
+            "90": 1,
+            "98": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#11": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 98,
+            "votes_weight": 34.146341463414636,
+            "valid_result_by_uik": {
+              "УИК №603": 4.126315789473685
+            }
+          },
+          "#9.333333333333334": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 60,
+            "votes_weight": 20.905923344947734,
+            "valid_result_by_uik": {
+              "УИК №606": 4.548900682335103
+            }
+          },
+          "#8.5": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 39,
+            "votes_weight": 13.588850174216027,
+            "valid_result_by_uik": {
+              "УИК №602": 4.721549636803874
+            }
+          },
+          "#13": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 90,
+            "votes_weight": 31.3588850174216,
+            "valid_result_by_uik": {
+              "УИК №604": 3.800675675675676
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 34.146341463414636,
+          "УИК №604": 31.3588850174216,
+          "УИК №606": 20.905923344947734,
+          "УИК №602": 13.588850174216027
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#11": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 98,
+            "votes_weight": 34.146341463414636,
+            "valid_result_by_uik": {
+              "УИК №603": 4.126315789473685
+            }
+          },
+          "#9.333333333333334": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 60,
+            "votes_weight": 20.905923344947734,
+            "valid_result_by_uik": {
+              "УИК №606": 4.548900682335103
+            }
+          },
+          "#8.5": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 39,
+            "votes_weight": 13.588850174216027,
+            "valid_result_by_uik": {
+              "УИК №602": 4.721549636803874
+            }
+          },
+          "#13": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 90,
+            "votes_weight": 31.3588850174216,
+            "valid_result_by_uik": {
+              "УИК №604": 3.800675675675676
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 34.146341463414636,
+          "УИК №604": 31.3588850174216,
+          "УИК №606": 20.905923344947734,
+          "УИК №602": 13.588850174216027
+        }
+      }
+    },
+    {
+      "name": "Кабаши Мария Лазоревна",
+      "position": 8,
+      "candidate_id": 291,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 287,
+        "place": 10.5,
+        "percentage": 4.094151212553495,
+        "valid_percentage": 4.166666666666666,
+        "registered_percentage": 3.6269430051813467,
+        "winner": false,
+        "same_place_candidate_count": 2,
+        "lacking_votes_count": 244
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 16.362092432622898,
+          "average": 4.0905231081557245,
+          "min": {
+            "#602": 3.389830508474576
+          },
+          "max": {
+            "#603": 4.715789473684211
+          },
+          "median": {
+            "#606": 4.624715693707354
+          },
+          "counts": {
+            "3.389830508474576": 1,
+            "3.6317567567567566": 1,
+            "4.624715693707354": 1,
+            "4.715789473684211": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 14.040666575161179,
+          "average": 3.5101666437902947,
+          "min": {
+            "#602": 2.103681442524418
+          },
+          "max": {
+            "#603": 4.487179487179487
+          },
+          "median": {
+            "#606": 4.172366621067032
+          },
+          "counts": {
+            "2.103681442524418": 1,
+            "3.277439024390244": 1,
+            "4.172366621067032": 1,
+            "4.487179487179487": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 16.06318560893615,
+          "average": 4.015796402234037,
+          "min": {
+            "#602": 3.3214709371292996
+          },
+          "max": {
+            "#603": 4.635761589403973
+          },
+          "median": {
+            "#606": 4.528582034149963
+          },
+          "counts": {
+            "3.3214709371292996": 1,
+            "3.577371048252912": 1,
+            "4.528582034149963": 1,
+            "4.635761589403973": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 287,
+          "average": 71.75,
+          "min": {
+            "#602": 28
+          },
+          "max": {
+            "#603": 112
+          },
+          "median": {
+            "#604": 86
+          },
+          "counts": {
+            "28": 1,
+            "61": 1,
+            "86": 1,
+            "112": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#11": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 28,
+            "votes_weight": 9.75609756097561,
+            "valid_result_by_uik": {
+              "УИК №602": 3.389830508474576
+            }
+          },
+          "#9": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 112,
+            "votes_weight": 39.02439024390244,
+            "valid_result_by_uik": {
+              "УИК №603": 4.715789473684211
+            }
+          },
+          "#8": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 61,
+            "votes_weight": 21.254355400696863,
+            "valid_result_by_uik": {
+              "УИК №606": 4.624715693707354
+            }
+          },
+          "#14": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 86,
+            "votes_weight": 29.965156794425084,
+            "valid_result_by_uik": {
+              "УИК №604": 3.6317567567567566
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 39.02439024390244,
+          "УИК №604": 29.965156794425084,
+          "УИК №606": 21.254355400696863,
+          "УИК №602": 9.75609756097561
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#11": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 28,
+            "votes_weight": 9.75609756097561,
+            "valid_result_by_uik": {
+              "УИК №602": 3.389830508474576
+            }
+          },
+          "#9": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 112,
+            "votes_weight": 39.02439024390244,
+            "valid_result_by_uik": {
+              "УИК №603": 4.715789473684211
+            }
+          },
+          "#8": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 61,
+            "votes_weight": 21.254355400696863,
+            "valid_result_by_uik": {
+              "УИК №606": 4.624715693707354
+            }
+          },
+          "#14": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 86,
+            "votes_weight": 29.965156794425084,
+            "valid_result_by_uik": {
+              "УИК №604": 3.6317567567567566
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 39.02439024390244,
+          "УИК №604": 29.965156794425084,
+          "УИК №606": 21.254355400696863,
+          "УИК №602": 9.75609756097561
+        }
+      }
+    },
+    {
+      "name": "Евтихов Максим Олегович",
+      "position": 6,
+      "candidate_id": 289,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 275,
+        "place": 11,
+        "percentage": 3.922967189728958,
+        "valid_percentage": 3.992450638792102,
+        "registered_percentage": 3.4752938202957164,
+        "winner": false,
+        "lacking_votes_count": 256
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 16.580628965180992,
+          "average": 4.145157241295248,
+          "min": {
+            "#603": 3.3263157894736843
+          },
+          "max": {
+            "#602": 4.600484261501211
+          },
+          "median": {
+            "#606": 4.473085670962851
+          },
+          "counts": {
+            "3.3263157894736843": 1,
+            "4.180743243243244": 1,
+            "4.473085670962851": 1,
+            "4.600484261501211": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 13.828493915106911,
+          "average": 3.4571234787767278,
+          "min": {
+            "#602": 2.8549962434259957
+          },
+          "max": {
+            "#606": 4.035567715458276
+          },
+          "median": {
+            "#604": 3.7728658536585367
+          },
+          "counts": {
+            "2.8549962434259957": 1,
+            "3.165064102564102": 1,
+            "3.7728658536585367": 1,
+            "4.035567715458276": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 16.27581848113902,
+          "average": 4.068954620284755,
+          "min": {
+            "#603": 3.269867549668874
+          },
+          "max": {
+            "#602": 4.507710557532621
+          },
+          "median": {
+            "#606": 4.380103934669636
+          },
+          "counts": {
+            "3.269867549668874": 1,
+            "4.118136439267887": 1,
+            "4.380103934669636": 1,
+            "4.507710557532621": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 275,
+          "average": 68.75,
+          "min": {
+            "#602": 38
+          },
+          "max": {
+            "#604": 99
+          },
+          "median": {
+            "#603": 79
+          },
+          "counts": {
+            "38": 1,
+            "59": 1,
+            "79": 1,
+            "99": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#11": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 99,
+            "votes_weight": 36,
+            "valid_result_by_uik": {
+              "УИК №604": 4.180743243243244
+            }
+          },
+          "#10.5": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 59,
+            "votes_weight": 21.454545454545453,
+            "valid_result_by_uik": {
+              "УИК №606": 4.473085670962851
+            }
+          },
+          "#9": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 38,
+            "votes_weight": 13.818181818181818,
+            "valid_result_by_uik": {
+              "УИК №602": 4.600484261501211
+            }
+          },
+          "#13": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 79,
+            "votes_weight": 28.72727272727273,
+            "valid_result_by_uik": {
+              "УИК №603": 3.3263157894736843
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 36,
+          "УИК №603": 28.72727272727273,
+          "УИК №606": 21.454545454545453,
+          "УИК №602": 13.818181818181818
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#11": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 99,
+            "votes_weight": 36,
+            "valid_result_by_uik": {
+              "УИК №604": 4.180743243243244
+            }
+          },
+          "#10.5": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 59,
+            "votes_weight": 21.454545454545453,
+            "valid_result_by_uik": {
+              "УИК №606": 4.473085670962851
+            }
+          },
+          "#9": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 38,
+            "votes_weight": 13.818181818181818,
+            "valid_result_by_uik": {
+              "УИК №602": 4.600484261501211
+            }
+          },
+          "#13": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 79,
+            "votes_weight": 28.72727272727273,
+            "valid_result_by_uik": {
+              "УИК №603": 3.3263157894736843
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 36,
+          "УИК №603": 28.72727272727273,
+          "УИК №606": 21.454545454545453,
+          "УИК №602": 13.818181818181818
+        }
+      }
+    },
+    {
+      "name": "Воронцов Николай Викторович",
+      "position": 3,
+      "candidate_id": 286,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 273,
+        "place": 12,
+        "percentage": 3.894436519258203,
+        "valid_percentage": 3.9634146341463414,
+        "registered_percentage": 3.4500189561481105,
+        "winner": false,
+        "lacking_votes_count": 258
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 15.391101335410273,
+          "average": 3.847775333852568,
+          "min": {
+            "#602": 2.9055690072639226
+          },
+          "max": {
+            "#606": 4.473085670962851
+          },
+          "median": {
+            "#604": 4.222972972972973
+          },
+          "counts": {
+            "2.9055690072639226": 1,
+            "3.7894736842105265": 1,
+            "4.222972972972973": 1,
+            "4.473085670962851": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 13.255468078147391,
+          "average": 3.313867019536848,
+          "min": {
+            "#602": 1.8031555221637865
+          },
+          "max": {
+            "#606": 4.035567715458276
+          },
+          "median": {
+            "#604": 3.8109756097560976
+          },
+          "counts": {
+            "1.8031555221637865": 1,
+            "3.6057692307692304": 1,
+            "3.8109756097560976": 1,
+            "4.035567715458276": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 15.111978363589785,
+          "average": 3.777994590897446,
+          "min": {
+            "#602": 2.8469750889679712
+          },
+          "max": {
+            "#606": 4.380103934669636
+          },
+          "median": {
+            "#604": 4.159733777038269
+          },
+          "counts": {
+            "2.8469750889679712": 1,
+            "3.7251655629139075": 1,
+            "4.159733777038269": 1,
+            "4.380103934669636": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 273,
+          "average": 68.25,
+          "min": {
+            "#602": 24
+          },
+          "max": {
+            "#604": 100
+          },
+          "median": {
+            "#603": 90
+          },
+          "counts": {
+            "24": 1,
+            "59": 1,
+            "90": 1,
+            "100": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#12": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "ratio_from_koib_ballot_uiks": 50,
+            "votes_count": 114,
+            "votes_weight": 41.75824175824176,
+            "valid_result_by_uik": {
+              "УИК №603": 3.7894736842105265,
+              "УИК №602": 2.9055690072639226
+            }
+          },
+          "#10.5": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 59,
+            "votes_weight": 21.611721611721613,
+            "valid_result_by_uik": {
+              "УИК №606": 4.473085670962851
+            }
+          },
+          "#10": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 100,
+            "votes_weight": 36.63003663003663,
+            "valid_result_by_uik": {
+              "УИК №604": 4.222972972972973
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 36.63003663003663,
+          "УИК №603": 32.967032967032964,
+          "УИК №606": 21.611721611721613,
+          "УИК №602": 8.791208791208792
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#12": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "votes_count": 114,
+            "votes_weight": 41.75824175824176,
+            "valid_result_by_uik": {
+              "УИК №603": 3.7894736842105265,
+              "УИК №602": 2.9055690072639226
+            }
+          },
+          "#10.5": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 59,
+            "votes_weight": 21.611721611721613,
+            "valid_result_by_uik": {
+              "УИК №606": 4.473085670962851
+            }
+          },
+          "#10": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 100,
+            "votes_weight": 36.63003663003663,
+            "valid_result_by_uik": {
+              "УИК №604": 4.222972972972973
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 36.63003663003663,
+          "УИК №603": 32.967032967032964,
+          "УИК №606": 21.611721611721613,
+          "УИК №602": 8.791208791208792
+        }
+      }
+    },
+    {
+      "name": "Медина Падрон Алексис Эддиевич",
+      "position": 9,
+      "candidate_id": 292,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 228,
+        "place": 13,
+        "percentage": 3.252496433666191,
+        "valid_percentage": 3.3101045296167246,
+        "registered_percentage": 2.8813345128269936,
+        "winner": false,
+        "lacking_votes_count": 303
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 12.641208906227185,
+          "average": 3.160302226556796,
+          "min": {
+            "#606": 2.7293404094010616
+          },
+          "max": {
+            "#604": 3.927364864864865
+          },
+          "median": {
+            "#603": 3.2
+          },
+          "counts": {
+            "2.7293404094010616": 1,
+            "2.784503631961259": 1,
+            "3.2": 1,
+            "3.927364864864865": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 10.779483454976186,
+          "average": 2.6948708637440464,
+          "min": {
+            "#602": 1.7280240420736288
+          },
+          "max": {
+            "#604": 3.5442073170731705
+          },
+          "median": {
+            "#603": 3.0448717948717947
+          },
+          "counts": {
+            "1.7280240420736288": 1,
+            "2.462380300957592": 1,
+            "3.0448717948717947": 1,
+            "3.5442073170731705": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 12.41520469445752,
+          "average": 3.10380117361438,
+          "min": {
+            "#606": 2.6726057906458798
+          },
+          "max": {
+            "#604": 3.868552412645591
+          },
+          "median": {
+            "#603": 3.145695364238411
+          },
+          "counts": {
+            "2.6726057906458798": 1,
+            "2.7283511269276395": 1,
+            "3.145695364238411": 1,
+            "3.868552412645591": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 228,
+          "average": 57,
+          "min": {
+            "#602": 23
+          },
+          "max": {
+            "#604": 93
+          },
+          "median": {
+            "#603": 76
+          },
+          "counts": {
+            "23": 1,
+            "36": 1,
+            "76": 1,
+            "93": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#13": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 23,
+            "votes_weight": 10.087719298245613,
+            "valid_result_by_uik": {
+              "УИК №602": 2.784503631961259
+            }
+          },
+          "#12": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "ratio_from_koib_ballot_uiks": 50,
+            "votes_count": 129,
+            "votes_weight": 56.57894736842105,
+            "valid_result_by_uik": {
+              "УИК №604": 3.927364864864865,
+              "УИК №606": 2.7293404094010616
+            }
+          },
+          "#14": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 76,
+            "votes_weight": 33.33333333333333,
+            "valid_result_by_uik": {
+              "УИК №603": 3.2
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 40.78947368421053,
+          "УИК №603": 33.33333333333333,
+          "УИК №606": 15.789473684210526,
+          "УИК №602": 10.087719298245613
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#13": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 23,
+            "votes_weight": 10.087719298245613,
+            "valid_result_by_uik": {
+              "УИК №602": 2.784503631961259
+            }
+          },
+          "#12": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "votes_count": 129,
+            "votes_weight": 56.57894736842105,
+            "valid_result_by_uik": {
+              "УИК №604": 3.927364864864865,
+              "УИК №606": 2.7293404094010616
+            }
+          },
+          "#14": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 76,
+            "votes_weight": 33.33333333333333,
+            "valid_result_by_uik": {
+              "УИК №603": 3.2
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {
+            "2.7%": {
+              "count": 2,
+              "ratio_from_all_ballot_uiks": 50,
+              "votes_count": 59,
+              "votes_weight": 25.877192982456144
+            }
+          },
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №604": 40.78947368421053,
+          "УИК №603": 33.33333333333333,
+          "УИК №606": 15.789473684210526,
+          "УИК №602": 10.087719298245613
+        }
+      }
+    },
+    {
+      "name": "Шрамко Евгений Алексанрович",
+      "position": 16,
+      "candidate_id": 298,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 200,
+        "place": 14,
+        "percentage": 2.8530670470756063,
+        "valid_percentage": 2.9036004645760745,
+        "registered_percentage": 2.5274864147605207,
+        "winner": false,
+        "lacking_votes_count": 331
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 11.468243958499523,
+          "average": 2.8670609896248807,
+          "min": {
+            "#602": 2.1791767554479415
+          },
+          "max": {
+            "#606": 3.639120545868082
+          },
+          "median": {
+            "#603": 2.9894736842105263
+          },
+          "counts": {
+            "2.1791767554479415": 1,
+            "2.660472972972973": 1,
+            "2.9894736842105263": 1,
+            "3.639120545868082": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 9.881006292430587,
+          "average": 2.470251573107647,
+          "min": {
+            "#602": 1.35236664162284
+          },
+          "max": {
+            "#606": 3.283173734610123
+          },
+          "median": {
+            "#603": 2.844551282051282
+          },
+          "counts": {
+            "1.35236664162284": 1,
+            "2.4009146341463414": 1,
+            "2.844551282051282": 1,
+            "3.283173734610123": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 11.258079705642231,
+          "average": 2.814519926410558,
+          "min": {
+            "#602": 2.135231316725979
+          },
+          "max": {
+            "#606": 3.5634743875278394
+          },
+          "median": {
+            "#603": 2.9387417218543046
+          },
+          "counts": {
+            "2.135231316725979": 1,
+            "2.6206322795341097": 1,
+            "2.9387417218543046": 1,
+            "3.5634743875278394": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 200,
+          "average": 50,
+          "min": {
+            "#602": 18
+          },
+          "max": {
+            "#603": 71
+          },
+          "median": {
+            "#604": 63
+          },
+          "counts": {
+            "18": 1,
+            "48": 1,
+            "63": 1,
+            "71": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#14": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 18,
+            "votes_weight": 9,
+            "valid_result_by_uik": {
+              "УИК №602": 2.1791767554479415
+            }
+          },
+          "#15": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "ratio_from_koib_ballot_uiks": 50,
+            "votes_count": 134,
+            "votes_weight": 67,
+            "valid_result_by_uik": {
+              "УИК №603": 2.9894736842105263,
+              "УИК №604": 2.660472972972973
+            }
+          },
+          "#11": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 48,
+            "votes_weight": 24,
+            "valid_result_by_uik": {
+              "УИК №606": 3.639120545868082
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 35.5,
+          "УИК №604": 31.5,
+          "УИК №606": 24,
+          "УИК №602": 9
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#14": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 18,
+            "votes_weight": 9,
+            "valid_result_by_uik": {
+              "УИК №602": 2.1791767554479415
+            }
+          },
+          "#15": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "votes_count": 134,
+            "votes_weight": 67,
+            "valid_result_by_uik": {
+              "УИК №603": 2.9894736842105263,
+              "УИК №604": 2.660472972972973
+            }
+          },
+          "#11": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 48,
+            "votes_weight": 24,
+            "valid_result_by_uik": {
+              "УИК №606": 3.639120545868082
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 35.5,
+          "УИК №604": 31.5,
+          "УИК №606": 24,
+          "УИК №602": 9
+        }
+      }
+    },
+    {
+      "name": "Федоров Станислав Нуруллаевич",
+      "position": 14,
+      "candidate_id": 296,
+      "supported_by_people": true,
+      "official_result": {
+        "votes_count": 127,
+        "place": 15,
+        "percentage": 1.81169757489301,
+        "valid_percentage": 1.8437862950058073,
+        "registered_percentage": 1.6049538733729305,
+        "winner": false,
+        "lacking_votes_count": 404
+      },
+      "official_stats": {
+        "valid_percentage": {
+          "size": 4,
+          "sum": 7.63791960752992,
+          "average": 1.90947990188248,
+          "min": {
+            "#604": 1.4780405405405406
+          },
+          "max": {
+            "#606": 2.122820318423048
+          },
+          "median": {
+            "#602": 2.0581113801452786
+          },
+          "counts": {
+            "1.4780405405405406": 1,
+            "1.9789473684210528": 1,
+            "2.0581113801452786": 1,
+            "2.122820318423048": 1
+          }
+        },
+        "registered_percentage": {
+          "size": 4,
+          "sum": 6.4092741239827085,
+          "average": 1.6023185309956771,
+          "min": {
+            "#602": 1.2772351615326822
+          },
+          "max": {
+            "#606": 1.915184678522572
+          },
+          "median": {
+            "#603": 1.8830128205128205
+          },
+          "counts": {
+            "1.2772351615326822": 1,
+            "1.333841463414634": 1,
+            "1.8830128205128205": 1,
+            "1.915184678522572": 1
+          }
+        },
+        "percentage": {
+          "size": 4,
+          "sum": 7.49657180778421,
+          "average": 1.8741429519460524,
+          "min": {
+            "#604": 1.4559068219633942
+          },
+          "max": {
+            "#606": 2.078693392724573
+          },
+          "median": {
+            "#602": 2.0166073546856467
+          },
+          "counts": {
+            "1.4559068219633942": 1,
+            "1.9453642384105958": 1,
+            "2.0166073546856467": 1,
+            "2.078693392724573": 1
+          }
+        },
+        "votes_count": {
+          "size": 4,
+          "sum": 127,
+          "average": 31.75,
+          "min": {
+            "#602": 17
+          },
+          "max": {
+            "#603": 47
+          },
+          "median": {
+            "#604": 35
+          },
+          "counts": {
+            "17": 1,
+            "28": 1,
+            "35": 1,
+            "47": 1
+          }
+        }
+      },
+      "official_koib_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#15": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 17,
+            "votes_weight": 13.385826771653544,
+            "valid_result_by_uik": {
+              "УИК №602": 2.0581113801452786
+            }
+          },
+          "#16": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "ratio_from_koib_ballot_uiks": 50,
+            "votes_count": 82,
+            "votes_weight": 64.56692913385827,
+            "valid_result_by_uik": {
+              "УИК №603": 1.9789473684210528,
+              "УИК №604": 1.4780405405405406
+            }
+          },
+          "#13": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "ratio_from_koib_ballot_uiks": 25,
+            "votes_count": 28,
+            "votes_weight": 22.04724409448819,
+            "valid_result_by_uik": {
+              "УИК №606": 2.122820318423048
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {},
+          "registered": {}
+        },
+        "weights": {
+          "УИК №603": 37.00787401574803,
+          "УИК №604": 27.559055118110237,
+          "УИК №606": 22.04724409448819,
+          "УИК №602": 13.385826771653544
+        }
+      },
+      "official_uik_stats": {
+        "count": {
+          "total": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0
+        },
+        "places": {
+          "#15": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 17,
+            "votes_weight": 13.385826771653544,
+            "valid_result_by_uik": {
+              "УИК №602": 2.0581113801452786
+            }
+          },
+          "#16": {
+            "count": 2,
+            "ratio_from_all_ballot_uiks": 50,
+            "votes_count": 82,
+            "votes_weight": 64.56692913385827,
+            "valid_result_by_uik": {
+              "УИК №603": 1.9789473684210528,
+              "УИК №604": 1.4780405405405406
+            }
+          },
+          "#13": {
+            "count": 1,
+            "ratio_from_all_ballot_uiks": 25,
+            "votes_count": 28,
+            "votes_weight": 22.04724409448819,
+            "valid_result_by_uik": {
+              "УИК №606": 2.122820318423048
+            }
+          }
+        },
+        "repeated_percentages": {
+          "all": {},
+          "valid": {
+            "2.1%": {
+              "count": 2,
+              "ratio_from_all_ballot_uiks": 50,
+              "votes_count": 45,
+              "votes_weight": 35.43307086614173
+            }
+          },
+          "registered": {
+            "1.9%": {
+              "count": 2,
+              "ratio_from_all_ballot_uiks": 50,
+              "votes_count": 75,
+              "votes_weight": 59.055118110236215
+            },
+            "1.3%": {
+              "count": 2,
+              "ratio_from_all_ballot_uiks": 50,
+              "votes_count": 52,
+              "votes_weight": 40.94488188976378
+            }
+          }
+        },
+        "weights": {
+          "УИК №603": 37.00787401574803,
+          "УИК №604": 27.559055118110237,
+          "УИК №606": 22.04724409448819,
+          "УИК №602": 13.385826771653544
+        }
+      }
+    }
+  ],
+  "effective_uiks": {
+    "УИК №602": {
+      "generated_date": 1632126033000,
+      "official_result": [
+        8.353510895883778,
+        8.716707021791766,
+        9.685230024213075,
+        13.922518159806296,
+        14.769975786924938
+      ]
+    },
+    "УИК №603": {
+      "generated_date": 1632131519000,
+      "official_result": {
+        "tik_winner": {
+          "percentage": [
+            9.437086092715232,
+            13.61754966887417,
+            8.153973509933774,
+            11.713576158940398,
+            7.905629139072848
+          ],
+          "valid_percentage": [
+            9.6,
+            13.852631578947369,
+            8.294736842105262,
+            11.91578947368421,
+            8.042105263157895
+          ],
+          "registered_percentage": [
+            9.134615384615383,
+            13.181089743589745,
+            7.892628205128204,
+            11.338141025641026,
+            7.65224358974359
+          ],
+          "place": [
+            3,
+            1,
+            5,
+            2,
+            6
+          ]
+        },
+        "uik_winner": {
+          "id": [
+            284,
+            288,
+            290,
+            294,
+            295
+          ],
+          "position": [
+            1,
+            5,
+            7,
+            12,
+            13
+          ],
+          "percentage": [
+            8.153973509933774,
+            8.69205298013245,
+            9.437086092715232,
+            11.713576158940398,
+            13.61754966887417
+          ],
+          "valid_percentage": [
+            8.294736842105262,
+            8.842105263157894,
+            9.6,
+            11.91578947368421,
+            13.852631578947369
+          ],
+          "registered_percentage": [
+            7.892628205128204,
+            8.413461538461538,
+            9.134615384615383,
+            11.338141025641026,
+            13.181089743589745
+          ]
+        }
+      }
+    },
+    "УИК №604": {
+      "generated_date": 1632131519000,
+      "official_result": {
+        "tik_winner": {
+          "percentage": [
+            8.02828618968386,
+            14.018302828618967,
+            6.239600665557404,
+            14.683860232945092,
+            8.236272878535774
+          ],
+          "valid_percentage": [
+            8.150337837837837,
+            14.23141891891892,
+            6.33445945945946,
+            14.907094594594595,
+            8.361486486486488
+          ],
+          "registered_percentage": [
+            7.355182926829268,
+            12.842987804878048,
+            5.716463414634147,
+            13.452743902439025,
+            7.545731707317073
+          ],
+          "place": [
+            4,
+            2,
+            6,
+            1,
+            3
+          ]
+        },
+        "uik_winner": {
+          "id": [
+            284,
+            288,
+            290,
+            295,
+            297
+          ],
+          "position": [
+            1,
+            5,
+            7,
+            13,
+            15
+          ],
+          "percentage": [
+            7.362728785357738,
+            8.02828618968386,
+            8.236272878535774,
+            14.018302828618967,
+            14.683860232945092
+          ],
+          "valid_percentage": [
+            7.474662162162163,
+            8.150337837837837,
+            8.361486486486488,
+            14.23141891891892,
+            14.907094594594595
+          ],
+          "registered_percentage": [
+            6.745426829268293,
+            7.355182926829268,
+            7.545731707317073,
+            12.842987804878048,
+            13.452743902439025
+          ]
+        }
+      }
+    },
+    "УИК №606": {
+      "generated_date": 1632128553000,
+      "official_result": [
+        8.567096285064443,
+        8.718726307808947,
+        8.87035633055345,
+        11.675511751326763,
+        13.343442001516301
+      ]
+    }
+  },
+  "related_to": {
+    "venue": [
+      {
+        "type": "uik",
+        "id": 602
+      },
+      {
+        "type": "uik",
+        "id": 603
+      },
+      {
+        "type": "uik",
+        "id": 604
+      },
+      {
+        "type": "uik",
+        "id": 606
+      }
+    ],
+    "uik": [
+      602,
+      603,
+      604,
+      606
+    ],
+    "district": "Кировский район",
+    "tik": 41,
+    "gik": "СПбИК"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "id": 164,
+  "data_id": 4784001392946,
+  "name": {
+    "last": "Михайлов",
+    "first": "Георгий",
+    "middle": "Петрович"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 5,
+    "year": 1985
+  },
+  "district": "Адмиралтейский район",
+  "age": 36,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Михайлов",
+    "first": "Петр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 10
+    },
+    "uik": 10,
+    "district": "Адмиралтейский район",
+    "tik": 1,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 7,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_parent_commission": 2,
+        "works_in_parent_district_commission": 1,
+        "strong_role": 2
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          312,
+          363
+        ]
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 12556
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          11448,
+          19384
+        ]
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          5593,
+          12144
+        ]
+      }
+    },
+    "siblings": {
+      "5593": {
+        "age_difference": 12,
+        "name": {
+          "last": "Михайлова",
+          "first": "Екатерина",
+          "middle": "Петровна"
+        },
+        "distance": 17117,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 315
+          },
+          "uik": 315,
+          "district": "Выборгский район",
+          "tik": 14,
+          "gik": "СПбИК"
+        }
+      },
+      "12144": {
+        "age_difference": 23,
+        "name": {
+          "last": "Михайлова",
+          "first": "Татьяна",
+          "middle": "Петровна"
+        },
+        "distance": 10871,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2175
+          },
+          "uik": 2175,
+          "district": "Фрунзенский район",
+          "tik": 29,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "363": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 21,
+        "name": {
+          "last": "Михайлова",
+          "first": "Светлана",
+          "middle": "Анатольевна"
+        },
+        "distance": 682,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 26
+          },
+          "uik": 26,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      },
+      "11448": {
+        "strong_evidence": "strong_role",
+        "age_difference": 29,
+        "name": {
+          "last": "Михайлова",
+          "first": "Марина",
+          "middle": "Васильевна"
+        },
+        "distance": 6952,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 28
+          },
+          "tik": 28,
+          "district": "Приморский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "312": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 11,
+        "name": {
+          "last": "Михайлова",
+          "first": "Юлия",
+          "middle": "Сергеевна"
+        },
+        "distance": 882,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 22
+          },
+          "uik": 22,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      },
+      "12556": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": -6,
+        "name": {
+          "last": "Михайлова",
+          "first": "Варвара",
+          "middle": "Дмитриевна"
+        },
+        "distance": 1698,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 31
+          },
+          "tik": 31,
+          "district": "Адмиралтейский район",
+          "gik": "СПбИК"
+        }
+      },
+      "19384": {
+        "strong_evidence": "strong_role",
+        "age_difference": 4,
+        "name": {
+          "last": "Михайлова",
+          "first": "Юлия",
+          "middle": "Юрьевна"
+        },
+        "distance": 10217,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 50
+          },
+          "tik": 50,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

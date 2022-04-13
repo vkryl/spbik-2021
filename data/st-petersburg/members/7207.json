@@ -1,0 +1,69 @@
+{
+  "id": 7207,
+  "data_id": 4784015404520,
+  "name": {
+    "last": "Лиманская",
+    "first": "Ирина",
+    "middle": "Григорьевна"
+  },
+  "birthdate": {
+    "day": 24,
+    "month": 4,
+    "year": 1974
+  },
+  "district": "Пушкинский район",
+  "age": 47,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Лиманский",
+    "first": "Григорий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 20
+    },
+    "tik": 20,
+    "district": "Пушкинский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "4343"
+      }
+    },
+    "spouse": {
+      "4343": {
+        "strong_evidence": "strong_role",
+        "age_difference": 12,
+        "name": {
+          "last": "Лиманский",
+          "first": "Валерий",
+          "middle": "Юрьевич"
+        },
+        "distance": 33354,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1742
+          },
+          "uik": 1742,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

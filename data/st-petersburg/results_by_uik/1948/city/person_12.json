@@ -1,0 +1,341 @@
+{
+  "commission_name": "УИК №1948",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 1948
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 12
+  },
+  "data_id": 0,
+  "ballot_data_id": 4784056100059,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 242,
+      "position": 1,
+      "percentage": 32,
+      "valid_percentage": 33.33333333333333,
+      "registered_percentage": 27.586206896551722
+    },
+    "turnout": {
+      "count": 25,
+      "percentage": 86.20689655172413,
+      "walk_by_count": 19,
+      "walk_by_percentage": 65.51724137931035,
+      "on_home_count": 6,
+      "on_home_percentage": 20.689655172413794,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 24,
+      "valid_percentage": 82.75862068965517,
+      "invalid_count": 1,
+      "invalid_percentage": 3.4482758620689653,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 8,
+      "winning_percentage": 32,
+      "effective_count": 24,
+      "losing_count": 16,
+      "losing_percentage": 64,
+      "other_count": 1,
+      "other_percentage": 4,
+      "by_place": {
+        "#1": {
+          "count": 8,
+          "percentage": 32
+        },
+        "#2": {
+          "count": 6,
+          "percentage": 24
+        },
+        "#3": {
+          "count": 5,
+          "percentage": 20,
+          "supported_by_smart_vote": true
+        },
+        "#4": {
+          "count": 4,
+          "percentage": 16
+        },
+        "#5": {
+          "count": 1,
+          "percentage": 4
+        },
+        "#6": {
+          "count": 0,
+          "percentage": 0
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "papers": {
+      "received_count": 900,
+      "destroyed_count": 875,
+      "stationary_box_count": 19,
+      "portable_box_count": 6,
+      "valid_count": 24,
+      "invalid_count": 1,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    },
+    "voters": {
+      "registered_count": 29,
+      "walk_by_count": 19,
+      "on_home_count": 6,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Бондаренко Николай Леонидович",
+      "position": 1,
+      "candidate_id": 242,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 8,
+        "place": 1,
+        "percentage": 32,
+        "valid_percentage": 33.33333333333333,
+        "registered_percentage": 27.586206896551722,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "243": {
+          "percentage": 38.095238095238095,
+          "valid_percentage": 40
+        },
+        "244": {
+          "percentage": 40,
+          "valid_percentage": 42.10526315789473
+        },
+        "245": {
+          "percentage": 32,
+          "valid_percentage": 33.33333333333333
+        },
+        "246": {
+          "percentage": 42.10526315789473,
+          "valid_percentage": 44.44444444444444
+        },
+        "247": {
+          "percentage": 33.33333333333333,
+          "valid_percentage": 34.78260869565217
+        }
+      }
+    },
+    {
+      "name": "Редько Александр Алексеевич",
+      "position": 5,
+      "candidate_id": 246,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 6,
+        "place": 2,
+        "percentage": 24,
+        "valid_percentage": 25,
+        "registered_percentage": 20.689655172413794,
+        "winner": false,
+        "lacking_votes_count": 2
+      },
+      "result_without_other_entry": {
+        "242": {
+          "percentage": 35.294117647058826,
+          "valid_percentage": 37.5
+        },
+        "243": {
+          "percentage": 28.57142857142857,
+          "valid_percentage": 30
+        },
+        "244": {
+          "percentage": 30,
+          "valid_percentage": 31.57894736842105
+        },
+        "245": {
+          "percentage": 24,
+          "valid_percentage": 25
+        },
+        "247": {
+          "percentage": 25,
+          "valid_percentage": 26.08695652173913
+        }
+      }
+    },
+    {
+      "name": "Новиков Александр Иванович",
+      "position": 3,
+      "candidate_id": 244,
+      "supported_by_party_id": 6,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 5,
+        "place": 3,
+        "percentage": 20,
+        "valid_percentage": 20.833333333333336,
+        "registered_percentage": 17.24137931034483,
+        "winner": false,
+        "lacking_votes_count": 3
+      },
+      "result_without_other_entry": {
+        "242": {
+          "percentage": 29.411764705882355,
+          "valid_percentage": 31.25
+        },
+        "243": {
+          "percentage": 23.809523809523807,
+          "valid_percentage": 25
+        },
+        "245": {
+          "percentage": 20,
+          "valid_percentage": 20.833333333333336
+        },
+        "246": {
+          "percentage": 26.31578947368421,
+          "valid_percentage": 27.77777777777778
+        },
+        "247": {
+          "percentage": 20.833333333333336,
+          "valid_percentage": 21.73913043478261
+        }
+      }
+    },
+    {
+      "name": "Замараева Анна Сергеевна",
+      "position": 2,
+      "candidate_id": 243,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 4,
+        "place": 4,
+        "percentage": 16,
+        "valid_percentage": 16.666666666666664,
+        "registered_percentage": 13.793103448275861,
+        "winner": false,
+        "lacking_votes_count": 4
+      },
+      "result_without_other_entry": {
+        "242": {
+          "percentage": 23.52941176470588,
+          "valid_percentage": 25
+        },
+        "244": {
+          "percentage": 20,
+          "valid_percentage": 21.052631578947366
+        },
+        "245": {
+          "percentage": 16,
+          "valid_percentage": 16.666666666666664
+        },
+        "246": {
+          "percentage": 21.052631578947366,
+          "valid_percentage": 22.22222222222222
+        },
+        "247": {
+          "percentage": 16.666666666666664,
+          "valid_percentage": 17.391304347826086
+        }
+      }
+    },
+    {
+      "name": "Чихняев Иван Николаевич",
+      "position": 6,
+      "candidate_id": 247,
+      "supported_by_party_id": 7,
+      "official_result": {
+        "votes_count": 1,
+        "place": 5,
+        "percentage": 4,
+        "valid_percentage": 4.166666666666666,
+        "registered_percentage": 3.4482758620689653,
+        "winner": false,
+        "lacking_votes_count": 7
+      },
+      "result_without_other_entry": {
+        "242": {
+          "percentage": 5.88235294117647,
+          "valid_percentage": 6.25
+        },
+        "243": {
+          "percentage": 4.761904761904762,
+          "valid_percentage": 5
+        },
+        "244": {
+          "percentage": 5,
+          "valid_percentage": 5.263157894736842
+        },
+        "245": {
+          "percentage": 4,
+          "valid_percentage": 4.166666666666666
+        },
+        "246": {
+          "percentage": 5.263157894736842,
+          "valid_percentage": 5.555555555555555
+        }
+      }
+    },
+    {
+      "name": "Плетенный Владимир Михайлович",
+      "position": 4,
+      "candidate_id": 245,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 0,
+        "place": 6,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 8
+      },
+      "result_without_other_entry": {
+        "242": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "243": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "244": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "246": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "247": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1948
+    },
+    "uik": 1948,
+    "district": "Приморский район",
+    "tik": 56,
+    "gik": "СПбИК"
+  }
+}

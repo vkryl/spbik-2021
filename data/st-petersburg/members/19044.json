@@ -1,0 +1,95 @@
+{
+  "id": 19044,
+  "data_id": 4784010193794,
+  "name": {
+    "last": "Сидоров",
+    "first": "Максим",
+    "middle": "Анатольевич"
+  },
+  "birthdate": {
+    "day": 26,
+    "month": 2,
+    "year": 1986
+  },
+  "district": "Московский район",
+  "age": 35,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Сидоров",
+    "first": "Анатолий"
+  },
+  "role_id": 1,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1352
+    },
+    "uik": 1352,
+    "district": "Московский район",
+    "tik": 48,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 15418
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 18905
+      }
+    },
+    "spouse": {
+      "15418": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Сидорова",
+          "first": "Вера",
+          "middle": "Александровна"
+        },
+        "distance": 12826,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 39
+          },
+          "tik": 39,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "18905": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 30,
+        "name": {
+          "last": "Сидорова",
+          "first": "Ольга",
+          "middle": "Владимировна"
+        },
+        "distance": 1294,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1335
+          },
+          "uik": 1335,
+          "district": "Московский район",
+          "tik": 48,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

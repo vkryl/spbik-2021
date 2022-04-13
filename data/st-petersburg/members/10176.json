@@ -1,0 +1,94 @@
+{
+  "id": 10176,
+  "data_id": 4784025154266,
+  "name": {
+    "last": "Семенова",
+    "first": "Галина",
+    "middle": "Ивановна"
+  },
+  "birthdate": {
+    "day": 1,
+    "month": 3,
+    "year": 1952
+  },
+  "district": "Красногвардейский район",
+  "age": 69,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Семенов",
+    "first": "Иван"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 996
+    },
+    "uik": 996,
+    "district": "Красногвардейский район",
+    "tik": 25,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 10201
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 16799
+      }
+    },
+    "children": {
+      "10201": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -25,
+        "name": {
+          "last": "Семенова",
+          "first": "Мария",
+          "middle": "Сергеевна"
+        },
+        "distance": 543,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 998
+          },
+          "uik": 998,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      },
+      "16799": {
+        "strong_evidence": "strong_role",
+        "age_difference": -22,
+        "name": {
+          "last": "Семенов",
+          "first": "Михаил",
+          "middle": "Викторович"
+        },
+        "distance": 23554,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 43
+          },
+          "tik": 43,
+          "district": "Колпинский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 22960,
+  "data_id": 27820001309271,
+  "name": {
+    "last": "Постнов",
+    "first": "Егор",
+    "middle": "Сергеевич"
+  },
+  "birthdate": {
+    "day": 7,
+    "month": 2,
+    "year": 1990
+  },
+  "district": "Фрунзенский район",
+  "age": 31,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Постнов",
+    "first": "Сергей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 61
+    },
+    "tik": 61,
+    "district": "Фрунзенский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "13177"
+      }
+    },
+    "spouse": {
+      "13177": {
+        "strong_evidence": "strong_role",
+        "age_difference": 12,
+        "name": {
+          "last": "Постнова",
+          "first": "Юлия",
+          "middle": "Михайловна"
+        },
+        "distance": 13194,
+        "district": "Василеостровский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 147
+          },
+          "uik": 147,
+          "district": "Василеостровский район",
+          "tik": 32,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

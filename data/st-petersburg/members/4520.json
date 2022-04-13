@@ -1,0 +1,112 @@
+{
+  "id": 4520,
+  "data_id": 4784014209235,
+  "name": {
+    "last": "Абрамова",
+    "first": "Татьяна",
+    "middle": "Гарриевна"
+  },
+  "birthdate": {
+    "day": 11,
+    "month": 4,
+    "year": 1965
+  },
+  "district": "Приморский район",
+  "age": 56,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Абрамов",
+    "first": "Гаррий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 86,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1757
+    },
+    "uik": 1757,
+    "district": "Приморский район",
+    "tik": 12,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 3
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          739,
+          5269,
+          19713
+        ]
+      }
+    },
+    "children": {
+      "739": {
+        "strong_evidence": "strong_role",
+        "age_difference": -20,
+        "name": {
+          "last": "Абрамов",
+          "first": "Сергей",
+          "middle": "Михайлович"
+        },
+        "distance": 12326,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 3
+          },
+          "tik": 3,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      },
+      "5269": {
+        "strong_evidence": "strong_role",
+        "age_difference": -22,
+        "name": {
+          "last": "Абрамова",
+          "first": "Екатерина",
+          "middle": "Александровна"
+        },
+        "distance": 7338,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 14
+          },
+          "tik": 14,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      },
+      "19713": {
+        "strong_evidence": "strong_role",
+        "age_difference": -23,
+        "name": {
+          "last": "Абрамова",
+          "first": "Диана",
+          "middle": "Викторовна"
+        },
+        "distance": 19174,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 51
+          },
+          "tik": 51,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

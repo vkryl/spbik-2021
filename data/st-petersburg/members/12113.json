@@ -1,0 +1,119 @@
+{
+  "id": 12113,
+  "data_id": 4784029343747,
+  "name": {
+    "last": "Николаев",
+    "first": "Андрей",
+    "middle": "Витальевич"
+  },
+  "birthdate": {
+    "day": 12,
+    "month": 12,
+    "year": 1990
+  },
+  "district": "Фрунзенский район",
+  "age": 30,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Николаев",
+    "first": "Виталий"
+  },
+  "role_id": 1,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2132
+    },
+    "uik": 2132,
+    "district": "Фрунзенский район",
+    "tik": 29,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "works_in_parent_district_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 15971
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 22959
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 18335
+      }
+    },
+    "siblings": {
+      "18335": {
+        "age_difference": 18,
+        "name": {
+          "last": "Николаева",
+          "first": "Светлана",
+          "middle": "Витальевна"
+        },
+        "distance": 10920,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1109
+          },
+          "uik": 1109,
+          "district": "Красносельский район",
+          "tik": 47,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "15971": {
+        "strong_evidence": "strong_role",
+        "age_difference": 2,
+        "name": {
+          "last": "Николаева",
+          "first": "Ольга",
+          "middle": "Вячеславовна"
+        },
+        "distance": 8590,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 41
+          },
+          "tik": 41,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      },
+      "22959": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": 13,
+        "name": {
+          "last": "Николаева",
+          "first": "Наталья",
+          "middle": "Владимировна"
+        },
+        "distance": 3246,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 61
+          },
+          "tik": 61,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

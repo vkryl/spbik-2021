@@ -1,0 +1,150 @@
+{
+  "id": 9363,
+  "data_id": 4784022376122,
+  "name": {
+    "last": "Антонов",
+    "first": "Константин",
+    "middle": "Дмитриевич"
+  },
+  "birthdate": {
+    "day": 26,
+    "month": 9,
+    "year": 1985
+  },
+  "district": "Невский район",
+  "age": 35,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Антонов",
+    "first": "Дмитрий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1547
+    },
+    "uik": 1547,
+    "district": "Невский район",
+    "tik": 24,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 4,
+      "strong_guesses": {
+        "same_commission": 1,
+        "strong_role": 1,
+        "same_parent_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 9360
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 14477
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 9436
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 19153
+      }
+    },
+    "siblings": {
+      "19153": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -9,
+        "name": {
+          "last": "Антонов",
+          "first": "Евгений",
+          "middle": "Дмитриевич"
+        },
+        "distance": 3641,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1492
+          },
+          "uik": 1492,
+          "district": "Невский район",
+          "tik": 49,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "9436": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 29,
+        "name": {
+          "last": "Антонова",
+          "first": "Надежда",
+          "middle": "Анатольевна"
+        },
+        "distance": 965,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1553
+          },
+          "uik": 1553,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "9360": {
+        "strong_evidence": "same_commission",
+        "age_difference": -3,
+        "name": {
+          "last": "Антонова",
+          "first": "Марина",
+          "middle": "Игоревна"
+        },
+        "distance": 0,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1547
+          },
+          "uik": 1547,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      },
+      "14477": {
+        "strong_evidence": "strong_role",
+        "age_difference": 5,
+        "name": {
+          "last": "Антонова",
+          "first": "Анна",
+          "middle": "Николаевна"
+        },
+        "distance": 11151,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 36
+          },
+          "tik": 36,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

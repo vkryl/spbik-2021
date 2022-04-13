@@ -1,0 +1,120 @@
+{
+  "id": 23749,
+  "data_id": 27820001302926,
+  "name": {
+    "last": "Величко",
+    "first": "Ксения",
+    "middle": "Сергеевна"
+  },
+  "birthdate": {
+    "day": 20,
+    "month": 3,
+    "year": 1994
+  },
+  "district": "Центральный район",
+  "age": 27,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Величко",
+    "first": "Сергей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 64
+    },
+    "tik": 64,
+    "district": "Центральный район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 7728
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "7727",
+          "14253"
+        ]
+      }
+    },
+    "siblings": {
+      "7728": {
+        "age_difference": 10,
+        "name": {
+          "last": "Величко",
+          "first": "Константин",
+          "middle": "Сергеевич"
+        },
+        "distance": 29170,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1990
+          },
+          "uik": 1990,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "7727": {
+        "strong_evidence": "strong_role",
+        "age_difference": 35,
+        "name": {
+          "last": "Величко",
+          "first": "Татьяна",
+          "middle": "Владимировна"
+        },
+        "distance": 29170,
+        "district": "Пушкинский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1990
+          },
+          "uik": 1990,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      },
+      "14253": {
+        "strong_evidence": "strong_role",
+        "age_difference": 17,
+        "name": {
+          "last": "Величко",
+          "first": "Ольга",
+          "middle": "Николаевна"
+        },
+        "distance": 14912,
+        "district": "Выборгский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 271
+          },
+          "uik": 271,
+          "district": "Выборгский район",
+          "tik": 35,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

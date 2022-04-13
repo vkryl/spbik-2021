@@ -1,0 +1,69 @@
+{
+  "id": 2280,
+  "data_id": 4784026136125,
+  "name": {
+    "last": "Мельникова",
+    "first": "Екатерина",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 24,
+    "month": 6,
+    "year": 1979
+  },
+  "district": "Красносельский район",
+  "age": 42,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Мельников",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1161
+    },
+    "uik": 1161,
+    "district": "Красносельский район",
+    "tik": 6,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 1946
+      }
+    },
+    "mother": {
+      "1946": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 21,
+        "name": {
+          "last": "Мельникова",
+          "first": "Татьяна",
+          "middle": "Петровна"
+        },
+        "distance": 3793,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1072
+          },
+          "uik": 1072,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

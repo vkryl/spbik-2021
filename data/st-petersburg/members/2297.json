@@ -1,0 +1,117 @@
+{
+  "id": 2297,
+  "data_id": 4784026135301,
+  "name": {
+    "last": "Чернышева",
+    "first": "Наталия",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 6,
+    "month": 5,
+    "year": 1969
+  },
+  "district": "Красносельский район",
+  "age": 52,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Чернышев",
+    "first": "Александр"
+  },
+  "role_id": 3,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1163
+    },
+    "uik": 1163,
+    "district": "Красносельский район",
+    "tik": 6,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 4902
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          940,
+          23301
+        ]
+      }
+    },
+    "spouse": {
+      "4902": {
+        "strong_evidence": "strong_role",
+        "age_difference": -10,
+        "name": {
+          "last": "Чернышев",
+          "first": "Игорь",
+          "middle": "Владимирович"
+        },
+        "distance": 31748,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 13
+          },
+          "tik": 13,
+          "district": "Курортный район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "940": {
+        "age_difference": -21,
+        "name": {
+          "last": "Чернышева",
+          "first": "Серафима",
+          "middle": "Александровна"
+        },
+        "distance": 5625,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 626
+          },
+          "uik": 626,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      },
+      "23301": {
+        "age_difference": -19,
+        "name": {
+          "last": "Чернышева",
+          "first": "Дарья",
+          "middle": "Александровна"
+        },
+        "distance": 14029,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2140
+          },
+          "uik": 2140,
+          "district": "Фрунзенский район",
+          "tik": 62,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": 2159,
+  "data_id": 4784026135541,
+  "name": {
+    "last": "Позднякова",
+    "first": "Наталия",
+    "middle": "Васильевна"
+  },
+  "birthdate": {
+    "day": 1,
+    "month": 5,
+    "year": 1970
+  },
+  "district": "Красносельский район",
+  "age": 51,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Поздняков",
+    "first": "Василий"
+  },
+  "role_id": 1,
+  "assigned_by_id": 47,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1152
+    },
+    "uik": 1152,
+    "district": "Красносельский район",
+    "tik": 6,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 2
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 1843
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          5835,
+          12988
+        ]
+      }
+    },
+    "children": {
+      "1843": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -18,
+        "name": {
+          "last": "Позднякова",
+          "first": "Екатерина",
+          "middle": "Владимировна"
+        },
+        "distance": 2535,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1063
+          },
+          "uik": 1063,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      },
+      "5835": {
+        "strong_evidence": "strong_role",
+        "age_difference": -25,
+        "name": {
+          "last": "Поздняков",
+          "first": "Артем",
+          "middle": "Александрович"
+        },
+        "distance": 15595,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 16
+          },
+          "tik": 16,
+          "district": "Центральный район",
+          "gik": "СПбИК"
+        }
+      },
+      "12988": {
+        "strong_evidence": "strong_role",
+        "age_difference": -17,
+        "name": {
+          "last": "Поздняков",
+          "first": "Василий",
+          "middle": "Михайлович"
+        },
+        "distance": 13064,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 32
+          },
+          "tik": 32,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

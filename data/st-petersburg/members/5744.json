@@ -1,0 +1,119 @@
+{
+  "id": 5744,
+  "data_id": 4784021117772,
+  "name": {
+    "last": "Новикова",
+    "first": "Ирина",
+    "middle": "Юрьевна"
+  },
+  "birthdate": {
+    "day": 26,
+    "month": 5,
+    "year": 1972
+  },
+  "district": "Кронштадтский район",
+  "age": 49,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Новиков",
+    "first": "Юрий"
+  },
+  "role_id": 2,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1231
+    },
+    "uik": 1231,
+    "district": "Кронштадтский район",
+    "tik": 15,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_electoral_district": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          14482,
+          20061
+        ]
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 5211
+      }
+    },
+    "siblings": {
+      "5211": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -8,
+        "name": {
+          "last": "Новиков",
+          "first": "Дмитрий",
+          "middle": "Юрьевич"
+        },
+        "distance": 27379,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1267
+          },
+          "uik": 1267,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "14482": {
+        "strong_evidence": "strong_role",
+        "age_difference": -18,
+        "name": {
+          "last": "Новикова",
+          "first": "Ольга",
+          "middle": "Андреевна"
+        },
+        "distance": 31888,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 36
+          },
+          "tik": 36,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      },
+      "20061": {
+        "strong_evidence": "strong_role",
+        "age_difference": -21,
+        "name": {
+          "last": "Новикова",
+          "first": "Алина",
+          "middle": "Олеговна"
+        },
+        "distance": 40546,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 52
+          },
+          "tik": 52,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

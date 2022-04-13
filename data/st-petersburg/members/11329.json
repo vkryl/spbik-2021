@@ -1,0 +1,143 @@
+{
+  "id": 11329,
+  "data_id": 4784027259894,
+  "name": {
+    "last": "Казаков",
+    "first": "Юрий",
+    "middle": "Геннадьевич"
+  },
+  "birthdate": {
+    "day": 29,
+    "month": 7,
+    "year": 1958
+  },
+  "district": "Московский район",
+  "age": 63,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Казаков",
+    "first": "Геннадий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 18,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1402
+    },
+    "uik": 1402,
+    "district": "Московский район",
+    "tik": 27,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 11425
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 22706
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 648
+      }
+    },
+    "siblings": {
+      "648": {
+        "age_difference": -29,
+        "name": {
+          "last": "Казаков",
+          "first": "Никита",
+          "middle": "Геннадьевич"
+        },
+        "distance": 13504,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 173
+          },
+          "uik": 173,
+          "district": "Василеостровский район",
+          "tik": 2,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "5096": {
+        "age_difference": -32,
+        "name": {
+          "last": "Казакова",
+          "first": "Ирина",
+          "middle": "Юрьевна"
+        },
+        "distance": 31811,
+        "district": "Курортный район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1256
+          },
+          "uik": 1256,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "11425": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -4,
+        "name": {
+          "last": "Казакова",
+          "first": "Нина",
+          "middle": "Ивановна"
+        },
+        "distance": 8667,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1411
+          },
+          "uik": 1411,
+          "district": "Московский район",
+          "tik": 27,
+          "gik": "СПбИК"
+        }
+      },
+      "22706": {
+        "strong_evidence": "strong_role",
+        "age_difference": -10,
+        "name": {
+          "last": "Казакова",
+          "first": "Лариса",
+          "middle": "Владимировна"
+        },
+        "distance": 5157,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 60
+          },
+          "tik": 60,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

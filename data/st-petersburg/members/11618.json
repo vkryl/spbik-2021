@@ -1,0 +1,94 @@
+{
+  "id": 11618,
+  "data_id": 4784028279447,
+  "name": {
+    "last": "Шмелева",
+    "first": "Юлия",
+    "middle": "Дмитриевна"
+  },
+  "birthdate": {
+    "day": 14,
+    "month": 1,
+    "year": 1991
+  },
+  "district": "Приморский район",
+  "age": 30,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Шмелев",
+    "first": "Дмитрий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 21,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1880
+    },
+    "uik": 1880,
+    "district": "Приморский район",
+    "tik": 28,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 11617
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 18798
+      }
+    },
+    "spouse": {
+      "11617": {
+        "strong_evidence": "same_commission",
+        "age_difference": 12,
+        "name": {
+          "last": "Шмелев",
+          "first": "Сергей",
+          "middle": "Александрович"
+        },
+        "distance": 0,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1880
+          },
+          "uik": 1880,
+          "district": "Приморский район",
+          "tik": 28,
+          "gik": "СПбИК"
+        }
+      },
+      "18798": {
+        "strong_evidence": "strong_role",
+        "age_difference": 3,
+        "name": {
+          "last": "Шмелев",
+          "first": "Петр",
+          "middle": "Владимирович"
+        },
+        "distance": 13836,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 48
+          },
+          "tik": 48,
+          "district": "Московский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

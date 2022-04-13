@@ -1,0 +1,94 @@
+{
+  "id": 9906,
+  "data_id": 4784025266945,
+  "name": {
+    "last": "Абрамова",
+    "first": "Александра",
+    "middle": "Николаевна"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 12,
+    "year": 1979
+  },
+  "district": "Красногвардейский район",
+  "age": 41,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Абрамов",
+    "first": "Николай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 974
+    },
+    "uik": 974,
+    "district": "Красногвардейский район",
+    "tik": 25,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 739
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 21428
+      }
+    },
+    "spouse": {
+      "739": {
+        "strong_evidence": "strong_role",
+        "age_difference": -5,
+        "name": {
+          "last": "Абрамов",
+          "first": "Сергей",
+          "middle": "Михайлович"
+        },
+        "distance": 12280,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 3
+          },
+          "tik": 3,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "21428": {
+        "age_difference": 10,
+        "name": {
+          "last": "Абрамова",
+          "first": "Елена",
+          "middle": "Николаевна"
+        },
+        "distance": 15044,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1946
+          },
+          "uik": 1946,
+          "district": "Приморский район",
+          "tik": 56,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "name": "Участковая избирательная комиссия №1760",
+  "id": 1760,
+  "type": "uik",
+  "data_id": 4784014283649,
+  "has_koib": false,
+  "district": "Приморский район",
+  "electoral_districts": {
+    "federal": 215,
+    "city": 13
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "215": 13,
+        "total_count": 13,
+        "winner_count": 1
+      },
+      "city": {
+        "13": 5,
+        "total_count": 5,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 17,
+        "members_with_guesses": 5,
+        "strong_count": {
+          "same_parent_commission": 4,
+          "strong_role": 5,
+          "same_building": 1
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №1760": 5
+        }
+      }
+    }
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 918,
+      "party_abstained_count": 1746,
+      "party_registered_count": 2664,
+      "person_voters_count": 775,
+      "person_abstained_count": 1889,
+      "person_registered_count": 2664,
+      "max_attached_count": 207,
+      "only_party_voters_count": 143,
+      "no_city_count": 20,
+      "no_other_count": 20,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 775,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.person",
+          "value": 755,
+          "isNegative": true
+        }
+      ],
+      "no_city_count_max": 163,
+      "no_city_registered_count": 149,
+      "no_other_registered_count": 149,
+      "no_other_registered_count_formula": [
+        {
+          "key": "federal.registered_count.person",
+          "value": 2664,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.registered_count.person",
+          "value": 2515,
+          "isNegative": true
+        }
+      ]
+    },
+    "city": {
+      "party_voters_count": 755,
+      "party_abstained_count": 1760,
+      "party_registered_count": 2515,
+      "person_voters_count": 755,
+      "person_abstained_count": 1760,
+      "person_registered_count": 2515,
+      "only_federal_count": 20,
+      "only_federal_count_max": 163,
+      "only_federal_registered_count": 149
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 12,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 182,
+  "awards": {
+    "thanks": 1
+  },
+  "members": {
+    "chairman_id": 4553,
+    "vice_chairman_id": 4554,
+    "secretary_id": 4555,
+    "other_ids": [
+      4556,
+      4557,
+      4558,
+      4559,
+      4560,
+      4561,
+      4562,
+      4563,
+      4564
+    ],
+    "assigned_by_stats": {
+      "0": 4,
+      "2": 1,
+      "8": 1,
+      "10": 1,
+      "87": 1,
+      "95": 1
+    },
+    "gender_stats": {
+      "female": 12
+    },
+    "age_stats": {
+      "31": 1,
+      "33": 1,
+      "36": 3,
+      "37": 1,
+      "42": 1,
+      "50": 2,
+      "52": 1,
+      "53": 1,
+      "61": 1
+    },
+    "source_date": 1633480458990
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "commission_name": "УИК №2101",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 2101
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 21
+  },
+  "data_id": 0,
+  "ballot_data_id": 478406182927,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 4,
+      "position": 3,
+      "percentage": 33.33333333333333,
+      "valid_percentage": 33.33333333333333,
+      "registered_percentage": 4.3478260869565215
+    },
+    "turnout": {
+      "count": 12,
+      "percentage": 13.043478260869565,
+      "walk_by_count": 0,
+      "walk_by_percentage": 0,
+      "on_home_count": 12,
+      "on_home_percentage": 13.043478260869565,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 12,
+      "valid_percentage": 13.043478260869565,
+      "invalid_count": 0,
+      "invalid_percentage": 0,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 4,
+      "winning_percentage": 33.33333333333333,
+      "effective_count": 12,
+      "losing_count": 8,
+      "losing_percentage": 66.66666666666666,
+      "other_count": 0,
+      "other_percentage": 0,
+      "by_place": {
+        "#1": {
+          "count": 4,
+          "percentage": 33.33333333333333
+        },
+        "#2": {
+          "count": 3,
+          "percentage": 25
+        },
+        "#4.333333333333333": {
+          "count": 3,
+          "percentage": 25,
+          "supported_by_smart_vote": true
+        },
+        "#3": {
+          "count": 2,
+          "percentage": 16.666666666666664
+        },
+        "#5": {
+          "count": 0,
+          "percentage": 0
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "papers": {
+      "received_count": 300,
+      "destroyed_count": 288,
+      "stationary_box_count": 0,
+      "portable_box_count": 12,
+      "valid_count": 12,
+      "invalid_count": 0,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    },
+    "voters": {
+      "registered_count": 92,
+      "walk_by_count": 0,
+      "on_home_count": 12,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Денисов Геннадий Иванович",
+      "position": 3,
+      "candidate_id": 4,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 4,
+        "place": 1,
+        "percentage": 33.33333333333333,
+        "valid_percentage": 33.33333333333333,
+        "registered_percentage": 4.3478260869565215,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "77": {
+          "percentage": 40,
+          "valid_percentage": 40
+        },
+        "197": {
+          "percentage": 36.36363636363637,
+          "valid_percentage": 36.36363636363637
+        },
+        "198": {
+          "percentage": 36.36363636363637,
+          "valid_percentage": 36.36363636363637
+        },
+        "199": {
+          "percentage": 44.44444444444444,
+          "valid_percentage": 44.44444444444444
+        },
+        "200": {
+          "percentage": 33.33333333333333,
+          "valid_percentage": 33.33333333333333
+        },
+        "201": {
+          "percentage": 36.36363636363637,
+          "valid_percentage": 36.36363636363637
+        }
+      }
+    },
+    {
+      "name": "Титенко Никита Юрьевич",
+      "position": 5,
+      "candidate_id": 199,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 3,
+        "place": 2,
+        "percentage": 25,
+        "valid_percentage": 25,
+        "registered_percentage": 3.260869565217391,
+        "winner": false,
+        "lacking_votes_count": 1
+      },
+      "result_without_other_entry": {
+        "4": {
+          "percentage": 37.5,
+          "valid_percentage": 37.5
+        },
+        "77": {
+          "percentage": 30,
+          "valid_percentage": 30
+        },
+        "197": {
+          "percentage": 27.27272727272727,
+          "valid_percentage": 27.27272727272727
+        },
+        "198": {
+          "percentage": 27.27272727272727,
+          "valid_percentage": 27.27272727272727
+        },
+        "200": {
+          "percentage": 25,
+          "valid_percentage": 25
+        },
+        "201": {
+          "percentage": 27.27272727272727,
+          "valid_percentage": 27.27272727272727
+        }
+      }
+    },
+    {
+      "name": "Голованов Александр Андреевич",
+      "position": 2,
+      "candidate_id": 77,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 2,
+        "place": 3,
+        "percentage": 16.666666666666664,
+        "valid_percentage": 16.666666666666664,
+        "registered_percentage": 2.1739130434782608,
+        "winner": false,
+        "lacking_votes_count": 2
+      },
+      "result_without_other_entry": {
+        "4": {
+          "percentage": 25,
+          "valid_percentage": 25
+        },
+        "197": {
+          "percentage": 18.181818181818183,
+          "valid_percentage": 18.181818181818183
+        },
+        "198": {
+          "percentage": 18.181818181818183,
+          "valid_percentage": 18.181818181818183
+        },
+        "199": {
+          "percentage": 22.22222222222222,
+          "valid_percentage": 22.22222222222222
+        },
+        "200": {
+          "percentage": 16.666666666666664,
+          "valid_percentage": 16.666666666666664
+        },
+        "201": {
+          "percentage": 18.181818181818183,
+          "valid_percentage": 18.181818181818183
+        }
+      }
+    },
+    {
+      "name": "Галкина Ольга Владимировна",
+      "position": 1,
+      "candidate_id": 197,
+      "supported_by_party_id": 6,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 1,
+        "place": 4.333333333333333,
+        "percentage": 8.333333333333332,
+        "valid_percentage": 8.333333333333332,
+        "registered_percentage": 1.0869565217391304,
+        "winner": false,
+        "same_place_candidate_count": 3.0000000000000027,
+        "lacking_votes_count": 3
+      },
+      "result_without_other_entry": {
+        "4": {
+          "percentage": 12.5,
+          "valid_percentage": 12.5
+        },
+        "77": {
+          "percentage": 10,
+          "valid_percentage": 10
+        },
+        "198": {
+          "percentage": 9.090909090909092,
+          "valid_percentage": 9.090909090909092
+        },
+        "199": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "200": {
+          "percentage": 8.333333333333332,
+          "valid_percentage": 8.333333333333332
+        },
+        "201": {
+          "percentage": 9.090909090909092,
+          "valid_percentage": 9.090909090909092
+        }
+      }
+    },
+    {
+      "name": "Малков Андрей Витальевич",
+      "position": 4,
+      "candidate_id": 198,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 1,
+        "place": 4.333333333333333,
+        "percentage": 8.333333333333332,
+        "valid_percentage": 8.333333333333332,
+        "registered_percentage": 1.0869565217391304,
+        "winner": false,
+        "same_place_candidate_count": 3.0000000000000027,
+        "lacking_votes_count": 3
+      },
+      "result_without_other_entry": {
+        "4": {
+          "percentage": 12.5,
+          "valid_percentage": 12.5
+        },
+        "77": {
+          "percentage": 10,
+          "valid_percentage": 10
+        },
+        "197": {
+          "percentage": 9.090909090909092,
+          "valid_percentage": 9.090909090909092
+        },
+        "199": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "200": {
+          "percentage": 8.333333333333332,
+          "valid_percentage": 8.333333333333332
+        },
+        "201": {
+          "percentage": 9.090909090909092,
+          "valid_percentage": 9.090909090909092
+        }
+      }
+    },
+    {
+      "name": "Швецов Михаил Максимович",
+      "position": 7,
+      "candidate_id": 201,
+      "supported_by_party_id": 4,
+      "official_result": {
+        "votes_count": 1,
+        "place": 4.333333333333333,
+        "percentage": 8.333333333333332,
+        "valid_percentage": 8.333333333333332,
+        "registered_percentage": 1.0869565217391304,
+        "winner": false,
+        "same_place_candidate_count": 3.0000000000000027,
+        "lacking_votes_count": 3
+      },
+      "result_without_other_entry": {
+        "4": {
+          "percentage": 12.5,
+          "valid_percentage": 12.5
+        },
+        "77": {
+          "percentage": 10,
+          "valid_percentage": 10
+        },
+        "197": {
+          "percentage": 9.090909090909092,
+          "valid_percentage": 9.090909090909092
+        },
+        "198": {
+          "percentage": 9.090909090909092,
+          "valid_percentage": 9.090909090909092
+        },
+        "199": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "200": {
+          "percentage": 8.333333333333332,
+          "valid_percentage": 8.333333333333332
+        }
+      }
+    },
+    {
+      "name": "Чистякова Софья Левановна",
+      "position": 6,
+      "candidate_id": 200,
+      "supported_by_party_id": 7,
+      "official_result": {
+        "votes_count": 0,
+        "place": 5,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 4
+      },
+      "result_without_other_entry": {
+        "4": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "77": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "197": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "198": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "199": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "201": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2101
+    },
+    "uik": 2101,
+    "district": "Фрунзенский район",
+    "tik": 61,
+    "gik": "СПбИК"
+  }
+}

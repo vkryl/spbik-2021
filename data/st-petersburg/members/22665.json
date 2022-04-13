@@ -1,0 +1,143 @@
+{
+  "id": 22665,
+  "data_id": 4784015196723,
+  "name": {
+    "last": "Майоров",
+    "first": "Алексей",
+    "middle": "Владимирович"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 7,
+    "year": 1994
+  },
+  "district": "Пушкинский район",
+  "age": 27,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Майоров",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2020
+    },
+    "uik": 2020,
+    "district": "Пушкинский район",
+    "tik": 59,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 1761
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 22642
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          4114,
+          21867
+        ]
+      }
+    },
+    "spouse": {
+      "1761": {
+        "strong_evidence": "strong_role",
+        "age_difference": 13,
+        "name": {
+          "last": "Майорова",
+          "first": "Дарья",
+          "middle": "Александровна"
+        },
+        "distance": 12267,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 6
+          },
+          "tik": 6,
+          "district": "Красносельский район",
+          "gik": "СПбИК"
+        }
+      },
+      "22642": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 4,
+        "name": {
+          "last": "Майорова",
+          "first": "Юлия",
+          "middle": "Александровна"
+        },
+        "distance": 8842,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2018
+          },
+          "uik": 2018,
+          "district": "Пушкинский район",
+          "tik": 59,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "4114": {
+        "age_difference": 18,
+        "name": {
+          "last": "Майорова",
+          "first": "Екатерина",
+          "middle": "Владимировна"
+        },
+        "distance": 25579,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 500
+          },
+          "uik": 500,
+          "district": "Калининский район",
+          "tik": 11,
+          "gik": "СПбИК"
+        }
+      },
+      "21867": {
+        "age_difference": 5,
+        "name": {
+          "last": "Майоров",
+          "first": "Павел",
+          "middle": "Владимирович"
+        },
+        "distance": 25011,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1917
+          },
+          "uik": 1917,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": 7728,
+  "data_id": 4784015153809,
+  "name": {
+    "last": "Величко",
+    "first": "Константин",
+    "middle": "Сергеевич"
+  },
+  "birthdate": {
+    "day": 21,
+    "month": 8,
+    "year": 1983
+  },
+  "district": "Пушкинский район",
+  "age": 38,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Величко",
+    "first": "Сергей"
+  },
+  "role_id": 2,
+  "assigned_by_id": 25,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1990
+    },
+    "uik": 1990,
+    "district": "Пушкинский район",
+    "tik": 20,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 7727
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 23749
+      }
+    },
+    "siblings": {
+      "23749": {
+        "age_difference": -10,
+        "name": {
+          "last": "Величко",
+          "first": "Ксения",
+          "middle": "Сергеевна"
+        },
+        "distance": 29170,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 64
+          },
+          "tik": 64,
+          "district": "Центральный район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "7727": {
+        "strong_evidence": "same_commission",
+        "age_difference": 25,
+        "name": {
+          "last": "Величко",
+          "first": "Татьяна",
+          "middle": "Владимировна"
+        },
+        "distance": 0,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1990
+          },
+          "uik": 1990,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": 18251,
+  "data_id": 4784008351079,
+  "name": {
+    "last": "Егорова",
+    "first": "Мария",
+    "middle": "Вадимовна"
+  },
+  "birthdate": {
+    "day": 14,
+    "month": 12,
+    "year": 1982
+  },
+  "district": "Красносельский район",
+  "age": 38,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Егоров",
+    "first": "Вадим"
+  },
+  "role_id": 1,
+  "assigned_by_id": 66,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1103
+    },
+    "uik": 1103,
+    "district": "Красносельский район",
+    "tik": 47,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 3
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          4906,
+          7786,
+          12983
+        ]
+      }
+    },
+    "spouse": {
+      "4906": {
+        "strong_evidence": "strong_role",
+        "age_difference": 16,
+        "name": {
+          "last": "Егоров",
+          "first": "Вячеслав",
+          "middle": "Юрьевич"
+        },
+        "distance": 29846,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 13
+          },
+          "tik": 13,
+          "district": "Курортный район",
+          "gik": "СПбИК"
+        }
+      },
+      "7786": {
+        "strong_evidence": "strong_role",
+        "age_difference": 14,
+        "name": {
+          "last": "Егоров",
+          "first": "Вячеслав",
+          "middle": "Юрьевич"
+        },
+        "distance": 25365,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 21
+          },
+          "tik": 21,
+          "district": "Колпинский район",
+          "gik": "СПбИК"
+        }
+      },
+      "12983": {
+        "strong_evidence": "strong_role",
+        "age_difference": -14,
+        "name": {
+          "last": "Егоров",
+          "first": "Ярослав",
+          "middle": "Константинович"
+        },
+        "distance": 10667,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 32
+          },
+          "tik": 32,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

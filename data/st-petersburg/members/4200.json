@@ -1,0 +1,145 @@
+{
+  "id": 4200,
+  "data_id": 4784014341332,
+  "name": {
+    "last": "Корольков",
+    "first": "Александр",
+    "middle": "Евгеньевич"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 8,
+    "year": 1989
+  },
+  "district": "Приморский район",
+  "age": 32,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Корольков",
+    "first": "Евгений"
+  },
+  "role_id": 4,
+  "assigned_by_id": 36,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 12
+    },
+    "tik": 12,
+    "district": "Приморский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 5,
+      "strong_guesses": {
+        "works_in_child_district_commission": 1,
+        "strong_role": 3
+      },
+      "siblings_in_child_district_commission": {
+        "count": 1,
+        "ids": 21884
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          "8282",
+          "9970",
+          "16529"
+        ]
+      }
+    },
+    "spouse": {
+      "8282": {
+        "strong_evidence": "strong_role",
+        "age_difference": 7,
+        "name": {
+          "last": "Королькова",
+          "first": "Ирина",
+          "middle": "Вячеславовна"
+        },
+        "distance": 33273,
+        "district": "Колпинский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 866
+          },
+          "uik": 866,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      },
+      "21884": {
+        "strong_evidence": "works_in_child_district_commission",
+        "age_difference": 10,
+        "name": {
+          "last": "Королькова",
+          "first": "Людмила",
+          "middle": "Геннадьевна"
+        },
+        "distance": 4773,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1919
+          },
+          "uik": 1919,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "9970": {
+        "strong_evidence": "strong_role",
+        "age_difference": 23,
+        "name": {
+          "last": "Королькова",
+          "first": "Марина",
+          "middle": "Викторовна"
+        },
+        "distance": 12631,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 979
+          },
+          "uik": 979,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      },
+      "16529": {
+        "strong_evidence": "strong_role",
+        "age_difference": 27,
+        "name": {
+          "last": "Королькова",
+          "first": "Любовь",
+          "middle": "Николаевна"
+        },
+        "distance": 17747,
+        "district": "Кировский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 764
+          },
+          "uik": 764,
+          "district": "Кировский район",
+          "tik": 42,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": 24102,
+  "data_id": 478406481078,
+  "name": {
+    "last": "Петухова",
+    "first": "Наталья",
+    "middle": "Сергеевна"
+  },
+  "birthdate": {
+    "day": 19,
+    "month": 9,
+    "year": 1982
+  },
+  "district": "Центральный район",
+  "age": 38,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Петухов",
+    "first": "Сергей"
+  },
+  "role_id": 3,
+  "assigned_by_id": 114,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2270
+    },
+    "uik": 2270,
+    "district": "Центральный район",
+    "tik": 64,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 15070
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 24109
+      }
+    },
+    "spouse": {
+      "15070": {
+        "strong_evidence": "strong_role",
+        "age_difference": -13,
+        "name": {
+          "last": "Петухов",
+          "first": "Александр",
+          "middle": "Михайлович"
+        },
+        "distance": 3081,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 38
+          },
+          "tik": 38,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      },
+      "24109": {
+        "strong_evidence": "same_commission",
+        "age_difference": 3,
+        "name": {
+          "last": "Петухов",
+          "first": "Константин",
+          "middle": "Валерьевич"
+        },
+        "distance": 0,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2270
+          },
+          "uik": 2270,
+          "district": "Центральный район",
+          "tik": 64,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "УИК №692",
+  "id": 692,
+  "type": "uik",
+  "data_id": 4784041100531,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Кировский район",
+  "electoral_districts": {
+    "federal": 218
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14
+    },
+    "candidates_count": {
+      "federal": {
+        "218": 12,
+        "total_count": 12,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 2,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 1,
+    "ballot_count": 1
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 30,
+      "party_registered_count": 30,
+      "person_voters_count": 1,
+      "person_registered_count": 1,
+      "only_party_voters_count": 29,
+      "only_party_registered_count": 29
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 41,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1
+  ]
+}

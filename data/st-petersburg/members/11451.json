@@ -1,0 +1,142 @@
+{
+  "id": 11451,
+  "data_id": 4784028393334,
+  "name": {
+    "last": "Шульгин",
+    "first": "Андрей",
+    "middle": "Игоревич"
+  },
+  "birthdate": {
+    "day": 17,
+    "month": 1,
+    "year": 1966
+  },
+  "district": "Приморский район",
+  "age": 55,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Шульгин",
+    "first": "Игорь"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 28
+    },
+    "tik": 28,
+    "district": "Приморский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 5,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 3
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 21037
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          "773",
+          "10263",
+          "18674"
+        ]
+      }
+    },
+    "spouse": {
+      "773": {
+        "strong_evidence": "strong_role",
+        "age_difference": -13,
+        "name": {
+          "last": "Шульгина",
+          "first": "Юлия",
+          "middle": "Викторовна"
+        },
+        "distance": 14795,
+        "district": "Кировский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 613
+          },
+          "uik": 613,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      },
+      "10263": {
+        "strong_evidence": "strong_role",
+        "age_difference": -15,
+        "name": {
+          "last": "Шульгина",
+          "first": "Мария",
+          "middle": "Владимировна"
+        },
+        "distance": 13868,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1004
+          },
+          "uik": 1004,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      },
+      "18674": {
+        "strong_evidence": "strong_role",
+        "age_difference": -6,
+        "name": {
+          "last": "Шульгина",
+          "first": "Алла",
+          "middle": "Владимировна"
+        },
+        "distance": 14112,
+        "district": "Красносельский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1135
+          },
+          "uik": 1135,
+          "district": "Красносельский район",
+          "tik": 47,
+          "gik": "СПбИК"
+        }
+      },
+      "21037": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -6,
+        "name": {
+          "last": "Шульгина",
+          "first": "Ирина",
+          "middle": "Валентиновна"
+        },
+        "distance": 22278,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 55
+          },
+          "tik": 55,
+          "district": "Петродворцовый район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

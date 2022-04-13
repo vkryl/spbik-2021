@@ -1,0 +1,119 @@
+{
+  "id": 18266,
+  "data_id": 4784008154744,
+  "name": {
+    "last": "Владимирова",
+    "first": "Светлана",
+    "middle": "Борисовна"
+  },
+  "birthdate": {
+    "day": 9,
+    "month": 10,
+    "year": 1961
+  },
+  "district": "Красносельский район",
+  "age": 59,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Владимиров",
+    "first": "Борис"
+  },
+  "role_id": 3,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1104
+    },
+    "uik": 1104,
+    "district": "Красносельский район",
+    "tik": 47,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          11768,
+          18803
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 18393
+      }
+    },
+    "spouse": {
+      "18803": {
+        "strong_evidence": "strong_role",
+        "age_difference": -13,
+        "name": {
+          "last": "Владимиров",
+          "first": "Денис",
+          "middle": "Михайлович"
+        },
+        "distance": 8142,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 48
+          },
+          "tik": 48,
+          "district": "Московский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "11768": {
+        "strong_evidence": "strong_role",
+        "age_difference": -24,
+        "name": {
+          "last": "Владимиров",
+          "first": "Денис",
+          "middle": "Александрович"
+        },
+        "distance": 11941,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 29
+          },
+          "tik": 29,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      },
+      "18393": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -25,
+        "name": {
+          "last": "Владимирова",
+          "first": "Елена",
+          "middle": "Анатольевна"
+        },
+        "distance": 191,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1113
+          },
+          "uik": 1113,
+          "district": "Красносельский район",
+          "tik": 47,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

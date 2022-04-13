@@ -1,0 +1,94 @@
+{
+  "id": 19530,
+  "data_id": 4784011158463,
+  "name": {
+    "last": "Никифорова",
+    "first": "Ирина",
+    "middle": "Вячеславовна"
+  },
+  "birthdate": {
+    "day": 22,
+    "month": 11,
+    "year": 1957
+  },
+  "district": "Невский район",
+  "age": 63,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Никифоров",
+    "first": "Вячеслава"
+  },
+  "role_id": 4,
+  "assigned_by_id": 22,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1453
+    },
+    "uik": 1453,
+    "district": "Невский район",
+    "tik": 50,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 21965
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 2945
+      }
+    },
+    "children": {
+      "21965": {
+        "strong_evidence": "strong_role",
+        "age_difference": -21,
+        "name": {
+          "last": "Никифорова",
+          "first": "Марина",
+          "middle": "Михайловна"
+        },
+        "distance": 16122,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 58
+          },
+          "tik": 58,
+          "district": "Приморский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "2945": {
+        "age_difference": -19,
+        "name": {
+          "last": "Никифорова",
+          "first": "Наталья",
+          "middle": "Вячеславовна"
+        },
+        "distance": 25002,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1675
+          },
+          "uik": 1675,
+          "district": "Петродворцовый район",
+          "tik": 8,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

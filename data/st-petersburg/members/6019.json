@@ -1,0 +1,119 @@
+{
+  "id": 6019,
+  "data_id": 4784017232576,
+  "name": {
+    "last": "Кузьмин",
+    "first": "Николай",
+    "middle": "Русланович"
+  },
+  "birthdate": {
+    "day": 6,
+    "month": 3,
+    "year": 2001
+  },
+  "district": "Центральный район",
+  "age": 20,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Кузьмин",
+    "first": "Руслан"
+  },
+  "role_id": 4,
+  "assigned_by_id": 115,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2194
+    },
+    "uik": 2194,
+    "district": "Центральный район",
+    "tik": 16,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 2,
+        "same_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          6006,
+          6119
+        ]
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 6013
+      }
+    },
+    "mother": {
+      "6006": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 22,
+        "name": {
+          "last": "Кузьмина",
+          "first": "Наталья",
+          "middle": "Дмитриевна"
+        },
+        "distance": 578,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2193
+          },
+          "uik": 2193,
+          "district": "Центральный район",
+          "tik": 16,
+          "gik": "СПбИК"
+        }
+      },
+      "6013": {
+        "strong_evidence": "same_commission",
+        "age_difference": 41,
+        "name": {
+          "last": "Кузьмина",
+          "first": "Ольга",
+          "middle": "Владимировна"
+        },
+        "distance": 0,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2194
+          },
+          "uik": 2194,
+          "district": "Центральный район",
+          "tik": 16,
+          "gik": "СПбИК"
+        }
+      },
+      "6119": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 16,
+        "name": {
+          "last": "Кузьмина",
+          "first": "Екатерина",
+          "middle": "Александровна"
+        },
+        "distance": 2614,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2202
+          },
+          "uik": 2202,
+          "district": "Центральный район",
+          "tik": 16,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

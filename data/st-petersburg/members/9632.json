@@ -1,0 +1,97 @@
+{
+  "id": 9632,
+  "data_id": 4784022142318,
+  "name": {
+    "last": "Симакова",
+    "first": "Валентина",
+    "middle": "Анатольевна"
+  },
+  "birthdate": {
+    "day": 1,
+    "month": 1,
+    "year": 1951
+  },
+  "district": "Невский район",
+  "age": 70,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Симаков",
+    "first": "Анатолий"
+  },
+  "role_id": 1,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1569
+    },
+    "uik": 1569,
+    "district": "Невский район",
+    "tik": 24,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 9642
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 12295
+      }
+    },
+    "children": {
+      "9642": {
+        "strong_evidence": "same_commission",
+        "age_difference": -32,
+        "name": {
+          "last": "Симаков",
+          "first": "Денис",
+          "middle": "Михайлович"
+        },
+        "distance": 0,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1569
+          },
+          "uik": 1569,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "12295": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -15,
+        "name": {
+          "last": "Симакова",
+          "first": "Марина",
+          "middle": "Анатольевна"
+        },
+        "distance": 8977,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2243
+          },
+          "uik": 2243,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

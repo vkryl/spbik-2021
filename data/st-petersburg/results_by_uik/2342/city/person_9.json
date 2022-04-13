@@ -1,0 +1,341 @@
+{
+  "commission_name": "УИК №2342",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 2342
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 9
+  },
+  "data_id": 0,
+  "ballot_data_id": 4784011519147,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 71,
+      "position": 1,
+      "percentage": 57.528089887640455,
+      "valid_percentage": 59.465737514518004,
+      "registered_percentage": 50.94527363184079
+    },
+    "turnout": {
+      "count": 890,
+      "percentage": 88.55721393034825,
+      "walk_by_count": 378,
+      "walk_by_percentage": 37.61194029850746,
+      "on_home_count": 512,
+      "on_home_percentage": 50.94527363184079,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 861,
+      "valid_percentage": 85.67164179104478,
+      "invalid_count": 29,
+      "invalid_percentage": 2.8855721393034823,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 512,
+      "winning_percentage": 57.528089887640455,
+      "effective_count": 861,
+      "losing_count": 349,
+      "losing_percentage": 39.21348314606742,
+      "other_count": 29,
+      "other_percentage": 3.258426966292135,
+      "by_place": {
+        "#1": {
+          "count": 512,
+          "percentage": 57.528089887640455
+        },
+        "#2": {
+          "count": 138,
+          "percentage": 15.505617977528091,
+          "supported_by_smart_vote": true
+        },
+        "#3": {
+          "count": 125,
+          "percentage": 14.04494382022472
+        },
+        "#4": {
+          "count": 55,
+          "percentage": 6.179775280898876
+        },
+        "#5": {
+          "count": 17,
+          "percentage": 1.9101123595505618
+        },
+        "#6": {
+          "count": 14,
+          "percentage": 1.5730337078651686
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "papers": {
+      "received_count": 1500,
+      "destroyed_count": 610,
+      "stationary_box_count": 378,
+      "portable_box_count": 512,
+      "valid_count": 861,
+      "invalid_count": 29,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    },
+    "voters": {
+      "registered_count": 1005,
+      "walk_by_count": 378,
+      "on_home_count": 512,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Высоцкий Игорь Владимирович",
+      "position": 1,
+      "candidate_id": 71,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 512,
+        "place": 1,
+        "percentage": 57.528089887640455,
+        "valid_percentage": 59.465737514518004,
+        "registered_percentage": 50.94527363184079,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "65": {
+          "percentage": 68.08510638297872,
+          "valid_percentage": 70.81604426002767
+        },
+        "67": {
+          "percentage": 58.6483390607102,
+          "valid_percentage": 60.66350710900474
+        },
+        "72": {
+          "percentage": 58.44748858447488,
+          "valid_percentage": 60.44864226682408
+        },
+        "73": {
+          "percentage": 66.92810457516339,
+          "valid_percentage": 69.56521739130434
+        },
+        "74": {
+          "percentage": 61.31736526946108,
+          "valid_percentage": 63.52357320099256
+        }
+      }
+    },
+    {
+      "name": "Ложечко Виктор Петрович",
+      "position": 4,
+      "candidate_id": 65,
+      "supported_by_party_id": 6,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 138,
+        "place": 2,
+        "percentage": 15.505617977528091,
+        "valid_percentage": 16.02787456445993,
+        "registered_percentage": 13.73134328358209,
+        "winner": false,
+        "lacking_votes_count": 374
+      },
+      "result_without_other_entry": {
+        "67": {
+          "percentage": 15.807560137457044,
+          "valid_percentage": 16.350710900473935
+        },
+        "71": {
+          "percentage": 36.507936507936506,
+          "valid_percentage": 39.541547277936964
+        },
+        "72": {
+          "percentage": 15.753424657534246,
+          "valid_percentage": 16.292798110979927
+        },
+        "73": {
+          "percentage": 18.03921568627451,
+          "valid_percentage": 18.75
+        },
+        "74": {
+          "percentage": 16.526946107784433,
+          "valid_percentage": 17.121588089330025
+        }
+      }
+    },
+    {
+      "name": "Кольцов Александр Андреевич",
+      "position": 3,
+      "candidate_id": 73,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 125,
+        "place": 3,
+        "percentage": 14.04494382022472,
+        "valid_percentage": 14.518002322880372,
+        "registered_percentage": 12.437810945273633,
+        "winner": false,
+        "lacking_votes_count": 387
+      },
+      "result_without_other_entry": {
+        "65": {
+          "percentage": 16.622340425531913,
+          "valid_percentage": 17.289073305670815
+        },
+        "67": {
+          "percentage": 14.318442153493699,
+          "valid_percentage": 14.810426540284361
+        },
+        "71": {
+          "percentage": 33.06878306878307,
+          "valid_percentage": 35.816618911174785
+        },
+        "72": {
+          "percentage": 14.269406392694064,
+          "valid_percentage": 14.757969303423849
+        },
+        "74": {
+          "percentage": 14.97005988023952,
+          "valid_percentage": 15.508684863523573
+        }
+      }
+    },
+    {
+      "name": "Попов Сергей Николаевич",
+      "position": 5,
+      "candidate_id": 74,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 55,
+        "place": 4,
+        "percentage": 6.179775280898876,
+        "valid_percentage": 6.3879210220673635,
+        "registered_percentage": 5.472636815920398,
+        "winner": false,
+        "lacking_votes_count": 457
+      },
+      "result_without_other_entry": {
+        "65": {
+          "percentage": 7.3138297872340425,
+          "valid_percentage": 7.607192254495159
+        },
+        "67": {
+          "percentage": 6.300114547537228,
+          "valid_percentage": 6.516587677725119
+        },
+        "71": {
+          "percentage": 14.550264550264549,
+          "valid_percentage": 15.759312320916905
+        },
+        "72": {
+          "percentage": 6.278538812785388,
+          "valid_percentage": 6.493506493506493
+        },
+        "73": {
+          "percentage": 7.18954248366013,
+          "valid_percentage": 7.4728260869565215
+        }
+      }
+    },
+    {
+      "name": "Сорокин Никита Александрович",
+      "position": 6,
+      "candidate_id": 67,
+      "supported_by_party_id": 7,
+      "official_result": {
+        "votes_count": 17,
+        "place": 5,
+        "percentage": 1.9101123595505618,
+        "valid_percentage": 1.9744483159117305,
+        "registered_percentage": 1.691542288557214,
+        "winner": false,
+        "lacking_votes_count": 495
+      },
+      "result_without_other_entry": {
+        "65": {
+          "percentage": 2.2606382978723407,
+          "valid_percentage": 2.351313969571231
+        },
+        "71": {
+          "percentage": 4.497354497354497,
+          "valid_percentage": 4.871060171919771
+        },
+        "72": {
+          "percentage": 1.9406392694063925,
+          "valid_percentage": 2.0070838252656436
+        },
+        "73": {
+          "percentage": 2.2222222222222223,
+          "valid_percentage": 2.309782608695652
+        },
+        "74": {
+          "percentage": 2.035928143712575,
+          "valid_percentage": 2.109181141439206
+        }
+      }
+    },
+    {
+      "name": "Капустин Александр Борисович",
+      "position": 2,
+      "candidate_id": 72,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 14,
+        "place": 6,
+        "percentage": 1.5730337078651686,
+        "valid_percentage": 1.6260162601626018,
+        "registered_percentage": 1.3930348258706469,
+        "winner": false,
+        "lacking_votes_count": 498
+      },
+      "result_without_other_entry": {
+        "65": {
+          "percentage": 1.8617021276595744,
+          "valid_percentage": 1.9363762102351314
+        },
+        "67": {
+          "percentage": 1.6036655211912942,
+          "valid_percentage": 1.6587677725118484
+        },
+        "71": {
+          "percentage": 3.7037037037037033,
+          "valid_percentage": 4.011461318051576
+        },
+        "73": {
+          "percentage": 1.8300653594771243,
+          "valid_percentage": 1.9021739130434785
+        },
+        "74": {
+          "percentage": 1.6766467065868262,
+          "valid_percentage": 1.7369727047146404
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2342
+    },
+    "uik": 2342,
+    "district": "Невский район",
+    "tik": 5,
+    "gik": "СПбИК"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": 7835,
+  "data_id": 4784006325862,
+  "name": {
+    "last": "Комарова",
+    "first": "Светлана",
+    "middle": "Викторовна"
+  },
+  "birthdate": {
+    "day": 21,
+    "month": 4,
+    "year": 1973
+  },
+  "district": "Колпинский район",
+  "age": 48,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Комаров",
+    "first": "Виктор"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 829
+    },
+    "uik": 829,
+    "district": "Колпинский район",
+    "tik": 21,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 19087
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 8000
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 11650
+      }
+    },
+    "spouse": {
+      "19087": {
+        "strong_evidence": "strong_role",
+        "age_difference": 9,
+        "name": {
+          "last": "Комаров",
+          "first": "Владимир",
+          "middle": "Александрович"
+        },
+        "distance": 17818,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 49
+          },
+          "tik": 49,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "11650": {
+        "age_difference": 1,
+        "name": {
+          "last": "Комарова",
+          "first": "Мария",
+          "middle": "Викторовна"
+        },
+        "distance": 35055,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1883
+          },
+          "uik": 1883,
+          "district": "Приморский район",
+          "tik": 28,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "8000": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 24,
+        "name": {
+          "last": "Комарова",
+          "first": "Галина",
+          "middle": "Анатольевна"
+        },
+        "distance": 1078,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 843
+          },
+          "uik": 843,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

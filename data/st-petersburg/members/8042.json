@@ -1,0 +1,94 @@
+{
+  "id": 8042,
+  "data_id": 4784006324390,
+  "name": {
+    "last": "Гусев",
+    "first": "Борис",
+    "middle": "Борисович"
+  },
+  "birthdate": {
+    "day": 27,
+    "month": 3,
+    "year": 1986
+  },
+  "district": "Колпинский район",
+  "age": 35,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Гусев",
+    "first": "Борис"
+  },
+  "role_id": 4,
+  "assigned_by_id": 133,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 846
+    },
+    "uik": 846,
+    "district": "Колпинский район",
+    "tik": 21,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 19085
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 6957
+      }
+    },
+    "siblings": {
+      "6957": {
+        "age_difference": 29,
+        "name": {
+          "last": "Гусева",
+          "first": "Ольга",
+          "middle": "Борисовна"
+        },
+        "distance": 18775,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1297
+          },
+          "uik": 1297,
+          "district": "Московский район",
+          "tik": 19,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "19085": {
+        "strong_evidence": "strong_role",
+        "age_difference": 22,
+        "name": {
+          "last": "Гусева",
+          "first": "Мария",
+          "middle": "Николаевна"
+        },
+        "distance": 16293,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 49
+          },
+          "tik": 49,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

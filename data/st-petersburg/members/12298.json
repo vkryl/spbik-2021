@@ -1,0 +1,95 @@
+{
+  "id": 12298,
+  "data_id": 4784030198581,
+  "name": {
+    "last": "Уварова",
+    "first": "Лариса",
+    "middle": "Викторовна"
+  },
+  "birthdate": {
+    "day": 20,
+    "month": 10,
+    "year": 1972
+  },
+  "district": "Центральный район",
+  "age": 48,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Уваров",
+    "first": "Виктор"
+  },
+  "role_id": 4,
+  "assigned_by_id": 15,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2243
+    },
+    "uik": 2243,
+    "district": "Центральный район",
+    "tik": 30,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 12278
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 16518
+      }
+    },
+    "children": {
+      "12278": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -19,
+        "name": {
+          "last": "Уваров",
+          "first": "Даниил",
+          "middle": "Владиленович"
+        },
+        "distance": 1070,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2242
+          },
+          "uik": 2242,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "16518": {
+        "age_difference": 7,
+        "name": {
+          "last": "Уварова",
+          "first": "Светлана",
+          "middle": "Викторовна"
+        },
+        "distance": 15696,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 763
+          },
+          "uik": 763,
+          "district": "Кировский район",
+          "tik": 42,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

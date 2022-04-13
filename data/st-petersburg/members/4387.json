@@ -1,0 +1,118 @@
+{
+  "id": 4387,
+  "data_id": 4784014230885,
+  "name": {
+    "last": "Алексеева",
+    "first": "Людмила",
+    "middle": "Васильевна"
+  },
+  "birthdate": {
+    "day": 22,
+    "month": 3,
+    "year": 1962
+  },
+  "district": "Приморский район",
+  "age": 59,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Алексеев",
+    "first": "Василий"
+  },
+  "role_id": 3,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1746
+    },
+    "uik": 1746,
+    "district": "Приморский район",
+    "tik": 12,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          6442,
+          7203
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 4302
+      }
+    },
+    "spouse": {
+      "6442": {
+        "strong_evidence": "strong_role",
+        "age_difference": -14,
+        "name": {
+          "last": "Алексеев",
+          "first": "Вячеслав",
+          "middle": "Евгеньевич"
+        },
+        "distance": 7685,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 18
+          },
+          "tik": 18,
+          "district": "Петроградский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "4302": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -30,
+        "name": {
+          "last": "Алексеева",
+          "first": "Мария",
+          "middle": "Федоровна"
+        },
+        "distance": 1385,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1739
+          },
+          "uik": 1739,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      },
+      "7203": {
+        "strong_evidence": "strong_role",
+        "age_difference": -20,
+        "name": {
+          "last": "Алексеев",
+          "first": "Дмитрий",
+          "middle": "Александрович"
+        },
+        "distance": 33695,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 20
+          },
+          "tik": 20,
+          "district": "Пушкинский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

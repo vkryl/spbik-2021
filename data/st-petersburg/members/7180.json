@@ -1,0 +1,68 @@
+{
+  "id": 7180,
+  "data_id": 4784010416401,
+  "name": {
+    "last": "Игнатенко",
+    "first": "Павел",
+    "middle": "Витальевич"
+  },
+  "birthdate": {
+    "day": 19,
+    "month": 1,
+    "year": 2000
+  },
+  "district": "Московский район",
+  "age": 21,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Игнатенко",
+    "first": "Виталий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1323
+    },
+    "uik": 1323,
+    "district": "Московский район",
+    "tik": 19,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 22
+      }
+    },
+    "mother": {
+      "22": {
+        "strong_evidence": "strong_role",
+        "age_difference": 23,
+        "name": {
+          "last": "Игнатенко",
+          "first": "Ирина",
+          "middle": "Юрьевна"
+        },
+        "distance": 8695,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 1
+          },
+          "tik": 1,
+          "district": "Адмиралтейский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

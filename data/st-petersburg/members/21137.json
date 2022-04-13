@@ -1,0 +1,96 @@
+{
+  "id": 21137,
+  "data_id": 4784013268978,
+  "name": {
+    "last": "Никифоров",
+    "first": "Андрей",
+    "middle": "Владиславович"
+  },
+  "birthdate": {
+    "day": 20,
+    "month": 9,
+    "year": 1989
+  },
+  "district": "Петродворцовый район",
+  "age": 31,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Никифоров",
+    "first": "Владислава"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1715
+    },
+    "uik": 1715,
+    "district": "Петродворцовый район",
+    "tik": 55,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 21965
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 21132
+      }
+    },
+    "spouse": {
+      "21965": {
+        "strong_evidence": "strong_role",
+        "age_difference": 10,
+        "name": {
+          "last": "Никифорова",
+          "first": "Марина",
+          "middle": "Михайловна"
+        },
+        "distance": 28065,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 58
+          },
+          "tik": 58,
+          "district": "Приморский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "21132": {
+        "strong_evidence": "same_commission",
+        "age_difference": 23,
+        "name": {
+          "last": "Никифорова",
+          "first": "Татьяна",
+          "middle": "Николаевна"
+        },
+        "distance": 0,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1715
+          },
+          "uik": 1715,
+          "district": "Петродворцовый район",
+          "tik": 55,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

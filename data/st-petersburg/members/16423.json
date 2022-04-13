@@ -1,0 +1,69 @@
+{
+  "id": 16423,
+  "data_id": 27820001300705,
+  "name": {
+    "last": "Пикин",
+    "first": "Евгений",
+    "middle": "Валерьевич"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 1,
+    "year": 1971
+  },
+  "district": "Кировский район",
+  "age": 50,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Пикин",
+    "first": "Валерий"
+  },
+  "role_id": 1,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 42
+    },
+    "tik": 42,
+    "district": "Кировский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "18448"
+      }
+    },
+    "spouse": {
+      "18448": {
+        "strong_evidence": "strong_role",
+        "age_difference": -2,
+        "name": {
+          "last": "Пикина",
+          "first": "Эльвира",
+          "middle": "Юрьевна"
+        },
+        "distance": 7189,
+        "district": "Красносельский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1117
+          },
+          "uik": 1117,
+          "district": "Красносельский район",
+          "tik": 47,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

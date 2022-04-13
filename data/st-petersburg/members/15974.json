@@ -1,0 +1,193 @@
+{
+  "id": 15974,
+  "data_id": 27820001300827,
+  "name": {
+    "last": "Дудин",
+    "first": "Николай",
+    "middle": "Игнатьевич"
+  },
+  "birthdate": {
+    "day": 21,
+    "month": 4,
+    "year": 1983
+  },
+  "district": "Кировский район",
+  "age": 38,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Дудин",
+    "first": "Игнатий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 41
+    },
+    "tik": 41,
+    "district": "Кировский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 6,
+      "strong_guess_count": 7,
+      "strong_guesses": {
+        "works_in_child_district_commission": 1,
+        "same_parent_commission": 1,
+        "strong_role": 4
+      },
+      "siblings_in_child_district_commission": {
+        "count": 1,
+        "ids": 2637
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 17500
+      },
+      "siblings_with_strong_role": {
+        "count": 4,
+        "ids": [
+          "17467",
+          "17780",
+          "19997",
+          "23368"
+        ]
+      }
+    },
+    "mother": {
+      "17500": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 17,
+        "name": {
+          "last": "Дудина",
+          "first": "Марина",
+          "middle": "Борисовна"
+        },
+        "distance": 10436,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 45
+          },
+          "tik": 45,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      },
+      "19997": {
+        "strong_evidence": "strong_role",
+        "age_difference": 18,
+        "name": {
+          "last": "Дудина",
+          "first": "Ольга",
+          "middle": "Викторовна"
+        },
+        "distance": 11652,
+        "district": "Невский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1442
+          },
+          "uik": 1442,
+          "district": "Невский район",
+          "tik": 51,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "2637": {
+        "strong_evidence": "works_in_child_district_commission",
+        "age_difference": -1,
+        "name": {
+          "last": "Дудина",
+          "first": "Виктория",
+          "middle": "Сергеевна"
+        },
+        "distance": 5610,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 796
+          },
+          "uik": 796,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      },
+      "17467": {
+        "strong_evidence": "strong_role",
+        "age_difference": -3,
+        "name": {
+          "last": "Дудина",
+          "first": "Виктория",
+          "middle": "Ивановна"
+        },
+        "distance": 8915,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 956
+          },
+          "uik": 956,
+          "district": "Красногвардейский район",
+          "tik": 44,
+          "gik": "СПбИК"
+        }
+      },
+      "17780": {
+        "strong_evidence": "strong_role",
+        "age_difference": -7,
+        "name": {
+          "last": "Дудина",
+          "first": "Анастасия",
+          "middle": "Анатольевна"
+        },
+        "distance": 16750,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1046
+          },
+          "uik": 1046,
+          "district": "Красногвардейский район",
+          "tik": 45,
+          "gik": "СПбИК"
+        }
+      },
+      "23368": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Дудина",
+          "first": "Яна",
+          "middle": "Александровна"
+        },
+        "distance": 10841,
+        "district": "Фрунзенский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2146
+          },
+          "uik": 2146,
+          "district": "Фрунзенский район",
+          "tik": 62,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

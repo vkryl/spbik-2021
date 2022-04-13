@@ -1,0 +1,119 @@
+{
+  "id": 795,
+  "data_id": 9789005300781,
+  "name": {
+    "last": "Попов",
+    "first": "Иван",
+    "middle": "Андреевич"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 6,
+    "year": 1995
+  },
+  "district": "Кировский район",
+  "age": 26,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Попов",
+    "first": "Андрей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 614
+    },
+    "uik": 614,
+    "district": "Кировский район",
+    "tik": 3,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_electoral_district": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          5836,
+          14776
+        ]
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 2410
+      }
+    },
+    "siblings": {
+      "2410": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -2,
+        "name": {
+          "last": "Попов",
+          "first": "Максим",
+          "middle": "Андреевич"
+        },
+        "distance": 1844,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 638
+          },
+          "uik": 638,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "5836": {
+        "strong_evidence": "strong_role",
+        "age_difference": 6,
+        "name": {
+          "last": "Попова",
+          "first": "Виктория",
+          "middle": "Александровна"
+        },
+        "distance": 9894,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 16
+          },
+          "tik": 16,
+          "district": "Центральный район",
+          "gik": "СПбИК"
+        }
+      },
+      "14776": {
+        "strong_evidence": "strong_role",
+        "age_difference": 11,
+        "name": {
+          "last": "Попова",
+          "first": "Елена",
+          "middle": "Викторовна"
+        },
+        "distance": 11928,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 37
+          },
+          "tik": 37,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

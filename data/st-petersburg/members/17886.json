@@ -1,0 +1,94 @@
+{
+  "id": 17886,
+  "data_id": 4784008421872,
+  "name": {
+    "last": "Кузьмина",
+    "first": "Полина",
+    "middle": "Владиславовна"
+  },
+  "birthdate": {
+    "day": 1,
+    "month": 6,
+    "year": 1983
+  },
+  "district": "Красносельский район",
+  "age": 38,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Кузьмин",
+    "first": "Владислава"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1091
+    },
+    "uik": 1091,
+    "district": "Красносельский район",
+    "tik": 46,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "works_in_parent_district_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 1762
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 18069
+      }
+    },
+    "spouse": {
+      "1762": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": 17,
+        "name": {
+          "last": "Кузьмин",
+          "first": "Константин",
+          "middle": "Сергеевич"
+        },
+        "distance": 2327,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 6
+          },
+          "tik": 6,
+          "district": "Красносельский район",
+          "gik": "СПбИК"
+        }
+      },
+      "18069": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 2,
+        "name": {
+          "last": "Кузьмин",
+          "first": "Алексей",
+          "middle": "Юрьевич"
+        },
+        "distance": 1511,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1168
+          },
+          "uik": 1168,
+          "district": "Красносельский район",
+          "tik": 46,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": 16284,
+  "data_id": 9789005556079,
+  "name": {
+    "last": "Батурина",
+    "first": "Ольга",
+    "middle": "Аркадьевна"
+  },
+  "birthdate": {
+    "day": 29,
+    "month": 6,
+    "year": 1970
+  },
+  "district": "Кировский район",
+  "age": 51,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Батурин",
+    "first": "Аркадий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 600
+    },
+    "uik": 600,
+    "district": "Кировский район",
+    "tik": 41,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1,
+        "same_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 12550
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 15985
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 16283
+      }
+    },
+    "spouse": {
+      "12550": {
+        "strong_evidence": "strong_role",
+        "age_difference": -13,
+        "name": {
+          "last": "Батурин",
+          "first": "Антон",
+          "middle": "Владимирович"
+        },
+        "distance": 5405,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 31
+          },
+          "tik": 31,
+          "district": "Адмиралтейский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "15985": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -23,
+        "name": {
+          "last": "Батурина",
+          "first": "Надежда",
+          "middle": "Игоревна"
+        },
+        "distance": 3245,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 576
+          },
+          "uik": 576,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      },
+      "16283": {
+        "strong_evidence": "same_commission",
+        "age_difference": -22,
+        "name": {
+          "last": "Батурина",
+          "first": "Виктория",
+          "middle": "Александровна"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 600
+          },
+          "uik": 600,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

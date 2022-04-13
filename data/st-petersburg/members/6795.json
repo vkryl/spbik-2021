@@ -1,0 +1,143 @@
+{
+  "id": 6795,
+  "data_id": 4784010403698,
+  "name": {
+    "last": "Лаврентьев",
+    "first": "Николай",
+    "middle": "Владимирович"
+  },
+  "birthdate": {
+    "day": 6,
+    "month": 8,
+    "year": 1987
+  },
+  "district": "Московский район",
+  "age": 34,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Лаврентьев",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 8,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 19
+    },
+    "tik": 19,
+    "district": "Московский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          2290,
+          19918
+        ]
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "11999",
+          "21866"
+        ]
+      }
+    },
+    "siblings": {
+      "2290": {
+        "age_difference": 8,
+        "name": {
+          "last": "Лаврентьева",
+          "first": "Наталья",
+          "middle": "Владимировна"
+        },
+        "distance": 10535,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1162
+          },
+          "uik": 1162,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      },
+      "19918": {
+        "age_difference": 30,
+        "name": {
+          "last": "Лаврентьева",
+          "first": "Татьяна",
+          "middle": "Владимировна"
+        },
+        "distance": 9080,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1436
+          },
+          "uik": 1436,
+          "district": "Невский район",
+          "tik": 51,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "11999": {
+        "strong_evidence": "strong_role",
+        "age_difference": 16,
+        "name": {
+          "last": "Лаврентьева",
+          "first": "Светлана",
+          "middle": "Анатольевна"
+        },
+        "distance": 5854,
+        "district": "Фрунзенский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2122
+          },
+          "uik": 2122,
+          "district": "Фрунзенский район",
+          "tik": 29,
+          "gik": "СПбИК"
+        }
+      },
+      "21866": {
+        "strong_evidence": "strong_role",
+        "age_difference": 19,
+        "name": {
+          "last": "Лаврентьева",
+          "first": "Антонина",
+          "middle": "Викторовна"
+        },
+        "distance": 15872,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1917
+          },
+          "uik": 1917,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

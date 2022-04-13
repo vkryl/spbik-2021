@@ -1,0 +1,99 @@
+{
+  "id": 5068,
+  "data_id": 4784009117611,
+  "name": {
+    "last": "Макарова",
+    "first": "Наталья",
+    "middle": "Георгиевна"
+  },
+  "birthdate": {
+    "day": 21,
+    "month": 4,
+    "year": 1961
+  },
+  "district": "Курортный район",
+  "age": 60,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Макаров",
+    "first": "Георгий"
+  },
+  "role_id": 1,
+  "assigned_by_id": 13,
+  "awards": [
+    "diplomas"
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1253
+    },
+    "uik": 1253,
+    "district": "Курортный район",
+    "tik": 13,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 12986
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 5023
+      }
+    },
+    "children": {
+      "12986": {
+        "strong_evidence": "strong_role",
+        "age_difference": -17,
+        "name": {
+          "last": "Макаров",
+          "first": "Виталий",
+          "middle": "Михайлович"
+        },
+        "distance": 24332,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 32
+          },
+          "tik": 32,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "5023": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 18,
+        "name": {
+          "last": "Макарова",
+          "first": "Лариса",
+          "middle": "Павловна"
+        },
+        "distance": 391,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1248
+          },
+          "uik": 1248,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": 15250,
+  "data_id": 4784004157865,
+  "name": {
+    "last": "Денисенко",
+    "first": "Лариса",
+    "middle": "Владиславовна"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 2,
+    "year": 1960
+  },
+  "district": "Калининский район",
+  "age": 61,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Денисенко",
+    "first": "Владислава"
+  },
+  "role_id": 4,
+  "assigned_by_id": 94,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 429
+    },
+    "uik": 429,
+    "district": "Калининский район",
+    "tik": 38,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 455
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 15257
+      }
+    },
+    "children": {
+      "455": {
+        "strong_evidence": "strong_role",
+        "age_difference": -22,
+        "name": {
+          "last": "Денисенко",
+          "first": "Евгения",
+          "middle": "Евгеньевна"
+        },
+        "distance": 11277,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 2
+          },
+          "tik": 2,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      },
+      "15257": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -33,
+        "name": {
+          "last": "Денисенко",
+          "first": "Илья",
+          "middle": "Петрович"
+        },
+        "distance": 565,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 430
+          },
+          "uik": 430,
+          "district": "Калининский район",
+          "tik": 38,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

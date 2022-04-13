@@ -1,0 +1,120 @@
+{
+  "id": 3835,
+  "data_id": 4784004299797,
+  "name": {
+    "last": "Чернышева",
+    "first": "Виктория",
+    "middle": "Геннадьевна"
+  },
+  "birthdate": {
+    "day": 7,
+    "month": 1,
+    "year": 1982
+  },
+  "district": "Калининский район",
+  "age": 39,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Чернышев",
+    "first": "Геннадий"
+  },
+  "role_id": 4,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 473
+    },
+    "uik": 473,
+    "district": "Калининский район",
+    "tik": 11,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          3462,
+          4902
+        ]
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 3834
+      }
+    },
+    "spouse": {
+      "4902": {
+        "strong_evidence": "strong_role",
+        "age_difference": 2,
+        "name": {
+          "last": "Чернышев",
+          "first": "Игорь",
+          "middle": "Владимирович"
+        },
+        "distance": 23515,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 13
+          },
+          "tik": 13,
+          "district": "Курортный район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "3834": {
+        "strong_evidence": "same_commission",
+        "age_difference": -20,
+        "name": {
+          "last": "Чернышев",
+          "first": "Евгений",
+          "middle": "Олегович"
+        },
+        "distance": 0,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 473
+          },
+          "uik": 473,
+          "district": "Калининский район",
+          "tik": 11,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "3462": {
+        "strong_evidence": "strong_role",
+        "age_difference": 18,
+        "name": {
+          "last": "Чернышева",
+          "first": "Галина",
+          "middle": "Ивановна"
+        },
+        "distance": 7367,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 10
+          },
+          "tik": 10,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

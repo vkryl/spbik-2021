@@ -1,0 +1,138 @@
+{
+  "id": 2030,
+  "data_id": 4784008421910,
+  "name": {
+    "last": "Михайлова",
+    "first": "Елена",
+    "middle": "Эдуардовна"
+  },
+  "birthdate": {
+    "day": 29,
+    "month": 12,
+    "year": 1955
+  },
+  "district": "Красносельский район",
+  "age": 65,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Михайлов",
+    "first": "Эдуард"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1079
+    },
+    "uik": 1079,
+    "district": "Красносельский район",
+    "tik": 6,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 3
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 2305
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          12556,
+          14481,
+          19384
+        ]
+      }
+    },
+    "children": {
+      "2305": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -29,
+        "name": {
+          "last": "Михайлова",
+          "first": "Оксана",
+          "middle": "Николаевна"
+        },
+        "distance": 4550,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1163
+          },
+          "uik": 1163,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      },
+      "12556": {
+        "strong_evidence": "strong_role",
+        "age_difference": -35,
+        "name": {
+          "last": "Михайлова",
+          "first": "Варвара",
+          "middle": "Дмитриевна"
+        },
+        "distance": 7823,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 31
+          },
+          "tik": 31,
+          "district": "Адмиралтейский район",
+          "gik": "СПбИК"
+        }
+      },
+      "14481": {
+        "strong_evidence": "strong_role",
+        "age_difference": -35,
+        "name": {
+          "last": "Михайлов",
+          "first": "Павел",
+          "middle": "Николаевич"
+        },
+        "distance": 15595,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 36
+          },
+          "tik": 36,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      },
+      "19384": {
+        "strong_evidence": "strong_role",
+        "age_difference": -25,
+        "name": {
+          "last": "Михайлова",
+          "first": "Юлия",
+          "middle": "Юрьевна"
+        },
+        "distance": 12787,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 50
+          },
+          "tik": 50,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

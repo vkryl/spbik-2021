@@ -1,0 +1,96 @@
+{
+  "id": 9882,
+  "data_id": 4784025348623,
+  "name": {
+    "last": "Барсукова",
+    "first": "Алла",
+    "middle": "Кимовна"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 6,
+    "year": 1951
+  },
+  "district": "Красногвардейский район",
+  "age": 70,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Барсуков",
+    "first": "Ким"
+  },
+  "role_id": 4,
+  "awards": [
+    "thanks"
+  ],
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 25
+    },
+    "tik": 25,
+    "district": "Красногвардейский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 19715
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "18346"
+      }
+    },
+    "children": {
+      "18346": {
+        "strong_evidence": "strong_role",
+        "age_difference": -39,
+        "name": {
+          "last": "Барсуков",
+          "first": "Сергей",
+          "middle": "Сергеевич"
+        },
+        "distance": 17067,
+        "district": "Красносельский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1110
+          },
+          "uik": 1110,
+          "district": "Красносельский район",
+          "tik": 47,
+          "gik": "СПбИК"
+        }
+      },
+      "19715": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -41,
+        "name": {
+          "last": "Барсукова",
+          "first": "Варвара",
+          "middle": "Антоновна"
+        },
+        "distance": 9168,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 51
+          },
+          "tik": 51,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

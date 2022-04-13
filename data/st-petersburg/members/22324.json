@@ -1,0 +1,95 @@
+{
+  "id": 22324,
+  "data_id": 27820001300391,
+  "name": {
+    "last": "Кочетков",
+    "first": "Игорь",
+    "middle": "Викторович"
+  },
+  "birthdate": {
+    "day": 13,
+    "month": 5,
+    "year": 1970
+  },
+  "district": "Пушкинский район",
+  "age": 51,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Кочетков",
+    "first": "Виктор"
+  },
+  "role_id": 4,
+  "assigned_by_id": 17,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 59
+    },
+    "tik": 59,
+    "district": "Пушкинский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 4858
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "4854"
+      }
+    },
+    "spouse": {
+      "4854": {
+        "strong_evidence": "strong_role",
+        "age_difference": 7,
+        "name": {
+          "last": "Кочеткова",
+          "first": "Ирина",
+          "middle": "Леонидовна"
+        },
+        "distance": 32074,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1785
+          },
+          "uik": 1785,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "4858": {
+        "age_difference": -23,
+        "name": {
+          "last": "Кочетков",
+          "first": "Павел",
+          "middle": "Викторович"
+        },
+        "distance": 32074,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1785
+          },
+          "uik": 1785,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

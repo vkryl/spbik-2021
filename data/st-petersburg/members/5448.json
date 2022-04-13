@@ -1,0 +1,143 @@
+{
+  "id": 5448,
+  "data_id": 4784018123931,
+  "name": {
+    "last": "Алексеева",
+    "first": "Мария",
+    "middle": "Владиславовна"
+  },
+  "birthdate": {
+    "day": 20,
+    "month": 1,
+    "year": 1982
+  },
+  "district": "Выборгский район",
+  "age": 39,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Алексеев",
+    "first": "Владислава"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 303
+    },
+    "uik": 303,
+    "district": "Выборгский район",
+    "tik": 14,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 2,
+        "strong_role": 2
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          5332,
+          5412
+        ]
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          6442,
+          7203
+        ]
+      }
+    },
+    "children": {
+      "5332": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -18,
+        "name": {
+          "last": "Алексеева",
+          "first": "Валерия",
+          "middle": "Андреевна"
+        },
+        "distance": 5304,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 293
+          },
+          "uik": 293,
+          "district": "Выборгский район",
+          "tik": 14,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "5412": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -14,
+        "name": {
+          "last": "Алексеев",
+          "first": "Евгений",
+          "middle": "Валентинович"
+        },
+        "distance": 5556,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 300
+          },
+          "uik": 300,
+          "district": "Выборгский район",
+          "tik": 14,
+          "gik": "СПбИК"
+        }
+      },
+      "6442": {
+        "strong_evidence": "strong_role",
+        "age_difference": 5,
+        "name": {
+          "last": "Алексеев",
+          "first": "Вячеслав",
+          "middle": "Евгеньевич"
+        },
+        "distance": 12390,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 18
+          },
+          "tik": 18,
+          "district": "Петроградский район",
+          "gik": "СПбИК"
+        }
+      },
+      "7203": {
+        "strong_evidence": "strong_role",
+        "age_difference": -1,
+        "name": {
+          "last": "Алексеев",
+          "first": "Дмитрий",
+          "middle": "Александрович"
+        },
+        "distance": 39269,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 20
+          },
+          "tik": 20,
+          "district": "Пушкинский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

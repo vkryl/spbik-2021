@@ -1,0 +1,97 @@
+{
+  "id": 12006,
+  "data_id": 4784029407818,
+  "name": {
+    "last": "Антюшин",
+    "first": "Никита",
+    "middle": "Сергеевич"
+  },
+  "birthdate": {
+    "day": 9,
+    "month": 10,
+    "year": 1990
+  },
+  "district": "Фрунзенский район",
+  "age": 30,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Антюшин",
+    "first": "Сергей"
+  },
+  "role_id": 2,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2123
+    },
+    "uik": 2123,
+    "district": "Фрунзенский район",
+    "tik": 29,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 12005
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 23484
+      }
+    },
+    "spouse": {
+      "12005": {
+        "strong_evidence": "same_commission",
+        "age_difference": -3,
+        "name": {
+          "last": "Антюшина",
+          "first": "Анна",
+          "middle": "Владиславовна"
+        },
+        "distance": 0,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2123
+          },
+          "uik": 2123,
+          "district": "Фрунзенский район",
+          "tik": 29,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "father": {
+      "23484": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 22,
+        "name": {
+          "last": "Антюшин",
+          "first": "Сергей",
+          "middle": "Михайлович"
+        },
+        "distance": 1274,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2153
+          },
+          "uik": 2153,
+          "district": "Фрунзенский район",
+          "tik": 63,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

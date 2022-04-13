@@ -1,0 +1,148 @@
+{
+  "id": 2423,
+  "data_id": 4784020465673,
+  "name": {
+    "last": "Казаков",
+    "first": "Максим",
+    "middle": "Сергеевич"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 4,
+    "year": 1990
+  },
+  "district": "Кировский район",
+  "age": 31,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Казаков",
+    "first": "Сергей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 639
+    },
+    "uik": 639,
+    "district": "Кировский район",
+    "tik": 7,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_parent_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 2424
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 2743
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 22706
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 12258
+      }
+    },
+    "siblings": {
+      "12258": {
+        "age_difference": 2,
+        "name": {
+          "last": "Казаков",
+          "first": "Евгений",
+          "middle": "Сергеевич"
+        },
+        "distance": 12829,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2240
+          },
+          "uik": 2240,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "22706": {
+        "strong_evidence": "strong_role",
+        "age_difference": 21,
+        "name": {
+          "last": "Казакова",
+          "first": "Лариса",
+          "middle": "Владимировна"
+        },
+        "distance": 9019,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 60
+          },
+          "tik": 60,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "2424": {
+        "strong_evidence": "same_commission",
+        "age_difference": 0,
+        "name": {
+          "last": "Казакова",
+          "first": "Ирина",
+          "middle": "Робертовна"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 639
+          },
+          "uik": 639,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      },
+      "2743": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -8,
+        "name": {
+          "last": "Казакова",
+          "first": "Екатерина",
+          "middle": "Владимировна"
+        },
+        "distance": 2003,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 803
+          },
+          "uik": 803,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

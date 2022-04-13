@@ -1,0 +1,148 @@
+{
+  "id": 15397,
+  "data_id": 4784004380167,
+  "name": {
+    "last": "Герасимова",
+    "first": "Мария",
+    "middle": "Дмитриевна"
+  },
+  "birthdate": {
+    "day": 17,
+    "month": 8,
+    "year": 2001
+  },
+  "district": "Калининский район",
+  "age": 20,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Герасимов",
+    "first": "Дмитрий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 443
+    },
+    "uik": 443,
+    "district": "Калининский район",
+    "tik": 38,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_building": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 2308
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 443
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": 15347
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 15082
+      }
+    },
+    "spouse": {
+      "2308": {
+        "strong_evidence": "strong_role",
+        "age_difference": 17,
+        "name": {
+          "last": "Герасимов",
+          "first": "Сергей",
+          "middle": "Викторович"
+        },
+        "distance": 15034,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 7
+          },
+          "tik": 7,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "15082": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 34,
+        "name": {
+          "last": "Герасимова",
+          "first": "Ольга",
+          "middle": "Викторовна"
+        },
+        "distance": 2484,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 414
+          },
+          "uik": 414,
+          "district": "Калининский район",
+          "tik": 38,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "father": {
+      "443": {
+        "age_difference": 20,
+        "name": {
+          "last": "Герасимов",
+          "first": "Дмитрий",
+          "middle": "Валентинович"
+        },
+        "distance": 10882,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 32
+          },
+          "uik": 32,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      },
+      "15347": {
+        "strong_evidence": "same_building",
+        "age_difference": 31,
+        "name": {
+          "last": "Герасимов",
+          "first": "Дмитрий",
+          "middle": "Андреевич"
+        },
+        "distance": 0,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 438
+          },
+          "uik": 438,
+          "district": "Калининский район",
+          "tik": 38,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

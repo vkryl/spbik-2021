@@ -1,0 +1,51 @@
+{
+  "name": "УИК №2286",
+  "id": 2286,
+  "type": "uik",
+  "data_id": 4784019339812,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Калининский район",
+  "electoral_districts": {
+    "city": 7,
+    "federal": 213
+  },
+  "stats": {
+    "parties_count": {
+      "city": 8
+    },
+    "candidates_count": {
+      "city": {
+        "7": 7,
+        "total_count": 7,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 2,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 1,
+    "ballot_count": 2
+  },
+  "analysis": {
+    "city": {
+      "party_voters_count": 713,
+      "party_registered_count": 713,
+      "person_voters_count": 516,
+      "person_registered_count": 516,
+      "only_party_voters_count": 197,
+      "only_party_registered_count": 197
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 17,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    2,
+    1
+  ]
+}

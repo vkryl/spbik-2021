@@ -1,0 +1,68 @@
+{
+  "id": 3192,
+  "data_id": 4784013279466,
+  "name": {
+    "last": "Капитанская",
+    "first": "Мария",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 10,
+    "month": 6,
+    "year": 1996
+  },
+  "district": "Петродворцовый район",
+  "age": 25,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Капитанский",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1698
+    },
+    "uik": 1698,
+    "district": "Петродворцовый район",
+    "tik": 8,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "works_in_parent_commission": 1
+      },
+      "siblings_in_parent_commission": {
+        "count": 1,
+        "ids": 2923
+      }
+    },
+    "mother": {
+      "2923": {
+        "strong_evidence": "works_in_parent_commission",
+        "age_difference": 19,
+        "name": {
+          "last": "Капитанская",
+          "first": "Ольга",
+          "middle": "Дмитриевна"
+        },
+        "distance": 3042,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 8
+          },
+          "tik": 8,
+          "district": "Петродворцовый район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

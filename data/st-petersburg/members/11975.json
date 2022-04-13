@@ -1,0 +1,94 @@
+{
+  "id": 11975,
+  "data_id": 4784029235927,
+  "name": {
+    "last": "Малиновский",
+    "first": "Василий",
+    "middle": "Владимирович"
+  },
+  "birthdate": {
+    "day": 19,
+    "month": 7,
+    "year": 1982
+  },
+  "district": "Фрунзенский район",
+  "age": 39,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Малиновский",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 147,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2120
+    },
+    "uik": 2120,
+    "district": "Фрунзенский район",
+    "tik": 29,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_electoral_district": 1,
+        "works_in_parent_district_commission": 1
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 7909
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 22709
+      }
+    },
+    "siblings": {
+      "7909": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 0,
+        "name": {
+          "last": "Малиновская",
+          "first": "Олеся",
+          "middle": "Владимировна"
+        },
+        "distance": 17539,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 835
+          },
+          "uik": 835,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      },
+      "22709": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": 2,
+        "name": {
+          "last": "Малиновская",
+          "first": "Светлана",
+          "middle": "Владимировна"
+        },
+        "distance": 2963,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 60
+          },
+          "tik": 60,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

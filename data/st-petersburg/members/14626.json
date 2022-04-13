@@ -1,0 +1,94 @@
+{
+  "id": 14626,
+  "data_id": 4784024258048,
+  "name": {
+    "last": "Осипова",
+    "first": "Татьяна",
+    "middle": "Сергеевна"
+  },
+  "birthdate": {
+    "day": 23,
+    "month": 3,
+    "year": 1969
+  },
+  "district": "Выборгский район",
+  "age": 52,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Осипов",
+    "first": "Сергей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 389
+    },
+    "uik": 389,
+    "district": "Выборгский район",
+    "tik": 36,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 2313
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 11204
+      }
+    },
+    "spouse": {
+      "2313": {
+        "strong_evidence": "strong_role",
+        "age_difference": 3,
+        "name": {
+          "last": "Осипов",
+          "first": "Алексей",
+          "middle": "Анатольевич"
+        },
+        "distance": 16130,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 7
+          },
+          "tik": 7,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "11204": {
+        "age_difference": -17,
+        "name": {
+          "last": "Осипов",
+          "first": "Станислав",
+          "middle": "Сергеевич"
+        },
+        "distance": 20959,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1390
+          },
+          "uik": 1390,
+          "district": "Московский район",
+          "tik": 27,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

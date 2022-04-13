@@ -1,0 +1,94 @@
+{
+  "id": 2919,
+  "data_id": 4784013141457,
+  "name": {
+    "last": "Венгеров",
+    "first": "Виктор",
+    "middle": "Вячеславович"
+  },
+  "birthdate": {
+    "day": 15,
+    "month": 7,
+    "year": 1973
+  },
+  "district": "Петродворцовый район",
+  "age": 48,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Венгеров",
+    "first": "Вячеслава"
+  },
+  "role_id": 4,
+  "assigned_by_id": 8,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 8
+    },
+    "tik": 8,
+    "district": "Петродворцовый район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "works_in_child_commission": 2
+      },
+      "siblings_in_child_commission": {
+        "count": 2,
+        "ids": [
+          3068,
+          3237
+        ]
+      }
+    },
+    "spouse": {
+      "3068": {
+        "strong_evidence": "works_in_child_commission",
+        "age_difference": -1,
+        "name": {
+          "last": "Венгерова",
+          "first": "Елена",
+          "middle": "Алексеевна"
+        },
+        "distance": 1218,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1687
+          },
+          "uik": 1687,
+          "district": "Петродворцовый район",
+          "tik": 8,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "3237": {
+        "strong_evidence": "works_in_child_commission",
+        "age_difference": -24,
+        "name": {
+          "last": "Венгеров",
+          "first": "Никита",
+          "middle": "Викторович"
+        },
+        "distance": 2403,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1703
+          },
+          "uik": 1703,
+          "district": "Петродворцовый район",
+          "tik": 8,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

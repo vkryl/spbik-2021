@@ -1,0 +1,120 @@
+{
+  "id": 14993,
+  "data_id": 478403779628,
+  "name": {
+    "last": "Никифорова",
+    "first": "Анастасия",
+    "middle": "Алексеевна"
+  },
+  "birthdate": {
+    "day": 22,
+    "month": 7,
+    "year": 2001
+  },
+  "district": "Калининский район",
+  "age": 20,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Никифоров",
+    "first": "Алексей"
+  },
+  "role_id": 3,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 566
+    },
+    "uik": 566,
+    "district": "Калининский район",
+    "tik": 37,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "strong_role": 1
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 16905
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 14991
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 21965
+      }
+    },
+    "father": {
+      "16905": {
+        "age_difference": 16,
+        "name": {
+          "last": "Никифоров",
+          "first": "Алексей",
+          "middle": "Олегович"
+        },
+        "distance": 23977,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 883
+          },
+          "uik": 883,
+          "district": "Колпинский район",
+          "tik": 43,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "14991": {
+        "strong_evidence": "same_commission",
+        "age_difference": 23,
+        "name": {
+          "last": "Никифорова",
+          "first": "Елена",
+          "middle": "Михайловна"
+        },
+        "distance": 0,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 566
+          },
+          "uik": 566,
+          "district": "Калининский район",
+          "tik": 37,
+          "gik": "СПбИК"
+        }
+      },
+      "21965": {
+        "strong_evidence": "strong_role",
+        "age_difference": 22,
+        "name": {
+          "last": "Никифорова",
+          "first": "Марина",
+          "middle": "Михайловна"
+        },
+        "distance": 7933,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 58
+          },
+          "tik": 58,
+          "district": "Приморский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

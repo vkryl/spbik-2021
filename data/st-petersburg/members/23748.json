@@ -1,0 +1,68 @@
+{
+  "id": 23748,
+  "data_id": 478406482815,
+  "name": {
+    "last": "Анчишкин",
+    "first": "Михаил",
+    "middle": "Владимирович"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 8,
+    "year": 1970
+  },
+  "district": "Центральный район",
+  "age": 51,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Анчишкин",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 64
+    },
+    "tik": 64,
+    "district": "Центральный район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "works_in_child_commission": 1
+      },
+      "siblings_in_child_commission": {
+        "count": 1,
+        "ids": 23849
+      }
+    },
+    "spouse": {
+      "23849": {
+        "strong_evidence": "works_in_child_commission",
+        "age_difference": -3,
+        "name": {
+          "last": "Анчишкина",
+          "first": "Валентина",
+          "middle": "Евгеньевна"
+        },
+        "distance": 2393,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2213
+          },
+          "uik": 2213,
+          "district": "Центральный район",
+          "tik": 64,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

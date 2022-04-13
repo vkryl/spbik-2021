@@ -1,0 +1,95 @@
+{
+  "id": 751,
+  "data_id": 9789005534602,
+  "name": {
+    "last": "Никитина",
+    "first": "Виктория",
+    "middle": "Михайловна"
+  },
+  "birthdate": {
+    "day": 9,
+    "month": 4,
+    "year": 1983
+  },
+  "district": "Кировский район",
+  "age": 38,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Никитин",
+    "first": "Михаил"
+  },
+  "role_id": 3,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 611
+    },
+    "uik": 611,
+    "district": "Кировский район",
+    "tik": 3,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 967
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 21296
+      }
+    },
+    "siblings": {
+      "21296": {
+        "age_difference": 34,
+        "name": {
+          "last": "Никитина",
+          "first": "Людмила",
+          "middle": "Михаиловна"
+        },
+        "distance": 19386,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1933
+          },
+          "uik": 1933,
+          "district": "Приморский район",
+          "tik": 56,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "967": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 26,
+        "name": {
+          "last": "Никитина",
+          "first": "Татьяна",
+          "middle": "Владимировна"
+        },
+        "distance": 937,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 629
+          },
+          "uik": 629,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

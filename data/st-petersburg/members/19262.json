@@ -1,0 +1,117 @@
+{
+  "id": 19262,
+  "data_id": 4784011162398,
+  "name": {
+    "last": "Савельева",
+    "first": "Анна",
+    "middle": "Владимировна"
+  },
+  "birthdate": {
+    "day": 28,
+    "month": 9,
+    "year": 1984
+  },
+  "district": "Невский район",
+  "age": 36,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Савельев",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1499
+    },
+    "uik": 1499,
+    "district": "Невский район",
+    "tik": 49,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 2316
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          986,
+          17666
+        ]
+      }
+    },
+    "spouse": {
+      "2316": {
+        "strong_evidence": "strong_role",
+        "age_difference": -4,
+        "name": {
+          "last": "Савельев",
+          "first": "Иван",
+          "middle": "Игоревич"
+        },
+        "distance": 12103,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 7
+          },
+          "tik": 7,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "986": {
+        "age_difference": -11,
+        "name": {
+          "last": "Савельев",
+          "first": "Георгий",
+          "middle": "Владимирович"
+        },
+        "distance": 15181,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 630
+          },
+          "uik": 630,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      },
+      "17666": {
+        "age_difference": 0,
+        "name": {
+          "last": "Савельева",
+          "first": "Яна",
+          "middle": "Владимировна"
+        },
+        "distance": 4575,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1036
+          },
+          "uik": 1036,
+          "district": "Красногвардейский район",
+          "tik": 45,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 14476,
+  "data_id": 27820001310942,
+  "name": {
+    "last": "Агаркова",
+    "first": "Наталья",
+    "middle": "Николаевна"
+  },
+  "birthdate": {
+    "day": 12,
+    "month": 11,
+    "year": 1975
+  },
+  "district": "Выборгский район",
+  "age": 45,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Агарков",
+    "first": "Николай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 36
+    },
+    "tik": 36,
+    "district": "Выборгский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "4640"
+      }
+    },
+    "children": {
+      "4640": {
+        "strong_evidence": "strong_role",
+        "age_difference": -17,
+        "name": {
+          "last": "Агаркова",
+          "first": "Наталья",
+          "middle": "Геннадьевна"
+        },
+        "distance": 7615,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1767
+          },
+          "uik": 1767,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

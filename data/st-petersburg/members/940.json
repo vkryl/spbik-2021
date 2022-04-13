@@ -1,0 +1,168 @@
+{
+  "id": 940,
+  "data_id": 9789005301485,
+  "name": {
+    "last": "Чернышева",
+    "first": "Серафима",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 22,
+    "month": 3,
+    "year": 1991
+  },
+  "district": "Кировский район",
+  "age": 30,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Чернышев",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 2,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 626
+    },
+    "uik": 626,
+    "district": "Кировский район",
+    "tik": 3,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 5,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 2
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 880
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          3462,
+          4902
+        ]
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          2297,
+          23301
+        ]
+      }
+    },
+    "mother": {
+      "3462": {
+        "strong_evidence": "strong_role",
+        "age_difference": 27,
+        "name": {
+          "last": "Чернышева",
+          "first": "Галина",
+          "middle": "Ивановна"
+        },
+        "distance": 16693,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 10
+          },
+          "tik": 10,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "880": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 15,
+        "name": {
+          "last": "Чернышев",
+          "first": "Виктор",
+          "middle": "Сергеевич"
+        },
+        "distance": 841,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 621
+          },
+          "uik": 621,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      },
+      "4902": {
+        "strong_evidence": "strong_role",
+        "age_difference": 11,
+        "name": {
+          "last": "Чернышев",
+          "first": "Игорь",
+          "middle": "Владимирович"
+        },
+        "distance": 32703,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 13
+          },
+          "tik": 13,
+          "district": "Курортный район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "2297": {
+        "age_difference": 21,
+        "name": {
+          "last": "Чернышева",
+          "first": "Наталия",
+          "middle": "Александровна"
+        },
+        "distance": 5625,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1163
+          },
+          "uik": 1163,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      },
+      "23301": {
+        "age_difference": 2,
+        "name": {
+          "last": "Чернышева",
+          "first": "Дарья",
+          "middle": "Александровна"
+        },
+        "distance": 8517,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2140
+          },
+          "uik": 2140,
+          "district": "Фрунзенский район",
+          "tik": 62,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

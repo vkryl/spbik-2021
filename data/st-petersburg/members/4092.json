@@ -1,0 +1,96 @@
+{
+  "id": 4092,
+  "data_id": 4784004299610,
+  "name": {
+    "last": "Логинова",
+    "first": "Наталья",
+    "middle": "Олеговна"
+  },
+  "birthdate": {
+    "day": 23,
+    "month": 8,
+    "year": 1979
+  },
+  "district": "Калининский район",
+  "age": 42,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Логинов",
+    "first": "Олег"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 497
+    },
+    "uik": 497,
+    "district": "Калининский район",
+    "tik": 11,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 743
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 14843
+      }
+    },
+    "siblings": {
+      "14843": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -10,
+        "name": {
+          "last": "Логинов",
+          "first": "Дмитрий",
+          "middle": "Олегович"
+        },
+        "distance": 2957,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 553
+          },
+          "uik": 553,
+          "district": "Калининский район",
+          "tik": 37,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "743": {
+        "strong_evidence": "strong_role",
+        "age_difference": 20,
+        "name": {
+          "last": "Логинова",
+          "first": "Ольга",
+          "middle": "Юрьевна"
+        },
+        "distance": 16739,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 3
+          },
+          "tik": 3,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

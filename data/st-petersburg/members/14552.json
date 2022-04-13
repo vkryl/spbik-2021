@@ -1,0 +1,97 @@
+{
+  "id": 14552,
+  "data_id": 4784024258529,
+  "name": {
+    "last": "Корсун",
+    "first": "Николай",
+    "middle": "Михайлович"
+  },
+  "birthdate": {
+    "day": 30,
+    "month": 7,
+    "year": 1989
+  },
+  "district": "Выборгский район",
+  "age": 32,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Корсун",
+    "first": "Михаил"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 383
+    },
+    "uik": 383,
+    "district": "Выборгский район",
+    "tik": 36,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_building": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": 14566
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 8642
+      }
+    },
+    "spouse": {
+      "14566": {
+        "strong_evidence": "same_building",
+        "age_difference": 2,
+        "name": {
+          "last": "Корсун",
+          "first": "Ксения",
+          "middle": "Александровна"
+        },
+        "distance": 0,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 384
+          },
+          "uik": 384,
+          "district": "Выборгский район",
+          "tik": 36,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "father": {
+      "8642": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 44,
+        "name": {
+          "last": "Корсун",
+          "first": "Михаил",
+          "middle": "Петрович"
+        },
+        "distance": 2917,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 347
+          },
+          "uik": 347,
+          "district": "Выборгский район",
+          "tik": 22,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

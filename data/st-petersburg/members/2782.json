@@ -1,0 +1,122 @@
+{
+  "id": 2782,
+  "data_id": 4784020276290,
+  "name": {
+    "last": "Киселева",
+    "first": "Наталья",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 8,
+    "month": 9,
+    "year": 1980
+  },
+  "district": "Кировский район",
+  "age": 41,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Киселев",
+    "first": "Александр"
+  },
+  "role_id": 3,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 806
+    },
+    "uik": 806,
+    "district": "Кировский район",
+    "tik": 7,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_electoral_district": 1,
+        "same_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 9884
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 2990
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 2780
+      }
+    },
+    "spouse": {
+      "9884": {
+        "strong_evidence": "strong_role",
+        "age_difference": 12,
+        "name": {
+          "last": "Киселев",
+          "first": "Иван",
+          "middle": "Владимирович"
+        },
+        "distance": 16060,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 25
+          },
+          "tik": 25,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "2780": {
+        "strong_evidence": "same_commission",
+        "age_difference": 1,
+        "name": {
+          "last": "Киселев",
+          "first": "Юрий",
+          "middle": "Александрович"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 806
+          },
+          "uik": 806,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      },
+      "2990": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 6,
+        "name": {
+          "last": "Киселева",
+          "first": "Наталья",
+          "middle": "Александровна"
+        },
+        "distance": 12842,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1680
+          },
+          "uik": 1680,
+          "district": "Петродворцовый район",
+          "tik": 8,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

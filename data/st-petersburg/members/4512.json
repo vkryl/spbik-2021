@@ -1,0 +1,96 @@
+{
+  "id": 4512,
+  "data_id": 4784014282559,
+  "name": {
+    "last": "Левина",
+    "first": "Валентина",
+    "middle": "Владимировна"
+  },
+  "birthdate": {
+    "day": 17,
+    "month": 8,
+    "year": 1961
+  },
+  "district": "Приморский район",
+  "age": 60,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Левин",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1756
+    },
+    "uik": 1756,
+    "district": "Приморский район",
+    "tik": 12,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 8996
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 4590
+      }
+    },
+    "spouse": {
+      "8996": {
+        "strong_evidence": "strong_role",
+        "age_difference": -14,
+        "name": {
+          "last": "Левин",
+          "first": "Михаил",
+          "middle": "Львович"
+        },
+        "distance": 18593,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 23
+          },
+          "tik": 23,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "4590": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 1,
+        "name": {
+          "last": "Левина",
+          "first": "Ирина",
+          "middle": "Владимировна",
+          "raw": "Лёвина Ирина Владимировна"
+        },
+        "distance": 429,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1763
+          },
+          "uik": 1763,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

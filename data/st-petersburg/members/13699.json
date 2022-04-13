@@ -1,0 +1,69 @@
+{
+  "id": 13699,
+  "data_id": 27820001305839,
+  "name": {
+    "last": "Волобуев",
+    "first": "Сергей",
+    "middle": "Викторович"
+  },
+  "birthdate": {
+    "day": 8,
+    "month": 6,
+    "year": 1988
+  },
+  "district": "Выборгский район",
+  "age": 33,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Волобуев",
+    "first": "Виктор"
+  },
+  "role_id": 2,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 34
+    },
+    "tik": 34,
+    "district": "Выборгский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "1353"
+      }
+    },
+    "mother": {
+      "1353": {
+        "strong_evidence": "strong_role",
+        "age_difference": 25,
+        "name": {
+          "last": "Волобуева",
+          "first": "Ирина",
+          "middle": "Николаевна"
+        },
+        "distance": 8484,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 967
+          },
+          "uik": 967,
+          "district": "Красногвардейский район",
+          "tik": 4,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

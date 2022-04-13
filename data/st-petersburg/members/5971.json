@@ -1,0 +1,91 @@
+{
+  "id": 5971,
+  "data_id": 4784017224300,
+  "name": {
+    "last": "Петров",
+    "first": "Алексей",
+    "middle": "Геннадьевич"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 6,
+    "year": 1987
+  },
+  "district": "Центральный район",
+  "age": 34,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Петров",
+    "first": "Геннадий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 115,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2190
+    },
+    "uik": 2190,
+    "district": "Центральный район",
+    "tik": 16,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 0,
+      "strong_guesses": {},
+      "unknown": {
+        "count": 2,
+        "ids": [
+          14325,
+          14809
+        ]
+      }
+    },
+    "father": {
+      "14809": {
+        "age_difference": 24,
+        "name": {
+          "last": "Петров",
+          "first": "Геннадий",
+          "middle": "Петрович"
+        },
+        "distance": 8861,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 550
+          },
+          "uik": 550,
+          "district": "Калининский район",
+          "tik": 37,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "14325": {
+        "age_difference": 2,
+        "name": {
+          "last": "Петрова",
+          "first": "Татьяна",
+          "middle": "Геннадьевна"
+        },
+        "distance": 12720,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 277
+          },
+          "uik": 277,
+          "district": "Выборгский район",
+          "tik": 35,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

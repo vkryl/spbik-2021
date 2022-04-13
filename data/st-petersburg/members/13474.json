@@ -1,0 +1,95 @@
+{
+  "id": 13474,
+  "data_id": 4784002284928,
+  "name": {
+    "last": "Макаров",
+    "first": "Владимир",
+    "middle": "Андреевич"
+  },
+  "birthdate": {
+    "day": 16,
+    "month": 4,
+    "year": 1988
+  },
+  "district": "Василеостровский район",
+  "age": 33,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Макаров",
+    "first": "Андрей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 113
+    },
+    "uik": 113,
+    "district": "Василеостровский район",
+    "tik": 33,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 13392
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 22274
+      }
+    },
+    "spouse": {
+      "13392": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 14,
+        "name": {
+          "last": "Макарова",
+          "first": "Гульнора",
+          "middle": "Рауфовна"
+        },
+        "distance": 873,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 106
+          },
+          "uik": 106,
+          "district": "Василеостровский район",
+          "tik": 33,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "22274": {
+        "age_difference": -2,
+        "name": {
+          "last": "Макарова",
+          "first": "Александра",
+          "middle": "Андреевна"
+        },
+        "distance": 8220,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1840
+          },
+          "uik": 1840,
+          "district": "Приморский район",
+          "tik": 58,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

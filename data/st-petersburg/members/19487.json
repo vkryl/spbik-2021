@@ -1,0 +1,94 @@
+{
+  "id": 19487,
+  "data_id": 4784011340817,
+  "name": {
+    "last": "Березкин",
+    "first": "Игорь",
+    "middle": "Павлович"
+  },
+  "birthdate": {
+    "day": 7,
+    "month": 8,
+    "year": 1964
+  },
+  "district": "Невский район",
+  "age": 57,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Березкин",
+    "first": "Павел"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1450
+    },
+    "uik": 1450,
+    "district": "Невский район",
+    "tik": 50,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_building": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 7205
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": 19500
+      }
+    },
+    "spouse": {
+      "7205": {
+        "strong_evidence": "strong_role",
+        "age_difference": -13,
+        "name": {
+          "last": "Березкина",
+          "first": "Ирина",
+          "middle": "Викторовна"
+        },
+        "distance": 19190,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 20
+          },
+          "tik": 20,
+          "district": "Пушкинский район",
+          "gik": "СПбИК"
+        }
+      },
+      "19500": {
+        "strong_evidence": "same_building",
+        "age_difference": 0,
+        "name": {
+          "last": "Березкина",
+          "first": "Ирина",
+          "middle": "Николаевна"
+        },
+        "distance": 0,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1451
+          },
+          "uik": 1451,
+          "district": "Невский район",
+          "tik": 50,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

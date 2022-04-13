@@ -1,0 +1,69 @@
+{
+  "id": 5263,
+  "data_id": 4784009228174,
+  "name": {
+    "last": "Авдеева",
+    "first": "Наталья",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 15,
+    "month": 12,
+    "year": 1993
+  },
+  "district": "Курортный район",
+  "age": 27,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Авдеев",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1273
+    },
+    "uik": 1273,
+    "district": "Курортный район",
+    "tik": 13,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 5143
+      }
+    },
+    "mother": {
+      "5143": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 35,
+        "name": {
+          "last": "Авдеева",
+          "first": "Татьяна",
+          "middle": "Ивановна"
+        },
+        "distance": 14607,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1260
+          },
+          "uik": 1260,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

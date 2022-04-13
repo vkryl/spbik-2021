@@ -1,0 +1,94 @@
+{
+  "id": 15261,
+  "data_id": 4784004380079,
+  "name": {
+    "last": "Романенко",
+    "first": "Евгений",
+    "middle": "Сергеевич"
+  },
+  "birthdate": {
+    "day": 26,
+    "month": 1,
+    "year": 1995
+  },
+  "district": "Калининский район",
+  "age": 26,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Романенко",
+    "first": "Сергей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 430
+    },
+    "uik": 430,
+    "district": "Калининский район",
+    "tik": 38,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 20407
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 19274
+      }
+    },
+    "spouse": {
+      "20407": {
+        "strong_evidence": "strong_role",
+        "age_difference": 3,
+        "name": {
+          "last": "Романенко",
+          "first": "Надежда",
+          "middle": "Андреевна"
+        },
+        "distance": 15760,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 53
+          },
+          "tik": 53,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "19274": {
+        "age_difference": 4,
+        "name": {
+          "last": "Романенко",
+          "first": "Ян",
+          "middle": "Сергеевич"
+        },
+        "distance": 12835,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1500
+          },
+          "uik": 1500,
+          "district": "Невский район",
+          "tik": 49,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

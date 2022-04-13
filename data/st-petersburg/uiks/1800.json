@@ -1,0 +1,200 @@
+{
+  "name": "Участковая избирательная комиссия №1800",
+  "id": 1800,
+  "type": "uik",
+  "data_id": 4784023212718,
+  "has_koib": false,
+  "district": "Приморский район",
+  "electoral_districts": {
+    "federal": 215,
+    "city": 3,
+    "municipality": {
+      "Ланское": 2
+    }
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "215": 13,
+        "total_count": 13,
+        "winner_count": 1
+      },
+      "city": {
+        "3": 5,
+        "total_count": 5,
+        "winner_count": 1
+      },
+      "municipality": {
+        "total_count": 20,
+        "winner_count": 5,
+        "Ланское": {
+          "2": 20,
+          "total_count": 20,
+          "winner_count": 5
+        }
+      }
+    },
+    "protocol_count": 5,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 3,
+    "members": {
+      "relative_guesses": {
+        "total_count": 31,
+        "members_with_guesses": 5,
+        "strong_count": {
+          "strong_role": 9,
+          "works_in_parent_district_commission": 1,
+          "same_electoral_district": 1
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №1800": 5
+        }
+      }
+    }
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 1172,
+      "party_abstained_count": 804,
+      "party_registered_count": 1976,
+      "person_voters_count": 1052,
+      "person_abstained_count": 924,
+      "person_registered_count": 1976,
+      "max_attached_count": 155,
+      "only_party_voters_count": 120,
+      "no_city_count_max": 119,
+      "no_city_registered_count": 71,
+      "no_other_registered_count": 71,
+      "no_other_registered_count_formula": [
+        {
+          "key": "federal.registered_count.person",
+          "value": 1976,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.registered_count.person",
+          "value": 1905,
+          "isNegative": true
+        }
+      ],
+      "only_city_count_max": 1,
+      "no_municipality_count": 2,
+      "no_other_count": 2,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 1052,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "municipality.voters_count.person",
+          "value": 1050,
+          "isNegative": true
+        }
+      ],
+      "no_municipality_count_max": 122,
+      "no_municipality_registered_count": 71
+    },
+    "city": {
+      "party_voters_count": 1053,
+      "party_abstained_count": 852,
+      "party_registered_count": 1905,
+      "person_voters_count": 1053,
+      "person_abstained_count": 852,
+      "person_registered_count": 1905,
+      "no_federal_count": 1,
+      "no_other_count": 3,
+      "no_other_count_formula": [
+        {
+          "key": "city.voters_count.person",
+          "value": 1053,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "municipality.voters_count.person",
+          "value": 1050,
+          "isNegative": true
+        }
+      ],
+      "only_federal_count_max": 119,
+      "only_federal_registered_count": 71,
+      "no_municipality_count": 3
+    },
+    "municipality": {
+      "person_voters_count": 1050,
+      "person_abstained_count": 855,
+      "person_registered_count": 1905,
+      "only_federal_count": 2,
+      "only_federal_count_max": 122,
+      "only_federal_registered_count": 71,
+      "only_city_count": 3
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 9,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 137,
+  "voting_address_id": 138,
+  "awards": {
+    "thanks": 1
+  },
+  "members": {
+    "chairman_id": 3329,
+    "vice_chairman_id": 3330,
+    "secretary_id": 3331,
+    "other_ids": [
+      3332,
+      3333,
+      3334,
+      3335,
+      3336,
+      3337,
+      3338,
+      3339,
+      3340
+    ],
+    "assigned_by_stats": {
+      "0": 1,
+      "5": 1,
+      "8": 1,
+      "10": 4,
+      "11": 1,
+      "87": 1
+    },
+    "gender_stats": {
+      "male": 7,
+      "female": 5
+    },
+    "age_stats": {
+      "23": 2,
+      "30": 2,
+      "31": 1,
+      "32": 2,
+      "34": 1,
+      "41": 1,
+      "60": 1,
+      "65": 1,
+      "68": 1
+    },
+    "source_date": 1633480416299
+  },
+  "election_ids": [
+    1,
+    2,
+    4
+  ]
+}

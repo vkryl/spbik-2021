@@ -1,0 +1,94 @@
+{
+  "id": 17141,
+  "data_id": 4784007455362,
+  "name": {
+    "last": "Морозова",
+    "first": "Анна",
+    "middle": "Андреевна"
+  },
+  "birthdate": {
+    "day": 23,
+    "month": 10,
+    "year": 1982
+  },
+  "district": "Красногвардейский район",
+  "age": 38,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Морозов",
+    "first": "Андрей"
+  },
+  "role_id": 3,
+  "assigned_by_id": 25,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 930
+    },
+    "uik": 930,
+    "district": "Красногвардейский район",
+    "tik": 44,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 5275
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 179
+      }
+    },
+    "spouse": {
+      "5275": {
+        "strong_evidence": "strong_role",
+        "age_difference": -10,
+        "name": {
+          "last": "Морозов",
+          "first": "Лев",
+          "middle": "Дмитриевич"
+        },
+        "distance": 6057,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 14
+          },
+          "tik": 14,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "179": {
+        "age_difference": -5,
+        "name": {
+          "last": "Морозов",
+          "first": "Михаил",
+          "middle": "Андреевич"
+        },
+        "distance": 8133,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 11
+          },
+          "uik": 11,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": 12216,
+  "data_id": 4784030198650,
+  "name": {
+    "last": "Крупенин",
+    "first": "Михаил",
+    "middle": "Валерьевич"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 4,
+    "year": 1987
+  },
+  "district": "Центральный район",
+  "age": 34,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Крупенин",
+    "first": "Валерий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2237
+    },
+    "uik": 2237,
+    "district": "Центральный район",
+    "tik": 30,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 12215
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 14415
+      }
+    },
+    "siblings": {
+      "12215": {
+        "strong_evidence": "same_commission",
+        "age_difference": -11,
+        "name": {
+          "last": "Крупенин",
+          "first": "Артем",
+          "middle": "Валерьевич"
+        },
+        "distance": 0,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2237
+          },
+          "uik": 2237,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      },
+      "14415": {
+        "age_difference": -5,
+        "name": {
+          "last": "Крупенина",
+          "first": "Яна",
+          "middle": "Валерьевна"
+        },
+        "distance": 13417,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 284
+          },
+          "uik": 284,
+          "district": "Выборгский район",
+          "tik": 35,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

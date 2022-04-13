@@ -1,0 +1,96 @@
+{
+  "id": 6450,
+  "data_id": 4784012316964,
+  "name": {
+    "last": "Добряков",
+    "first": "Алексей",
+    "middle": "Борисович"
+  },
+  "birthdate": {
+    "day": 15,
+    "month": 7,
+    "year": 1976
+  },
+  "district": "Петроградский район",
+  "age": 45,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Добряков",
+    "first": "Борис"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 18
+    },
+    "tik": 18,
+    "district": "Петроградский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "11358",
+          "17624"
+        ]
+      }
+    },
+    "spouse": {
+      "11358": {
+        "strong_evidence": "strong_role",
+        "age_difference": -7,
+        "name": {
+          "last": "Добрякова",
+          "first": "Надежда",
+          "middle": "Владимировна"
+        },
+        "distance": 13948,
+        "district": "Московский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1405
+          },
+          "uik": 1405,
+          "district": "Московский район",
+          "tik": 27,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "17624": {
+        "strong_evidence": "strong_role",
+        "age_difference": 31,
+        "name": {
+          "last": "Добрякова",
+          "first": "Лидия",
+          "middle": "Андреевна"
+        },
+        "distance": 9560,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1033
+          },
+          "uik": 1033,
+          "district": "Красногвардейский район",
+          "tik": 45,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

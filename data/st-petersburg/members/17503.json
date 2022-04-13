@@ -1,0 +1,96 @@
+{
+  "id": 17503,
+  "data_id": 27820001310193,
+  "name": {
+    "last": "Истомина",
+    "first": "Василиса",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 4,
+    "month": 8,
+    "year": 1984
+  },
+  "district": "Красногвардейский район",
+  "age": 37,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Истомин",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 196,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 45
+    },
+    "tik": 45,
+    "district": "Красногвардейский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "6271",
+          "8545"
+        ]
+      }
+    },
+    "spouse": {
+      "8545": {
+        "strong_evidence": "strong_role",
+        "age_difference": 9,
+        "name": {
+          "last": "Истомин",
+          "first": "Андрей",
+          "middle": "Васильевич"
+        },
+        "distance": 4781,
+        "district": "Выборгский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 339
+          },
+          "uik": 339,
+          "district": "Выборгский район",
+          "tik": 22,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "6271": {
+        "strong_evidence": "strong_role",
+        "age_difference": 30,
+        "name": {
+          "last": "Истомина",
+          "first": "Валентина",
+          "middle": "Анатольевна"
+        },
+        "distance": 2148,
+        "district": "Калининский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 519
+          },
+          "uik": 519,
+          "district": "Калининский район",
+          "tik": 17,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

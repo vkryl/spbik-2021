@@ -1,0 +1,156 @@
+{
+  "name": "Участковая избирательная комиссия №1713",
+  "id": 1713,
+  "type": "uik",
+  "data_id": 4784013198853,
+  "has_koib": true,
+  "district": "Петродворцовый район",
+  "electoral_districts": {
+    "federal": 212,
+    "city": 19
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "212": 14,
+        "total_count": 14,
+        "winner_count": 1
+      },
+      "city": {
+        "19": 6,
+        "total_count": 6,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 14,
+        "members_with_guesses": 4,
+        "strong_count": {
+          "strong_role": 4
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №1713": 4
+        }
+      }
+    }
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 813,
+      "party_abstained_count": 1218,
+      "party_registered_count": 2031,
+      "person_voters_count": 813,
+      "person_abstained_count": 1218,
+      "person_registered_count": 2031,
+      "max_attached_count": 27,
+      "no_city_count": 21,
+      "no_other_count": 21,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 813,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.person",
+          "value": 792,
+          "isNegative": true
+        }
+      ],
+      "no_city_registered_count": 14,
+      "no_other_registered_count": 14,
+      "no_other_registered_count_formula": [
+        {
+          "key": "federal.registered_count.person",
+          "value": 2031,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.registered_count.person",
+          "value": 2017,
+          "isNegative": true
+        }
+      ]
+    },
+    "city": {
+      "party_voters_count": 792,
+      "party_abstained_count": 1225,
+      "party_registered_count": 2017,
+      "person_voters_count": 792,
+      "person_abstained_count": 1225,
+      "person_registered_count": 2017,
+      "only_federal_count": 21,
+      "only_federal_registered_count": 14
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 55,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 897,
+  "awards": {
+    "thanks": 1
+  },
+  "members": {
+    "chairman_id": 21108,
+    "vice_chairman_id": 21109,
+    "secretary_id": 21110,
+    "other_ids": [
+      21111,
+      21112,
+      21113,
+      21114,
+      21115,
+      21116,
+      21117,
+      21118,
+      21119
+    ],
+    "assigned_by_stats": {
+      "5": 1,
+      "8": 1,
+      "11": 1,
+      "13": 4,
+      "80": 1,
+      "81": 1
+    },
+    "gender_stats": {
+      "male": 2,
+      "female": 10
+    },
+    "age_stats": {
+      "31": 1,
+      "35": 1,
+      "41": 1,
+      "42": 1,
+      "46": 1,
+      "49": 1,
+      "56": 2,
+      "58": 1,
+      "61": 1,
+      "63": 1,
+      "66": 1
+    },
+    "source_date": 1633482047976
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

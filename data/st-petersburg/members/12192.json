@@ -1,0 +1,147 @@
+{
+  "id": 12192,
+  "data_id": 4784030171295,
+  "name": {
+    "last": "Куликова",
+    "first": "Ирина",
+    "middle": "Николаевна"
+  },
+  "birthdate": {
+    "day": 13,
+    "month": 9,
+    "year": 1970
+  },
+  "district": "Центральный район",
+  "age": 51,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Куликов",
+    "first": "Николай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 25,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2235
+    },
+    "uik": 2235,
+    "district": "Центральный район",
+    "tik": 30,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_parent_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 12191
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 12475
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 36
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 9693
+      }
+    },
+    "children": {
+      "12191": {
+        "strong_evidence": "same_commission",
+        "age_difference": -24,
+        "name": {
+          "last": "Куликова",
+          "first": "Евдокия",
+          "middle": "Данииловна"
+        },
+        "distance": 0,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2235
+          },
+          "uik": 2235,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      },
+      "12475": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -23,
+        "name": {
+          "last": "Куликова",
+          "first": "Кристина",
+          "middle": "Анатольевна"
+        },
+        "distance": 1458,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2257
+          },
+          "uik": 2257,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "36": {
+        "age_difference": -10,
+        "name": {
+          "last": "Куликова",
+          "first": "Ирина",
+          "middle": "Николаевна"
+        },
+        "distance": 4376,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1
+          },
+          "uik": 1,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      },
+      "9693": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -16,
+        "name": {
+          "last": "Куликова",
+          "first": "Наталья",
+          "middle": "Николаевна"
+        },
+        "distance": 9771,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1573
+          },
+          "uik": 1573,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

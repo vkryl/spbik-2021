@@ -1,0 +1,114 @@
+{
+  "id": 13635,
+  "data_id": 4784002307643,
+  "name": {
+    "last": "Новиков",
+    "first": "Степан",
+    "middle": "Евгеньевич"
+  },
+  "birthdate": {
+    "day": 13,
+    "month": 10,
+    "year": 1994
+  },
+  "district": "Василеостровский район",
+  "age": 26,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Новиков",
+    "first": "Евгений"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 126
+    },
+    "uik": 126,
+    "district": "Василеостровский район",
+    "tik": 33,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 3
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          24,
+          14482,
+          20061
+        ]
+      }
+    },
+    "mother": {
+      "24": {
+        "strong_evidence": "strong_role",
+        "age_difference": 21,
+        "name": {
+          "last": "Новикова",
+          "first": "Светлана",
+          "middle": "Геннадьевна"
+        },
+        "distance": 4181,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 1
+          },
+          "tik": 1,
+          "district": "Адмиралтейский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "14482": {
+        "strong_evidence": "strong_role",
+        "age_difference": 4,
+        "name": {
+          "last": "Новикова",
+          "first": "Ольга",
+          "middle": "Андреевна"
+        },
+        "distance": 5912,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 36
+          },
+          "tik": 36,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      },
+      "20061": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Новикова",
+          "first": "Алина",
+          "middle": "Олеговна"
+        },
+        "distance": 12569,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 52
+          },
+          "tik": 52,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

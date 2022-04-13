@@ -1,0 +1,171 @@
+{
+  "id": 17468,
+  "data_id": 4784007292560,
+  "name": {
+    "last": "Крылов",
+    "first": "Максим",
+    "middle": "Викторович"
+  },
+  "birthdate": {
+    "day": 11,
+    "month": 2,
+    "year": 2000
+  },
+  "district": "Красногвардейский район",
+  "age": 21,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Крылов",
+    "first": "Виктор"
+  },
+  "role_id": 4,
+  "assigned_by_id": 6,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 956
+    },
+    "uik": 956,
+    "district": "Красногвардейский район",
+    "tik": 44,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 5,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1,
+        "same_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 14006
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 17488
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 17462
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          13024,
+          23763
+        ]
+      }
+    },
+    "mother": {
+      "17462": {
+        "strong_evidence": "same_commission",
+        "age_difference": 23,
+        "name": {
+          "last": "Крылова",
+          "first": "Виктория",
+          "middle": "Николаевна"
+        },
+        "distance": 0,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 956
+          },
+          "uik": 956,
+          "district": "Красногвардейский район",
+          "tik": 44,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "14006": {
+        "strong_evidence": "strong_role",
+        "age_difference": 7,
+        "name": {
+          "last": "Крылова",
+          "first": "Виктория",
+          "middle": "Алексеевна"
+        },
+        "distance": 8147,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 35
+          },
+          "tik": 35,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      },
+      "17488": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 9,
+        "name": {
+          "last": "Крылова",
+          "first": "Алиса",
+          "middle": "Александровна"
+        },
+        "distance": 1326,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 958
+          },
+          "uik": 958,
+          "district": "Красногвардейский район",
+          "tik": 44,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "13024": {
+        "age_difference": 12,
+        "name": {
+          "last": "Крылов",
+          "first": "Михаил",
+          "middle": "Викторович"
+        },
+        "distance": 9842,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 134
+          },
+          "uik": 134,
+          "district": "Василеостровский район",
+          "tik": 32,
+          "gik": "СПбИК"
+        }
+      },
+      "23763": {
+        "age_difference": 12,
+        "name": {
+          "last": "Крылов",
+          "first": "Сергей",
+          "middle": "Викторович"
+        },
+        "distance": 4469,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2206
+          },
+          "uik": 2206,
+          "district": "Центральный район",
+          "tik": 64,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

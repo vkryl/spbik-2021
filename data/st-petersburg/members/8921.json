@@ -1,0 +1,91 @@
+{
+  "id": 8921,
+  "data_id": 4784024127684,
+  "name": {
+    "last": "Румянцева",
+    "first": "Анна",
+    "middle": "Викторовна"
+  },
+  "birthdate": {
+    "day": 7,
+    "month": 1,
+    "year": 1987
+  },
+  "district": "Выборгский район",
+  "age": 34,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Румянцев",
+    "first": "Виктор"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 370
+    },
+    "uik": 370,
+    "district": "Выборгский район",
+    "tik": 22,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          18245,
+          22327
+        ]
+      }
+    },
+    "spouse": {
+      "18245": {
+        "strong_evidence": "strong_role",
+        "age_difference": 17,
+        "name": {
+          "last": "Румянцев",
+          "first": "Николай",
+          "middle": "Анатольевич"
+        },
+        "distance": 20358,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 47
+          },
+          "tik": 47,
+          "district": "Красносельский район",
+          "gik": "СПбИК"
+        }
+      },
+      "22327": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Румянцев",
+          "first": "Дмитрий",
+          "middle": "Евгеньевич"
+        },
+        "distance": 32521,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 59
+          },
+          "tik": 59,
+          "district": "Пушкинский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

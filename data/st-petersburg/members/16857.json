@@ -1,0 +1,119 @@
+{
+  "id": 16857,
+  "data_id": 4784006325595,
+  "name": {
+    "last": "Михайлова",
+    "first": "Полина",
+    "middle": "Ильинична"
+  },
+  "birthdate": {
+    "day": 12,
+    "month": 9,
+    "year": 1995
+  },
+  "district": "Колпинский район",
+  "age": 26,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Михайлов",
+    "first": "Илья"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 879
+    },
+    "uik": 879,
+    "district": "Колпинский район",
+    "tik": 43,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          11448,
+          14481
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 16963
+      }
+    },
+    "spouse": {
+      "14481": {
+        "strong_evidence": "strong_role",
+        "age_difference": 3,
+        "name": {
+          "last": "Михайлов",
+          "first": "Павел",
+          "middle": "Николаевич"
+        },
+        "distance": 27777,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 36
+          },
+          "tik": 36,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "11448": {
+        "strong_evidence": "strong_role",
+        "age_difference": 40,
+        "name": {
+          "last": "Михайлова",
+          "first": "Марина",
+          "middle": "Васильевна"
+        },
+        "distance": 30625,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 28
+          },
+          "tik": 28,
+          "district": "Приморский район",
+          "gik": "СПбИК"
+        }
+      },
+      "16963": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 36,
+        "name": {
+          "last": "Михайлова",
+          "first": "Светлана",
+          "middle": "Алексеевна"
+        },
+        "distance": 4577,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 888
+          },
+          "uik": 888,
+          "district": "Колпинский район",
+          "tik": 43,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

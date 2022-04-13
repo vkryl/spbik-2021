@@ -1,0 +1,863 @@
+{
+  "commission_name": "УИК №1414",
+  "ballot_name": "Выборы депутатов Государственной Думы Федерального Собрания Российской Федерации восьмого созыва",
+  "name": "Итоги голосования по одномандатному избирательному округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 1414
+  },
+  "electoral_district": {
+    "type": "federal",
+    "id": 218
+  },
+  "data_id": 0,
+  "ballot_data_id": 4784027346566,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 27,
+      "position": 2,
+      "percentage": 20.588235294117645,
+      "valid_percentage": 21.21212121212121,
+      "registered_percentage": 3.783783783783784
+    },
+    "turnout": {
+      "count": 68,
+      "percentage": 18.37837837837838,
+      "walk_by_count": 68,
+      "walk_by_percentage": 18.37837837837838,
+      "on_home_count": 0,
+      "on_home_percentage": 0,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 66,
+      "valid_percentage": 17.83783783783784,
+      "invalid_count": 2,
+      "invalid_percentage": 0.5405405405405406,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 14,
+      "winning_percentage": 20.588235294117645,
+      "effective_count": 66,
+      "losing_count": 52,
+      "losing_percentage": 76.47058823529412,
+      "other_count": 2,
+      "other_percentage": 2.941176470588235,
+      "by_place": {
+        "#1": {
+          "count": 14,
+          "percentage": 20.588235294117645
+        },
+        "#2": {
+          "count": 13,
+          "percentage": 19.11764705882353
+        },
+        "#3": {
+          "count": 12,
+          "percentage": 17.647058823529413
+        },
+        "#4": {
+          "count": 8,
+          "percentage": 11.76470588235294,
+          "supported_by_smart_vote": true
+        },
+        "#5": {
+          "count": 7,
+          "percentage": 10.294117647058822
+        },
+        "#7.333333333333333": {
+          "count": 6,
+          "percentage": 8.823529411764707
+        },
+        "#6": {
+          "count": 3,
+          "percentage": 4.411764705882353
+        },
+        "#8": {
+          "count": 3,
+          "percentage": 4.411764705882353
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "voters": {
+      "initially_registered_count": 370,
+      "registered_count": 370,
+      "walk_by_count": 68,
+      "on_home_count": 0,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    },
+    "papers": {
+      "received_count": 400,
+      "destroyed_count": 332,
+      "stationary_box_count": 68,
+      "portable_box_count": 0,
+      "valid_count": 66,
+      "invalid_count": 2,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Дулеба Валерий Владимирович",
+      "position": 2,
+      "candidate_id": 27,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 14,
+        "place": 1,
+        "percentage": 20.588235294117645,
+        "valid_percentage": 21.21212121212121,
+        "registered_percentage": 3.783783783783784,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "26": {
+          "percentage": 21.21212121212121,
+          "valid_percentage": 21.875
+        },
+        "28": {
+          "percentage": 21.53846153846154,
+          "valid_percentage": 22.22222222222222
+        },
+        "29": {
+          "percentage": 20.8955223880597,
+          "valid_percentage": 21.53846153846154
+        },
+        "30": {
+          "percentage": 21.21212121212121,
+          "valid_percentage": 21.875
+        },
+        "31": {
+          "percentage": 21.21212121212121,
+          "valid_percentage": 21.875
+        },
+        "32": {
+          "percentage": 25.454545454545453,
+          "valid_percentage": 26.41509433962264
+        },
+        "33": {
+          "percentage": 25,
+          "valid_percentage": 25.925925925925924
+        },
+        "34": {
+          "percentage": 23.333333333333332,
+          "valid_percentage": 24.137931034482758
+        },
+        "35": {
+          "percentage": 20.8955223880597,
+          "valid_percentage": 21.53846153846154
+        },
+        "36": {
+          "percentage": 20.8955223880597,
+          "valid_percentage": 21.53846153846154
+        },
+        "37": {
+          "percentage": 22.950819672131146,
+          "valid_percentage": 23.728813559322035
+        }
+      }
+    },
+    {
+      "name": "Машкова Екатерина Владиславовна",
+      "position": 7,
+      "candidate_id": 32,
+      "supported_by_party_id": 4,
+      "official_result": {
+        "votes_count": 13,
+        "place": 2,
+        "percentage": 19.11764705882353,
+        "valid_percentage": 19.696969696969695,
+        "registered_percentage": 3.5135135135135136,
+        "winner": false,
+        "lacking_votes_count": 1
+      },
+      "result_without_other_entry": {
+        "26": {
+          "percentage": 19.696969696969695,
+          "valid_percentage": 20.3125
+        },
+        "27": {
+          "percentage": 24.074074074074073,
+          "valid_percentage": 25
+        },
+        "28": {
+          "percentage": 20,
+          "valid_percentage": 20.634920634920633
+        },
+        "29": {
+          "percentage": 19.402985074626866,
+          "valid_percentage": 20
+        },
+        "30": {
+          "percentage": 19.696969696969695,
+          "valid_percentage": 20.3125
+        },
+        "31": {
+          "percentage": 19.696969696969695,
+          "valid_percentage": 20.3125
+        },
+        "33": {
+          "percentage": 23.214285714285715,
+          "valid_percentage": 24.074074074074073
+        },
+        "34": {
+          "percentage": 21.666666666666668,
+          "valid_percentage": 22.413793103448278
+        },
+        "35": {
+          "percentage": 19.402985074626866,
+          "valid_percentage": 20
+        },
+        "36": {
+          "percentage": 19.402985074626866,
+          "valid_percentage": 20
+        },
+        "37": {
+          "percentage": 21.311475409836063,
+          "valid_percentage": 22.033898305084744
+        }
+      }
+    },
+    {
+      "name": "Милонов Виталий Валентинович",
+      "position": 8,
+      "candidate_id": 33,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 12,
+        "place": 3,
+        "percentage": 17.647058823529413,
+        "valid_percentage": 18.181818181818183,
+        "registered_percentage": 3.2432432432432434,
+        "winner": false,
+        "lacking_votes_count": 2
+      },
+      "result_without_other_entry": {
+        "26": {
+          "percentage": 18.181818181818183,
+          "valid_percentage": 18.75
+        },
+        "27": {
+          "percentage": 22.22222222222222,
+          "valid_percentage": 23.076923076923077
+        },
+        "28": {
+          "percentage": 18.461538461538463,
+          "valid_percentage": 19.047619047619047
+        },
+        "29": {
+          "percentage": 17.91044776119403,
+          "valid_percentage": 18.461538461538463
+        },
+        "30": {
+          "percentage": 18.181818181818183,
+          "valid_percentage": 18.75
+        },
+        "31": {
+          "percentage": 18.181818181818183,
+          "valid_percentage": 18.75
+        },
+        "32": {
+          "percentage": 21.818181818181817,
+          "valid_percentage": 22.641509433962266
+        },
+        "34": {
+          "percentage": 20,
+          "valid_percentage": 20.689655172413794
+        },
+        "35": {
+          "percentage": 17.91044776119403,
+          "valid_percentage": 18.461538461538463
+        },
+        "36": {
+          "percentage": 17.91044776119403,
+          "valid_percentage": 18.461538461538463
+        },
+        "37": {
+          "percentage": 19.672131147540984,
+          "valid_percentage": 20.33898305084746
+        }
+      }
+    },
+    {
+      "name": "Орешков Борис Иванович",
+      "position": 9,
+      "candidate_id": 34,
+      "supported_by_party_id": 7,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 8,
+        "place": 4,
+        "percentage": 11.76470588235294,
+        "valid_percentage": 12.121212121212121,
+        "registered_percentage": 2.1621621621621623,
+        "winner": false,
+        "lacking_votes_count": 6
+      },
+      "result_without_other_entry": {
+        "26": {
+          "percentage": 12.121212121212121,
+          "valid_percentage": 12.5
+        },
+        "27": {
+          "percentage": 14.814814814814813,
+          "valid_percentage": 15.384615384615385
+        },
+        "28": {
+          "percentage": 12.307692307692308,
+          "valid_percentage": 12.698412698412698
+        },
+        "29": {
+          "percentage": 11.940298507462686,
+          "valid_percentage": 12.307692307692308
+        },
+        "30": {
+          "percentage": 12.121212121212121,
+          "valid_percentage": 12.5
+        },
+        "31": {
+          "percentage": 12.121212121212121,
+          "valid_percentage": 12.5
+        },
+        "32": {
+          "percentage": 14.545454545454545,
+          "valid_percentage": 15.09433962264151
+        },
+        "33": {
+          "percentage": 14.285714285714285,
+          "valid_percentage": 14.814814814814813
+        },
+        "35": {
+          "percentage": 11.940298507462686,
+          "valid_percentage": 12.307692307692308
+        },
+        "36": {
+          "percentage": 11.940298507462686,
+          "valid_percentage": 12.307692307692308
+        },
+        "37": {
+          "percentage": 13.114754098360656,
+          "valid_percentage": 13.559322033898304
+        }
+      }
+    },
+    {
+      "name": "Шмаков Илья Владимирович",
+      "position": 12,
+      "candidate_id": 37,
+      "supported_by_party_id": 6,
+      "official_result": {
+        "votes_count": 7,
+        "place": 5,
+        "percentage": 10.294117647058822,
+        "valid_percentage": 10.606060606060606,
+        "registered_percentage": 1.891891891891892,
+        "winner": false,
+        "lacking_votes_count": 7
+      },
+      "result_without_other_entry": {
+        "26": {
+          "percentage": 10.606060606060606,
+          "valid_percentage": 10.9375
+        },
+        "27": {
+          "percentage": 12.962962962962962,
+          "valid_percentage": 13.461538461538462
+        },
+        "28": {
+          "percentage": 10.76923076923077,
+          "valid_percentage": 11.11111111111111
+        },
+        "29": {
+          "percentage": 10.44776119402985,
+          "valid_percentage": 10.76923076923077
+        },
+        "30": {
+          "percentage": 10.606060606060606,
+          "valid_percentage": 10.9375
+        },
+        "31": {
+          "percentage": 10.606060606060606,
+          "valid_percentage": 10.9375
+        },
+        "32": {
+          "percentage": 12.727272727272727,
+          "valid_percentage": 13.20754716981132
+        },
+        "33": {
+          "percentage": 12.5,
+          "valid_percentage": 12.962962962962962
+        },
+        "34": {
+          "percentage": 11.666666666666666,
+          "valid_percentage": 12.068965517241379
+        },
+        "35": {
+          "percentage": 10.44776119402985,
+          "valid_percentage": 10.76923076923077
+        },
+        "36": {
+          "percentage": 10.44776119402985,
+          "valid_percentage": 10.76923076923077
+        }
+      }
+    },
+    {
+      "name": "Крупко Сергей Владимирович",
+      "position": 3,
+      "candidate_id": 28,
+      "supported_by_party_id": 13,
+      "official_result": {
+        "votes_count": 3,
+        "place": 6,
+        "percentage": 4.411764705882353,
+        "valid_percentage": 4.545454545454546,
+        "registered_percentage": 0.8108108108108109,
+        "winner": false,
+        "lacking_votes_count": 11
+      },
+      "result_without_other_entry": {
+        "26": {
+          "percentage": 4.545454545454546,
+          "valid_percentage": 4.6875
+        },
+        "27": {
+          "percentage": 5.555555555555555,
+          "valid_percentage": 5.769230769230769
+        },
+        "29": {
+          "percentage": 4.477611940298507,
+          "valid_percentage": 4.615384615384616
+        },
+        "30": {
+          "percentage": 4.545454545454546,
+          "valid_percentage": 4.6875
+        },
+        "31": {
+          "percentage": 4.545454545454546,
+          "valid_percentage": 4.6875
+        },
+        "32": {
+          "percentage": 5.454545454545454,
+          "valid_percentage": 5.660377358490567
+        },
+        "33": {
+          "percentage": 5.357142857142857,
+          "valid_percentage": 5.555555555555555
+        },
+        "34": {
+          "percentage": 5,
+          "valid_percentage": 5.172413793103448
+        },
+        "35": {
+          "percentage": 4.477611940298507,
+          "valid_percentage": 4.615384615384616
+        },
+        "36": {
+          "percentage": 4.477611940298507,
+          "valid_percentage": 4.615384615384616
+        },
+        "37": {
+          "percentage": 4.918032786885246,
+          "valid_percentage": 5.084745762711865
+        }
+      }
+    },
+    {
+      "name": "Бурлаков Алик Викторович",
+      "position": 1,
+      "candidate_id": 26,
+      "supported_by_party_id": 2,
+      "official_result": {
+        "votes_count": 2,
+        "place": 7.333333333333333,
+        "percentage": 2.941176470588235,
+        "valid_percentage": 3.0303030303030303,
+        "registered_percentage": 0.5405405405405406,
+        "winner": false,
+        "same_place_candidate_count": 3.0000000000000027,
+        "lacking_votes_count": 12
+      },
+      "result_without_other_entry": {
+        "27": {
+          "percentage": 3.7037037037037033,
+          "valid_percentage": 3.8461538461538463
+        },
+        "28": {
+          "percentage": 3.076923076923077,
+          "valid_percentage": 3.1746031746031744
+        },
+        "29": {
+          "percentage": 2.9850746268656714,
+          "valid_percentage": 3.076923076923077
+        },
+        "30": {
+          "percentage": 3.0303030303030303,
+          "valid_percentage": 3.125
+        },
+        "31": {
+          "percentage": 3.0303030303030303,
+          "valid_percentage": 3.125
+        },
+        "32": {
+          "percentage": 3.6363636363636362,
+          "valid_percentage": 3.7735849056603774
+        },
+        "33": {
+          "percentage": 3.571428571428571,
+          "valid_percentage": 3.7037037037037033
+        },
+        "34": {
+          "percentage": 3.3333333333333335,
+          "valid_percentage": 3.4482758620689653
+        },
+        "35": {
+          "percentage": 2.9850746268656714,
+          "valid_percentage": 3.076923076923077
+        },
+        "36": {
+          "percentage": 2.9850746268656714,
+          "valid_percentage": 3.076923076923077
+        },
+        "37": {
+          "percentage": 3.278688524590164,
+          "valid_percentage": 3.389830508474576
+        }
+      }
+    },
+    {
+      "name": "Лисовский Сергей Анатольевич",
+      "position": 5,
+      "candidate_id": 30,
+      "supported_by_party_id": 14,
+      "official_result": {
+        "votes_count": 2,
+        "place": 7.333333333333333,
+        "percentage": 2.941176470588235,
+        "valid_percentage": 3.0303030303030303,
+        "registered_percentage": 0.5405405405405406,
+        "winner": false,
+        "same_place_candidate_count": 3.0000000000000027,
+        "lacking_votes_count": 12
+      },
+      "result_without_other_entry": {
+        "26": {
+          "percentage": 3.0303030303030303,
+          "valid_percentage": 3.125
+        },
+        "27": {
+          "percentage": 3.7037037037037033,
+          "valid_percentage": 3.8461538461538463
+        },
+        "28": {
+          "percentage": 3.076923076923077,
+          "valid_percentage": 3.1746031746031744
+        },
+        "29": {
+          "percentage": 2.9850746268656714,
+          "valid_percentage": 3.076923076923077
+        },
+        "31": {
+          "percentage": 3.0303030303030303,
+          "valid_percentage": 3.125
+        },
+        "32": {
+          "percentage": 3.6363636363636362,
+          "valid_percentage": 3.7735849056603774
+        },
+        "33": {
+          "percentage": 3.571428571428571,
+          "valid_percentage": 3.7037037037037033
+        },
+        "34": {
+          "percentage": 3.3333333333333335,
+          "valid_percentage": 3.4482758620689653
+        },
+        "35": {
+          "percentage": 2.9850746268656714,
+          "valid_percentage": 3.076923076923077
+        },
+        "36": {
+          "percentage": 2.9850746268656714,
+          "valid_percentage": 3.076923076923077
+        },
+        "37": {
+          "percentage": 3.278688524590164,
+          "valid_percentage": 3.389830508474576
+        }
+      }
+    },
+    {
+      "name": "Ломакин Юрий Николаевич",
+      "position": 6,
+      "candidate_id": 31,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 2,
+        "place": 7.333333333333333,
+        "percentage": 2.941176470588235,
+        "valid_percentage": 3.0303030303030303,
+        "registered_percentage": 0.5405405405405406,
+        "winner": false,
+        "same_place_candidate_count": 3.0000000000000027,
+        "lacking_votes_count": 12
+      },
+      "result_without_other_entry": {
+        "26": {
+          "percentage": 3.0303030303030303,
+          "valid_percentage": 3.125
+        },
+        "27": {
+          "percentage": 3.7037037037037033,
+          "valid_percentage": 3.8461538461538463
+        },
+        "28": {
+          "percentage": 3.076923076923077,
+          "valid_percentage": 3.1746031746031744
+        },
+        "29": {
+          "percentage": 2.9850746268656714,
+          "valid_percentage": 3.076923076923077
+        },
+        "30": {
+          "percentage": 3.0303030303030303,
+          "valid_percentage": 3.125
+        },
+        "32": {
+          "percentage": 3.6363636363636362,
+          "valid_percentage": 3.7735849056603774
+        },
+        "33": {
+          "percentage": 3.571428571428571,
+          "valid_percentage": 3.7037037037037033
+        },
+        "34": {
+          "percentage": 3.3333333333333335,
+          "valid_percentage": 3.4482758620689653
+        },
+        "35": {
+          "percentage": 2.9850746268656714,
+          "valid_percentage": 3.076923076923077
+        },
+        "36": {
+          "percentage": 2.9850746268656714,
+          "valid_percentage": 3.076923076923077
+        },
+        "37": {
+          "percentage": 3.278688524590164,
+          "valid_percentage": 3.389830508474576
+        }
+      }
+    },
+    {
+      "name": "Крутов Андрей Дмитриевич",
+      "position": 4,
+      "candidate_id": 29,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 1,
+        "place": 8,
+        "percentage": 1.4705882352941175,
+        "valid_percentage": 1.5151515151515151,
+        "registered_percentage": 0.2702702702702703,
+        "winner": false,
+        "lacking_votes_count": 13
+      },
+      "result_without_other_entry": {
+        "26": {
+          "percentage": 1.5151515151515151,
+          "valid_percentage": 1.5625
+        },
+        "27": {
+          "percentage": 1.8518518518518516,
+          "valid_percentage": 1.9230769230769231
+        },
+        "28": {
+          "percentage": 1.5384615384615385,
+          "valid_percentage": 1.5873015873015872
+        },
+        "30": {
+          "percentage": 1.5151515151515151,
+          "valid_percentage": 1.5625
+        },
+        "31": {
+          "percentage": 1.5151515151515151,
+          "valid_percentage": 1.5625
+        },
+        "32": {
+          "percentage": 1.8181818181818181,
+          "valid_percentage": 1.8867924528301887
+        },
+        "33": {
+          "percentage": 1.7857142857142856,
+          "valid_percentage": 1.8518518518518516
+        },
+        "34": {
+          "percentage": 1.6666666666666667,
+          "valid_percentage": 1.7241379310344827
+        },
+        "35": {
+          "percentage": 1.4925373134328357,
+          "valid_percentage": 1.5384615384615385
+        },
+        "36": {
+          "percentage": 1.4925373134328357,
+          "valid_percentage": 1.5384615384615385
+        },
+        "37": {
+          "percentage": 1.639344262295082,
+          "valid_percentage": 1.694915254237288
+        }
+      }
+    },
+    {
+      "name": "Смирнов Александр Владимирович",
+      "position": 10,
+      "candidate_id": 35,
+      "supported_by_party_id": 11,
+      "official_result": {
+        "votes_count": 1,
+        "place": 8,
+        "percentage": 1.4705882352941175,
+        "valid_percentage": 1.5151515151515151,
+        "registered_percentage": 0.2702702702702703,
+        "winner": false,
+        "lacking_votes_count": 13
+      },
+      "result_without_other_entry": {
+        "26": {
+          "percentage": 1.5151515151515151,
+          "valid_percentage": 1.5625
+        },
+        "27": {
+          "percentage": 1.8518518518518516,
+          "valid_percentage": 1.9230769230769231
+        },
+        "28": {
+          "percentage": 1.5384615384615385,
+          "valid_percentage": 1.5873015873015872
+        },
+        "29": {
+          "percentage": 1.4925373134328357,
+          "valid_percentage": 1.5384615384615385
+        },
+        "30": {
+          "percentage": 1.5151515151515151,
+          "valid_percentage": 1.5625
+        },
+        "31": {
+          "percentage": 1.5151515151515151,
+          "valid_percentage": 1.5625
+        },
+        "32": {
+          "percentage": 1.8181818181818181,
+          "valid_percentage": 1.8867924528301887
+        },
+        "33": {
+          "percentage": 1.7857142857142856,
+          "valid_percentage": 1.8518518518518516
+        },
+        "34": {
+          "percentage": 1.6666666666666667,
+          "valid_percentage": 1.7241379310344827
+        },
+        "36": {
+          "percentage": 1.4925373134328357,
+          "valid_percentage": 1.5384615384615385
+        },
+        "37": {
+          "percentage": 1.639344262295082,
+          "valid_percentage": 1.694915254237288
+        }
+      }
+    },
+    {
+      "name": "Цымбалюк Максим Дмитриевич",
+      "position": 11,
+      "candidate_id": 36,
+      "supported_by_party_id": 12,
+      "official_result": {
+        "votes_count": 1,
+        "place": 8,
+        "percentage": 1.4705882352941175,
+        "valid_percentage": 1.5151515151515151,
+        "registered_percentage": 0.2702702702702703,
+        "winner": false,
+        "lacking_votes_count": 13
+      },
+      "result_without_other_entry": {
+        "26": {
+          "percentage": 1.5151515151515151,
+          "valid_percentage": 1.5625
+        },
+        "27": {
+          "percentage": 1.8518518518518516,
+          "valid_percentage": 1.9230769230769231
+        },
+        "28": {
+          "percentage": 1.5384615384615385,
+          "valid_percentage": 1.5873015873015872
+        },
+        "29": {
+          "percentage": 1.4925373134328357,
+          "valid_percentage": 1.5384615384615385
+        },
+        "30": {
+          "percentage": 1.5151515151515151,
+          "valid_percentage": 1.5625
+        },
+        "31": {
+          "percentage": 1.5151515151515151,
+          "valid_percentage": 1.5625
+        },
+        "32": {
+          "percentage": 1.8181818181818181,
+          "valid_percentage": 1.8867924528301887
+        },
+        "33": {
+          "percentage": 1.7857142857142856,
+          "valid_percentage": 1.8518518518518516
+        },
+        "34": {
+          "percentage": 1.6666666666666667,
+          "valid_percentage": 1.7241379310344827
+        },
+        "35": {
+          "percentage": 1.4925373134328357,
+          "valid_percentage": 1.5384615384615385
+        },
+        "37": {
+          "percentage": 1.639344262295082,
+          "valid_percentage": 1.694915254237288
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1414
+    },
+    "uik": 1414,
+    "district": "Московский район",
+    "tik": 27,
+    "gik": "СПбИК"
+  }
+}

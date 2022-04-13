@@ -1,0 +1,69 @@
+{
+  "id": 2434,
+  "data_id": 4784020465769,
+  "name": {
+    "last": "Карпушкин",
+    "first": "Сергей",
+    "middle": "Михайлович"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 11,
+    "year": 1990
+  },
+  "district": "Кировский район",
+  "age": 30,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Карпушкин",
+    "first": "Михаил"
+  },
+  "role_id": 3,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 640
+    },
+    "uik": 640,
+    "district": "Кировский район",
+    "tik": 7,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 2432
+      }
+    },
+    "mother": {
+      "2432": {
+        "strong_evidence": "same_commission",
+        "age_difference": 25,
+        "name": {
+          "last": "Карпушкина",
+          "first": "Алла",
+          "middle": "Дмитриевна"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 640
+          },
+          "uik": 640,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

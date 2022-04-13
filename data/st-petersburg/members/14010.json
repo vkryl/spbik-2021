@@ -1,0 +1,69 @@
+{
+  "id": 14010,
+  "data_id": 27820001306498,
+  "name": {
+    "last": "Пимонов",
+    "first": "Михаил",
+    "middle": "Юрьевич"
+  },
+  "birthdate": {
+    "day": 21,
+    "month": 1,
+    "year": 1979
+  },
+  "district": "Выборгский район",
+  "age": 42,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Пимонов",
+    "first": "Юрий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 18,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 35
+    },
+    "tik": 35,
+    "district": "Выборгский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "13268"
+      }
+    },
+    "mother": {
+      "13268": {
+        "strong_evidence": "strong_role",
+        "age_difference": 24,
+        "name": {
+          "last": "Пимонова",
+          "first": "Лариса",
+          "middle": "Георгиевна"
+        },
+        "distance": 8483,
+        "district": "Василеостровский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 154
+          },
+          "uik": 154,
+          "district": "Василеостровский район",
+          "tik": 32,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

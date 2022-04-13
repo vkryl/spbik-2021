@@ -1,0 +1,96 @@
+{
+  "id": 16575,
+  "data_id": 4784020127489,
+  "name": {
+    "last": "Калинина",
+    "first": "Ольга",
+    "middle": "Вячеславовна"
+  },
+  "birthdate": {
+    "day": 3,
+    "month": 3,
+    "year": 1978
+  },
+  "district": "Кировский район",
+  "age": 43,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Калинин",
+    "first": "Вячеслава"
+  },
+  "role_id": 4,
+  "assigned_by_id": 2,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 768
+    },
+    "uik": 768,
+    "district": "Кировский район",
+    "tik": 42,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 23213
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 16461
+      }
+    },
+    "spouse": {
+      "23213": {
+        "strong_evidence": "strong_role",
+        "age_difference": -9,
+        "name": {
+          "last": "Калинин",
+          "first": "Олег",
+          "middle": "Витальевич"
+        },
+        "distance": 11389,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 62
+          },
+          "tik": 62,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "16461": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -18,
+        "name": {
+          "last": "Калинина",
+          "first": "Валерия",
+          "middle": "Сергеевна"
+        },
+        "distance": 778,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 759
+          },
+          "uik": 759,
+          "district": "Кировский район",
+          "tik": 42,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

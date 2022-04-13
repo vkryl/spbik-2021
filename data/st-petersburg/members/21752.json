@@ -1,0 +1,94 @@
+{
+  "id": 21752,
+  "data_id": 4784028131618,
+  "name": {
+    "last": "Осипова",
+    "first": "Александра",
+    "middle": "Мурадовна"
+  },
+  "birthdate": {
+    "day": 11,
+    "month": 7,
+    "year": 1981
+  },
+  "district": "Приморский район",
+  "age": 40,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Осипов",
+    "first": "Мурад"
+  },
+  "role_id": 2,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1908
+    },
+    "uik": 1908,
+    "district": "Приморский район",
+    "tik": 57,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 2313
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 21688
+      }
+    },
+    "spouse": {
+      "2313": {
+        "strong_evidence": "strong_role",
+        "age_difference": 15,
+        "name": {
+          "last": "Осипов",
+          "first": "Алексей",
+          "middle": "Анатольевич"
+        },
+        "distance": 14131,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 7
+          },
+          "tik": 7,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      },
+      "21688": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 8,
+        "name": {
+          "last": "Осипов",
+          "first": "Геннадий",
+          "middle": "Николаевич"
+        },
+        "distance": 546,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1902
+          },
+          "uik": 1902,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

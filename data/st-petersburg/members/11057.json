@@ -1,0 +1,97 @@
+{
+  "id": 11057,
+  "data_id": 4784027259659,
+  "name": {
+    "last": "Курганов",
+    "first": "Владимир",
+    "middle": "Николаевич"
+  },
+  "birthdate": {
+    "day": 10,
+    "month": 4,
+    "year": 1958
+  },
+  "district": "Московский район",
+  "age": 63,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Курганов",
+    "first": "Николай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1376
+    },
+    "uik": 1376,
+    "district": "Московский район",
+    "tik": 27,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 11054
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 11068
+      }
+    },
+    "spouse": {
+      "11054": {
+        "strong_evidence": "same_commission",
+        "age_difference": 0,
+        "name": {
+          "last": "Курганова",
+          "first": "Ольга",
+          "middle": "Васильевна"
+        },
+        "distance": 0,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1376
+          },
+          "uik": 1376,
+          "district": "Московский район",
+          "tik": 27,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "11068": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -32,
+        "name": {
+          "last": "Курганов",
+          "first": "Алексей",
+          "middle": "Владимирович"
+        },
+        "distance": 742,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1377
+          },
+          "uik": 1377,
+          "district": "Московский район",
+          "tik": 27,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

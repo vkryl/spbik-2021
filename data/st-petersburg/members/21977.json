@@ -1,0 +1,69 @@
+{
+  "id": 21977,
+  "data_id": 27820001311860,
+  "name": {
+    "last": "Шевелин",
+    "first": "Федор",
+    "middle": "Александрович"
+  },
+  "birthdate": {
+    "day": 21,
+    "month": 3,
+    "year": 1982
+  },
+  "district": "Приморский район",
+  "age": 39,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Шевелин",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 58
+    },
+    "tik": 58,
+    "district": "Приморский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "10166"
+      }
+    },
+    "spouse": {
+      "10166": {
+        "strong_evidence": "strong_role",
+        "age_difference": -17,
+        "name": {
+          "last": "Шевелина",
+          "first": "Ирина",
+          "middle": "Евгеньевна"
+        },
+        "distance": 13200,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 995
+          },
+          "uik": 995,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

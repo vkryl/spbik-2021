@@ -1,0 +1,198 @@
+{
+  "id": 11564,
+  "data_id": 4784028401877,
+  "name": {
+    "last": "Егоров",
+    "first": "Василий",
+    "middle": "Геннадьевич"
+  },
+  "birthdate": {
+    "day": 20,
+    "month": 11,
+    "year": 1999
+  },
+  "district": "Приморский район",
+  "age": 21,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Егоров",
+    "first": "Геннадий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1876
+    },
+    "uik": 1876,
+    "district": "Приморский район",
+    "tik": 28,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 6,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_parent_commission": 2,
+        "same_commission": 2,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          11660,
+          11746
+        ]
+      },
+      "siblings_in_commission": {
+        "count": 2,
+        "ids": [
+          11560,
+          11565
+        ]
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 22705
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 18343
+      }
+    },
+    "spouse": {
+      "11660": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 0,
+        "name": {
+          "last": "Егорова",
+          "first": "Милена",
+          "middle": "Сергеевна"
+        },
+        "distance": 913,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1884
+          },
+          "uik": 1884,
+          "district": "Приморский район",
+          "tik": 28,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "father": {
+      "11565": {
+        "strong_evidence": "same_commission",
+        "age_difference": 31,
+        "name": {
+          "last": "Егоров",
+          "first": "Геннадий",
+          "middle": "Геннадьевич"
+        },
+        "distance": 0,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1876
+          },
+          "uik": 1876,
+          "district": "Приморский район",
+          "tik": 28,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "18343": {
+        "age_difference": 28,
+        "name": {
+          "last": "Егорова",
+          "first": "Елена",
+          "middle": "Геннадьевна"
+        },
+        "distance": 17141,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1110
+          },
+          "uik": 1110,
+          "district": "Красносельский район",
+          "tik": 47,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "11560": {
+        "strong_evidence": "same_commission",
+        "age_difference": 30,
+        "name": {
+          "last": "Егорова",
+          "first": "Виктория",
+          "middle": "Владимировна"
+        },
+        "distance": 0,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1876
+          },
+          "uik": 1876,
+          "district": "Приморский район",
+          "tik": 28,
+          "gik": "СПбИК"
+        }
+      },
+      "11746": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 19,
+        "name": {
+          "last": "Егорова",
+          "first": "Наталья",
+          "middle": "Валерьевна"
+        },
+        "distance": 1285,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1891
+          },
+          "uik": 1891,
+          "district": "Приморский район",
+          "tik": 28,
+          "gik": "СПбИК"
+        }
+      },
+      "22705": {
+        "strong_evidence": "strong_role",
+        "age_difference": 26,
+        "name": {
+          "last": "Егорова",
+          "first": "Татьяна",
+          "middle": "Анатольевна"
+        },
+        "distance": 16799,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 60
+          },
+          "tik": 60,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

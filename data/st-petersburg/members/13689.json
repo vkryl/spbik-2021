@@ -1,0 +1,97 @@
+{
+  "id": 13689,
+  "data_id": 4784002266955,
+  "name": {
+    "last": "Бойцов",
+    "first": "Михаил",
+    "middle": "Александрович"
+  },
+  "birthdate": {
+    "day": 14,
+    "month": 12,
+    "year": 1991
+  },
+  "district": "Василеостровский район",
+  "age": 29,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Бойцов",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 131
+    },
+    "uik": 131,
+    "district": "Василеостровский район",
+    "tik": 33,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 13399
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 20762
+      }
+    },
+    "spouse": {
+      "13399": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 12,
+        "name": {
+          "last": "Бойцова",
+          "first": "Наталья",
+          "middle": "Владимировна"
+        },
+        "distance": 2778,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 107
+          },
+          "uik": 107,
+          "district": "Василеостровский район",
+          "tik": 33,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "20762": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 16,
+        "name": {
+          "last": "Бойцова",
+          "first": "Ирина",
+          "middle": "Александровна"
+        },
+        "distance": 3408,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1615
+          },
+          "uik": 1615,
+          "district": "Петроградский район",
+          "tik": 54,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

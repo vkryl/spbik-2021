@@ -1,0 +1,120 @@
+{
+  "id": 23741,
+  "data_id": 4784029164821,
+  "name": {
+    "last": "Суворова",
+    "first": "Маргарита",
+    "middle": "Алексеевна"
+  },
+  "birthdate": {
+    "day": 23,
+    "month": 8,
+    "year": 1997
+  },
+  "district": "Фрунзенский район",
+  "age": 24,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Суворов",
+    "first": "Алексей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 147,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2174
+    },
+    "uik": 2174,
+    "district": "Фрунзенский район",
+    "tik": 63,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 1772
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 23733
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 12778
+      }
+    },
+    "siblings": {
+      "12778": {
+        "age_difference": 10,
+        "name": {
+          "last": "Суворова",
+          "first": "Александра",
+          "middle": "Алексеевна"
+        },
+        "distance": 10766,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 48
+          },
+          "uik": 48,
+          "district": "Адмиралтейский район",
+          "tik": 31,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "1772": {
+        "strong_evidence": "strong_role",
+        "age_difference": 40,
+        "name": {
+          "last": "Суворова",
+          "first": "Елена",
+          "middle": "Александровна"
+        },
+        "distance": 12627,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 6
+          },
+          "tik": 6,
+          "district": "Красносельский район",
+          "gik": "СПбИК"
+        }
+      },
+      "23733": {
+        "strong_evidence": "same_commission",
+        "age_difference": 28,
+        "name": {
+          "last": "Суворова",
+          "first": "Оксана",
+          "middle": "Сергеевна"
+        },
+        "distance": 0,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2174
+          },
+          "uik": 2174,
+          "district": "Фрунзенский район",
+          "tik": 63,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

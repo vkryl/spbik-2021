@@ -1,0 +1,119 @@
+{
+  "id": 11495,
+  "data_id": 4784028279359,
+  "name": {
+    "last": "Зайцева",
+    "first": "Ольга",
+    "middle": "Игоревна"
+  },
+  "birthdate": {
+    "day": 31,
+    "month": 8,
+    "year": 1998
+  },
+  "district": "Приморский район",
+  "age": 23,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Зайцев",
+    "first": "Игорь"
+  },
+  "role_id": 4,
+  "assigned_by_id": 29,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1870
+    },
+    "uik": 1870,
+    "district": "Приморский район",
+    "tik": 28,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "works_in_parent_district_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 20
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 3249
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 11994
+      }
+    },
+    "siblings": {
+      "11994": {
+        "age_difference": 20,
+        "name": {
+          "last": "Зайцева",
+          "first": "Елена",
+          "middle": "Игоревна"
+        },
+        "distance": 17862,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2122
+          },
+          "uik": 2122,
+          "district": "Фрунзенский район",
+          "tik": 29,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "20": {
+        "strong_evidence": "strong_role",
+        "age_difference": 20,
+        "name": {
+          "last": "Зайцев",
+          "first": "Антон",
+          "middle": "Сергеевич"
+        },
+        "distance": 9484,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 1
+          },
+          "tik": 1,
+          "district": "Адмиралтейский район",
+          "gik": "СПбИК"
+        }
+      },
+      "3249": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": 15,
+        "name": {
+          "last": "Зайцев",
+          "first": "Андрей",
+          "middle": "Викторович"
+        },
+        "distance": 2537,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 9
+          },
+          "tik": 9,
+          "district": "Приморский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 12460,
+  "data_id": 4784030303669,
+  "name": {
+    "last": "Павлова",
+    "first": "Анна",
+    "middle": "Германовна"
+  },
+  "birthdate": {
+    "day": 26,
+    "month": 2,
+    "year": 1987
+  },
+  "district": "Центральный район",
+  "age": 34,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Павлов",
+    "first": "Герман"
+  },
+  "role_id": 4,
+  "assigned_by_id": 8,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2256
+    },
+    "uik": 2256,
+    "district": "Центральный район",
+    "tik": 30,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 12360
+      }
+    },
+    "spouse": {
+      "12360": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -4,
+        "name": {
+          "last": "Павлов",
+          "first": "Вадим",
+          "middle": "Витальевич"
+        },
+        "distance": 546,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2248
+          },
+          "uik": 2248,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

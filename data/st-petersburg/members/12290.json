@@ -1,0 +1,127 @@
+{
+  "id": 12290,
+  "data_id": 4784030198050,
+  "name": {
+    "last": "Артемьева",
+    "first": "Мария",
+    "middle": "Владимировна"
+  },
+  "birthdate": {
+    "day": 24,
+    "month": 11,
+    "year": 1985
+  },
+  "district": "Центральный район",
+  "age": 35,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Артемьев",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2243
+    },
+    "uik": 2243,
+    "district": "Центральный район",
+    "tik": 30,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 3776
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          3008,
+          14051
+        ]
+      }
+    },
+    "spouse": {
+      "3776": {
+        "strong_evidence": "strong_role",
+        "age_difference": -1,
+        "name": {
+          "last": "Артемьев",
+          "first": "Артур",
+          "middle": "Германович"
+        },
+        "distance": 1694,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": [
+            {
+              "type": "tik",
+              "id": 11
+            },
+            {
+              "type": "uik",
+              "id": 459
+            }
+          ],
+          "tik": [
+            11,
+            40
+          ],
+          "district": "Калининский район",
+          "gik": "СПбИК",
+          "uik": 459
+        }
+      }
+    },
+    "siblings": {
+      "3008": {
+        "age_difference": 4,
+        "name": {
+          "last": "Артемьева",
+          "first": "Елизавета",
+          "middle": "Владимировна"
+        },
+        "distance": 26102,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1682
+          },
+          "uik": 1682,
+          "district": "Петродворцовый район",
+          "tik": 8,
+          "gik": "СПбИК"
+        }
+      },
+      "14051": {
+        "age_difference": -4,
+        "name": {
+          "last": "Артемьев",
+          "first": "Алексей",
+          "middle": "Владимирович"
+        },
+        "distance": 11929,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 255
+          },
+          "uik": 255,
+          "district": "Выборгский район",
+          "tik": 35,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

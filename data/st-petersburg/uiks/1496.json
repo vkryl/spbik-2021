@@ -1,0 +1,200 @@
+{
+  "name": "Участковая избирательная комиссия №1496",
+  "id": 1496,
+  "type": "uik",
+  "data_id": 4784011343693,
+  "has_koib": false,
+  "district": "Невский район",
+  "electoral_districts": {
+    "federal": 211,
+    "city": 9
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "211": 11,
+        "total_count": 11,
+        "winner_count": 1
+      },
+      "city": {
+        "9": 6,
+        "total_count": 6,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 16,
+        "members_with_guesses": 5,
+        "strong_count": {
+          "strong_role": 5,
+          "same_commission": 6,
+          "same_electoral_district": 2
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №1496": 5
+        }
+      }
+    },
+    "violation_reports_count": 19
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 944,
+      "party_abstained_count": 1491,
+      "party_registered_count": 2435,
+      "person_voters_count": 953,
+      "person_abstained_count": 1482,
+      "person_registered_count": 2435,
+      "max_attached_count": 25,
+      "only_person_voters_count": 9,
+      "no_city_count": 13,
+      "no_other_count": 13,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.party",
+          "value": 944,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.person",
+          "value": 931,
+          "isNegative": true
+        }
+      ],
+      "no_city_count_max": 22,
+      "no_city_registered_count": 3,
+      "no_other_registered_count": 3,
+      "no_other_registered_count_formula": [
+        {
+          "key": "federal.registered_count.person",
+          "value": 2435,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.registered_count.person",
+          "value": 2432,
+          "isNegative": true
+        }
+      ]
+    },
+    "city": {
+      "party_voters_count": 931,
+      "party_abstained_count": 1501,
+      "party_registered_count": 2432,
+      "person_voters_count": 931,
+      "person_abstained_count": 1501,
+      "person_registered_count": 2432,
+      "only_federal_count": 13,
+      "only_federal_count_max": 22,
+      "only_federal_registered_count": 3
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 49,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 837,
+  "members": {
+    "chairman_id": 19207,
+    "vice_chairman_id": 19208,
+    "secretary_id": 19209,
+    "other_ids": [
+      19210,
+      19211,
+      19212,
+      19213,
+      19214,
+      19215,
+      19216,
+      19217,
+      19218,
+      19219,
+      19220
+    ],
+    "assigned_by_stats": {
+      "10": 5,
+      "13": 2,
+      "18": 1,
+      "20": 1,
+      "28": 1,
+      "216": 1
+    },
+    "gender_stats": {
+      "female": 13,
+      "male": 1
+    },
+    "age_stats": {
+      "22": 1,
+      "32": 2,
+      "35": 1,
+      "37": 1,
+      "41": 1,
+      "47": 1,
+      "48": 1,
+      "49": 1,
+      "59": 1,
+      "65": 1,
+      "66": 1,
+      "67": 1,
+      "71": 1
+    },
+    "source_date": 1633481989609
+  },
+  "election_ids": [
+    1,
+    2
+  ],
+  "violation_reports": {
+    "ids": [
+      59504,
+      59515,
+      59680,
+      59963,
+      60225,
+      60291,
+      60799,
+      60806,
+      62577,
+      62861,
+      62925,
+      62951,
+      63067,
+      64501,
+      64528,
+      64816,
+      64923,
+      64961,
+      65175
+    ],
+    "during": [
+      "observer_rights_failure",
+      "other",
+      "commission_equipment_failure",
+      "registered_voters"
+    ],
+    "complaints": {
+      "received_official_response": true
+    },
+    "finale": [
+      "result_override",
+      "count_procedure_failure",
+      "other"
+    ]
+  }
+}

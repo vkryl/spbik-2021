@@ -1,0 +1,88 @@
+{
+  "name": "УИК №2342",
+  "id": 2342,
+  "type": "uik",
+  "data_id": 4784011519145,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Невский район",
+  "electoral_districts": {
+    "federal": 211,
+    "city": 9
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "211": 11,
+        "total_count": 11,
+        "winner_count": 1
+      },
+      "city": {
+        "9": 6,
+        "total_count": 6,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 2,
+    "ballot_count": 2
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 1017,
+      "party_abstained_count": 117,
+      "party_registered_count": 1134,
+      "person_voters_count": 804,
+      "person_abstained_count": 201,
+      "person_registered_count": 1005,
+      "only_party_voters_count": 213,
+      "only_party_registered_count": 129,
+      "no_city_count_max": 127,
+      "only_city_count_max": 151
+    },
+    "city": {
+      "party_voters_count": 955,
+      "party_abstained_count": 50,
+      "party_registered_count": 1005,
+      "person_voters_count": 890,
+      "person_abstained_count": 115,
+      "person_registered_count": 1005,
+      "only_party_voters_count": 65,
+      "no_federal_count": 86,
+      "no_other_count": 86,
+      "no_other_count_formula": [
+        {
+          "key": "city.voters_count.person",
+          "value": 890,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "federal.voters_count.person",
+          "value": 804,
+          "isNegative": true
+        }
+      ],
+      "no_federal_count_max": 151,
+      "only_federal_count_max": 127,
+      "only_federal_registered_count_max": 129
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 5,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

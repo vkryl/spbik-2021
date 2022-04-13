@@ -1,0 +1,145 @@
+{
+  "id": 9268,
+  "data_id": 4784016138440,
+  "name": {
+    "last": "Кудрявцева",
+    "first": "Любовь",
+    "middle": "Владимировна"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 6,
+    "year": 1961
+  },
+  "district": "Фрунзенский район",
+  "age": 60,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Кудрявцев",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 20,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2076
+    },
+    "uik": 2076,
+    "district": "Фрунзенский район",
+    "tik": 23,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 16807
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 9028
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          9850,
+          21948
+        ]
+      }
+    },
+    "spouse": {
+      "16807": {
+        "strong_evidence": "strong_role",
+        "age_difference": -9,
+        "name": {
+          "last": "Кудрявцев",
+          "first": "Николай",
+          "middle": "Львович"
+        },
+        "distance": 16742,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 43
+          },
+          "tik": 43,
+          "district": "Колпинский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "9028": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 19,
+        "name": {
+          "last": "Кудрявцева",
+          "first": "Татьяна",
+          "middle": "Федоровна"
+        },
+        "distance": 1027,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2056
+          },
+          "uik": 2056,
+          "district": "Фрунзенский район",
+          "tik": 23,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "9850": {
+        "age_difference": 2,
+        "name": {
+          "last": "Кудрявцев",
+          "first": "Александр",
+          "middle": "Владимирович"
+        },
+        "distance": 3568,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1585
+          },
+          "uik": 1585,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      },
+      "21948": {
+        "age_difference": -2,
+        "name": {
+          "last": "Кудрявцева",
+          "first": "Ирина",
+          "middle": "Владимировна"
+        },
+        "distance": 20749,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1924
+          },
+          "uik": 1924,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

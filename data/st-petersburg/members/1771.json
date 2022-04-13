@@ -1,0 +1,96 @@
+{
+  "id": 1771,
+  "data_id": 4784008592696,
+  "name": {
+    "last": "Стрельников",
+    "first": "Дмитрий",
+    "middle": "Александрович"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 2,
+    "year": 1991
+  },
+  "district": "Красносельский район",
+  "age": 30,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Стрельников",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 6
+    },
+    "tik": 6,
+    "district": "Красносельский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "17571",
+          "23312"
+        ]
+      }
+    },
+    "spouse": {
+      "23312": {
+        "strong_evidence": "strong_role",
+        "age_difference": 7,
+        "name": {
+          "last": "Стрельникова",
+          "first": "Олеся",
+          "middle": "Вячеславовна"
+        },
+        "distance": 13879,
+        "district": "Фрунзенский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2141
+          },
+          "uik": 2141,
+          "district": "Фрунзенский район",
+          "tik": 62,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "17571": {
+        "strong_evidence": "strong_role",
+        "age_difference": 29,
+        "name": {
+          "last": "Стрельникова",
+          "first": "Галина",
+          "middle": "Викторовна"
+        },
+        "distance": 21583,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1029
+          },
+          "uik": 1029,
+          "district": "Красногвардейский район",
+          "tik": 45,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

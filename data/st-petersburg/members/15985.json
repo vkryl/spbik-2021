@@ -1,0 +1,96 @@
+{
+  "id": 15985,
+  "data_id": 9789005300747,
+  "name": {
+    "last": "Батурина",
+    "first": "Надежда",
+    "middle": "Игоревна"
+  },
+  "birthdate": {
+    "day": 17,
+    "month": 2,
+    "year": 1994
+  },
+  "district": "Кировский район",
+  "age": 27,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Батурин",
+    "first": "Игорь"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 576
+    },
+    "uik": 576,
+    "district": "Кировский район",
+    "tik": 41,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 12550
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 16284
+      }
+    },
+    "spouse": {
+      "12550": {
+        "strong_evidence": "strong_role",
+        "age_difference": 10,
+        "name": {
+          "last": "Батурин",
+          "first": "Антон",
+          "middle": "Владимирович"
+        },
+        "distance": 2244,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 31
+          },
+          "tik": 31,
+          "district": "Адмиралтейский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "16284": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 23,
+        "name": {
+          "last": "Батурина",
+          "first": "Ольга",
+          "middle": "Аркадьевна"
+        },
+        "distance": 3245,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 600
+          },
+          "uik": 600,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

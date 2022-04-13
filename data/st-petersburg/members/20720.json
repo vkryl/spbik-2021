@@ -1,0 +1,69 @@
+{
+  "id": 20720,
+  "data_id": 27820001301732,
+  "name": {
+    "last": "Аведов",
+    "first": "Амаяк",
+    "middle": "Тигранович"
+  },
+  "birthdate": {
+    "day": 11,
+    "month": 5,
+    "year": 1989
+  },
+  "district": "Петроградский район",
+  "age": 32,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Аведов",
+    "first": "Тигран"
+  },
+  "role_id": 4,
+  "assigned_by_id": 21,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 54
+    },
+    "tik": 54,
+    "district": "Петроградский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "6398"
+      }
+    },
+    "spouse": {
+      "6398": {
+        "strong_evidence": "strong_role",
+        "age_difference": 13,
+        "name": {
+          "last": "Аведова",
+          "first": "Елена",
+          "middle": "Сергеевна"
+        },
+        "distance": 5486,
+        "district": "Калининский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 530
+          },
+          "uik": 530,
+          "district": "Калининский район",
+          "tik": 17,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

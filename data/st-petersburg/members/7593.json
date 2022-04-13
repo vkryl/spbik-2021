@@ -1,0 +1,119 @@
+{
+  "id": 7593,
+  "data_id": 4784015321149,
+  "name": {
+    "last": "Орлова",
+    "first": "Мария",
+    "middle": "Константиновна"
+  },
+  "birthdate": {
+    "day": 21,
+    "month": 10,
+    "year": 1996
+  },
+  "district": "Пушкинский район",
+  "age": 24,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Орлов",
+    "first": "Константин"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1978
+    },
+    "uik": 1978,
+    "district": "Пушкинский район",
+    "tik": 20,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          10635,
+          15240
+        ]
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 1371
+      }
+    },
+    "father": {
+      "10635": {
+        "age_difference": 43,
+        "name": {
+          "last": "Орлов",
+          "first": "Константин",
+          "middle": "Феликсович"
+        },
+        "distance": 15791,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1189
+          },
+          "uik": 1189,
+          "district": "Красносельский район",
+          "tik": 26,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "15240": {
+        "age_difference": 9,
+        "name": {
+          "last": "Орлов",
+          "first": "Владислав",
+          "middle": "Константинович"
+        },
+        "distance": 34986,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 428
+          },
+          "uik": 428,
+          "district": "Калининский район",
+          "tik": 38,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "1371": {
+        "strong_evidence": "strong_role",
+        "age_difference": 27,
+        "name": {
+          "last": "Орлова",
+          "first": "Надежда",
+          "middle": "Петровна"
+        },
+        "distance": 19527,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 5
+          },
+          "tik": 5,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

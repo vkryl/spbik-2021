@@ -1,0 +1,50 @@
+{
+  "name": "УИК №8050",
+  "id": 8050,
+  "type": "uik",
+  "data_id": 4784029476628,
+  "has_koib": false,
+  "abroad": true,
+  "district": "Голосование за рубежом",
+  "electoral_districts": {
+    "federal": 217
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14
+    },
+    "candidates_count": {
+      "federal": {
+        "217": 12,
+        "total_count": 12,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 2,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 0,
+    "ballot_count": 1
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 499,
+      "party_registered_count": 499,
+      "person_voters_count": 269,
+      "person_registered_count": 269,
+      "only_party_voters_count": 230,
+      "only_party_registered_count": 230
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 29,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 1012,
+  "election_ids": [
+    1
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": 7658,
+  "data_id": 4784015124651,
+  "name": {
+    "last": "Пономарева",
+    "first": "Людмила",
+    "middle": "Ивановна"
+  },
+  "birthdate": {
+    "day": 12,
+    "month": 1,
+    "year": 1952
+  },
+  "district": "Пушкинский район",
+  "age": 69,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Пономарев",
+    "first": "Иван"
+  },
+  "role_id": 3,
+  "assigned_by_id": 25,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1984
+    },
+    "uik": 1984,
+    "district": "Пушкинский район",
+    "tik": 20,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 7705
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 15063
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 13751
+      }
+    },
+    "siblings": {
+      "13751": {
+        "age_difference": -10,
+        "name": {
+          "last": "Пономарева",
+          "first": "Надежда",
+          "middle": "Ивановна"
+        },
+        "distance": 40993,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 202
+          },
+          "uik": 202,
+          "district": "Выборгский район",
+          "tik": 34,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "7705": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -40,
+        "name": {
+          "last": "Пономарева",
+          "first": "Нина",
+          "middle": "Юрьевна"
+        },
+        "distance": 274,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1988
+          },
+          "uik": 1988,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      },
+      "15063": {
+        "strong_evidence": "strong_role",
+        "age_difference": -30,
+        "name": {
+          "last": "Пономарев",
+          "first": "Сергей",
+          "middle": "Викторович"
+        },
+        "distance": 30021,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 38
+          },
+          "tik": 38,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

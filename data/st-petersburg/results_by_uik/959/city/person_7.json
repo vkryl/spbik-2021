@@ -1,0 +1,406 @@
+{
+  "commission_name": "УИК №959",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 959
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 7
+  },
+  "data_id": 0,
+  "ballot_data_id": 4784007525017,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 51,
+      "position": 3,
+      "percentage": 61.111111111111114,
+      "valid_percentage": 61.111111111111114,
+      "registered_percentage": 61.111111111111114
+    },
+    "turnout": {
+      "count": 36,
+      "percentage": 100,
+      "walk_by_count": 6,
+      "walk_by_percentage": 16.666666666666664,
+      "on_home_count": 30,
+      "on_home_percentage": 83.33333333333334,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 36,
+      "valid_percentage": 100,
+      "invalid_count": 0,
+      "invalid_percentage": 0,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 22,
+      "winning_percentage": 61.111111111111114,
+      "effective_count": 36,
+      "losing_count": 14,
+      "losing_percentage": 38.88888888888889,
+      "other_count": 0,
+      "other_percentage": 0,
+      "by_place": {
+        "#1": {
+          "count": 22,
+          "percentage": 61.111111111111114
+        },
+        "#2": {
+          "count": 6,
+          "percentage": 16.666666666666664
+        },
+        "#3": {
+          "count": 5,
+          "percentage": 13.88888888888889,
+          "supported_by_smart_vote": true
+        },
+        "#4": {
+          "count": 2,
+          "percentage": 5.555555555555555
+        },
+        "#5": {
+          "count": 1,
+          "percentage": 2.7777777777777777
+        },
+        "#6": {
+          "count": 0,
+          "percentage": 0
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "papers": {
+      "received_count": 1000,
+      "destroyed_count": 964,
+      "stationary_box_count": 6,
+      "portable_box_count": 30,
+      "valid_count": 36,
+      "invalid_count": 0,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    },
+    "voters": {
+      "registered_count": 36,
+      "walk_by_count": 6,
+      "on_home_count": 30,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Рахова Елена Алексеевна",
+      "position": 3,
+      "candidate_id": 51,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 22,
+        "place": 1,
+        "percentage": 61.111111111111114,
+        "valid_percentage": 61.111111111111114,
+        "registered_percentage": 61.111111111111114,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "53": {
+          "percentage": 64.70588235294117,
+          "valid_percentage": 64.70588235294117
+        },
+        "55": {
+          "percentage": 73.33333333333333,
+          "valid_percentage": 73.33333333333333
+        },
+        "56": {
+          "percentage": 62.857142857142854,
+          "valid_percentage": 62.857142857142854
+        },
+        "57": {
+          "percentage": 70.96774193548387,
+          "valid_percentage": 70.96774193548387
+        },
+        "58": {
+          "percentage": 61.111111111111114,
+          "valid_percentage": 61.111111111111114
+        },
+        "59": {
+          "percentage": 61.111111111111114,
+          "valid_percentage": 61.111111111111114
+        }
+      }
+    },
+    {
+      "name": "Абдин Александр Александрович",
+      "position": 1,
+      "candidate_id": 55,
+      "supported_by_people": true,
+      "official_result": {
+        "votes_count": 6,
+        "place": 2,
+        "percentage": 16.666666666666664,
+        "valid_percentage": 16.666666666666664,
+        "registered_percentage": 16.666666666666664,
+        "winner": false,
+        "lacking_votes_count": 16
+      },
+      "result_without_other_entry": {
+        "51": {
+          "percentage": 42.857142857142854,
+          "valid_percentage": 42.857142857142854
+        },
+        "53": {
+          "percentage": 17.647058823529413,
+          "valid_percentage": 17.647058823529413
+        },
+        "56": {
+          "percentage": 17.142857142857142,
+          "valid_percentage": 17.142857142857142
+        },
+        "57": {
+          "percentage": 19.35483870967742,
+          "valid_percentage": 19.35483870967742
+        },
+        "58": {
+          "percentage": 16.666666666666664,
+          "valid_percentage": 16.666666666666664
+        },
+        "59": {
+          "percentage": 16.666666666666664,
+          "valid_percentage": 16.666666666666664
+        }
+      }
+    },
+    {
+      "name": "Тихонова Надежда Геннадьевна",
+      "position": 5,
+      "candidate_id": 57,
+      "supported_by_party_id": 6,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 5,
+        "place": 3,
+        "percentage": 13.88888888888889,
+        "valid_percentage": 13.88888888888889,
+        "registered_percentage": 13.88888888888889,
+        "winner": false,
+        "lacking_votes_count": 17
+      },
+      "result_without_other_entry": {
+        "51": {
+          "percentage": 35.714285714285715,
+          "valid_percentage": 35.714285714285715
+        },
+        "53": {
+          "percentage": 14.705882352941178,
+          "valid_percentage": 14.705882352941178
+        },
+        "55": {
+          "percentage": 16.666666666666664,
+          "valid_percentage": 16.666666666666664
+        },
+        "56": {
+          "percentage": 14.285714285714285,
+          "valid_percentage": 14.285714285714285
+        },
+        "58": {
+          "percentage": 13.88888888888889,
+          "valid_percentage": 13.88888888888889
+        },
+        "59": {
+          "percentage": 13.88888888888889,
+          "valid_percentage": 13.88888888888889
+        }
+      }
+    },
+    {
+      "name": "Страхов Кирилл Александрович",
+      "position": 4,
+      "candidate_id": 53,
+      "supported_by_party_id": 7,
+      "official_result": {
+        "votes_count": 2,
+        "place": 4,
+        "percentage": 5.555555555555555,
+        "valid_percentage": 5.555555555555555,
+        "registered_percentage": 5.555555555555555,
+        "winner": false,
+        "lacking_votes_count": 20
+      },
+      "result_without_other_entry": {
+        "51": {
+          "percentage": 14.285714285714285,
+          "valid_percentage": 14.285714285714285
+        },
+        "55": {
+          "percentage": 6.666666666666667,
+          "valid_percentage": 6.666666666666667
+        },
+        "56": {
+          "percentage": 5.714285714285714,
+          "valid_percentage": 5.714285714285714
+        },
+        "57": {
+          "percentage": 6.451612903225806,
+          "valid_percentage": 6.451612903225806
+        },
+        "58": {
+          "percentage": 5.555555555555555,
+          "valid_percentage": 5.555555555555555
+        },
+        "59": {
+          "percentage": 5.555555555555555,
+          "valid_percentage": 5.555555555555555
+        }
+      }
+    },
+    {
+      "name": "Котельникова Ольга Александровна",
+      "position": 2,
+      "candidate_id": 56,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 1,
+        "place": 5,
+        "percentage": 2.7777777777777777,
+        "valid_percentage": 2.7777777777777777,
+        "registered_percentage": 2.7777777777777777,
+        "winner": false,
+        "lacking_votes_count": 21
+      },
+      "result_without_other_entry": {
+        "51": {
+          "percentage": 7.142857142857142,
+          "valid_percentage": 7.142857142857142
+        },
+        "53": {
+          "percentage": 2.941176470588235,
+          "valid_percentage": 2.941176470588235
+        },
+        "55": {
+          "percentage": 3.3333333333333335,
+          "valid_percentage": 3.3333333333333335
+        },
+        "57": {
+          "percentage": 3.225806451612903,
+          "valid_percentage": 3.225806451612903
+        },
+        "58": {
+          "percentage": 2.7777777777777777,
+          "valid_percentage": 2.7777777777777777
+        },
+        "59": {
+          "percentage": 2.7777777777777777,
+          "valid_percentage": 2.7777777777777777
+        }
+      }
+    },
+    {
+      "name": "Токарев Игорь Игоревич",
+      "position": 6,
+      "candidate_id": 58,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 0,
+        "place": 6,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 22
+      },
+      "result_without_other_entry": {
+        "51": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "53": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "55": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "56": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "57": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "59": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    },
+    {
+      "name": "Шахмаметьев Хафис Зарифович",
+      "position": 7,
+      "candidate_id": 59,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 0,
+        "place": 6,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 22
+      },
+      "result_without_other_entry": {
+        "51": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "53": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "55": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "56": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "57": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "58": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 959
+    },
+    "uik": 959,
+    "district": "Красногвардейский район",
+    "tik": 4,
+    "gik": "СПбИК"
+  }
+}

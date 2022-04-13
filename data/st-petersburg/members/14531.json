@@ -1,0 +1,96 @@
+{
+  "id": 14531,
+  "data_id": 4784024258569,
+  "name": {
+    "last": "Молчанова",
+    "first": "Татьяна",
+    "middle": "Анатольевна"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 11,
+    "year": 1971
+  },
+  "district": "Выборгский район",
+  "age": 49,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Молчанов",
+    "first": "Анатолий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 381
+    },
+    "uik": 381,
+    "district": "Выборгский район",
+    "tik": 36,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "works_in_parent_district_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 3469
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 14519
+      }
+    },
+    "spouse": {
+      "3469": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": 0,
+        "name": {
+          "last": "Молчанов",
+          "first": "Сергей",
+          "middle": "Александрович"
+        },
+        "distance": 5546,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 10
+          },
+          "tik": 10,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "14519": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -27,
+        "name": {
+          "last": "Молчанов",
+          "first": "Александр",
+          "middle": "Сергеевич"
+        },
+        "distance": 740,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 380
+          },
+          "uik": 380,
+          "district": "Выборгский район",
+          "tik": 36,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

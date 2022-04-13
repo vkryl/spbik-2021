@@ -1,0 +1,68 @@
+{
+  "id": 20029,
+  "data_id": 4784011454086,
+  "name": {
+    "last": "Садофеева",
+    "first": "Елена",
+    "middle": "Михайловна"
+  },
+  "birthdate": {
+    "day": 10,
+    "month": 11,
+    "year": 1980
+  },
+  "district": "Невский район",
+  "age": 40,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Садофеев",
+    "first": "Михаил"
+  },
+  "role_id": 1,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1538
+    },
+    "uik": 1538,
+    "district": "Невский район",
+    "tik": 51,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "works_in_parent_district_commission": 1
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 9321
+      }
+    },
+    "spouse": {
+      "9321": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": -2,
+        "name": {
+          "last": "Садофеев",
+          "first": "Алексей",
+          "middle": "Владимирович"
+        },
+        "distance": 1620,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 24
+          },
+          "tik": 24,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

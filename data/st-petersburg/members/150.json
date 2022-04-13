@@ -1,0 +1,209 @@
+{
+  "id": 150,
+  "data_id": 4784001392919,
+  "name": {
+    "last": "Калинин",
+    "first": "Егор",
+    "middle": "Александрович"
+  },
+  "birthdate": {
+    "day": 3,
+    "month": 10,
+    "year": 2000
+  },
+  "district": "Адмиралтейский район",
+  "age": 20,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Калинин",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 9
+    },
+    "uik": 9,
+    "district": "Адмиралтейский район",
+    "tik": 1,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 7,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 143
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 378
+      },
+      "unknown": {
+        "count": 5,
+        "ids": [
+          813,
+          2079,
+          9772,
+          10717,
+          20641
+        ]
+      }
+    },
+    "father": {
+      "143": {
+        "strong_evidence": "same_commission",
+        "age_difference": 25,
+        "name": {
+          "last": "Калинин",
+          "first": "Александр",
+          "middle": "Юрьевич"
+        },
+        "distance": 0,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 9
+          },
+          "uik": 9,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "378": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 34,
+        "name": {
+          "last": "Калинина",
+          "first": "Светлана",
+          "middle": "Михайловна"
+        },
+        "distance": 707,
+        "district": "Адмиралтейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 27
+          },
+          "uik": 27,
+          "district": "Адмиралтейский район",
+          "tik": 1,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "813": {
+        "age_difference": 43,
+        "name": {
+          "last": "Калинин",
+          "first": "Сергей",
+          "middle": "Александрович"
+        },
+        "distance": 8651,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 616
+          },
+          "uik": 616,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      },
+      "2079": {
+        "age_difference": 38,
+        "name": {
+          "last": "Калинина",
+          "first": "Валентина",
+          "middle": "Александровна"
+        },
+        "distance": 11444,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1145
+          },
+          "uik": 1145,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      },
+      "9772": {
+        "age_difference": 36,
+        "name": {
+          "last": "Калинина",
+          "first": "Виктория",
+          "middle": "Александровна"
+        },
+        "distance": 11831,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1579
+          },
+          "uik": 1579,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      },
+      "10717": {
+        "age_difference": 20,
+        "name": {
+          "last": "Калинин",
+          "first": "Андрей",
+          "middle": "Александрович"
+        },
+        "distance": 23808,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1197
+          },
+          "uik": 1197,
+          "district": "Красносельский район",
+          "tik": 26,
+          "gik": "СПбИК"
+        }
+      },
+      "20641": {
+        "age_difference": 46,
+        "name": {
+          "last": "Калинина",
+          "first": "Ольга",
+          "middle": "Александровна"
+        },
+        "distance": 15868,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1602
+          },
+          "uik": 1602,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

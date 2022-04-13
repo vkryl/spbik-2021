@@ -1,0 +1,125 @@
+{
+  "id": 2659,
+  "data_id": 4784020415360,
+  "name": {
+    "last": "Нефедова",
+    "first": "Ксения",
+    "middle": "Андреевна"
+  },
+  "birthdate": {
+    "day": 3,
+    "month": 2,
+    "year": 1999
+  },
+  "district": "Кировский район",
+  "age": 22,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Нефедов",
+    "first": "Андрей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 797
+    },
+    "uik": 797,
+    "district": "Кировский район",
+    "tik": 7,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_commission": 1,
+        "strong_role": 1,
+        "same_district": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 2650
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 17016
+      },
+      "siblings_in_same_district": {
+        "count": 1,
+        "ids": 16168
+      }
+    },
+    "father": {
+      "2650": {
+        "strong_evidence": "same_commission",
+        "age_difference": 24,
+        "name": {
+          "last": "Нефедов",
+          "first": "Андрей",
+          "middle": "Анатольевич"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 797
+          },
+          "uik": 797,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "16168": {
+        "strong_evidence": "same_district",
+        "age_difference": 6,
+        "name": {
+          "last": "Нефедов",
+          "first": "Ефим",
+          "middle": "Андреевич",
+          "raw": "Нефёдов Ефим Андреевич"
+        },
+        "distance": 6202,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 590
+          },
+          "uik": 590,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "17016": {
+        "strong_evidence": "strong_role",
+        "age_difference": 28,
+        "name": {
+          "last": "Нефедова",
+          "first": "Светлана",
+          "middle": "Вениаминовна"
+        },
+        "distance": 16027,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 44
+          },
+          "tik": 44,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

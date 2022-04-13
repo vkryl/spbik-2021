@@ -1,0 +1,140 @@
+{
+  "id": 16106,
+  "data_id": 9789005300247,
+  "name": {
+    "last": "Егорова",
+    "first": "Мальвина",
+    "middle": "Давыдовна"
+  },
+  "birthdate": {
+    "day": 26,
+    "month": 1,
+    "year": 1958
+  },
+  "district": "Кировский район",
+  "age": 63,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Егоров",
+    "first": "Давыд"
+  },
+  "role_id": 3,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 586
+    },
+    "uik": 586,
+    "district": "Кировский район",
+    "tik": 41,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 3,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          4906,
+          7786,
+          12983
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 16035
+      }
+    },
+    "spouse": {
+      "4906": {
+        "strong_evidence": "strong_role",
+        "age_difference": -8,
+        "name": {
+          "last": "Егоров",
+          "first": "Вячеслав",
+          "middle": "Юрьевич"
+        },
+        "distance": 27359,
+        "district": "Курортный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 13
+          },
+          "tik": 13,
+          "district": "Курортный район",
+          "gik": "СПбИК"
+        }
+      },
+      "7786": {
+        "strong_evidence": "strong_role",
+        "age_difference": -10,
+        "name": {
+          "last": "Егоров",
+          "first": "Вячеслав",
+          "middle": "Юрьевич"
+        },
+        "distance": 24791,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 21
+          },
+          "tik": 21,
+          "district": "Колпинский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "12983": {
+        "strong_evidence": "strong_role",
+        "age_difference": -39,
+        "name": {
+          "last": "Егоров",
+          "first": "Ярослав",
+          "middle": "Константинович"
+        },
+        "distance": 4290,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 32
+          },
+          "tik": 32,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      },
+      "16035": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -28,
+        "name": {
+          "last": "Егорова",
+          "first": "Марина",
+          "middle": "Михайловна"
+        },
+        "distance": 1353,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 580
+          },
+          "uik": 580,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

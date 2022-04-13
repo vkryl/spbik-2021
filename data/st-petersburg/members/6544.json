@@ -1,0 +1,145 @@
+{
+  "id": 6544,
+  "data_id": 4784012319512,
+  "name": {
+    "last": "Николаев",
+    "first": "Дмитрий",
+    "middle": "Константинович"
+  },
+  "birthdate": {
+    "day": 8,
+    "month": 7,
+    "year": 1993
+  },
+  "district": "Петроградский район",
+  "age": 28,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Николаев",
+    "first": "Константин"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1634
+    },
+    "uik": 1634,
+    "district": "Петроградский район",
+    "tik": 18,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 2,
+        "same_parent_commission": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          15971,
+          22959
+        ]
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 6497
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 17267
+      }
+    },
+    "spouse": {
+      "15971": {
+        "strong_evidence": "strong_role",
+        "age_difference": 4,
+        "name": {
+          "last": "Николаева",
+          "first": "Ольга",
+          "middle": "Вячеславовна"
+        },
+        "distance": 8035,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 41
+          },
+          "tik": 41,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "17267": {
+        "age_difference": 20,
+        "name": {
+          "last": "Николаева",
+          "first": "Марина",
+          "middle": "Константиновна"
+        },
+        "distance": 6601,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 940
+          },
+          "uik": 940,
+          "district": "Красногвардейский район",
+          "tik": 44,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "6497": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 30,
+        "name": {
+          "last": "Николаева",
+          "first": "Светлана",
+          "middle": "Александровна"
+        },
+        "distance": 542,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1630
+          },
+          "uik": 1630,
+          "district": "Петроградский район",
+          "tik": 18,
+          "gik": "СПбИК"
+        }
+      },
+      "22959": {
+        "strong_evidence": "strong_role",
+        "age_difference": 16,
+        "name": {
+          "last": "Николаева",
+          "first": "Наталья",
+          "middle": "Владимировна"
+        },
+        "distance": 11723,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 61
+          },
+          "tik": 61,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

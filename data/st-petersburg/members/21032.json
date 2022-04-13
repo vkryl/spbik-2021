@@ -1,0 +1,119 @@
+{
+  "id": 21032,
+  "data_id": 27820001300380,
+  "name": {
+    "last": "Коршунова",
+    "first": "Елена",
+    "middle": "Юрьевна"
+  },
+  "birthdate": {
+    "day": 19,
+    "month": 3,
+    "year": 1983
+  },
+  "district": "Петродворцовый район",
+  "age": 38,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Коршунов",
+    "first": "Юрий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 17,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 55
+    },
+    "tik": 55,
+    "district": "Петродворцовый район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 4,
+      "strong_guesses": {
+        "strong_role": 3
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          "839",
+          "3258",
+          "5125"
+        ]
+      }
+    },
+    "mother": {
+      "5125": {
+        "strong_evidence": "strong_role",
+        "age_difference": 24,
+        "name": {
+          "last": "Коршунова",
+          "first": "Ольга",
+          "middle": "Николаевна"
+        },
+        "distance": 29996,
+        "district": "Курортный район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1258
+          },
+          "uik": 1258,
+          "district": "Курортный район",
+          "tik": 13,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "839": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Коршунов",
+          "first": "Андрей",
+          "middle": "Викторович"
+        },
+        "distance": 19953,
+        "district": "Кировский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 618
+          },
+          "uik": 618,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      },
+      "3258": {
+        "strong_evidence": "strong_role",
+        "age_difference": 0,
+        "name": {
+          "last": "Коршунов",
+          "first": "Денис",
+          "middle": "Сергеевич"
+        },
+        "distance": 22825,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1793
+          },
+          "uik": 1793,
+          "district": "Приморский район",
+          "tik": 9,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

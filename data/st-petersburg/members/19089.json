@@ -1,0 +1,69 @@
+{
+  "id": 19089,
+  "data_id": 27820001310953,
+  "name": {
+    "last": "Маркелова",
+    "first": "Елена",
+    "middle": "Леонидовна"
+  },
+  "birthdate": {
+    "day": 14,
+    "month": 9,
+    "year": 1963
+  },
+  "district": "Невский район",
+  "age": 58,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Маркелов",
+    "first": "Леонид"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 49
+    },
+    "tik": 49,
+    "district": "Невский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "2701"
+      }
+    },
+    "spouse": {
+      "2701": {
+        "strong_evidence": "strong_role",
+        "age_difference": 1,
+        "name": {
+          "last": "Маркелов",
+          "first": "Валерий",
+          "middle": "Викторович"
+        },
+        "distance": 12334,
+        "district": "Кировский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 800
+          },
+          "uik": 800,
+          "district": "Кировский район",
+          "tik": 7,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

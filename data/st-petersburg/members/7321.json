@@ -1,0 +1,94 @@
+{
+  "id": 7321,
+  "data_id": 4784015124986,
+  "name": {
+    "last": "Евсеева",
+    "first": "Ирина",
+    "middle": "Викторовна"
+  },
+  "birthdate": {
+    "day": 4,
+    "month": 10,
+    "year": 1969
+  },
+  "district": "Пушкинский район",
+  "age": 51,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Евсеев",
+    "first": "Виктор"
+  },
+  "role_id": 4,
+  "assigned_by_id": 130,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1957
+    },
+    "uik": 1957,
+    "district": "Пушкинский район",
+    "tik": 20,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 21027
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 600
+      }
+    },
+    "spouse": {
+      "21027": {
+        "strong_evidence": "strong_role",
+        "age_difference": -1,
+        "name": {
+          "last": "Евсеев",
+          "first": "Вадим",
+          "middle": "Иванович"
+        },
+        "distance": 32865,
+        "district": "Петродворцовый район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 55
+          },
+          "tik": 55,
+          "district": "Петродворцовый район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "600": {
+        "age_difference": -19,
+        "name": {
+          "last": "Евсеева",
+          "first": "Виктория",
+          "middle": "Викторовна"
+        },
+        "distance": 27308,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 169
+          },
+          "uik": 169,
+          "district": "Василеостровский район",
+          "tik": 2,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

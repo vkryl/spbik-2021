@@ -1,0 +1,594 @@
+{
+  "id": 20601,
+  "data_id": 4784022248723,
+  "name": {
+    "last": "Иванов",
+    "first": "Василий",
+    "middle": "Викторович"
+  },
+  "birthdate": {
+    "day": 29,
+    "month": 9,
+    "year": 1981
+  },
+  "district": "Невский район",
+  "age": 39,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Иванов",
+    "first": "Виктор"
+  },
+  "role_id": 4,
+  "assigned_by_id": 59,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1599
+    },
+    "uik": 1599,
+    "district": "Невский район",
+    "tik": 53,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 24,
+      "strong_guess_count": 6,
+      "strong_guesses": {
+        "strong_role": 3,
+        "works_in_parent_district_commission": 1,
+        "same_building": 1,
+        "same_parent_commission": 2,
+        "same_commission": 1,
+        "same_electoral_district": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          7200,
+          16430,
+          22319
+        ]
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 19717
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": 20583
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          20435,
+          20695
+        ]
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 20602
+      },
+      "unknown": {
+        "count": 14,
+        "ids": [
+          4367,
+          4847,
+          10927,
+          11103,
+          11972,
+          13364,
+          16073,
+          16360,
+          17098,
+          17983,
+          18075,
+          18260,
+          18883,
+          21865
+        ]
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 2,
+        "ids": [
+          9507,
+          12537
+        ]
+      }
+    },
+    "father": {
+      "20602": {
+        "strong_evidence": "same_commission",
+        "age_difference": 26,
+        "name": {
+          "last": "Иванов",
+          "first": "Виктор",
+          "middle": "Борисович"
+        },
+        "distance": 0,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1599
+          },
+          "uik": 1599,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "7200": {
+        "strong_evidence": "strong_role",
+        "age_difference": 16,
+        "name": {
+          "last": "Иванова",
+          "first": "Анастасия",
+          "middle": "Геннадьевна"
+        },
+        "distance": 13484,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 20
+          },
+          "tik": 20,
+          "district": "Пушкинский район",
+          "gik": "СПбИК"
+        }
+      },
+      "20435": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 18,
+        "name": {
+          "last": "Иванова",
+          "first": "Наталья",
+          "middle": "Владимировна"
+        },
+        "distance": 1464,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1587
+          },
+          "uik": 1587,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      },
+      "22319": {
+        "strong_evidence": "strong_role",
+        "age_difference": 22,
+        "name": {
+          "last": "Иванова",
+          "first": "Ирина",
+          "middle": "Борисовна"
+        },
+        "distance": 13484,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 59
+          },
+          "tik": 59,
+          "district": "Пушкинский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "16430": {
+        "strong_evidence": "strong_role",
+        "age_difference": 7,
+        "name": {
+          "last": "Иванова",
+          "first": "Анна",
+          "middle": "Витальевна"
+        },
+        "distance": 14936,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 42
+          },
+          "tik": 42,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      },
+      "19717": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": 1,
+        "name": {
+          "last": "Иванова",
+          "first": "Ольга",
+          "middle": "Михайловна"
+        },
+        "distance": 6267,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 51
+          },
+          "tik": 51,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      },
+      "20583": {
+        "strong_evidence": "same_building",
+        "age_difference": -6,
+        "name": {
+          "last": "Иванова",
+          "first": "Оксана",
+          "middle": "Михайловна"
+        },
+        "distance": 0,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1598
+          },
+          "uik": 1598,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      },
+      "20695": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 13,
+        "name": {
+          "last": "Иванова",
+          "first": "Наталия",
+          "middle": "Васильевна"
+        },
+        "distance": 2373,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1606
+          },
+          "uik": 1606,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "4367": {
+        "age_difference": 20,
+        "name": {
+          "last": "Иванов",
+          "first": "Валерий",
+          "middle": "Викторович"
+        },
+        "distance": 25637,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1744
+          },
+          "uik": 1744,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      },
+      "4847": {
+        "age_difference": -3,
+        "name": {
+          "last": "Иванова",
+          "first": "Мария",
+          "middle": "Викторовна"
+        },
+        "distance": 24760,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1784
+          },
+          "uik": 1784,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      },
+      "9507": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 8,
+        "name": {
+          "last": "Иванова",
+          "first": "Галина",
+          "middle": "Викторовна"
+        },
+        "distance": 7778,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1558
+          },
+          "uik": 1558,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      },
+      "10927": {
+        "age_difference": 10,
+        "name": {
+          "last": "Иванова",
+          "first": "Елена",
+          "middle": "Викторовна"
+        },
+        "distance": 27190,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1215
+          },
+          "uik": 1215,
+          "district": "Красносельский район",
+          "tik": 26,
+          "gik": "СПбИК"
+        }
+      },
+      "11103": {
+        "age_difference": 10,
+        "name": {
+          "last": "Иванова",
+          "first": "Ирина",
+          "middle": "Викторовна"
+        },
+        "distance": 11502,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1381
+          },
+          "uik": 1381,
+          "district": "Московский район",
+          "tik": 27,
+          "gik": "СПбИК"
+        }
+      },
+      "11972": {
+        "age_difference": 2,
+        "name": {
+          "last": "Иванов",
+          "first": "Сергей",
+          "middle": "Викторович"
+        },
+        "distance": 7654,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2120
+          },
+          "uik": 2120,
+          "district": "Фрунзенский район",
+          "tik": 29,
+          "gik": "СПбИК"
+        }
+      },
+      "12537": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 8,
+        "name": {
+          "last": "Иванова",
+          "first": "Илона",
+          "middle": "Викторовна"
+        },
+        "distance": 12606,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2262
+          },
+          "uik": 2262,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      },
+      "13364": {
+        "age_difference": 23,
+        "name": {
+          "last": "Иванова",
+          "first": "Наталья",
+          "middle": "Викторовна"
+        },
+        "distance": 17516,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 104
+          },
+          "uik": 104,
+          "district": "Василеостровский район",
+          "tik": 33,
+          "gik": "СПбИК"
+        }
+      },
+      "16073": {
+        "age_difference": -8,
+        "name": {
+          "last": "Иванов",
+          "first": "Александр",
+          "middle": "Викторович"
+        },
+        "distance": 15579,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 583
+          },
+          "uik": 583,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      },
+      "16360": {
+        "age_difference": 8,
+        "name": {
+          "last": "Иванова",
+          "first": "Марина",
+          "middle": "Викторовна"
+        },
+        "distance": 14550,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 606
+          },
+          "uik": 606,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      },
+      "17098": {
+        "age_difference": 2,
+        "name": {
+          "last": "Иванов",
+          "first": "Денис",
+          "middle": "Викторович"
+        },
+        "distance": 14981,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 926
+          },
+          "uik": 926,
+          "district": "Красногвардейский район",
+          "tik": 44,
+          "gik": "СПбИК"
+        }
+      },
+      "17983": {
+        "age_difference": 7,
+        "name": {
+          "last": "Иванова",
+          "first": "Ульяна",
+          "middle": "Викторовна"
+        },
+        "distance": 20322,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1099
+          },
+          "uik": 1099,
+          "district": "Красносельский район",
+          "tik": 46,
+          "gik": "СПбИК"
+        }
+      },
+      "18075": {
+        "age_difference": 22,
+        "name": {
+          "last": "Иванова",
+          "first": "Лариса",
+          "middle": "Викторовна"
+        },
+        "distance": 19933,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1169
+          },
+          "uik": 1169,
+          "district": "Красносельский район",
+          "tik": 46,
+          "gik": "СПбИК"
+        }
+      },
+      "18260": {
+        "age_difference": 4,
+        "name": {
+          "last": "Иванов",
+          "first": "Андрей",
+          "middle": "Викторович"
+        },
+        "distance": 18206,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1103
+          },
+          "uik": 1103,
+          "district": "Красносельский район",
+          "tik": 47,
+          "gik": "СПбИК"
+        }
+      },
+      "18883": {
+        "age_difference": 6,
+        "name": {
+          "last": "Иванова",
+          "first": "Екатерина",
+          "middle": "Викторовна"
+        },
+        "distance": 10190,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1333
+          },
+          "uik": 1333,
+          "district": "Московский район",
+          "tik": 48,
+          "gik": "СПбИК"
+        }
+      },
+      "21865": {
+        "age_difference": 20,
+        "name": {
+          "last": "Иванова",
+          "first": "Клавдия",
+          "middle": "Викторовна"
+        },
+        "distance": 26255,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1917
+          },
+          "uik": 1917,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

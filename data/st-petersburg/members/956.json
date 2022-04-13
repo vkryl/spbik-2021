@@ -1,0 +1,94 @@
+{
+  "id": 956,
+  "data_id": 9789005582697,
+  "name": {
+    "last": "Давыдова",
+    "first": "Анна",
+    "middle": "Алексеевна"
+  },
+  "birthdate": {
+    "day": 14,
+    "month": 2,
+    "year": 1999
+  },
+  "district": "Кировский район",
+  "age": 22,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Давыдов",
+    "first": "Алексей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 628
+    },
+    "uik": 628,
+    "district": "Кировский район",
+    "tik": 3,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 3465
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 20254
+      }
+    },
+    "siblings": {
+      "20254": {
+        "age_difference": 1,
+        "name": {
+          "last": "Давыдов",
+          "first": "Матвей",
+          "middle": "Алексеевич"
+        },
+        "distance": 13426,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1479
+          },
+          "uik": 1479,
+          "district": "Невский район",
+          "tik": 52,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "3465": {
+        "strong_evidence": "strong_role",
+        "age_difference": 18,
+        "name": {
+          "last": "Давыдова",
+          "first": "Алия",
+          "middle": "Бариевна"
+        },
+        "distance": 16310,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 10
+          },
+          "tik": 10,
+          "district": "Выборгский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

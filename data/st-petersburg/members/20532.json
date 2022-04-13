@@ -1,0 +1,96 @@
+{
+  "id": 20532,
+  "data_id": 4784022360131,
+  "name": {
+    "last": "Карасева",
+    "first": "Татьяна",
+    "middle": "Евгеньевна",
+    "raw": "Карасёва Татьяна Евгеньевна"
+  },
+  "birthdate": {
+    "day": 12,
+    "month": 8,
+    "year": 1957
+  },
+  "district": "Невский район",
+  "age": 64,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Карасев",
+    "first": "Евгений"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1594
+    },
+    "uik": 1594,
+    "district": "Невский район",
+    "tik": 53,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 11764
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 4452
+      }
+    },
+    "spouse": {
+      "11764": {
+        "strong_evidence": "strong_role",
+        "age_difference": -10,
+        "name": {
+          "last": "Карасев",
+          "first": "Дмитрий",
+          "middle": "Юрьевич"
+        },
+        "distance": 6429,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 29
+          },
+          "tik": 29,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "4452": {
+        "age_difference": -32,
+        "name": {
+          "last": "Карасев",
+          "first": "Семен",
+          "middle": "Евгеньевич",
+          "raw": "Карасёв Семён Евгеньевич"
+        },
+        "distance": 25081,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1751
+          },
+          "uik": 1751,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

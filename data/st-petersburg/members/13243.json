@@ -1,0 +1,143 @@
+{
+  "id": 13243,
+  "data_id": 4784002380142,
+  "name": {
+    "last": "Овчинников",
+    "first": "Игорь",
+    "middle": "Владимирович"
+  },
+  "birthdate": {
+    "day": 13,
+    "month": 3,
+    "year": 1978
+  },
+  "district": "Василеостровский район",
+  "age": 43,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Овчинников",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 152
+    },
+    "uik": 152,
+    "district": "Василеостровский район",
+    "tik": 32,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "works_in_parent_district_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 13343
+      },
+      "siblings_in_parent_district_commission": {
+        "count": 1,
+        "ids": 13356
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          5719,
+          8013
+        ]
+      }
+    },
+    "spouse": {
+      "13343": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -14,
+        "name": {
+          "last": "Овчинникова",
+          "first": "Екатерина",
+          "middle": "Александровна"
+        },
+        "distance": 770,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 189
+          },
+          "uik": 189,
+          "district": "Василеостровский район",
+          "tik": 32,
+          "gik": "СПбИК"
+        }
+      },
+      "13356": {
+        "strong_evidence": "works_in_parent_district_commission",
+        "age_difference": 12,
+        "name": {
+          "last": "Овчинникова",
+          "first": "Виолетта",
+          "middle": "Вадимовна"
+        },
+        "distance": 2748,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 33
+          },
+          "tik": 33,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "5719": {
+        "age_difference": 9,
+        "name": {
+          "last": "Овчинников",
+          "first": "Андрей",
+          "middle": "Владимирович"
+        },
+        "distance": 26281,
+        "district": "Кронштадтский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1228
+          },
+          "uik": 1228,
+          "district": "Кронштадтский район",
+          "tik": 15,
+          "gik": "СПбИК"
+        }
+      },
+      "8013": {
+        "age_difference": 2,
+        "name": {
+          "last": "Овчинникова",
+          "first": "Любовь",
+          "middle": "Владимировна"
+        },
+        "distance": 30241,
+        "district": "Колпинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 844
+          },
+          "uik": 844,
+          "district": "Колпинский район",
+          "tik": 21,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

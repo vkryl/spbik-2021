@@ -1,0 +1,129 @@
+{
+  "name": "Участковая избирательная комиссия №849",
+  "id": 849,
+  "type": "uik",
+  "data_id": 4784006327168,
+  "has_koib": true,
+  "district": "Колпинский район",
+  "electoral_districts": {
+    "federal": 217,
+    "city": 25
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "217": 12,
+        "total_count": 12,
+        "winner_count": 1
+      },
+      "city": {
+        "25": 6,
+        "total_count": 6,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 12,
+    "ballot_count": 2,
+    "members": {
+      "relative_guesses": {
+        "total_count": 15,
+        "members_with_guesses": 7,
+        "strong_count": {
+          "same_electoral_district": 1,
+          "same_parent_commission": 1,
+          "strong_role": 6
+        },
+        "commissions": {
+          "total_count": 1,
+          "УИК №849": 7
+        }
+      }
+    }
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 752,
+      "party_abstained_count": 1459,
+      "party_registered_count": 2211,
+      "person_voters_count": 746,
+      "person_abstained_count": 1458,
+      "person_registered_count": 2204,
+      "max_attached_count": 10,
+      "only_party_voters_count": 6,
+      "only_party_registered_count": 7,
+      "no_city_count_max": 6
+    },
+    "city": {
+      "party_voters_count": 746,
+      "party_abstained_count": 1458,
+      "party_registered_count": 2204,
+      "person_voters_count": 746,
+      "person_abstained_count": 1458,
+      "person_registered_count": 2204,
+      "only_federal_count_max": 6,
+      "only_federal_registered_count_max": 7
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 21,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "address_id": 386,
+  "members": {
+    "chairman_id": 8071,
+    "vice_chairman_id": 8072,
+    "secretary_id": 8073,
+    "other_ids": [
+      8074,
+      8075,
+      8076,
+      8077,
+      8078,
+      8079,
+      8080,
+      8081,
+      8082
+    ],
+    "assigned_by_stats": {
+      "0": 2,
+      "5": 1,
+      "11": 1,
+      "13": 2,
+      "29": 1,
+      "132": 1,
+      "133": 1
+    },
+    "gender_stats": {
+      "female": 11,
+      "male": 1
+    },
+    "age_stats": {
+      "24": 1,
+      "27": 1,
+      "37": 1,
+      "38": 1,
+      "45": 1,
+      "52": 2,
+      "57": 1,
+      "58": 1,
+      "60": 1,
+      "63": 1,
+      "69": 1
+    },
+    "source_date": 1633480588492
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

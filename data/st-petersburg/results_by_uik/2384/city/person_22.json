@@ -1,0 +1,334 @@
+{
+  "commission_name": "УИК №2384",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 2384
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 22
+  },
+  "data_id": 0,
+  "ballot_data_id": 478406389574,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 212,
+      "position": 2,
+      "percentage": 76,
+      "valid_percentage": 79.16666666666666,
+      "registered_percentage": 17.59259259259259
+    },
+    "turnout": {
+      "count": 25,
+      "percentage": 23.14814814814815,
+      "walk_by_count": 25,
+      "walk_by_percentage": 23.14814814814815,
+      "on_home_count": 0,
+      "on_home_percentage": 0,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 24,
+      "valid_percentage": 22.22222222222222,
+      "invalid_count": 1,
+      "invalid_percentage": 0.9259259259259258,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 19,
+      "winning_percentage": 76,
+      "effective_count": 24,
+      "losing_count": 5,
+      "losing_percentage": 20,
+      "other_count": 1,
+      "other_percentage": 4,
+      "by_place": {
+        "#1": {
+          "count": 19,
+          "percentage": 76
+        },
+        "#2": {
+          "count": 3,
+          "percentage": 12
+        },
+        "#3.5": {
+          "count": 2,
+          "percentage": 8
+        },
+        "#4": {
+          "count": 0,
+          "percentage": 0
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "papers": {
+      "received_count": 500,
+      "destroyed_count": 475,
+      "stationary_box_count": 25,
+      "portable_box_count": 0,
+      "valid_count": 24,
+      "invalid_count": 1,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    },
+    "voters": {
+      "registered_count": 108,
+      "walk_by_count": 25,
+      "on_home_count": 0,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Егорова Любовь Ивановна",
+      "position": 2,
+      "candidate_id": 212,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 19,
+        "place": 1,
+        "percentage": 76,
+        "valid_percentage": 79.16666666666666,
+        "registered_percentage": 17.59259259259259,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "248": {
+          "percentage": 86.36363636363636,
+          "valid_percentage": 90.47619047619048
+        },
+        "249": {
+          "percentage": 79.16666666666666,
+          "valid_percentage": 82.6086956521739
+        },
+        "250": {
+          "percentage": 76,
+          "valid_percentage": 79.16666666666666
+        },
+        "251": {
+          "percentage": 76,
+          "valid_percentage": 79.16666666666666
+        },
+        "252": {
+          "percentage": 79.16666666666666,
+          "valid_percentage": 82.6086956521739
+        }
+      }
+    },
+    {
+      "name": "Гудин Иван Сергеевич",
+      "position": 1,
+      "candidate_id": 248,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 3,
+        "place": 2,
+        "percentage": 12,
+        "valid_percentage": 12.5,
+        "registered_percentage": 2.7777777777777777,
+        "winner": false,
+        "lacking_votes_count": 16
+      },
+      "result_without_other_entry": {
+        "212": {
+          "percentage": 50,
+          "valid_percentage": 60
+        },
+        "249": {
+          "percentage": 12.5,
+          "valid_percentage": 13.043478260869565
+        },
+        "250": {
+          "percentage": 12,
+          "valid_percentage": 12.5
+        },
+        "251": {
+          "percentage": 12,
+          "valid_percentage": 12.5
+        },
+        "252": {
+          "percentage": 12.5,
+          "valid_percentage": 13.043478260869565
+        }
+      }
+    },
+    {
+      "name": "Козлов Александр Сергеевич",
+      "position": 3,
+      "candidate_id": 249,
+      "supported_by_party_id": 6,
+      "official_result": {
+        "votes_count": 1,
+        "place": 3.5,
+        "percentage": 4,
+        "valid_percentage": 4.166666666666666,
+        "registered_percentage": 0.9259259259259258,
+        "winner": false,
+        "same_place_candidate_count": 2,
+        "lacking_votes_count": 18
+      },
+      "result_without_other_entry": {
+        "212": {
+          "percentage": 16.666666666666664,
+          "valid_percentage": 20
+        },
+        "248": {
+          "percentage": 4.545454545454546,
+          "valid_percentage": 4.761904761904762
+        },
+        "250": {
+          "percentage": 4,
+          "valid_percentage": 4.166666666666666
+        },
+        "251": {
+          "percentage": 4,
+          "valid_percentage": 4.166666666666666
+        },
+        "252": {
+          "percentage": 4.166666666666666,
+          "valid_percentage": 4.3478260869565215
+        }
+      }
+    },
+    {
+      "name": "Швец Павел Евгеньевич",
+      "position": 6,
+      "candidate_id": 252,
+      "supported_by_party_id": 8,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 1,
+        "place": 3.5,
+        "percentage": 4,
+        "valid_percentage": 4.166666666666666,
+        "registered_percentage": 0.9259259259259258,
+        "winner": false,
+        "same_place_candidate_count": 2,
+        "lacking_votes_count": 18
+      },
+      "result_without_other_entry": {
+        "212": {
+          "percentage": 16.666666666666664,
+          "valid_percentage": 20
+        },
+        "248": {
+          "percentage": 4.545454545454546,
+          "valid_percentage": 4.761904761904762
+        },
+        "249": {
+          "percentage": 4.166666666666666,
+          "valid_percentage": 4.3478260869565215
+        },
+        "250": {
+          "percentage": 4,
+          "valid_percentage": 4.166666666666666
+        },
+        "251": {
+          "percentage": 4,
+          "valid_percentage": 4.166666666666666
+        }
+      }
+    },
+    {
+      "name": "Сысоев Виктор Игоревич",
+      "position": 4,
+      "candidate_id": 250,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 0,
+        "place": 4,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 19
+      },
+      "result_without_other_entry": {
+        "212": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "248": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "249": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "251": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "252": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    },
+    {
+      "name": "Федин Владимир Александрович",
+      "position": 5,
+      "candidate_id": 251,
+      "supported_by_party_id": 7,
+      "official_result": {
+        "votes_count": 0,
+        "place": 4,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 19
+      },
+      "result_without_other_entry": {
+        "212": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "248": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "249": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "250": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "252": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2384
+    },
+    "uik": 2384,
+    "district": "Фрунзенский район",
+    "tik": 63,
+    "gik": "СПбИК"
+  }
+}

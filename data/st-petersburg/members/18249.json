@@ -1,0 +1,94 @@
+{
+  "id": 18249,
+  "data_id": 27820001307091,
+  "name": {
+    "last": "Шипулина",
+    "first": "Ксения",
+    "middle": "Вячеславовна"
+  },
+  "birthdate": {
+    "day": 28,
+    "month": 7,
+    "year": 1983
+  },
+  "district": "Красносельский район",
+  "age": 38,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Шипулин",
+    "first": "Вячеслава"
+  },
+  "role_id": 4,
+  "assigned_by_id": 158,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 47
+    },
+    "tik": 47,
+    "district": "Красносельский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "21570",
+          "23256"
+        ]
+      }
+    },
+    "spouse": {
+      "21570": {
+        "strong_evidence": "strong_role",
+        "age_difference": 1,
+        "name": {
+          "last": "Шипулин",
+          "first": "Сергей",
+          "middle": "Сергеевич"
+        },
+        "distance": 21019,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1730
+          },
+          "uik": 1730,
+          "district": "Приморский район",
+          "tik": 57,
+          "gik": "СПбИК"
+        }
+      },
+      "23256": {
+        "strong_evidence": "strong_role",
+        "age_difference": 7,
+        "name": {
+          "last": "Шипулин",
+          "first": "Игорь",
+          "middle": "Валентинович"
+        },
+        "distance": 13460,
+        "district": "Фрунзенский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2137
+          },
+          "uik": 2137,
+          "district": "Фрунзенский район",
+          "tik": 62,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

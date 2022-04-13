@@ -1,0 +1,146 @@
+{
+  "id": 457,
+  "data_id": 478400302486,
+  "name": {
+    "last": "Дьякова",
+    "first": "Ирина",
+    "middle": "Леонидовна"
+  },
+  "birthdate": {
+    "day": 15,
+    "month": 12,
+    "year": 1966
+  },
+  "district": "Василеостровский район",
+  "age": 54,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Дьяков",
+    "first": "Леонид"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 2
+    },
+    "tik": 2,
+    "district": "Василеостровский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 5,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 3
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 20055
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          "5934",
+          "17552",
+          "17694"
+        ]
+      }
+    },
+    "spouse": {
+      "20055": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -12,
+        "name": {
+          "last": "Дьяков",
+          "first": "Алексей",
+          "middle": "Васильевич"
+        },
+        "distance": 11848,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 52
+          },
+          "tik": 52,
+          "district": "Невский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "17552": {
+        "strong_evidence": "strong_role",
+        "age_difference": 17,
+        "name": {
+          "last": "Дьякова",
+          "first": "Людмила",
+          "middle": "Андреевна"
+        },
+        "distance": 12711,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1027
+          },
+          "uik": 1027,
+          "district": "Красногвардейский район",
+          "tik": 45,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "5934": {
+        "strong_evidence": "strong_role",
+        "age_difference": -22,
+        "name": {
+          "last": "Дьякова",
+          "first": "Екатерина",
+          "middle": "Александровна"
+        },
+        "distance": 4653,
+        "district": "Центральный район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2187
+          },
+          "uik": 2187,
+          "district": "Центральный район",
+          "tik": 16,
+          "gik": "СПбИК"
+        }
+      },
+      "17694": {
+        "strong_evidence": "strong_role",
+        "age_difference": -32,
+        "name": {
+          "last": "Дьякова",
+          "first": "Татьяна",
+          "middle": "Алексеевна"
+        },
+        "distance": 12362,
+        "district": "Красногвардейский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1039
+          },
+          "uik": 1039,
+          "district": "Красногвардейский район",
+          "tik": 45,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

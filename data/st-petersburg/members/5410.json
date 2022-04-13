@@ -1,0 +1,69 @@
+{
+  "id": 5410,
+  "data_id": 4784018123964,
+  "name": {
+    "last": "Рассказова",
+    "first": "Ирина",
+    "middle": "Вадимовна"
+  },
+  "birthdate": {
+    "day": 10,
+    "month": 10,
+    "year": 1978
+  },
+  "district": "Выборгский район",
+  "age": 42,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Рассказов",
+    "first": "Вадим"
+  },
+  "role_id": 2,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 300
+    },
+    "uik": 300,
+    "district": "Выборгский район",
+    "tik": 14,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 5539
+      }
+    },
+    "children": {
+      "5539": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -19,
+        "name": {
+          "last": "Рассказова",
+          "first": "Юлия",
+          "middle": "Андреевна"
+        },
+        "distance": 5556,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 310
+          },
+          "uik": 310,
+          "district": "Выборгский район",
+          "tik": 14,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

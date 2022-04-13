@@ -1,0 +1,97 @@
+{
+  "id": 4860,
+  "data_id": 4784014365068,
+  "name": {
+    "last": "Кутузова",
+    "first": "Екатерина",
+    "middle": "Владимировна"
+  },
+  "birthdate": {
+    "day": 5,
+    "month": 11,
+    "year": 1981
+  },
+  "district": "Приморский район",
+  "age": 39,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Кутузов",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1785
+    },
+    "uik": 1785,
+    "district": "Приморский район",
+    "tik": 12,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 4518
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 11470
+      }
+    },
+    "spouse": {
+      "4518": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 7,
+        "name": {
+          "last": "Кутузов",
+          "first": "Вадим",
+          "middle": "Николаевич"
+        },
+        "distance": 1344,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1757
+          },
+          "uik": 1757,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "11470": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -5,
+        "name": {
+          "last": "Кутузова",
+          "first": "Мария",
+          "middle": "Владимировна"
+        },
+        "distance": 5418,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1868
+          },
+          "uik": 1868,
+          "district": "Приморский район",
+          "tik": 28,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

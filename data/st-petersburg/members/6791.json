@@ -1,0 +1,67 @@
+{
+  "id": 6791,
+  "data_id": 4784010176789,
+  "name": {
+    "last": "Шмидт",
+    "first": "Диана",
+    "middle": "Анатольевна"
+  },
+  "birthdate": {
+    "day": 6,
+    "month": 8,
+    "year": 1989
+  },
+  "district": "Московский район",
+  "age": 32,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Шмидт",
+    "first": "Анатолий"
+  },
+  "role_id": 3,
+  "assigned_by_id": 34,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 19
+    },
+    "tik": 19,
+    "district": "Московский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 12160
+      }
+    },
+    "mother": {
+      "12160": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 36,
+        "name": {
+          "last": "Шмидт",
+          "first": "Людмила",
+          "middle": "Ивановна"
+        },
+        "distance": 5710,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 30
+          },
+          "tik": 30,
+          "district": "Центральный район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

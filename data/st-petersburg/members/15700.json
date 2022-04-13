@@ -1,0 +1,119 @@
+{
+  "id": 15700,
+  "data_id": 27820001306802,
+  "name": {
+    "last": "Меркулова",
+    "first": "Ольга",
+    "middle": "Алексеевна"
+  },
+  "birthdate": {
+    "day": 12,
+    "month": 9,
+    "year": 1992
+  },
+  "district": "Калининский район",
+  "age": 29,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Меркулов",
+    "first": "Алексей"
+  },
+  "role_id": 4,
+  "assigned_by_id": 17,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 40
+    },
+    "tik": 40,
+    "district": "Калининский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 4,
+      "strong_guesses": {
+        "strong_role": 3
+      },
+      "siblings_with_strong_role": {
+        "count": 3,
+        "ids": [
+          "5537",
+          "6515",
+          "6525"
+        ]
+      }
+    },
+    "spouse": {
+      "6525": {
+        "strong_evidence": "strong_role",
+        "age_difference": 10,
+        "name": {
+          "last": "Меркулов",
+          "first": "Денис",
+          "middle": "Валерьевич"
+        },
+        "distance": 2084,
+        "district": "Петроградский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1633
+          },
+          "uik": 1633,
+          "district": "Петроградский район",
+          "tik": 18,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "5537": {
+        "strong_evidence": "strong_role",
+        "age_difference": 23,
+        "name": {
+          "last": "Меркулова",
+          "first": "Ольга",
+          "middle": "Васильевна"
+        },
+        "distance": 13330,
+        "district": "Выборгский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 310
+          },
+          "uik": 310,
+          "district": "Выборгский район",
+          "tik": 14,
+          "gik": "СПбИК"
+        }
+      },
+      "6515": {
+        "strong_evidence": "strong_role",
+        "age_difference": 20,
+        "name": {
+          "last": "Меркулова",
+          "first": "Ирина",
+          "middle": "Валерьевна"
+        },
+        "distance": 2241,
+        "district": "Петроградский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1632
+          },
+          "uik": 1632,
+          "district": "Петроградский район",
+          "tik": 18,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

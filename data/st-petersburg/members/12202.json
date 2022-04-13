@@ -1,0 +1,95 @@
+{
+  "id": 12202,
+  "data_id": 4784030220241,
+  "name": {
+    "last": "Ведерников",
+    "first": "Федор",
+    "middle": "Владимирович"
+  },
+  "birthdate": {
+    "day": 12,
+    "month": 6,
+    "year": 1992
+  },
+  "district": "Центральный район",
+  "age": 29,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Ведерников",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 17,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2236
+    },
+    "uik": 2236,
+    "district": "Центральный район",
+    "tik": 30,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 2
+      },
+      "siblings_under_mutual_commission": {
+        "count": 2,
+        "ids": [
+          12291,
+          12292
+        ]
+      }
+    },
+    "father": {
+      "12291": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 38,
+        "name": {
+          "last": "Ведерников",
+          "first": "Владимир",
+          "middle": "Викторович"
+        },
+        "distance": 876,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2243
+          },
+          "uik": 2243,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "12292": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 4,
+        "name": {
+          "last": "Ведерников",
+          "first": "Илья",
+          "middle": "Владимирович"
+        },
+        "distance": 876,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2243
+          },
+          "uik": 2243,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

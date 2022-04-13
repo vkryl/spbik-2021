@@ -1,0 +1,94 @@
+{
+  "id": 5336,
+  "data_id": 4784018243938,
+  "name": {
+    "last": "Евдокимова",
+    "first": "Марина",
+    "middle": "Георгиевна"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 11,
+    "year": 1978
+  },
+  "district": "Выборгский район",
+  "age": 42,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Евдокимов",
+    "first": "Георгий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 15,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 293
+    },
+    "uik": 293,
+    "district": "Выборгский район",
+    "tik": 14,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 458
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 19230
+      }
+    },
+    "spouse": {
+      "458": {
+        "strong_evidence": "strong_role",
+        "age_difference": -14,
+        "name": {
+          "last": "Евдокимов",
+          "first": "Ярослав",
+          "middle": "Романович"
+        },
+        "distance": 16257,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 2
+          },
+          "tik": 2,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "19230": {
+        "age_difference": 18,
+        "name": {
+          "last": "Евдокимова",
+          "first": "Тамара",
+          "middle": "Георгиевна"
+        },
+        "distance": 22730,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1497
+          },
+          "uik": 1497,
+          "district": "Невский район",
+          "tik": 49,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

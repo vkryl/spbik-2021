@@ -1,0 +1,117 @@
+{
+  "id": 9438,
+  "data_id": 4784022248623,
+  "name": {
+    "last": "Наумов",
+    "first": "Владимир",
+    "middle": "Георгиевич"
+  },
+  "birthdate": {
+    "day": 17,
+    "month": 2,
+    "year": 1953
+  },
+  "district": "Невский район",
+  "age": 68,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Наумов",
+    "first": "Георгий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1553
+    },
+    "uik": 1553,
+    "district": "Невский район",
+    "tik": 24,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_building": 1
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": 9428
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          5834,
+          7047
+        ]
+      }
+    },
+    "spouse": {
+      "9428": {
+        "strong_evidence": "same_building",
+        "age_difference": 1,
+        "name": {
+          "last": "Наумова",
+          "first": "Клавдия",
+          "middle": "Ивановна"
+        },
+        "distance": 0,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1552
+          },
+          "uik": 1552,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "5834": {
+        "age_difference": -22,
+        "name": {
+          "last": "Наумов",
+          "first": "Дмитрий",
+          "middle": "Владимирович"
+        },
+        "distance": 4235,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 16
+          },
+          "tik": 16,
+          "district": "Центральный район",
+          "gik": "СПбИК"
+        }
+      },
+      "7047": {
+        "age_difference": -34,
+        "name": {
+          "last": "Наумов",
+          "first": "Сергей",
+          "middle": "Владимирович"
+        },
+        "distance": 4714,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1307
+          },
+          "uik": 1307,
+          "district": "Московский район",
+          "tik": 19,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

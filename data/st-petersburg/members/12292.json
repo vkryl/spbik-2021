@@ -1,0 +1,97 @@
+{
+  "id": 12292,
+  "data_id": 4784030197726,
+  "name": {
+    "last": "Ведерников",
+    "first": "Илья",
+    "middle": "Владимирович"
+  },
+  "birthdate": {
+    "day": 9,
+    "month": 7,
+    "year": 1987
+  },
+  "district": "Центральный район",
+  "age": 34,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Ведерников",
+    "first": "Владимир"
+  },
+  "role_id": 4,
+  "assigned_by_id": 8,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2243
+    },
+    "uik": 2243,
+    "district": "Центральный район",
+    "tik": 30,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_parent_commission": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 12291
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 12202
+      }
+    },
+    "father": {
+      "12291": {
+        "strong_evidence": "same_commission",
+        "age_difference": 33,
+        "name": {
+          "last": "Ведерников",
+          "first": "Владимир",
+          "middle": "Викторович"
+        },
+        "distance": 0,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2243
+          },
+          "uik": 2243,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "12202": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -4,
+        "name": {
+          "last": "Ведерников",
+          "first": "Федор",
+          "middle": "Владимирович"
+        },
+        "distance": 876,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2236
+          },
+          "uik": 2236,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": 15870,
+  "data_id": 4784004158831,
+  "name": {
+    "last": "Воронов",
+    "first": "Николай",
+    "middle": "Вячеславович"
+  },
+  "birthdate": {
+    "day": 16,
+    "month": 7,
+    "year": 1946
+  },
+  "district": "Калининский район",
+  "age": 75,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Воронов",
+    "first": "Вячеслава"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 459
+    },
+    "uik": 459,
+    "district": "Калининский район",
+    "tik": 40,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 15973
+      }
+    },
+    "spouse": {
+      "15973": {
+        "strong_evidence": "strong_role",
+        "age_difference": -17,
+        "name": {
+          "last": "Воронова",
+          "first": "Татьяна",
+          "middle": "Викторовна"
+        },
+        "distance": 18031,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 41
+          },
+          "tik": 41,
+          "district": "Кировский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "5918": {
+        "age_difference": -45,
+        "name": {
+          "last": "Воронова",
+          "first": "Юлия",
+          "middle": "Николаевна"
+        },
+        "distance": 10821,
+        "district": "Центральный район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2186
+          },
+          "uik": 2186,
+          "district": "Центральный район",
+          "tik": 16,
+          "gik": "СПбИК"
+        }
+      },
+      "21445": {
+        "age_difference": -43,
+        "name": {
+          "last": "Воронова",
+          "first": "Юлия",
+          "middle": "Николаевна"
+        },
+        "distance": 11266,
+        "district": "Приморский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2395
+          },
+          "uik": 2395,
+          "district": "Приморский район",
+          "tik": 56,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

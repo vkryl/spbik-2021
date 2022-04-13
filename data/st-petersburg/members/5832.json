@@ -1,0 +1,95 @@
+{
+  "id": 5832,
+  "data_id": 4784017298728,
+  "name": {
+    "last": "Ермоленко",
+    "first": "Татьяна",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 21,
+    "month": 2,
+    "year": 1996
+  },
+  "district": "Центральный район",
+  "age": 25,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Ермоленко",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 113,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 16
+    },
+    "tik": 16,
+    "district": "Центральный район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 19208
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "13879"
+      }
+    },
+    "siblings": {
+      "19208": {
+        "age_difference": 12,
+        "name": {
+          "last": "Ермоленко",
+          "first": "Юлия",
+          "middle": "Александровна"
+        },
+        "distance": 6085,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1496
+          },
+          "uik": 1496,
+          "district": "Невский район",
+          "tik": 49,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "13879": {
+        "strong_evidence": "strong_role",
+        "age_difference": 22,
+        "name": {
+          "last": "Ермоленко",
+          "first": "Жанна",
+          "middle": "Викторовна"
+        },
+        "distance": 13281,
+        "district": "Выборгский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 212
+          },
+          "uik": 212,
+          "district": "Выборгский район",
+          "tik": 34,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

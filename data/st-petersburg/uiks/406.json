@@ -1,0 +1,82 @@
+{
+  "name": "УИК №406",
+  "id": 406,
+  "type": "uik",
+  "data_id": 4784024399686,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Выборгский район",
+  "electoral_districts": {
+    "federal": 213,
+    "city": 5
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {},
+    "protocol_count": 2,
+    "empty_protocol_count": 2,
+    "turnout_protocol_count": 2,
+    "ballot_count": 2
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 110,
+      "party_abstained_count": 80,
+      "party_registered_count": 190,
+      "warnings": "missing_person_result",
+      "no_city_count": 6,
+      "no_other_count": 6,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.party",
+          "value": 110,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.party",
+          "value": 104,
+          "isNegative": true
+        }
+      ],
+      "no_city_registered_count": 25,
+      "no_other_registered_count": 25,
+      "no_other_registered_count_formula": [
+        {
+          "key": "federal.registered_count.party",
+          "value": 190,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.registered_count.party",
+          "value": 165,
+          "isNegative": true
+        }
+      ]
+    },
+    "city": {
+      "party_voters_count": 104,
+      "party_abstained_count": 61,
+      "party_registered_count": 165,
+      "warnings": "missing_person_result",
+      "only_federal_count": 6,
+      "only_federal_registered_count": 25
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 22,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1,
+    2
+  ]
+}

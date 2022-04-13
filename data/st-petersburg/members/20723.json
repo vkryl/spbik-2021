@@ -1,0 +1,69 @@
+{
+  "id": 20723,
+  "data_id": 27820001302828,
+  "name": {
+    "last": "Волокитин",
+    "first": "Владимир",
+    "middle": "Евгеньевич"
+  },
+  "birthdate": {
+    "day": 30,
+    "month": 7,
+    "year": 1966
+  },
+  "district": "Петроградский район",
+  "age": 55,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Волокитин",
+    "first": "Евгений"
+  },
+  "role_id": 4,
+  "assigned_by_id": 18,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 54
+    },
+    "tik": 54,
+    "district": "Петроградский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "works_in_child_commission": 1
+      },
+      "siblings_in_child_commission": {
+        "count": 1,
+        "ids": "20885"
+      }
+    },
+    "children": {
+      "20885": {
+        "strong_evidence": "works_in_child_commission",
+        "age_difference": -28,
+        "name": {
+          "last": "Волокитина",
+          "first": "Юлия",
+          "middle": "Владимировна"
+        },
+        "distance": 393,
+        "district": "Петроградский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1625
+          },
+          "uik": 1625,
+          "district": "Петроградский район",
+          "tik": 54,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

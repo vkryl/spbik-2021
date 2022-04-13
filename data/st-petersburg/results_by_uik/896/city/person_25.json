@@ -1,0 +1,339 @@
+{
+  "commission_name": "УИК №896",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 896
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 25
+  },
+  "data_id": 0,
+  "ballot_data_id": 4784006453782,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 219,
+      "position": 1,
+      "percentage": 81.64251207729468,
+      "valid_percentage": 81.64251207729468,
+      "registered_percentage": 81.64251207729468
+    },
+    "turnout": {
+      "count": 207,
+      "percentage": 100,
+      "walk_by_count": 207,
+      "walk_by_percentage": 100,
+      "on_home_count": 0,
+      "on_home_percentage": 0,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 207,
+      "valid_percentage": 100,
+      "invalid_count": 0,
+      "invalid_percentage": 0,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 169,
+      "winning_percentage": 81.64251207729468,
+      "effective_count": 207,
+      "losing_count": 38,
+      "losing_percentage": 18.357487922705314,
+      "other_count": 0,
+      "other_percentage": 0,
+      "by_place": {
+        "#1": {
+          "count": 169,
+          "percentage": 81.64251207729468
+        },
+        "#2": {
+          "count": 23,
+          "percentage": 11.11111111111111
+        },
+        "#3": {
+          "count": 10,
+          "percentage": 4.830917874396135
+        },
+        "#4": {
+          "count": 5,
+          "percentage": 2.4154589371980677,
+          "supported_by_smart_vote": true
+        },
+        "#5": {
+          "count": 0,
+          "percentage": 0
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "voters": {
+      "initially_registered_count": 2190,
+      "registered_count": 207,
+      "walk_by_count": 207,
+      "on_home_count": 0,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0,
+      "removed_count": 1983
+    },
+    "papers": {
+      "received_count": 4000,
+      "destroyed_count": 3793,
+      "stationary_box_count": 207,
+      "portable_box_count": 0,
+      "valid_count": 207,
+      "invalid_count": 0,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Киселева Елена Юрьевна",
+      "position": 1,
+      "candidate_id": 219,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 169,
+        "place": 1,
+        "percentage": 81.64251207729468,
+        "valid_percentage": 81.64251207729468,
+        "registered_percentage": 81.64251207729468,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "214": {
+          "percentage": 91.84782608695652,
+          "valid_percentage": 91.84782608695652
+        },
+        "220": {
+          "percentage": 81.64251207729468,
+          "valid_percentage": 81.64251207729468
+        },
+        "221": {
+          "percentage": 83.66336633663366,
+          "valid_percentage": 83.66336633663366
+        },
+        "222": {
+          "percentage": 85.78680203045685,
+          "valid_percentage": 85.78680203045685
+        },
+        "223": {
+          "percentage": 81.64251207729468,
+          "valid_percentage": 81.64251207729468
+        }
+      }
+    },
+    {
+      "name": "Незабудкин Андрей Севирович",
+      "position": 4,
+      "candidate_id": 214,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 23,
+        "place": 2,
+        "percentage": 11.11111111111111,
+        "valid_percentage": 11.11111111111111,
+        "registered_percentage": 11.11111111111111,
+        "winner": false,
+        "lacking_votes_count": 146
+      },
+      "result_without_other_entry": {
+        "219": {
+          "percentage": 60.526315789473685,
+          "valid_percentage": 60.526315789473685
+        },
+        "220": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "221": {
+          "percentage": 11.386138613861387,
+          "valid_percentage": 11.386138613861387
+        },
+        "222": {
+          "percentage": 11.6751269035533,
+          "valid_percentage": 11.6751269035533
+        },
+        "223": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        }
+      }
+    },
+    {
+      "name": "Осипов Дмитрий Олегович",
+      "position": 5,
+      "candidate_id": 222,
+      "supported_by_party_id": 7,
+      "official_result": {
+        "votes_count": 10,
+        "place": 3,
+        "percentage": 4.830917874396135,
+        "valid_percentage": 4.830917874396135,
+        "registered_percentage": 4.830917874396135,
+        "winner": false,
+        "lacking_votes_count": 159
+      },
+      "result_without_other_entry": {
+        "214": {
+          "percentage": 5.434782608695652,
+          "valid_percentage": 5.434782608695652
+        },
+        "219": {
+          "percentage": 26.31578947368421,
+          "valid_percentage": 26.31578947368421
+        },
+        "220": {
+          "percentage": 4.830917874396135,
+          "valid_percentage": 4.830917874396135
+        },
+        "221": {
+          "percentage": 4.9504950495049505,
+          "valid_percentage": 4.9504950495049505
+        },
+        "223": {
+          "percentage": 4.830917874396135,
+          "valid_percentage": 4.830917874396135
+        }
+      }
+    },
+    {
+      "name": "Михайлов Егор Владимирович",
+      "position": 3,
+      "candidate_id": 221,
+      "supported_by_party_id": 1,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 5,
+        "place": 4,
+        "percentage": 2.4154589371980677,
+        "valid_percentage": 2.4154589371980677,
+        "registered_percentage": 2.4154589371980677,
+        "winner": false,
+        "lacking_votes_count": 164
+      },
+      "result_without_other_entry": {
+        "214": {
+          "percentage": 2.717391304347826,
+          "valid_percentage": 2.717391304347826
+        },
+        "219": {
+          "percentage": 13.157894736842104,
+          "valid_percentage": 13.157894736842104
+        },
+        "220": {
+          "percentage": 2.4154589371980677,
+          "valid_percentage": 2.4154589371980677
+        },
+        "222": {
+          "percentage": 2.5380710659898478,
+          "valid_percentage": 2.5380710659898478
+        },
+        "223": {
+          "percentage": 2.4154589371980677,
+          "valid_percentage": 2.4154589371980677
+        }
+      }
+    },
+    {
+      "name": "Миннапов Ринат Мукатдисович",
+      "position": 2,
+      "candidate_id": 220,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 0,
+        "place": 5,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 169
+      },
+      "result_without_other_entry": {
+        "214": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "219": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "221": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "222": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "223": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    },
+    {
+      "name": "Петрунин Анатолий Сергеевич",
+      "position": 6,
+      "candidate_id": 223,
+      "supported_by_party_id": 6,
+      "official_result": {
+        "votes_count": 0,
+        "place": 5,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 169
+      },
+      "result_without_other_entry": {
+        "214": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "219": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "220": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "221": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "222": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 896
+    },
+    "uik": 896,
+    "district": "Колпинский район",
+    "tik": 21,
+    "gik": "СПбИК"
+  }
+}

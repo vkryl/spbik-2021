@@ -1,0 +1,143 @@
+{
+  "id": 3385,
+  "data_id": 4784023295893,
+  "name": {
+    "last": "Макарова",
+    "first": "Ирина",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 17,
+    "month": 4,
+    "year": 1977
+  },
+  "district": "Приморский район",
+  "age": 44,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Макаров",
+    "first": "Александр"
+  },
+  "role_id": 3,
+  "assigned_by_id": 5,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1805
+    },
+    "uik": 1805,
+    "district": "Приморский район",
+    "tik": 9,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 12986
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          6204,
+          20476
+        ]
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 6657
+      }
+    },
+    "spouse": {
+      "12986": {
+        "strong_evidence": "strong_role",
+        "age_difference": -1,
+        "name": {
+          "last": "Макаров",
+          "first": "Виталий",
+          "middle": "Михайлович"
+        },
+        "distance": 7210,
+        "district": "Василеостровский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 32
+          },
+          "tik": 32,
+          "district": "Василеостровский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "6204": {
+        "age_difference": -22,
+        "name": {
+          "last": "Макарова",
+          "first": "Виктория",
+          "middle": "Александровна"
+        },
+        "distance": 5280,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 514
+          },
+          "uik": 514,
+          "district": "Калининский район",
+          "tik": 17,
+          "gik": "СПбИК"
+        }
+      },
+      "6657": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -2,
+        "name": {
+          "last": "Макаров",
+          "first": "Андрей",
+          "middle": "Александрович"
+        },
+        "distance": 4671,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1655
+          },
+          "uik": 1655,
+          "district": "Петроградский район",
+          "tik": 18,
+          "gik": "СПбИК"
+        }
+      },
+      "20476": {
+        "age_difference": 7,
+        "name": {
+          "last": "Макаров",
+          "first": "Константин",
+          "middle": "Александрович"
+        },
+        "distance": 20128,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1590
+          },
+          "uik": 1590,
+          "district": "Невский район",
+          "tik": 53,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

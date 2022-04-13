@@ -1,0 +1,100 @@
+{
+  "name": "УИК №1667",
+  "id": 1667,
+  "type": "uik",
+  "data_id": 4784012323096,
+  "has_koib": false,
+  "unknown": true,
+  "district": "Петроградский район",
+  "electoral_districts": {
+    "federal": 216,
+    "city": 3
+  },
+  "stats": {
+    "parties_count": {
+      "federal": 14,
+      "city": 8
+    },
+    "candidates_count": {
+      "federal": {
+        "216": 13,
+        "total_count": 13,
+        "winner_count": 1
+      },
+      "city": {
+        "3": 5,
+        "total_count": 5,
+        "winner_count": 1
+      }
+    },
+    "protocol_count": 4,
+    "empty_protocol_count": 0,
+    "turnout_protocol_count": 2,
+    "ballot_count": 2
+  },
+  "analysis": {
+    "federal": {
+      "party_voters_count": 304,
+      "party_abstained_count": 146,
+      "party_registered_count": 450,
+      "person_voters_count": 304,
+      "person_abstained_count": 146,
+      "person_registered_count": 450,
+      "no_city_count": 134,
+      "no_other_count": 134,
+      "no_other_count_formula": [
+        {
+          "key": "federal.voters_count.person",
+          "value": 304,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.voters_count.person",
+          "value": 170,
+          "isNegative": true
+        }
+      ],
+      "no_city_registered_count": 206,
+      "no_other_registered_count": 206,
+      "no_other_registered_count_formula": [
+        {
+          "key": "federal.registered_count.person",
+          "value": 450,
+          "isNegative": false
+        },
+        "-",
+        {
+          "key": "city.registered_count.person",
+          "value": 244,
+          "isNegative": true
+        }
+      ]
+    },
+    "city": {
+      "party_voters_count": 170,
+      "party_abstained_count": 74,
+      "party_registered_count": 244,
+      "person_voters_count": 170,
+      "person_abstained_count": 74,
+      "person_registered_count": 244,
+      "only_federal_count": 134,
+      "only_federal_registered_count": 206
+    }
+  },
+  "parent_commission": {
+    "type": "tik",
+    "id": 18,
+    "parent_commission": {
+      "type": "gik",
+      "id": "СПбИК"
+    }
+  },
+  "election_ids": [
+    1,
+    2
+  ],
+  "awards": {
+    "diplomas": 1
+  }
+}

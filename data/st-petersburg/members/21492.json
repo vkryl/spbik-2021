@@ -1,0 +1,69 @@
+{
+  "id": 21492,
+  "data_id": 27820001312545,
+  "name": {
+    "last": "Вавилов",
+    "first": "Глеб",
+    "middle": "Олегович"
+  },
+  "birthdate": {
+    "day": 10,
+    "month": 2,
+    "year": 1993
+  },
+  "district": "Приморский район",
+  "age": 28,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Вавилов",
+    "first": "Олег"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 57
+    },
+    "tik": 57,
+    "district": "Приморский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": "16257"
+      }
+    },
+    "mother": {
+      "16257": {
+        "strong_evidence": "strong_role",
+        "age_difference": 29,
+        "name": {
+          "last": "Вавилова",
+          "first": "Юлия",
+          "middle": "Алесандровна"
+        },
+        "distance": 12201,
+        "district": "Кировский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 598
+          },
+          "uik": 598,
+          "district": "Кировский район",
+          "tik": 41,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": 10854,
+  "data_id": 4784026135637,
+  "name": {
+    "last": "Ефремова",
+    "first": "Наталья",
+    "middle": "Федоровна"
+  },
+  "birthdate": {
+    "day": 13,
+    "month": 3,
+    "year": 1965
+  },
+  "district": "Красносельский район",
+  "age": 56,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Ефремов",
+    "first": "Федор"
+  },
+  "role_id": 1,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1209
+    },
+    "uik": 1209,
+    "district": "Красносельский район",
+    "tik": 26,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 2
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          9878,
+          23212
+        ]
+      }
+    },
+    "children": {
+      "9878": {
+        "strong_evidence": "strong_role",
+        "age_difference": -17,
+        "name": {
+          "last": "Ефремова",
+          "first": "Елена",
+          "middle": "Алексеевна"
+        },
+        "distance": 32719,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 25
+          },
+          "tik": 25,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "23212": {
+        "strong_evidence": "strong_role",
+        "age_difference": 18,
+        "name": {
+          "last": "Ефремова",
+          "first": "Нина",
+          "middle": "Никифоровна"
+        },
+        "distance": 24489,
+        "district": "Фрунзенский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 62
+          },
+          "tik": 62,
+          "district": "Фрунзенский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 3432,
+  "data_id": 4784023299807,
+  "name": {
+    "last": "Максимов",
+    "first": "Никита",
+    "middle": "Дмитриевич"
+  },
+  "birthdate": {
+    "day": 3,
+    "month": 1,
+    "year": 1998
+  },
+  "district": "Приморский район",
+  "age": 23,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Максимов",
+    "first": "Дмитрий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 11,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1809
+    },
+    "uik": 1809,
+    "district": "Приморский район",
+    "tik": 9,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 1,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 3304
+      }
+    },
+    "mother": {
+      "3304": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 37,
+        "name": {
+          "last": "Максимова",
+          "first": "Елена",
+          "middle": "Борисовна"
+        },
+        "distance": 1491,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1797
+          },
+          "uik": 1797,
+          "district": "Приморский район",
+          "tik": 9,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

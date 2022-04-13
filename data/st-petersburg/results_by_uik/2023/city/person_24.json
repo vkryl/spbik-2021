@@ -1,0 +1,408 @@
+{
+  "commission_name": "УИК №2023",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 2023
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 24
+  },
+  "data_id": 0,
+  "ballot_data_id": 4784015432877,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 205,
+      "position": 5,
+      "percentage": 84.32835820895522,
+      "valid_percentage": 84.32835820895522,
+      "registered_percentage": 84.32835820895522
+    },
+    "turnout": {
+      "count": 134,
+      "percentage": 100,
+      "walk_by_count": 44,
+      "walk_by_percentage": 32.83582089552239,
+      "on_home_count": 90,
+      "on_home_percentage": 67.16417910447761,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 134,
+      "valid_percentage": 100,
+      "invalid_count": 0,
+      "invalid_percentage": 0,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 113,
+      "winning_percentage": 84.32835820895522,
+      "effective_count": 134,
+      "losing_count": 21,
+      "losing_percentage": 15.671641791044777,
+      "other_count": 0,
+      "other_percentage": 0,
+      "by_place": {
+        "#1": {
+          "count": 113,
+          "percentage": 84.32835820895522
+        },
+        "#2": {
+          "count": 13,
+          "percentage": 9.701492537313433
+        },
+        "#3": {
+          "count": 4,
+          "percentage": 2.9850746268656714
+        },
+        "#4": {
+          "count": 2,
+          "percentage": 1.4925373134328357
+        },
+        "#5.5": {
+          "count": 2,
+          "percentage": 1.4925373134328357,
+          "supported_by_smart_vote": true
+        },
+        "#6": {
+          "count": 0,
+          "percentage": 0
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "papers": {
+      "received_count": 135,
+      "destroyed_count": 1,
+      "stationary_box_count": 44,
+      "portable_box_count": 90,
+      "valid_count": 134,
+      "invalid_count": 0,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    },
+    "voters": {
+      "registered_count": 134,
+      "walk_by_count": 44,
+      "on_home_count": 90,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Павлов Дмитрий Геннадьевич",
+      "position": 5,
+      "candidate_id": 205,
+      "supported_by_party_id": 4,
+      "official_result": {
+        "votes_count": 113,
+        "place": 1,
+        "percentage": 84.32835820895522,
+        "valid_percentage": 84.32835820895522,
+        "registered_percentage": 84.32835820895522,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "27": {
+          "percentage": 85.60606060606061,
+          "valid_percentage": 85.60606060606061
+        },
+        "202": {
+          "percentage": 93.38842975206612,
+          "valid_percentage": 93.38842975206612
+        },
+        "203": {
+          "percentage": 84.9624060150376,
+          "valid_percentage": 84.9624060150376
+        },
+        "204": {
+          "percentage": 86.92307692307692,
+          "valid_percentage": 86.92307692307692
+        },
+        "206": {
+          "percentage": 84.32835820895522,
+          "valid_percentage": 84.32835820895522
+        },
+        "207": {
+          "percentage": 84.9624060150376,
+          "valid_percentage": 84.9624060150376
+        }
+      }
+    },
+    {
+      "name": "Бочков Юрий Павлович",
+      "position": 1,
+      "candidate_id": 202,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 13,
+        "place": 2,
+        "percentage": 9.701492537313433,
+        "valid_percentage": 9.701492537313433,
+        "registered_percentage": 9.701492537313433,
+        "winner": false,
+        "lacking_votes_count": 100
+      },
+      "result_without_other_entry": {
+        "27": {
+          "percentage": 9.848484848484848,
+          "valid_percentage": 9.848484848484848
+        },
+        "203": {
+          "percentage": 9.774436090225564,
+          "valid_percentage": 9.774436090225564
+        },
+        "204": {
+          "percentage": 10,
+          "valid_percentage": 10
+        },
+        "205": {
+          "percentage": 61.904761904761905,
+          "valid_percentage": 61.904761904761905
+        },
+        "206": {
+          "percentage": 9.701492537313433,
+          "valid_percentage": 9.701492537313433
+        },
+        "207": {
+          "percentage": 9.774436090225564,
+          "valid_percentage": 9.774436090225564
+        }
+      }
+    },
+    {
+      "name": "Маханьков Александр Владимирович",
+      "position": 4,
+      "candidate_id": 204,
+      "supported_by_party_id": 7,
+      "official_result": {
+        "votes_count": 4,
+        "place": 3,
+        "percentage": 2.9850746268656714,
+        "valid_percentage": 2.9850746268656714,
+        "registered_percentage": 2.9850746268656714,
+        "winner": false,
+        "lacking_votes_count": 109
+      },
+      "result_without_other_entry": {
+        "27": {
+          "percentage": 3.0303030303030303,
+          "valid_percentage": 3.0303030303030303
+        },
+        "202": {
+          "percentage": 3.3057851239669422,
+          "valid_percentage": 3.3057851239669422
+        },
+        "203": {
+          "percentage": 3.007518796992481,
+          "valid_percentage": 3.007518796992481
+        },
+        "205": {
+          "percentage": 19.047619047619047,
+          "valid_percentage": 19.047619047619047
+        },
+        "206": {
+          "percentage": 2.9850746268656714,
+          "valid_percentage": 2.9850746268656714
+        },
+        "207": {
+          "percentage": 3.007518796992481,
+          "valid_percentage": 3.007518796992481
+        }
+      }
+    },
+    {
+      "name": "Дулеба Валерий Владимирович",
+      "position": 2,
+      "candidate_id": 27,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 2,
+        "place": 4,
+        "percentage": 1.4925373134328357,
+        "valid_percentage": 1.4925373134328357,
+        "registered_percentage": 1.4925373134328357,
+        "winner": false,
+        "lacking_votes_count": 111
+      },
+      "result_without_other_entry": {
+        "202": {
+          "percentage": 1.6528925619834711,
+          "valid_percentage": 1.6528925619834711
+        },
+        "203": {
+          "percentage": 1.5037593984962405,
+          "valid_percentage": 1.5037593984962405
+        },
+        "204": {
+          "percentage": 1.5384615384615385,
+          "valid_percentage": 1.5384615384615385
+        },
+        "205": {
+          "percentage": 9.523809523809524,
+          "valid_percentage": 9.523809523809524
+        },
+        "206": {
+          "percentage": 1.4925373134328357,
+          "valid_percentage": 1.4925373134328357
+        },
+        "207": {
+          "percentage": 1.5037593984962405,
+          "valid_percentage": 1.5037593984962405
+        }
+      }
+    },
+    {
+      "name": "Косов Константин Александрович",
+      "position": 3,
+      "candidate_id": 203,
+      "supported_by_party_id": 6,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 1,
+        "place": 5.5,
+        "percentage": 0.7462686567164178,
+        "valid_percentage": 0.7462686567164178,
+        "registered_percentage": 0.7462686567164178,
+        "winner": false,
+        "same_place_candidate_count": 2,
+        "lacking_votes_count": 112
+      },
+      "result_without_other_entry": {
+        "27": {
+          "percentage": 0.7575757575757576,
+          "valid_percentage": 0.7575757575757576
+        },
+        "202": {
+          "percentage": 0.8264462809917356,
+          "valid_percentage": 0.8264462809917356
+        },
+        "204": {
+          "percentage": 0.7692307692307693,
+          "valid_percentage": 0.7692307692307693
+        },
+        "205": {
+          "percentage": 4.761904761904762,
+          "valid_percentage": 4.761904761904762
+        },
+        "206": {
+          "percentage": 0.7462686567164178,
+          "valid_percentage": 0.7462686567164178
+        },
+        "207": {
+          "percentage": 0.7518796992481203,
+          "valid_percentage": 0.7518796992481203
+        }
+      }
+    },
+    {
+      "name": "Юрченко Михаил Вячеславович",
+      "position": 7,
+      "candidate_id": 207,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 1,
+        "place": 5.5,
+        "percentage": 0.7462686567164178,
+        "valid_percentage": 0.7462686567164178,
+        "registered_percentage": 0.7462686567164178,
+        "winner": false,
+        "same_place_candidate_count": 2,
+        "lacking_votes_count": 112
+      },
+      "result_without_other_entry": {
+        "27": {
+          "percentage": 0.7575757575757576,
+          "valid_percentage": 0.7575757575757576
+        },
+        "202": {
+          "percentage": 0.8264462809917356,
+          "valid_percentage": 0.8264462809917356
+        },
+        "203": {
+          "percentage": 0.7518796992481203,
+          "valid_percentage": 0.7518796992481203
+        },
+        "204": {
+          "percentage": 0.7692307692307693,
+          "valid_percentage": 0.7692307692307693
+        },
+        "205": {
+          "percentage": 4.761904761904762,
+          "valid_percentage": 4.761904761904762
+        },
+        "206": {
+          "percentage": 0.7462686567164178,
+          "valid_percentage": 0.7462686567164178
+        }
+      }
+    },
+    {
+      "name": "Рутковская Елена Валерьевна",
+      "position": 6,
+      "candidate_id": 206,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 0,
+        "place": 6,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 113
+      },
+      "result_without_other_entry": {
+        "27": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "202": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "203": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "204": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "205": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "207": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 2023
+    },
+    "uik": 2023,
+    "district": "Пушкинский район",
+    "tik": 20,
+    "gik": "СПбИК"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": 11120,
+  "data_id": 4784027259995,
+  "name": {
+    "last": "Козырева",
+    "first": "Фаина",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 3,
+    "month": 1,
+    "year": 1940
+  },
+  "district": "Московский район",
+  "age": 81,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Козырев",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 28,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1382
+    },
+    "uik": 1382,
+    "district": "Московский район",
+    "tik": 27,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "same_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 11106
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 11119
+      }
+    },
+    "children": {
+      "11106": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -33,
+        "name": {
+          "last": "Козырева",
+          "first": "Ирина",
+          "middle": "Борисовна"
+        },
+        "distance": 1529,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1381
+          },
+          "uik": 1381,
+          "district": "Московский район",
+          "tik": 27,
+          "gik": "СПбИК"
+        }
+      },
+      "11119": {
+        "strong_evidence": "same_commission",
+        "age_difference": -53,
+        "name": {
+          "last": "Козырева",
+          "first": "Анастасия",
+          "middle": "Васильевна"
+        },
+        "distance": 0,
+        "district": "Московский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1382
+          },
+          "uik": 1382,
+          "district": "Московский район",
+          "tik": 27,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

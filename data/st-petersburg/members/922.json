@@ -1,0 +1,125 @@
+{
+  "id": 922,
+  "data_id": 9789005301472,
+  "name": {
+    "last": "Петров",
+    "first": "Андрей",
+    "middle": "Иванович"
+  },
+  "birthdate": {
+    "day": 2,
+    "month": 12,
+    "year": 1981
+  },
+  "district": "Кировский район",
+  "age": 39,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Петров",
+    "first": "Иван"
+  },
+  "role_id": 4,
+  "assigned_by_id": 51,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 625
+    },
+    "uik": 625,
+    "district": "Кировский район",
+    "tik": 3,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_commission": 1,
+        "same_parent_commission": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_in_commission": {
+        "count": 1,
+        "ids": 918
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 962
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 7635
+      }
+    },
+    "spouse": {
+      "918": {
+        "strong_evidence": "same_commission",
+        "age_difference": -1,
+        "name": {
+          "last": "Петрова",
+          "first": "Елена",
+          "middle": "Валерьевна"
+        },
+        "distance": 0,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 625
+          },
+          "uik": 625,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "7635": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": 5,
+        "name": {
+          "last": "Петрова",
+          "first": "Ольга",
+          "middle": "Ивановна"
+        },
+        "distance": 19470,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1982
+          },
+          "uik": 1982,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "962": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 20,
+        "name": {
+          "last": "Петрова",
+          "first": "Ирина",
+          "middle": "Сергеевна"
+        },
+        "distance": 764,
+        "district": "Кировский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 628
+          },
+          "uik": 628,
+          "district": "Кировский район",
+          "tik": 3,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

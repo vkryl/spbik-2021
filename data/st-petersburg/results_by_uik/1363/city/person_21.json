@@ -1,0 +1,401 @@
+{
+  "commission_name": "УИК №1363",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 1363
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 21
+  },
+  "data_id": 0,
+  "ballot_data_id": 478404884288,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 201,
+      "position": 7,
+      "percentage": 50,
+      "valid_percentage": 50,
+      "registered_percentage": 10.638297872340425
+    },
+    "turnout": {
+      "count": 10,
+      "percentage": 21.27659574468085,
+      "walk_by_count": 10,
+      "walk_by_percentage": 21.27659574468085,
+      "on_home_count": 0,
+      "on_home_percentage": 0,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 10,
+      "valid_percentage": 21.27659574468085,
+      "invalid_count": 0,
+      "invalid_percentage": 0,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 5,
+      "winning_percentage": 50,
+      "effective_count": 10,
+      "losing_count": 5,
+      "losing_percentage": 50,
+      "other_count": 0,
+      "other_percentage": 0,
+      "by_place": {
+        "#1": {
+          "count": 5,
+          "percentage": 50
+        },
+        "#3.3333333333333335": {
+          "count": 3,
+          "percentage": 30,
+          "supported_by_smart_vote": true
+        },
+        "#2": {
+          "count": 2,
+          "percentage": 20
+        },
+        "#4": {
+          "count": 0,
+          "percentage": 0
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "papers": {
+      "received_count": 49,
+      "destroyed_count": 39,
+      "stationary_box_count": 10,
+      "portable_box_count": 0,
+      "valid_count": 10,
+      "invalid_count": 0,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    },
+    "voters": {
+      "registered_count": 47,
+      "walk_by_count": 10,
+      "on_home_count": 0,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Швецов Михаил Максимович",
+      "position": 7,
+      "candidate_id": 201,
+      "supported_by_party_id": 4,
+      "official_result": {
+        "votes_count": 5,
+        "place": 1,
+        "percentage": 50,
+        "valid_percentage": 50,
+        "registered_percentage": 10.638297872340425,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "4": {
+          "percentage": 55.55555555555556,
+          "valid_percentage": 55.55555555555556
+        },
+        "77": {
+          "percentage": 50,
+          "valid_percentage": 50
+        },
+        "197": {
+          "percentage": 55.55555555555556,
+          "valid_percentage": 55.55555555555556
+        },
+        "198": {
+          "percentage": 55.55555555555556,
+          "valid_percentage": 55.55555555555556
+        },
+        "199": {
+          "percentage": 62.5,
+          "valid_percentage": 62.5
+        },
+        "200": {
+          "percentage": 50,
+          "valid_percentage": 50
+        }
+      }
+    },
+    {
+      "name": "Титенко Никита Юрьевич",
+      "position": 5,
+      "candidate_id": 199,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 2,
+        "place": 2,
+        "percentage": 20,
+        "valid_percentage": 20,
+        "registered_percentage": 4.25531914893617,
+        "winner": false,
+        "lacking_votes_count": 3
+      },
+      "result_without_other_entry": {
+        "4": {
+          "percentage": 22.22222222222222,
+          "valid_percentage": 22.22222222222222
+        },
+        "77": {
+          "percentage": 20,
+          "valid_percentage": 20
+        },
+        "197": {
+          "percentage": 22.22222222222222,
+          "valid_percentage": 22.22222222222222
+        },
+        "198": {
+          "percentage": 22.22222222222222,
+          "valid_percentage": 22.22222222222222
+        },
+        "200": {
+          "percentage": 20,
+          "valid_percentage": 20
+        },
+        "201": {
+          "percentage": 40,
+          "valid_percentage": 40
+        }
+      }
+    },
+    {
+      "name": "Галкина Ольга Владимировна",
+      "position": 1,
+      "candidate_id": 197,
+      "supported_by_party_id": 6,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 1,
+        "place": 3.3333333333333335,
+        "percentage": 10,
+        "valid_percentage": 10,
+        "registered_percentage": 2.127659574468085,
+        "winner": false,
+        "same_place_candidate_count": 2.9999999999999987,
+        "lacking_votes_count": 4
+      },
+      "result_without_other_entry": {
+        "4": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "77": {
+          "percentage": 10,
+          "valid_percentage": 10
+        },
+        "198": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "199": {
+          "percentage": 12.5,
+          "valid_percentage": 12.5
+        },
+        "200": {
+          "percentage": 10,
+          "valid_percentage": 10
+        },
+        "201": {
+          "percentage": 20,
+          "valid_percentage": 20
+        }
+      }
+    },
+    {
+      "name": "Денисов Геннадий Иванович",
+      "position": 3,
+      "candidate_id": 4,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 1,
+        "place": 3.3333333333333335,
+        "percentage": 10,
+        "valid_percentage": 10,
+        "registered_percentage": 2.127659574468085,
+        "winner": false,
+        "same_place_candidate_count": 2.9999999999999987,
+        "lacking_votes_count": 4
+      },
+      "result_without_other_entry": {
+        "77": {
+          "percentage": 10,
+          "valid_percentage": 10
+        },
+        "197": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "198": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "199": {
+          "percentage": 12.5,
+          "valid_percentage": 12.5
+        },
+        "200": {
+          "percentage": 10,
+          "valid_percentage": 10
+        },
+        "201": {
+          "percentage": 20,
+          "valid_percentage": 20
+        }
+      }
+    },
+    {
+      "name": "Малков Андрей Витальевич",
+      "position": 4,
+      "candidate_id": 198,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 1,
+        "place": 3.3333333333333335,
+        "percentage": 10,
+        "valid_percentage": 10,
+        "registered_percentage": 2.127659574468085,
+        "winner": false,
+        "same_place_candidate_count": 2.9999999999999987,
+        "lacking_votes_count": 4
+      },
+      "result_without_other_entry": {
+        "4": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "77": {
+          "percentage": 10,
+          "valid_percentage": 10
+        },
+        "197": {
+          "percentage": 11.11111111111111,
+          "valid_percentage": 11.11111111111111
+        },
+        "199": {
+          "percentage": 12.5,
+          "valid_percentage": 12.5
+        },
+        "200": {
+          "percentage": 10,
+          "valid_percentage": 10
+        },
+        "201": {
+          "percentage": 20,
+          "valid_percentage": 20
+        }
+      }
+    },
+    {
+      "name": "Голованов Александр Андреевич",
+      "position": 2,
+      "candidate_id": 77,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 0,
+        "place": 4,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 5
+      },
+      "result_without_other_entry": {
+        "4": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "197": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "198": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "199": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "200": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "201": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    },
+    {
+      "name": "Чистякова Софья Левановна",
+      "position": 6,
+      "candidate_id": 200,
+      "supported_by_party_id": 7,
+      "official_result": {
+        "votes_count": 0,
+        "place": 4,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 5
+      },
+      "result_without_other_entry": {
+        "4": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "77": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "197": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "198": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "199": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "201": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1363
+    },
+    "uik": 1363,
+    "district": "Московский район",
+    "tik": 48,
+    "gik": "СПбИК"
+  }
+}

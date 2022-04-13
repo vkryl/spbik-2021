@@ -1,0 +1,94 @@
+{
+  "id": 6555,
+  "data_id": 4784012264942,
+  "name": {
+    "last": "Сидоренко",
+    "first": "Ирина",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 25,
+    "month": 1,
+    "year": 1970
+  },
+  "district": "Петроградский район",
+  "age": 51,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Сидоренко",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1635
+    },
+    "uik": 1635,
+    "district": "Петроградский район",
+    "tik": 18,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "strong_role": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 6466
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 9889
+      }
+    },
+    "children": {
+      "6466": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -19,
+        "name": {
+          "last": "Сидоренко",
+          "first": "Юлия",
+          "middle": "Андреевна"
+        },
+        "distance": 1030,
+        "district": "Петроградский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1628
+          },
+          "uik": 1628,
+          "district": "Петроградский район",
+          "tik": 18,
+          "gik": "СПбИК"
+        }
+      },
+      "9889": {
+        "strong_evidence": "strong_role",
+        "age_difference": -23,
+        "name": {
+          "last": "Сидоренко",
+          "first": "Максим",
+          "middle": "Михайлович"
+        },
+        "distance": 5823,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 25
+          },
+          "tik": 25,
+          "district": "Красногвардейский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

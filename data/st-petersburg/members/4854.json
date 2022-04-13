@@ -1,0 +1,120 @@
+{
+  "id": 4854,
+  "data_id": 4784014365004,
+  "name": {
+    "last": "Кочеткова",
+    "first": "Ирина",
+    "middle": "Леонидовна"
+  },
+  "birthdate": {
+    "day": 8,
+    "month": 1,
+    "year": 1963
+  },
+  "district": "Приморский район",
+  "age": 58,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Кочетков",
+    "first": "Леонид"
+  },
+  "role_id": 2,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1785
+    },
+    "uik": 1785,
+    "district": "Приморский район",
+    "tik": 12,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 2,
+      "strong_guesses": {
+        "same_commission": 2,
+        "strong_role": 1
+      },
+      "siblings_in_commission": {
+        "count": 2,
+        "ids": [
+          4857,
+          4858
+        ]
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 22324
+      }
+    },
+    "children": {
+      "4858": {
+        "strong_evidence": "same_commission",
+        "age_difference": -30,
+        "name": {
+          "last": "Кочетков",
+          "first": "Павел",
+          "middle": "Викторович"
+        },
+        "distance": 0,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1785
+          },
+          "uik": 1785,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "spouse": {
+      "4857": {
+        "strong_evidence": "same_commission",
+        "age_difference": 0,
+        "name": {
+          "last": "Кочетков",
+          "first": "Виктор",
+          "middle": "Геннадьевич"
+        },
+        "distance": 0,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1785
+          },
+          "uik": 1785,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      },
+      "22324": {
+        "strong_evidence": "strong_role",
+        "age_difference": -7,
+        "name": {
+          "last": "Кочетков",
+          "first": "Игорь",
+          "middle": "Викторович"
+        },
+        "distance": 32074,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 59
+          },
+          "tik": 59,
+          "district": "Пушкинский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

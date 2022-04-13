@@ -1,0 +1,95 @@
+{
+  "id": 10094,
+  "data_id": 4784025267236,
+  "name": {
+    "last": "Цветкова",
+    "first": "Алина",
+    "middle": "Александровна"
+  },
+  "birthdate": {
+    "day": 6,
+    "month": 4,
+    "year": 1996
+  },
+  "district": "Красногвардейский район",
+  "age": 25,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Цветков",
+    "first": "Александр"
+  },
+  "role_id": 4,
+  "assigned_by_id": 55,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 989
+    },
+    "uik": 989,
+    "district": "Красногвардейский район",
+    "tik": 25,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 2,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "same_parent_commission": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 10272
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 12389
+      }
+    },
+    "siblings": {
+      "12389": {
+        "age_difference": 16,
+        "name": {
+          "last": "Цветков",
+          "first": "Максим",
+          "middle": "Александрович"
+        },
+        "distance": 6236,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 2250
+          },
+          "uik": 2250,
+          "district": "Центральный район",
+          "tik": 30,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "mother": {
+      "10272": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": 41,
+        "name": {
+          "last": "Цветкова",
+          "first": "Зинаида",
+          "middle": "Григорьевна"
+        },
+        "distance": 1594,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1004
+          },
+          "uik": 1004,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

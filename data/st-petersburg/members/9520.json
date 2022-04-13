@@ -1,0 +1,116 @@
+{
+  "id": 9520,
+  "data_id": 4784022274554,
+  "name": {
+    "last": "Попов",
+    "first": "Константин",
+    "middle": "Викторович"
+  },
+  "birthdate": {
+    "day": 23,
+    "month": 5,
+    "year": 1985
+  },
+  "district": "Невский район",
+  "age": 36,
+  "gender": "male",
+  "father_name_guess": {
+    "last": "Попов",
+    "first": "Виктор"
+  },
+  "role_id": 4,
+  "assigned_by_id": 10,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1559
+    },
+    "uik": 1559,
+    "district": "Невский район",
+    "tik": 24,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 3,
+      "strong_guess_count": 1,
+      "strong_guesses": {
+        "strong_role": 1
+      },
+      "siblings_with_strong_role": {
+        "count": 1,
+        "ids": 5836
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          8527,
+          14776
+        ]
+      }
+    },
+    "spouse": {
+      "5836": {
+        "strong_evidence": "strong_role",
+        "age_difference": -3,
+        "name": {
+          "last": "Попова",
+          "first": "Виктория",
+          "middle": "Александровна"
+        },
+        "distance": 5822,
+        "district": "Центральный район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 16
+          },
+          "tik": 16,
+          "district": "Центральный район",
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "8527": {
+        "age_difference": 27,
+        "name": {
+          "last": "Попова",
+          "first": "Ольга",
+          "middle": "Викторовна"
+        },
+        "distance": 12393,
+        "district": "Выборгский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 337
+          },
+          "uik": 337,
+          "district": "Выборгский район",
+          "tik": 22,
+          "gik": "СПбИК"
+        }
+      },
+      "14776": {
+        "age_difference": 1,
+        "name": {
+          "last": "Попова",
+          "first": "Елена",
+          "middle": "Викторовна"
+        },
+        "distance": 9163,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "tik",
+            "id": 37
+          },
+          "tik": 37,
+          "district": "Калининский район",
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

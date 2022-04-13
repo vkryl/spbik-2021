@@ -1,0 +1,328 @@
+{
+  "commission_name": "УИК №190",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 190
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 4
+  },
+  "data_id": 0,
+  "ballot_data_id": 478403290562,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 25,
+      "position": 6,
+      "percentage": 99.71509971509973,
+      "valid_percentage": 99.71509971509973,
+      "registered_percentage": 99.71509971509973
+    },
+    "turnout": {
+      "count": 351,
+      "percentage": 100,
+      "walk_by_count": 351,
+      "walk_by_percentage": 100,
+      "on_home_count": 0,
+      "on_home_percentage": 0,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 351,
+      "valid_percentage": 100,
+      "invalid_count": 0,
+      "invalid_percentage": 0,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 350,
+      "winning_percentage": 99.71509971509973,
+      "effective_count": 351,
+      "losing_count": 1,
+      "losing_percentage": 0.2849002849002849,
+      "other_count": 0,
+      "other_percentage": 0,
+      "by_place": {
+        "#1": {
+          "count": 350,
+          "percentage": 99.71509971509973
+        },
+        "#2": {
+          "count": 1,
+          "percentage": 0.2849002849002849
+        },
+        "#3": {
+          "count": 0,
+          "percentage": 0
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "papers": {
+      "received_count": 400,
+      "destroyed_count": 49,
+      "stationary_box_count": 351,
+      "portable_box_count": 0,
+      "valid_count": 351,
+      "invalid_count": 0,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    },
+    "voters": {
+      "registered_count": 351,
+      "walk_by_count": 351,
+      "on_home_count": 0,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Чебыкин Константин Александрович",
+      "position": 6,
+      "candidate_id": 25,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 350,
+        "place": 1,
+        "percentage": 99.71509971509973,
+        "valid_percentage": 99.71509971509973,
+        "registered_percentage": 99.71509971509973,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "8": {
+          "percentage": 99.71509971509973,
+          "valid_percentage": 99.71509971509973
+        },
+        "21": {
+          "percentage": 99.71509971509973,
+          "valid_percentage": 99.71509971509973
+        },
+        "22": {
+          "percentage": 99.71509971509973,
+          "valid_percentage": 99.71509971509973
+        },
+        "23": {
+          "percentage": 100,
+          "valid_percentage": 100
+        },
+        "24": {
+          "percentage": 99.71509971509973,
+          "valid_percentage": 99.71509971509973
+        }
+      }
+    },
+    {
+      "name": "Семенова Ольга Сергеевна",
+      "position": 4,
+      "candidate_id": 23,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 1,
+        "place": 2,
+        "percentage": 0.2849002849002849,
+        "valid_percentage": 0.2849002849002849,
+        "registered_percentage": 0.2849002849002849,
+        "winner": false,
+        "lacking_votes_count": 349
+      },
+      "result_without_other_entry": {
+        "8": {
+          "percentage": 0.2849002849002849,
+          "valid_percentage": 0.2849002849002849
+        },
+        "21": {
+          "percentage": 0.2849002849002849,
+          "valid_percentage": 0.2849002849002849
+        },
+        "22": {
+          "percentage": 0.2849002849002849,
+          "valid_percentage": 0.2849002849002849
+        },
+        "24": {
+          "percentage": 0.2849002849002849,
+          "valid_percentage": 0.2849002849002849
+        },
+        "25": {
+          "percentage": 100,
+          "valid_percentage": 100
+        }
+      }
+    },
+    {
+      "name": "Анисимов Дмитрий Игоревич",
+      "position": 1,
+      "candidate_id": 21,
+      "supported_by_party_id": 7,
+      "official_result": {
+        "votes_count": 0,
+        "place": 3,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 350
+      },
+      "result_without_other_entry": {
+        "8": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "22": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "23": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "24": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "25": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    },
+    {
+      "name": "Вавилина Нэлли Юрьевна",
+      "position": 2,
+      "candidate_id": 22,
+      "supported_by_party_id": 6,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 0,
+        "place": 3,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 350
+      },
+      "result_without_other_entry": {
+        "8": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "21": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "23": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "24": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "25": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    },
+    {
+      "name": "Ковалев Алексей Анатольевич",
+      "position": 3,
+      "candidate_id": 8,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 0,
+        "place": 3,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 350
+      },
+      "result_without_other_entry": {
+        "21": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "22": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "23": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "24": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "25": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    },
+    {
+      "name": "Смоктий Николай Иванович",
+      "position": 5,
+      "candidate_id": 24,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 0,
+        "place": 3,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 350
+      },
+      "result_without_other_entry": {
+        "8": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "21": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "22": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "23": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "25": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 190
+    },
+    "uik": 190,
+    "district": "Василеостровский район",
+    "tik": 32,
+    "gik": "СПбИК"
+  }
+}

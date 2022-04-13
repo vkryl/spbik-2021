@@ -1,0 +1,170 @@
+{
+  "id": 10004,
+  "data_id": 4784025138213,
+  "name": {
+    "last": "Баранова",
+    "first": "Валентина",
+    "middle": "Васильевна"
+  },
+  "birthdate": {
+    "day": 15,
+    "month": 10,
+    "year": 1953
+  },
+  "district": "Красногвардейский район",
+  "age": 67,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Баранов",
+    "first": "Василий"
+  },
+  "role_id": 4,
+  "assigned_by_id": 29,
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 982
+    },
+    "uik": 982,
+    "district": "Красногвардейский район",
+    "tik": 25,
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 5,
+      "strong_guess_count": 3,
+      "strong_guesses": {
+        "same_parent_commission": 1,
+        "same_building": 1,
+        "same_electoral_district": 1
+      },
+      "siblings_under_mutual_commission": {
+        "count": 1,
+        "ids": 10327
+      },
+      "siblings_in_building": {
+        "count": 1,
+        "ids": 10027
+      },
+      "unknown": {
+        "count": 2,
+        "ids": [
+          2077,
+          4436
+        ]
+      },
+      "siblings_in_same_electoral_district": {
+        "count": 1,
+        "ids": 4161
+      }
+    },
+    "children": {
+      "10027": {
+        "strong_evidence": "same_building",
+        "age_difference": -44,
+        "name": {
+          "last": "Баранов",
+          "first": "Мартьян",
+          "middle": "Викторович"
+        },
+        "distance": 0,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 984
+          },
+          "uik": 984,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      },
+      "10327": {
+        "strong_evidence": "same_parent_commission",
+        "age_difference": -25,
+        "name": {
+          "last": "Баранова",
+          "first": "Ирина",
+          "middle": "Николаевна"
+        },
+        "distance": 702,
+        "district": "Красногвардейский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1009
+          },
+          "uik": 1009,
+          "district": "Красногвардейский район",
+          "tik": 25,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "siblings": {
+      "2077": {
+        "age_difference": -3,
+        "name": {
+          "last": "Баранова",
+          "first": "Вера",
+          "middle": "Васильевна"
+        },
+        "distance": 19738,
+        "district": "Красносельский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1145
+          },
+          "uik": 1145,
+          "district": "Красносельский район",
+          "tik": 6,
+          "gik": "СПбИК"
+        }
+      },
+      "4161": {
+        "strong_evidence": "same_electoral_district",
+        "age_difference": -2,
+        "name": {
+          "last": "Баранова",
+          "first": "Вера",
+          "middle": "Васильевна"
+        },
+        "distance": 11547,
+        "district": "Калининский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 504
+          },
+          "uik": 504,
+          "district": "Калининский район",
+          "tik": 11,
+          "gik": "СПбИК"
+        }
+      },
+      "4436": {
+        "age_difference": -33,
+        "name": {
+          "last": "Баранова",
+          "first": "Маргарита",
+          "middle": "Васильевна"
+        },
+        "distance": 16858,
+        "district": "Приморский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1750
+          },
+          "uik": 1750,
+          "district": "Приморский район",
+          "tik": 12,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "id": 22330,
+  "data_id": 27820001303113,
+  "name": {
+    "last": "Хрусталева",
+    "first": "Нина",
+    "middle": "Николаевна"
+  },
+  "birthdate": {
+    "day": 7,
+    "month": 7,
+    "year": 1959
+  },
+  "district": "Пушкинский район",
+  "age": 62,
+  "gender": "female",
+  "father_name_guess": {
+    "last": "Хрусталев",
+    "first": "Николай"
+  },
+  "role_id": 4,
+  "assigned_by_id": 13,
+  "related_to": {
+    "venue": {
+      "type": "tik",
+      "id": 59
+    },
+    "tik": 59,
+    "district": "Пушкинский район",
+    "gik": "СПбИК"
+  },
+  "relative_candidates": {
+    "summary": {
+      "total_guess_count": 4,
+      "strong_guess_count": 4,
+      "strong_guesses": {
+        "works_in_child_district_commission": 1,
+        "strong_role": 2
+      },
+      "siblings_in_child_district_commission": {
+        "count": 1,
+        "ids": 7725
+      },
+      "unknown": {
+        "count": 1,
+        "ids": 19912
+      },
+      "siblings_with_strong_role": {
+        "count": 2,
+        "ids": [
+          "9498",
+          "15806"
+        ]
+      }
+    },
+    "siblings": {
+      "19912": {
+        "age_difference": -34,
+        "name": {
+          "last": "Хрусталева",
+          "first": "Валерия",
+          "middle": "Николаевна"
+        },
+        "distance": 18117,
+        "district": "Невский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1435
+          },
+          "uik": 1435,
+          "district": "Невский район",
+          "tik": 51,
+          "gik": "СПбИК"
+        }
+      }
+    },
+    "children": {
+      "7725": {
+        "strong_evidence": "works_in_child_district_commission",
+        "age_difference": -16,
+        "name": {
+          "last": "Хрусталева",
+          "first": "Наталья",
+          "middle": "Викторовна",
+          "raw": "Хрусталёва Наталья Викторовна"
+        },
+        "distance": 4691,
+        "district": "Пушкинский район",
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1989
+          },
+          "uik": 1989,
+          "district": "Пушкинский район",
+          "tik": 20,
+          "gik": "СПбИК"
+        }
+      },
+      "9498": {
+        "strong_evidence": "strong_role",
+        "age_difference": -18,
+        "name": {
+          "last": "Хрусталева",
+          "first": "Вера",
+          "middle": "Александровна"
+        },
+        "distance": 18192,
+        "district": "Невский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 1557
+          },
+          "uik": 1557,
+          "district": "Невский район",
+          "tik": 24,
+          "gik": "СПбИК"
+        }
+      },
+      "15806": {
+        "strong_evidence": "strong_role",
+        "age_difference": -21,
+        "name": {
+          "last": "Хрусталева",
+          "first": "Елена",
+          "middle": "Юрьевна",
+          "raw": "Хрусталёва Елена Юрьевна"
+        },
+        "distance": 33952,
+        "district": "Калининский район",
+        "from_second_attempt": true,
+        "related_to": {
+          "venue": {
+            "type": "uik",
+            "id": 453
+          },
+          "uik": 453,
+          "district": "Калининский район",
+          "tik": 40,
+          "gik": "СПбИК"
+        }
+      }
+    }
+  }
+}

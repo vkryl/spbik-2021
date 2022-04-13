@@ -1,0 +1,400 @@
+{
+  "commission_name": "УИК №1413",
+  "ballot_name": "Выборы депутатов Законодательного Собрания Санкт-Петербурга седьмого созыва",
+  "name": "Результаты выборов по одномандатному (многомандатному) округу",
+  "protocol_scope": {
+    "type": "uik",
+    "id": 1413
+  },
+  "electoral_district": {
+    "type": "city",
+    "id": 20
+  },
+  "data_id": 0,
+  "ballot_data_id": 4784027346568,
+  "has_koib": false,
+  "generated_date": 1632125644000,
+  "official_result": {
+    "winner": {
+      "id": 192,
+      "position": 3,
+      "percentage": 70.58823529411765,
+      "valid_percentage": 70.58823529411765,
+      "registered_percentage": 70.58823529411765
+    },
+    "turnout": {
+      "count": 17,
+      "percentage": 100,
+      "walk_by_count": 14,
+      "walk_by_percentage": 82.35294117647058,
+      "on_home_count": 3,
+      "on_home_percentage": 17.647058823529413,
+      "ahead_of_time_count": 0,
+      "ahead_of_time_percentage": 0,
+      "valid_count": 17,
+      "valid_percentage": 100,
+      "invalid_count": 0,
+      "invalid_percentage": 0,
+      "taken_home_count": 0,
+      "taken_home_percentage": 0,
+      "lost_count": 0,
+      "lost_percentage": 0
+    },
+    "votes_stats": {
+      "winning_count": 12,
+      "winning_percentage": 70.58823529411765,
+      "effective_count": 17,
+      "losing_count": 5,
+      "losing_percentage": 29.411764705882355,
+      "other_count": 0,
+      "other_percentage": 0,
+      "by_place": {
+        "#1": {
+          "count": 12,
+          "percentage": 70.58823529411765
+        },
+        "#2.5": {
+          "count": 4,
+          "percentage": 23.52941176470588
+        },
+        "#3": {
+          "count": 1,
+          "percentage": 5.88235294117647,
+          "supported_by_smart_vote": true
+        },
+        "#4": {
+          "count": 0,
+          "percentage": 0
+        }
+      }
+    }
+  },
+  "turnout_protocols": {},
+  "metadata": {
+    "analysis": {
+      "protocol_count": 1,
+      "exceeded_papers_count": 0,
+      "exceeded_papers_steal_winning": 0,
+      "checksum_valid": 1
+    },
+    "papers": {
+      "received_count": 150,
+      "destroyed_count": 133,
+      "stationary_box_count": 14,
+      "portable_box_count": 3,
+      "valid_count": 17,
+      "invalid_count": 0,
+      "lost_count": 0,
+      "ignored_count": 0,
+      "taken_home_count": 0
+    },
+    "voters": {
+      "registered_count": 17,
+      "walk_by_count": 14,
+      "on_home_count": 3,
+      "ahead_of_time_count": 0,
+      "exceptional_count": 0
+    }
+  },
+  "entries": [
+    {
+      "name": "Макаров Алексей Алексеевич",
+      "position": 3,
+      "candidate_id": 192,
+      "supported_by_party_id": 5,
+      "official_result": {
+        "votes_count": 12,
+        "place": 1,
+        "percentage": 70.58823529411765,
+        "valid_percentage": 70.58823529411765,
+        "registered_percentage": 70.58823529411765,
+        "winner": true
+      },
+      "result_without_other_entry": {
+        "190": {
+          "percentage": 70.58823529411765,
+          "valid_percentage": 70.58823529411765
+        },
+        "191": {
+          "percentage": 80,
+          "valid_percentage": 80
+        },
+        "193": {
+          "percentage": 80,
+          "valid_percentage": 80
+        },
+        "194": {
+          "percentage": 75,
+          "valid_percentage": 75
+        },
+        "195": {
+          "percentage": 70.58823529411765,
+          "valid_percentage": 70.58823529411765
+        },
+        "196": {
+          "percentage": 70.58823529411765,
+          "valid_percentage": 70.58823529411765
+        }
+      }
+    },
+    {
+      "name": "Курнаков Юрий Викторович",
+      "position": 2,
+      "candidate_id": 191,
+      "supported_by_party_id": 1,
+      "official_result": {
+        "votes_count": 2,
+        "place": 2.5,
+        "percentage": 11.76470588235294,
+        "valid_percentage": 11.76470588235294,
+        "registered_percentage": 11.76470588235294,
+        "winner": false,
+        "same_place_candidate_count": 2,
+        "lacking_votes_count": 10
+      },
+      "result_without_other_entry": {
+        "190": {
+          "percentage": 11.76470588235294,
+          "valid_percentage": 11.76470588235294
+        },
+        "192": {
+          "percentage": 40,
+          "valid_percentage": 40
+        },
+        "193": {
+          "percentage": 13.333333333333334,
+          "valid_percentage": 13.333333333333334
+        },
+        "194": {
+          "percentage": 12.5,
+          "valid_percentage": 12.5
+        },
+        "195": {
+          "percentage": 11.76470588235294,
+          "valid_percentage": 11.76470588235294
+        },
+        "196": {
+          "percentage": 11.76470588235294,
+          "valid_percentage": 11.76470588235294
+        }
+      }
+    },
+    {
+      "name": "Малетина Лидия Сергеевна",
+      "position": 4,
+      "candidate_id": 193,
+      "supported_by_party_id": 4,
+      "official_result": {
+        "votes_count": 2,
+        "place": 2.5,
+        "percentage": 11.76470588235294,
+        "valid_percentage": 11.76470588235294,
+        "registered_percentage": 11.76470588235294,
+        "winner": false,
+        "same_place_candidate_count": 2,
+        "lacking_votes_count": 10
+      },
+      "result_without_other_entry": {
+        "190": {
+          "percentage": 11.76470588235294,
+          "valid_percentage": 11.76470588235294
+        },
+        "191": {
+          "percentage": 13.333333333333334,
+          "valid_percentage": 13.333333333333334
+        },
+        "192": {
+          "percentage": 40,
+          "valid_percentage": 40
+        },
+        "194": {
+          "percentage": 12.5,
+          "valid_percentage": 12.5
+        },
+        "195": {
+          "percentage": 11.76470588235294,
+          "valid_percentage": 11.76470588235294
+        },
+        "196": {
+          "percentage": 11.76470588235294,
+          "valid_percentage": 11.76470588235294
+        }
+      }
+    },
+    {
+      "name": "Хорзов Дмитрий Викторович",
+      "position": 5,
+      "candidate_id": 194,
+      "supported_by_party_id": 7,
+      "supported_by_smart_vote": true,
+      "official_result": {
+        "votes_count": 1,
+        "place": 3,
+        "percentage": 5.88235294117647,
+        "valid_percentage": 5.88235294117647,
+        "registered_percentage": 5.88235294117647,
+        "winner": false,
+        "lacking_votes_count": 11
+      },
+      "result_without_other_entry": {
+        "190": {
+          "percentage": 5.88235294117647,
+          "valid_percentage": 5.88235294117647
+        },
+        "191": {
+          "percentage": 6.666666666666667,
+          "valid_percentage": 6.666666666666667
+        },
+        "192": {
+          "percentage": 20,
+          "valid_percentage": 20
+        },
+        "193": {
+          "percentage": 6.666666666666667,
+          "valid_percentage": 6.666666666666667
+        },
+        "195": {
+          "percentage": 5.88235294117647,
+          "valid_percentage": 5.88235294117647
+        },
+        "196": {
+          "percentage": 5.88235294117647,
+          "valid_percentage": 5.88235294117647
+        }
+      }
+    },
+    {
+      "name": "Капустин Денис Львович",
+      "position": 1,
+      "candidate_id": 190,
+      "supported_by_party_id": 8,
+      "official_result": {
+        "votes_count": 0,
+        "place": 4,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 12
+      },
+      "result_without_other_entry": {
+        "191": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "192": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "193": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "194": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "195": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "196": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    },
+    {
+      "name": "Черемных Кристина Витальевна",
+      "position": 6,
+      "candidate_id": 195,
+      "supported_by_party_id": 6,
+      "official_result": {
+        "votes_count": 0,
+        "place": 4,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 12
+      },
+      "result_without_other_entry": {
+        "190": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "191": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "192": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "193": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "194": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "196": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    },
+    {
+      "name": "Шульгин Антон Игоревич",
+      "position": 7,
+      "candidate_id": 196,
+      "supported_by_party_id": 3,
+      "official_result": {
+        "votes_count": 0,
+        "place": 4,
+        "percentage": 0,
+        "valid_percentage": 0,
+        "registered_percentage": 0,
+        "winner": false,
+        "lacking_votes_count": 12
+      },
+      "result_without_other_entry": {
+        "190": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "191": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "192": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "193": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "194": {
+          "percentage": 0,
+          "valid_percentage": 0
+        },
+        "195": {
+          "percentage": 0,
+          "valid_percentage": 0
+        }
+      }
+    }
+  ],
+  "related_to": {
+    "venue": {
+      "type": "uik",
+      "id": 1413
+    },
+    "uik": 1413,
+    "district": "Московский район",
+    "tik": 27,
+    "gik": "СПбИК"
+  }
+}
