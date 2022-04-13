@@ -192,7 +192,7 @@ By using [fabricated](https://www.severreal.org/a/31163212.html) criminal case, 
 
 Different popular candidate **Olga Galkina** ([5-th LA Assembly deupty](http://www.assembly.spb.ru/authors/show/635516516)) has successfully registered in this district and supported by Smart Vote strategy. When the voting was finished on 19th September at 20:00, members and heads of some local election commission ran away without announcing the result. 14 hours later TECs [announced the fake results in that commissions](https://www.zaks.ru/new/archive/view/217929).
 
-On the chart below you may clearly see how such protocols managed to get Andrey Malkov **from the last to the first place**.
+On the chart above you may clearly see how such protocols managed to get Andrey Malkov **from the last to the first place**.
 
 Andrey Malkov participated in the [monitoring](https://vk.com/wall497455_5161) of the status of [Saint Petersburg Sports and Concert Complex](https://en.wikipedia.org/wiki/Saint_Petersburg_Sports_and_Concert_Complex) (it is located in the #21 electoral district area) and active promotion of the ["SKA Arena" project](https://vk.com/wall-16672464_12953) after the soviet stadium was demolished. Vladimir Putin friends — Gennady Timchenko and Roman Rotenberg — are dreaming about the biggest ice skating area [since 2018](https://sportrbc.ru/news/614b3a249a7947761e023a29).
 
@@ -210,7 +210,7 @@ Another candidate that was not able to participate was Ksenia Mihaylova. She was
 
 In district #3 all kinds of fraud were used, as well as administrative resources misuse, which was used to detain independent election observers. This way they faked the win of the [Vyacheslav Makarov](https://en.wikipedia.org/wiki/Vyacheslav_Makarov)'s daughter — Marina Makarova (changed the last name to "Lybaneva" during the election).
 
-Below on the chart from the left to LEC 1652 — the most trustworthy protocols available. Right to them until LEC 1807, you may notice that the growth dynamics increases only for Marina — that's the result of simple ballot stuffing. After that commission are the commissions with the safe package replacements and hand-written results (amount of votes for Marina increases, for all other candidates combined — proportionally decreases).
+Above on the chart from the left to LEC 1652 — the most trustworthy protocols available. Right to them until LEC 1807, you may notice that the growth dynamics increases only for Marina — that's the result of simple ballot stuffing. After that commission are the commissions with the safe package replacements and hand-written results (amount of votes for Marina increases, for all other candidates combined — proportionally decreases). Black line is the sum of votes against Marina Lybaneva.
 
 *** 
 
