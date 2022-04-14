@@ -333,7 +333,7 @@ How did it happen? Answer is simple — CPRF candidate is just one line above th
 
 ***
 
-On the next chart you may notice that LEC 1794 and 1798 CPRF's result was swapped with "Communists of Russia"'s result (red and brown bars).
+On the next chart you may notice that in LEC 1798 (and, probably, 1805) CPRF's result was swapped with "Communists of Russia"'s result (red and brown bars).
 
 ![TEC 9: State Duma parties](/images/charts/en/federal-parties-tik-9-bars.jpg)
 
