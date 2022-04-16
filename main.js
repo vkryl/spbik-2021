@@ -3347,6 +3347,31 @@ function findCandidate (entries, candidateId, position) {
   throw Error('candidateId: ' + toJson(candidateId) + ', position: ' + position + ', data:\n' + toJson(entries));
 }
 
+function findUikProtocols (electionData, protocol, protocolSorter) {
+  if (protocol.protocol_scope.type === 'uik')
+    return [protocol];
+  return protocol.related_to.uik.map((uikId) => {
+    const key = protocol.electoral_district.municipality ? protocol.electoral_district.municipality + '_' + protocol.electoral_district.id : protocol.electoral_district.id ? 'person_' + protocol.electoral_district.id : 'parties';
+    return electionData.results_by_uik[uikId][protocol.electoral_district.type][key];
+  }).filter((protocol) => !protocol.empty).sort(protocolSorter);
+}
+
+function findMaxTurnoutPerHour (protocol) {
+  let maxTurnoutPerHour = null;
+  if (protocol.turnout_protocols) {
+    for (const day in protocol.turnout_protocols) {
+      const byTime = protocol.turnout_protocols[day];
+      for (const time in byTime) {
+        const turnout = byTime[time];
+        if (turnout.count_delta_per_hour !== undefined && (!maxTurnoutPerHour || turnout.count_delta_per_hour > maxTurnoutPerHour)) {
+          maxTurnoutPerHour = turnout.count_delta_per_hour;
+        }
+      }
+    }
+  }
+  return maxTurnoutPerHour;
+}
+
 function bumpRelativeStats (totalStats, member, relativeCandidates, isCommon) {
   totalStats.relative_guesses.members_with_guesses++;
 
@@ -5653,12 +5678,12 @@ async function launchBot (token, electionData) {
     'by_tik',
     'sort_by_tik',
     'edit_message',
-    'turnout_count'// ,
-    // 'comet'
+    'turnout_count',
+    'turnout_speed'
   ];
   const cleanGraphOptions = (opts) => {
     let found = false;
-    ['votes_dynamic', 'turnout', 'turnout_count', 'comet'].forEach((key) => {
+    ['votes_dynamic', 'turnout', 'turnout_count', 'turnout_speed'].forEach((key) => {
       if (opts[key]) {
         if (found) {
           delete opts[key];
@@ -5833,7 +5858,9 @@ async function launchBot (token, electionData) {
           if (context.focus_entry_id) {
             cacheKeySuffix += '/' + context.focus_entry_id;
           }
-          context.cache_key_suffix = cacheKeySuffix;
+          if (!isDebug) {
+            context.cache_key_suffix = cacheKeySuffix;
+          }
         }
         return true;
       }
@@ -5845,7 +5872,7 @@ async function launchBot (token, electionData) {
 
   const runChartProgram = async (context, origin, electionData, options, graphCallback) => {
     const startTime = Date.now();
-    if (!(options.votes_dynamics || options.turnout || options.turnout_count || options.comet)) {
+    if (!(options.votes_dynamics || options.turnout || options.turnout_count || options.turnout_speed)) {
       return; // Unknown chart program
     }
     // data
@@ -6490,7 +6517,7 @@ async function launchBot (token, electionData) {
           explanations[context.__('emoji.alias.smart')] = context.__('hints.smart');
         }
 
-        const columnsByCommission = options.votes_dynamics || options.turnout || options.turnout_count;
+        const columnsByCommission = options.votes_dynamics || options.turnout || options.turnout_count || options.turnout_speed;
         if (columnsByCommission) {
           for (let columnIndex = 0; columnIndex < horizontalSectionCount; columnIndex++) {
             const commissionId = commissionIds[columnIndex];
@@ -6725,7 +6752,18 @@ async function launchBot (token, electionData) {
 
         const cornerRadius = scale(3);
         const frame = new Path2D();
-        const frameBounds = {left: startX, top: startY, right: endX, bottom: endY, anchorValue: options.turnout ? anchorCount + '%' : context.__n(options.turnout_count ? 'chart.paper_count' : 'chart.votes_count', anchorCount), hasColumns: needTableTitles, columnsDoNotFit: columns.length && !needTableTitles};
+        const frameBounds = {
+          left: startX,
+          top: startY,
+          right: endX,
+          bottom: endY,
+          anchorValue:
+            options.turnout_speed ? 0 :
+            options.turnout ? anchorCount + '%' :
+            context.__n(options.turnout_count ? 'chart.paper_count' :'chart.votes_count', anchorCount),
+          hasColumns: needTableTitles,
+          columnsDoNotFit: columns.length && !needTableTitles
+        };
         frame.moveTo(startX + cornerRadius, startY);
         frame.lineTo(endX - cornerRadius, startY);
         frame.quadraticCurveTo(endX, startY, endX, startY + cornerRadius);
@@ -6862,10 +6900,7 @@ async function launchBot (token, electionData) {
 
               if (protocol.protocol_scope.type === 'tik' && protocol.metadata.analysis.protocol_count > 1) {
                 isPrecise = true;
-                let uikProtocols = protocol.related_to.uik.map((uikId) => {
-                  const key = protocol.electoral_district.municipality ? protocol.electoral_district.municipality + '_' + protocol.electoral_district.id : protocol.electoral_district.id ? 'person_' + protocol.electoral_district.id : 'parties';
-                  return electionData.results_by_uik[uikId][protocol.electoral_district.type][key];
-                }).filter((protocol) => !protocol.empty).sort(protocolSorter);
+                const uikProtocols = findUikProtocols(electionData, protocol, protocolSorter);
                 const dxPerProtocol = horizontalSectionWidth / uikProtocols.length;
                 let uikVotesSum = 0;
                 let irrelevantVotesCount = 0;
@@ -7037,45 +7072,54 @@ async function launchBot (token, electionData) {
               currentX += horizontalSectionWidth;
             }
           }
-        } else if (options.comet) {
-          const dot = new Path2D();
-          const dotRadius = Math.max(1, scale(2));
-          dot.arc(0, 0, dotRadius, 0, 2 * Math.PI);
-          dot.closePath();
-
-          let maxTurnoutPercentage = 0;
-          let maxValidPercentage = 0;
+        } else if (options.turnout_speed) {
+          let maxTurnoutPerHour = 0;
 
           for (let commissionIndex = 0; commissionIndex < commissionIds.length; commissionIndex++) {
             const commissionId = commissionIds[commissionIndex];
             const protocol = commissionProtocols[commissionId];
-            maxTurnoutPercentage = Math.max(maxTurnoutPercentage, protocol.official_result.turnout.valid_percentage);
-            for (let entryIndex = 0; entryIndex < protocol.entries.length; entryIndex++) {
-              maxValidPercentage = Math.max(maxValidPercentage, protocol.entries[entryIndex].official_result.valid_percentage);
+            const uikProtocols = findUikProtocols(electionData, protocol, protocolSorter);
+            const protocolMaxTurnoutPerHour = arrayMax(uikProtocols, (protocol) => findMaxTurnoutPerHour(protocol));
+            if (protocolMaxTurnoutPerHour > maxTurnoutPerHour) {
+              maxTurnoutPerHour = protocolMaxTurnoutPerHour;
             }
           }
 
-          for (let i = groupedProtocol.entries.length - 1; i >= 0; i--) {
-            const groupedEntry = groupedProtocol.entries[i];
-            const candidateId = groupedEntry.party_id || groupedEntry.candidate_id;
-            const color = colors[candidateId];
-            c.fillStyle = color;
-            for (let commissionIndex = 0; commissionIndex < commissionIds.length; commissionIndex++) {
-              const commissionId = commissionIds[commissionIndex];
-              const protocol = commissionProtocols[commissionId];
-              const entry = findCandidate(protocol.entries, candidateId, groupedEntry.official_result.position);
+          frameBounds.anchorValue = context.__('per_hour', {per_hour: formatNumber(maxTurnoutPerHour), per_minute: formatNumber(maxTurnoutPerHour / 60.0)});
+          currentX = 0;
 
-              const validPercentage = entry.official_result.valid_percentage;
-              const turnoutPercentage = protocol.official_result.turnout.valid_percentage;
+          for (let commissionIndex = 0; commissionIndex < commissionIds.length; commissionIndex++) {
+            const commissionId = commissionIds[commissionIndex];
+            const protocol = commissionProtocols[commissionId];
+            const uikProtocols = findUikProtocols(electionData, protocol, protocolSorter);
+            const dxPerProtocol = horizontalSectionWidth / uikProtocols.length;
 
-              const x = frameBounds.left + (frameBounds.right - frameBounds.left) * (turnoutPercentage / maxTurnoutPercentage);
-              const y = frameBounds.bottom - (frameBounds.bottom - frameBounds.top) * (validPercentage / maxValidPercentage);
+            const finalX = currentX + horizontalSectionWidth;
 
-              c.save();
-              c.translate(x - dotRadius, y - dotRadius);
-              c.fill(dot);
-              c.restore();
+            for (let protocolIndex = 0; protocolIndex < uikProtocols.length; protocolIndex++) {
+              const uikProtocol = uikProtocols[protocolIndex];
+              const protocolMaxTurnoutPerHour = findMaxTurnoutPerHour(uikProtocol);
+              if (protocolMaxTurnoutPerHour) {
+                const ratio = protocolMaxTurnoutPerHour / maxTurnoutPerHour;
+                const barHeight = (frameBounds.bottom - frameBounds.top) * ratio;
+                currentY = frameBounds.bottom - barHeight;
+
+                for (let candidateIndex = 0; candidateIndex < uikProtocol.entries.length; candidateIndex++) {
+                  const candidate = uikProtocol.entries[candidateIndex];
+                  if (!candidate.official_result.votes_count)
+                    continue;
+                  const candidateId = candidate.candidate_id || candidate.party_id;
+                  c.fillStyle = colors[candidateId];
+                  const candidateRatio = candidate.official_result.votes_count / uikProtocol.metadata.papers.valid_count;
+                  const candidateHeight = candidateRatio * barHeight;
+                  c.fillRect(startX + currentX, currentY, dxPerProtocol, candidateHeight);
+                  currentY += candidateHeight;
+                }
+              }
+              currentX += dxPerProtocol;
             }
+
+            currentX = finalX;
           }
         }
 
@@ -7093,7 +7137,7 @@ async function launchBot (token, electionData) {
       const frame = await drawChart(chartX, chartEndX, chartStartY, chartEndY, displayResult, commissionTypes, commissionProtocols, topEntry, options);
 
       let verticalAxisKey;
-      ['turnout', 'turnout_count', 'votes_dynamics', 'comet'].forEach((key) => {
+      ['turnout', 'turnout_count', 'votes_dynamics', 'turnout_speed'].forEach((key) => {
         if (options[key]) {
           verticalAxisKey = key;
         }
@@ -8043,9 +8087,15 @@ async function launchBot (token, electionData) {
           });
 
           /*inline_keyboard.push([{
-            text: context.__('emoji.alias.comet') + ' ' + context.__('visual.comet'),
-            callback_data: '/g ' + graphOptions({comet: true}) + ' ' + context.cleanArgs
-          }]);*/
+            text: context.__('emoji.alias.stopwatch') + ' ' + context.__('visual.turnout_speed.uik'),
+            callback_data: '/g ' + graphOptions({turnout_speed: true}) + ' ' + context.cleanArgs
+          }]);
+          if (Array.isArray(protocol.related_to.tik)) {
+            inline_keyboard.push([{
+              text: context.__('emoji.alias.stopwatch') + ' ' + context.__('visual.turnout_speed.tik'),
+              callback_data: '/g ' + graphOptions({turnout_speed: true, by_tik: true}) + ' ' + context.cleanArgs
+            }]);
+          }*/
         }
 
         let text = '';
@@ -8338,7 +8388,7 @@ async function launchBot (token, electionData) {
     if (message.chat.id === ADMIN_CHAT_ID) {
       handleAdminMessage(message);
     } else if (message.chat.type === 'private' || message.chat.type === 'secret') {
-      if (isDebug && message.from.id !== 163957826) {
+      if (isDebug && message.from.id !== settings.owner_user_id) {
         handleFeedback(message);
         return;
       }
