@@ -170,7 +170,7 @@ In case you would like to learn more about Legisltive Assembly deputies, you may
 
 ### Relationship with Legislative Assembly with [Federation Council](https://en.wikipedia.org/wiki/Federation_Council_(Russia))
 
-On federal level Legislative Assembly of Saint Petersburg is important, because it assigns one Federation Council member. One of the last and most important documents of Federation Council orders is, for example, the document from `22.02.2022` [that allows use of russian army abroad in the undetermined location for the undetermined period](/docs/council-22.0.2022.pdf) which was supported by all members.
+On federal level Legislative Assembly of Saint Petersburg is important, because it assigns one Federation Council member. One of the last and most important documents of Federation Council orders is, for example, the document from `22.02.2022` [that allows use of russian army abroad in the undetermined location for the undetermined period](/docs/council-22.02.2022.pdf) which was supported by all members.
 
 Legislative Assembly of Saint Petersburg assigned **[Andrey Kutepov](https://www.zaks.ru/new/person/view/5035)** there that declares that all sanctions against Russia [do only good for russian people](https://t.me/zaksru/3777).
 
