@@ -26,7 +26,7 @@
 // CONSTANTS
 
 const VERSION = '3.72';
-const CHARTS_VERSION = '1.17';
+const CHARTS_VERSION = '1.20';
 
 const REGION_NAME = 'st-petersburg';
 const REGION_CODE = 78;
@@ -719,6 +719,22 @@ function countValues (object, transformer) {
     return count;
   }
   return 0;
+}
+
+function makeArray (data) {
+  return Array.isArray(data) ? data : [data];
+}
+
+function objSum (object, transformer) {
+  if (!object)
+    return 0;
+  let result = 0;
+  for (const key in object) {
+    if (object.hasOwnProperty(key)) {
+      result += transformer ? transformer(object[key]) : object[key];
+    }
+  }
+  return result;
 }
 
 function arraySum (array, transformer) {
@@ -3347,13 +3363,13 @@ function findCandidate (entries, candidateId, position) {
   throw Error('candidateId: ' + toJson(candidateId) + ', position: ' + position + ', data:\n' + toJson(entries));
 }
 
-function findUikProtocols (electionData, protocol, protocolSorter) {
+function findUikProtocols (electionData, protocol, protocolSorter, protocolFilter) {
   if (protocol.protocol_scope.type === 'uik')
-    return [protocol];
+    return !protocol.empty && (!protocolFilter || protocolFilter(protocol)) ? [protocol] : [];
   return protocol.related_to.uik.map((uikId) => {
     const key = protocol.electoral_district.municipality ? protocol.electoral_district.municipality + '_' + protocol.electoral_district.id : protocol.electoral_district.id ? 'person_' + protocol.electoral_district.id : 'parties';
     return electionData.results_by_uik[uikId][protocol.electoral_district.type][key];
-  }).filter((protocol) => !protocol.empty).sort(protocolSorter);
+  }).filter(protocolFilter ? (protocol) => !protocol.empty && protocolFilter(protocol) : (protocol) => !protocol.empty).sort(protocolSorter);
 }
 
 function findMaxTurnoutPerHour (protocol) {
@@ -5172,7 +5188,14 @@ function buildProtocolsReview (context, electionData, allProtocols, isFull) {
   });
   text += '\n\n';
   const protocolCount = arraySum(allProtocols, (protocol) => protocol.metadata.analysis.protocol_count);
-  text += context.__('emoji.warning.info') + ' <i>' + context.__n('disclaimer.' + allProtocols[0].protocol_scope.type, protocolCount, {scope_id: allProtocols[0].protocol_scope.id}) + '</i>';
+  text += '<i>' + context.__('emoji.warning.info') + ' ' + context.__n('disclaimer.' + allProtocols[0].protocol_scope.type, protocolCount, {scope_id: allProtocols[0].protocol_scope.id});
+  if (context.pending_courts && context.pending_courts.length) {
+    text += '\n' + context.__('emoji.violation.court') + ' ' + context.__n('disclaimer.pending_courts', context.pending_courts.length, {percentage: toDisplayPercentage(context.pending_courts.length / protocolCount * 100, true)});
+  }
+  if (context.uiks_with_awards && context.uiks_with_awards.length) {
+    text += '\n' + context.__('emoji.award.any') + ' ' + context.__n('disclaimer.awarded_uiks', context.uiks_with_awards.length, {percentage: toDisplayPercentage(context.uiks_with_awards.length / protocolCount * 100, true)});
+  }
+  text += '</i>';
   return {text, inline_keyboard};
 }
 
@@ -5679,7 +5702,9 @@ async function launchBot (token, electionData) {
     'sort_by_tik',
     'edit_message',
     'turnout_count',
-    'turnout_speed'
+    'turnout_speed',
+    'hide_pending_courts',
+    'hide_awarded_commissions'
   ];
   const cleanGraphOptions = (opts) => {
     let found = false;
@@ -5718,7 +5743,11 @@ async function launchBot (token, electionData) {
   const parseResultContext = (context, origin, electionData) => {
     if (!context.args)
       return false;
-    ['path', 'level', 'options', 'flags', 'cleanArgs', 'level_id', 'result', 'commission', 'district'].forEach((key) => {
+    [
+      'path', 'level', 'level_id', 'options', 'flags', 'cleanArgs',
+      'result', 'commission', 'district',
+      'pending_courts', 'uiks_with_awards'
+    ].forEach((key) => {
       delete context[key];
     });
     let stringArgs = context.args;
@@ -5861,6 +5890,14 @@ async function launchBot (token, electionData) {
           if (!isDebug) {
             context.cache_key_suffix = cacheKeySuffix;
           }
+          context.pending_courts = makeArray(results.related_to.uik).filter((uikId) => electionData.violations.uik.pending_courts.includes(uikId));
+          if (options.hide_pending_courts && !context.pending_courts.length) {
+            options.hide_pending_courts = false;
+          }
+          context.uiks_with_awards = makeArray(results.related_to.uik).filter((uikId) => !!objSum(electionData.uiks[uikId].awards));
+          if (options.hide_awarded_commissions && !context.uiks_with_awards.length) {
+            options.hide_awarded_commissions = false;
+          }
         }
         return true;
       }
@@ -5911,6 +5948,25 @@ async function launchBot (token, electionData) {
         });
       });
       inline_keyboard.push(items);
+    }
+
+    const pendingCourtsCount = context.pending_courts ? context.pending_courts.length : 0;
+    const uiksWithAwardsCount = context.uiks_with_awards ? context.uiks_with_awards.length : 0;
+    if (options.votes_dynamics && !options.by_tik) {
+      const chartSettings = [
+        {name: 'hide_pending_courts', count: pendingCourtsCount},
+        {name: 'hide_awarded_commissions', count: uiksWithAwardsCount}
+      ];
+      for (let i = 0; i < chartSettings.length; i++) {
+        const setting = chartSettings[i];
+        if (setting.count > 0) {
+          inline_keyboard.push([{
+            text: context.__(options[setting.name] ? 'emoji.alias.selected' : 'emoji.alias.unselected') + ' ' + context.__n('chart_filter.' + setting.name, setting.count),
+            callback_data: '/g ' +
+              ((options[setting.name] ? context.flags & ~graphOption(setting.name) : context.flags | graphOption(setting.name)) | graphOption('edit_message')) + ' ' + context.cleanArgs
+          }]);
+        }
+      }
     }
 
     inline_keyboard.push([{
@@ -6103,7 +6159,25 @@ async function launchBot (token, electionData) {
     }
     commissionIds = Array.isArray(commissionIds) ? cloneArray(commissionIds) : commissionIds ? [commissionIds] : null;
 
+    let protocolFilterCount = 0;
+    let singleProtocolFilterKey = null;
+    ['hide_pending_courts', 'hide_awarded_commissions'].forEach((filterKey) => {
+      if (options[filterKey]) {
+        protocolFilterCount++;
+        if (protocolFilterCount === 1) {
+          singleProtocolFilterKey = filterKey;
+        } else {
+          singleProtocolFilterKey = null;
+        }
+      }
+    });
+    const protocolFilter = protocolFilterCount === 0 ? null : (protocol) => protocol.protocol_scope.type !== 'uik' || (
+      (!options.hide_pending_courts || !context.pending_courts.includes(protocol.related_to.uik)) &&
+      (!options.hide_awarded_commissions || !context.uiks_with_awards.includes(protocol.related_to.uik))
+    );
+
     let commissionProtocols = null;
+    let hiddenProtocols = null;
     if (commissionIds) {
       commissionProtocols = {};
       commissionIds.forEach((commissionId) => {
@@ -6121,10 +6195,18 @@ async function launchBot (token, electionData) {
           result = results[context.electoral_district_id] || results['person_' + context.electoral_district_id];
         }
         if (result && !result.empty && result.metadata.papers.valid_count > 0) {
-          commissionProtocols[commissionId] = result;
+          if (!protocolFilter || protocolFilter(result)) {
+            commissionProtocols[commissionId] = result;
+          } else {
+            if (!hiddenProtocols)
+              hiddenProtocols = {};
+            hiddenProtocols[commissionId] = result;
+          }
         }
       });
     }
+
+    const hiddenProtocolCount = countKeys(hiddenProtocols);
 
     // canvas
 
@@ -6226,9 +6308,9 @@ async function launchBot (token, electionData) {
         }
       }
     }
-    const protocolCount = highlightCommissionId ? 1 : result.metadata.analysis.protocol_count; // ;arraySum(Object.values(commissionProtocols), (protocol) => (!protocol.empty && f) ? protocol.metadata.analysis.protocol_count : 0);
+    const protocolCount = highlightCommissionId ? 1 : result.metadata.analysis.protocol_count;
     if (protocolCount > 1) {
-      subtitles.push(context.__('emoji.warning.info') + ' ' + context.__n('disclaimer.protocols', protocolCount));
+      subtitles.push(context.__('emoji.warning.info') + ' ' + context.__n('disclaimer.protocols', protocolCount - hiddenProtocolCount) + (hiddenProtocolCount ? ' (' + context.__n('disclaimer.excluded.' + (singleProtocolFilterKey || 'mixed'), hiddenProtocolCount) + ')' : ''));
     }
 
     c.font = font(scale(16));
@@ -6247,7 +6329,9 @@ async function launchBot (token, electionData) {
     const barHeight = scale(8);
 
     const exceededCount = result.metadata.analysis.exceeded_papers_count;
-    const anchorCount = options.turnout || options.turnout_count ? result.metadata.voters.registered_count : result.official_result.votes_stats.effective_count;
+    const anchorCount = options.turnout || options.turnout_count ?
+      result.metadata.voters.registered_count - objSum(hiddenProtocols, (protocol) => protocol.metadata.voters.registered_count) :
+      result.official_result.votes_stats.effective_count - objSum(hiddenProtocols, (protocol) => protocol.official_result.votes_stats.effective_count);
 
     const metadataItems = [
       {key: 'abstained', value: (protocol) => protocol.metadata.voters.registered_count - protocol.official_result.turnout.count},
@@ -6261,10 +6345,16 @@ async function launchBot (token, electionData) {
       }
     });
 
+    const candidateVotesSum = (entry) =>
+      entry.official_result.votes_count -
+      objSum(hiddenProtocols, (protocol) =>
+        findCandidate(protocol.entries, entry.candidate_id || entry.party_id, entry.official_result.position).official_result.votes_count
+      );
+
     const indexes = Object.keys(result.entries).sort((a, b) => {
       a = result.entries[a];
       b = result.entries[b];
-      return b.official_result.votes_count - a.official_result.votes_count;
+      return candidateVotesSum(b) - candidateVotesSum(a);
     });
     const colors = {};
 
@@ -6296,7 +6386,7 @@ async function launchBot (token, electionData) {
       const candidateId = entry.candidate_id || entry.party_id;
       colors[candidateId] = color;
       c.fillStyle = context.focus_entry_id && context.focus_entry_id !== candidateId ? color + '8A' : color;
-      const count = entry.official_result.votes_count;
+      const count = candidateVotesSum(entry);
       const w = count / anchorCount * canvas.width;
       if (w > 0) {
         c.fillRect(currentX, currentY, w, barHeight);
@@ -6374,11 +6464,14 @@ async function launchBot (token, electionData) {
     };
 
     const allowTotalAgainstCount = commission && commission.type === 'gik' && !topEntry.supported_by_smart_vote;
+    let maxCandidateVotesCount = 0;
 
     for (let i = 0; i < indexes.length; i++) {
       const entry = result.entries[indexes[i]];
       const name = getEntryName(context, electionData, entry);
-      const info = options.turnout ? toDisplayPercentage(entry.official_result.registered_percentage, true) + '%' : formatNumber(entry.official_result.votes_count);
+      const votesCount = candidateVotesSum(entry);
+      maxCandidateVotesCount = Math.max(maxCandidateVotesCount, votesCount);
+      const info = options.turnout ? toDisplayPercentage(entry.official_result.registered_percentage, true) + '%' : formatNumber(votesCount);
       if ((options.turnout || options.turnout_count) && !entry.official_result.votes_count)
         continue;
       const candidateId = entry.candidate_id || entry.party_id;
@@ -6427,10 +6520,17 @@ async function launchBot (token, electionData) {
           throw Error();
         const smartVoteEntryId = smartVoteEntry ? (smartVoteEntry.party_id || smartVoteEntry.candidate_id) : 0;
         const totalAgainstCount = arraySum(groupedProtocol.entries, (entry) => {
-          return (entry.party_id || entry.candidate_id) !== winnerId ? entry.official_result.votes_count : 0;
+          return (entry.party_id || entry.candidate_id) !== winnerId ? candidateVotesSum(entry) : 0;
         });
 
-        const anchorCount = options.turnout ? 100 : options.turnout_count ? Object.values(groupedProtocol.official_result.turnout_stats.count.max)[0] : context.focus_entry ? findCandidate(groupedProtocol.entries, context.focus_entry_id, context.focus_entry.official_result.position).official_result.votes_count : winnerEntry.official_result.votes_count;
+        let anchorCount =
+          options.turnout ? 100 :
+          options.turnout_count ? Object.values(groupedProtocol.official_result.turnout_stats.count.max)[0] :
+          context.focus_entry ? candidateVotesSum(findCandidate(groupedProtocol.entries, context.focus_entry_id, context.focus_entry.official_result.position)) :
+          candidateVotesSum(winnerEntry);
+        if (options.votes_dynamics && maxCandidateVotesCount > anchorCount) {
+          anchorCount = maxCandidateVotesCount;
+        }
 
         const anchorCandidateEntry = winnerEntry.supported_by_smart_vote ? secondPlaceEntry : winnerEntry;
         const anchorCandidateId = anchorCandidateEntry.party_id || anchorCandidateEntry.candidate_id;
@@ -6759,8 +6859,8 @@ async function launchBot (token, electionData) {
           bottom: endY,
           anchorValue:
             options.turnout_speed ? 0 :
-            options.turnout ? anchorCount + '%' :
-            context.__n(options.turnout_count ? 'chart.paper_count' :'chart.votes_count', anchorCount),
+              options.turnout ? anchorCount + '%' :
+                context.__n(options.turnout_count ? 'chart.paper_count' :'chart.votes_count', anchorCount),
           hasColumns: needTableTitles,
           columnsDoNotFit: columns.length && !needTableTitles
         };
@@ -6880,7 +6980,6 @@ async function launchBot (token, electionData) {
               const info = protocolTransformer(protocol);
               const votesCount = info.votesCount;
               const isEmpty = info.isEmpty;
-              let totalIrrelevantVotesCount = 0;
 
               const style = highlightCommissionId ? (commissionId === highlightCommissionId ? color : color + '6a') : color;
               if (c.strokeStyle !== style || needLineDash != isEmpty) {
@@ -6900,7 +6999,7 @@ async function launchBot (token, electionData) {
 
               if (protocol.protocol_scope.type === 'tik' && protocol.metadata.analysis.protocol_count > 1) {
                 isPrecise = true;
-                const uikProtocols = findUikProtocols(electionData, protocol, protocolSorter);
+                const uikProtocols = findUikProtocols(electionData, protocol, protocolSorter, protocolFilter);
                 const dxPerProtocol = horizontalSectionWidth / uikProtocols.length;
                 let uikVotesSum = 0;
                 let irrelevantVotesCount = 0;
@@ -7078,7 +7177,7 @@ async function launchBot (token, electionData) {
           for (let commissionIndex = 0; commissionIndex < commissionIds.length; commissionIndex++) {
             const commissionId = commissionIds[commissionIndex];
             const protocol = commissionProtocols[commissionId];
-            const uikProtocols = findUikProtocols(electionData, protocol, protocolSorter);
+            const uikProtocols = findUikProtocols(electionData, protocol, protocolSorter, protocolFilter);
             const protocolMaxTurnoutPerHour = arrayMax(uikProtocols, (protocol) => findMaxTurnoutPerHour(protocol));
             if (protocolMaxTurnoutPerHour > maxTurnoutPerHour) {
               maxTurnoutPerHour = protocolMaxTurnoutPerHour;
@@ -7091,7 +7190,7 @@ async function launchBot (token, electionData) {
           for (let commissionIndex = 0; commissionIndex < commissionIds.length; commissionIndex++) {
             const commissionId = commissionIds[commissionIndex];
             const protocol = commissionProtocols[commissionId];
-            const uikProtocols = findUikProtocols(electionData, protocol, protocolSorter);
+            const uikProtocols = findUikProtocols(electionData, protocol, protocolSorter, protocolFilter);
             const dxPerProtocol = horizontalSectionWidth / uikProtocols.length;
 
             const finalX = currentX + horizontalSectionWidth;
@@ -7200,7 +7299,7 @@ async function launchBot (token, electionData) {
     }
 
     if (graphCallback) {
-      await graphCallback(result, jpg, !!options.turnout);
+      await graphCallback(result, jpg, options);
       return;
     }
 
@@ -8149,15 +8248,22 @@ async function launchBot (token, electionData) {
         const graphDir = path.join('images', 'charts', context.headers.locale);
         fs.mkdirSync(graphDir, {recursive: true});
 
-        const graphCallback = async (result, jpg, isTurnout) => {
+        const graphCallback = async (result, jpg, options) => {
           let fileName = result.electoral_district.type +
             (result.electoral_district.municipality ? '-' + result.electoral_district.municipality : '')
             + '-' + (result.electoral_district.id || 'parties');
           if (result.protocol_scope.type !== 'gik') {
             fileName += '-' + result.protocol_scope.type + '-' + result.protocol_scope.id;
           }
-          if (isTurnout) {
+          if (options.turnout) {
             fileName += '-bars';
+          }
+          if (options.hide_pending_courts && options.hide_awarded_commissions) {
+            fileName += '-without-awards-and-court-cases';
+          } else if (options.hide_pending_courts) {
+            fileName += '-without-known-court-cases';
+          } else if (options.hide_awarded_commissions) {
+            fileName += '-without-awarded-commissions';
           }
           fileName += '.jpg';
           const filePath = path.join(graphDir, fileName);
@@ -8172,12 +8278,17 @@ async function launchBot (token, electionData) {
             const scopeIdArg = scopeId.replace(/^person_/, ''); //.replace(/^parties$/, '0');
             const gikResults = scopeResults[scopeId];
             for (const gikId in gikResults) {
-              context.args = 'gik/' + scopeType + '/' + scopeIdArg + '/' + gikId;
-              if (parseResultContext(context, origin, electionData)) {
-                await runChartProgram(context, origin, electionData, context.options, graphCallback);
-              }
+              const chartPath = 'gik/' + scopeType + '/' + scopeIdArg + '/' + gikId;
+              const chartArgs = [null];
               if (scopeType !== 'municipality') {
-                context.args = graphOptions({turnout: true, by_tik: scopeId === 'parties' || scopeType === 'federal'}) + ' ' + context.args;
+                chartArgs.push({votes_dynamics: true, hide_pending_courts: true});
+                chartArgs.push({votes_dynamics: true, hide_awarded_commissions: true});
+                chartArgs.push({votes_dynamics: true, hide_pending_courts: true, hide_awarded_commissions: true});
+                chartArgs.push({turnout: true, by_tik: scopeId === 'parties' || scopeType === 'federal'});
+              }
+              for (let i = 0; i < chartArgs.length; i++) {
+                const args = chartArgs[i];
+                context.args = (args ? graphOptions(args) + ' ' : '') + chartPath;
                 if (parseResultContext(context, origin, electionData)) {
                   await runChartProgram(context, origin, electionData, context.options, graphCallback);
                 }
@@ -8186,13 +8297,20 @@ async function launchBot (token, electionData) {
             if ((scopeId === 'parties' || scopeType === 'federal') && scopeType !== 'municipality') {
               const tikResults = electionData.results_by_tik[scopeType][scopeId];
               for (const tikId in tikResults) {
-                context.args = 'tik/' + scopeType + '/' + scopeIdArg + '/' + tikId;
-                if (parseResultContext(context, origin, electionData)) {
-                  await runChartProgram(context, origin, electionData, context.options, graphCallback);
-                }
-                context.args = graphOptions({turnout: true}) + ' ' + context.args;
-                if (parseResultContext(context, origin, electionData)) {
-                  await runChartProgram(context, origin, electionData, context.options, graphCallback);
+                const chartPath = 'tik/' + scopeType + '/' + scopeIdArg + '/' + tikId;
+                const chartArgs = [
+                  null,
+                  {votes_dynamics: true, hide_pending_courts: true},
+                  {votes_dynamics: true, hide_awarded_commissions: true},
+                  {votes_dynamics: true, hide_pending_courts: true, hide_awarded_commissions: true},
+                  {turnout: true}
+                ];
+                for (let i = 0; i < chartArgs.length; i++) {
+                  const args = chartArgs[i];
+                  context.args = (args ? graphOptions(args) + ' ' : '') + chartPath;
+                  if (parseResultContext(context, origin, electionData)) {
+                    await runChartProgram(context, origin, electionData, context.options, graphCallback);
+                  }
                 }
               }
             }

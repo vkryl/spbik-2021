@@ -891,6 +891,28 @@
       "one": "Summary for {{{counter}}} protocol",
       "other": "Summary for {{{counter}}} protocols"
     },
+    "pending_courts": {
+      "one": "Violations in <b>{{{counter}}} LEC ({{{percentage}}}%%%%)</b> are documented in a known court case.",
+      "other": "Violations in <b>{{{counter}}} LECs ({{{percentage}}}%%%%)</b> are documented in a known court cases."
+    },
+    "awarded_uiks": {
+      "one": "<b>{{{counter}}} LEC ({{{percentage}}}%%%%)</b> received SPBEC award.",
+      "other": "<b>{{{counter}}} LECs ({{{percentage}}}%%%%)</b> received SPBEC awards."
+    },
+    "excluded": {
+      "mixed": {
+        "one": "{{{counter}}} excluded due to known court case or SPBEC award",
+        "other": "{{{counter}}} excluded due to court cases or SPBEC awards"
+      },
+      "hide_pending_courts": {
+        "one": "{{{counter}}} excluded due to known court case",
+        "other": "{{{counter}}} excluded due to known court cases"
+      },
+      "hide_awarded_commissions": {
+        "one": "{{{counter}}} excluded due to SPBEC award",
+        "other": "{{{counter}}} excluded due to SPBEC awards"
+      }
+    },
     "gik": {
       "one": "Summary for {{{counter}}} city protocol",
       "other": "Summary for {{{counter}}} city protocols"
@@ -1023,5 +1045,14 @@
     "districts": "List of districts and TEC"
   },
   "administration": "Administration of the {{district}}",
-  "per_hour": "{{per_hour}} per hour ({{per_minute}} per minute)"
+  "chart_filter": {
+    "hide_pending_courts": {
+      "one": "Hide {{{counter}}} LEC with known court case",
+      "other": "Hide {{{counter}}} LECs with known court cases"
+    },
+    "hide_awarded_commissions": {
+      "one": "Hide {{{counter}}} LEC with SPBEC award",
+      "other": "Hide {{{counter}}} LECs with SPBEC awards"
+    }
+  }
 }
