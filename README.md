@@ -196,6 +196,8 @@ On the chart above you may clearly see how such protocols managed to get Andrey 
 
 Andrey Malkov participated in the [monitoring](https://vk.com/wall497455_5161) of the status of [Saint Petersburg Sports and Concert Complex](https://en.wikipedia.org/wiki/Saint_Petersburg_Sports_and_Concert_Complex) (it is located in the #21 electoral district area) and active promotion of the ["SKA Arena" project](https://vk.com/wall-16672464_12953) after the soviet stadium was demolished. Vladimir Putin friends — Gennady Timchenko and Roman Rotenberg — are dreaming about the biggest ice skating area [since 2018](https://sportrbc.ru/news/614b3a249a7947761e023a29).
 
+![LA: District #21](/images/charts/en/city-21-without-known-court-cases.jpg)
+
 ***
 
 ![LA. District #3](/images/charts/en/city-3.jpg)
@@ -212,6 +214,8 @@ In district #3 all kinds of fraud were used, as well as administrative resources
 
 Above on the chart from the left to LEC 1652 — the most trustworthy protocols available. Right to them until LEC 1807, you may notice that the growth dynamics increases only for Marina — that's the result of simple ballot stuffing. After that commission are the commissions with the safe package replacements and hand-written results (amount of votes for Marina increases, for all other candidates combined — proportionally decreases). Black line is the sum of votes against Marina Lybaneva.
 
+![LA. District #3](/images/charts/en/city-3-without-known-court-cases.jpg)
+
 *** 
 
 ![LA. District #2](/images/charts/en/city-2.jpg)
@@ -225,6 +229,24 @@ If you watch only for the final result, you may think that he missed just couple
 He anyway remained the LA deputy, thanks to votes for Yabloko party, but if his win in district #2 wouldn't be stolen, there would be one more Yabloko party deputy in Legislative Assembly.
 
 Boris also participated in State Duma elections in district #216, in which his win was stolen too. You can find charts for the State Duma elections in the folder.
+
+![LA. District #2](/images/charts/en/city-2-without-known-court-cases.jpg)
+
+***
+
+![LA. District #4](/images/charts/ru/city-4.jpg)
+
+In electoral district #4 there were cases against 35 commissions (45.24%) submitted by different observation movements and voters.
+
+If just ten of them would be excluded, Nelli Vavilina, head of the «Gavan'» municipality (part of the Vasileostrovsky district).
+
+8.38% of all votes gained by Konstantin Chebykin belong just to three commission results: 178, 190, and 2306.
+
+If we look at 45 remaining LECs, against which there were no court cases, almost all anomalies in the chart disappear, except for two commissions — 134 и 105 — which received diplomas and official gratefulness from SPBEC.
+
+Even with them Nelli Vavilina is 1580 votes ahead from Konstantin Chebykin, which won thanks to fraud in other commissions:
+
+![LA. District #4](/images/charts/ru/city-4-without-known-court-cases.jpg)
 
 ***
 
@@ -260,7 +282,11 @@ The most absurd protocols are from LEC 573, where, formally, there was 100% turn
 
 ![LA. District #24](/images/charts/en/city-24.jpg)
 
-One of the electoral districts that highlight that United Russia candidates are not the only holders of fake wins.
+One of the electoral districts that highlights that United Russia candidates are not the only holders of fake wins.
+
+It's not possible to tell for sure who would win without fraud, because candidates have similar support, but if we exclude commissions that were later awarded by SPBEC, United Russia candidate had a chance to win.
+
+![ЗакС: 24 Округ](/images/charts/en/city-24-without-awarded-commissions.jpg)
 
 ***
 

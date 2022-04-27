@@ -5,7 +5,7 @@
  Sample project of what could be built based on
  the generated JSON files located inside /data folder.
 
- Copyright © Vyacheslav <slavone@protonmail.ch> (https://github.com/vkryl) 2021–2022
+ Copyright © Vyacheslav <vkryl@pm.me> (https://github.com/vkryl) 2021–2022
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Lesser General Public License as published by
