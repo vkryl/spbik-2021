@@ -26,7 +26,7 @@
 // CONSTANTS
 
 const VERSION = '3.72';
-const CHARTS_VERSION = '1.20';
+const CHARTS_VERSION = '1.21';
 
 const REGION_NAME = 'st-petersburg';
 const REGION_CODE = 78;
@@ -6528,7 +6528,7 @@ async function launchBot (token, electionData) {
           options.turnout_count ? Object.values(groupedProtocol.official_result.turnout_stats.count.max)[0] :
           context.focus_entry ? candidateVotesSum(findCandidate(groupedProtocol.entries, context.focus_entry_id, context.focus_entry.official_result.position)) :
           candidateVotesSum(winnerEntry);
-        if (options.votes_dynamics && maxCandidateVotesCount > anchorCount) {
+        if (!context.focus_entry && options.votes_dynamics && maxCandidateVotesCount > anchorCount) {
           anchorCount = maxCandidateVotesCount;
         }
 
