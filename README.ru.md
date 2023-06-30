@@ -66,9 +66,6 @@
 
 Если вам лично понравился этот проект или захотите, чтобы таких проектов стало больше (идей много, а времени мало), можете сделать пожертвование любого размера через криптовалюту или PayPal:
 
-**BTC**: `bc1qgfxx7hpwslxf7p3vvrmze8mxm5z3l26zx2mt6r`  
-**ETH**: `0x9373E9DB2E18A1CFc7d370ecd2cc607b63ad697b`  
-**[TON](https://ton.org)**: `EQDIChbAdWuLMNQhkDqhLVNP2O2kWTGpEIVbl7DqMvvk0RZF`  
 **PayPal**: [paypal.me/notamouranth](https://paypal.me/notamouranth)
 
 # Результаты и графики

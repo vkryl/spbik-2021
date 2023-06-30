@@ -62,9 +62,6 @@ This project was created just out of author's curiosity to find out few things:
 
 Unfortunately, nobody neither supported nor funded this project at any step of its creation. If you personally liked it, found any use of it, or would like to see more electoral projects (many ideas, but no time), you may donate using crypto or PayPal:
 
-**BTC**: `bc1qgfxx7hpwslxf7p3vvrmze8mxm5z3l26zx2mt6r`  
-**ETH**: `0x9373E9DB2E18A1CFc7d370ecd2cc607b63ad697b`  
-**[TON](https://ton.org)**: `EQDIChbAdWuLMNQhkDqhLVNP2O2kWTGpEIVbl7DqMvvk0RZF`  
 **PayPal**: [paypal.me/notamouranth](https://paypal.me/notamouranth)
 
 # Results and charts
